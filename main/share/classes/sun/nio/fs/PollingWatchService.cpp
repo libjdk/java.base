@@ -17,8 +17,6 @@
 #include <java/security/PrivilegedAction.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashMap.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -71,8 +69,6 @@ using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

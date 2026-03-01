@@ -3,7 +3,6 @@
 #include <java/io/File.h>
 #include <java/io/FilePermission.h>
 #include <java/io/Serializable.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/Iterable.h>
 #include <java/lang/invoke/CallSite.h>
@@ -21,7 +20,6 @@ using $File = ::java::io::File;
 using $FilePermission = ::java::io::FilePermission;
 using $PrintStream = ::java::io::PrintStream;
 using $Serializable = ::java::io::Serializable;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;

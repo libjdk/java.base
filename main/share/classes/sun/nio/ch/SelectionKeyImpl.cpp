@@ -11,7 +11,6 @@
 #include <java/nio/channels/SelectionKey.h>
 #include <java/nio/channels/Selector.h>
 #include <java/nio/channels/spi/AbstractSelectionKey.h>
-#include <java/nio/channels/spi/AbstractSelector.h>
 #include <sun/nio/ch/SelChImpl.h>
 #include <sun/nio/ch/SelectorImpl.h>
 #include <jcpp.h>
@@ -34,7 +33,6 @@ using $SelectableChannel = ::java::nio::channels::SelectableChannel;
 using $SelectionKey = ::java::nio::channels::SelectionKey;
 using $Selector = ::java::nio::channels::Selector;
 using $AbstractSelectionKey = ::java::nio::channels::spi::AbstractSelectionKey;
-using $AbstractSelector = ::java::nio::channels::spi::AbstractSelector;
 using $SelChImpl = ::sun::nio::ch::SelChImpl;
 using $SelectorImpl = ::sun::nio::ch::SelectorImpl;
 

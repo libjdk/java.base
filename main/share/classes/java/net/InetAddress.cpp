@@ -1,6 +1,5 @@
 #include <java/net/InetAddress.h>
 
-#include <java/io/IOException.h>
 #include <java/io/InvalidObjectException.h>
 #include <java/io/ObjectInputStream$GetField.h>
 #include <java/io/ObjectInputStream.h>
@@ -55,7 +54,6 @@
 
 using $ObjectStreamFieldArray = $Array<::java::io::ObjectStreamField>;
 using $InetAddressArray = $Array<::java::net::InetAddress>;
-using $IOException = ::java::io::IOException;
 using $InvalidObjectException = ::java::io::InvalidObjectException;
 using $ObjectInputStream = ::java::io::ObjectInputStream;
 using $ObjectInputStream$GetField = ::java::io::ObjectInputStream$GetField;

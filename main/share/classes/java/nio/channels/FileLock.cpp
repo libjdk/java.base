@@ -1,6 +1,5 @@
 #include <java/nio/channels/FileLock.h>
 
-#include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/AsynchronousFileChannel.h>
 #include <java/nio/channels/Channel.h>
 #include <java/nio/channels/FileChannel.h>
@@ -13,7 +12,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $AsynchronousFileChannel = ::java::nio::channels::AsynchronousFileChannel;
 using $Channel = ::java::nio::channels::Channel;
 using $FileChannel = ::java::nio::channels::FileChannel;

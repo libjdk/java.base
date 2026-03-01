@@ -6,7 +6,6 @@
 #include <java/net/NetPermission.h>
 #include <java/net/URI.h>
 #include <java/net/URLConnection.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Map.h>
 #include <sun/security/util/SecurityConstants.h>
@@ -23,7 +22,6 @@ using $CacheRequest = ::java::net::CacheRequest;
 using $CacheResponse = ::java::net::CacheResponse;
 using $URI = ::java::net::URI;
 using $URLConnection = ::java::net::URLConnection;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Map = ::java::util::Map;
 using $SecurityConstants = ::sun::security::util::SecurityConstants;

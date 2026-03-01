@@ -18,7 +18,6 @@
 #include <java/lang/Math.h>
 #include <java/lang/NumberFormatException.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
@@ -66,7 +65,6 @@ using $RC2Crypt = ::com::sun::crypto::provider::RC2Crypt;
 using $SunJCE = ::com::sun::crypto::provider::SunJCE;
 using $SymmetricCipher = ::com::sun::crypto::provider::SymmetricCipher;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $Math = ::java::lang::Math;
@@ -74,7 +72,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NumberFormatException = ::java::lang::NumberFormatException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;

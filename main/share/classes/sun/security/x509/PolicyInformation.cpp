@@ -3,11 +3,9 @@
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/security/cert/PolicyQualifierInfo.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
-#include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashSet.h>
 #include <java/util/Set.h>
@@ -28,11 +26,9 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $PolicyQualifierInfo = ::java::security::cert::PolicyQualifierInfo;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $Enumeration = ::java::util::Enumeration;
-using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashSet = ::java::util::LinkedHashSet;
 using $Set = ::java::util::Set;

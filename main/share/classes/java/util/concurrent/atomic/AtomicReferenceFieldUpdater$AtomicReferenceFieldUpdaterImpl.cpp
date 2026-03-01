@@ -3,7 +3,6 @@
 #include <java/lang/ClassCastException.h>
 #include <java/lang/ClassLoader.h>
 #include <java/lang/IllegalAccessException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/Modifier.h>
 #include <java/security/AccessController.h>
@@ -26,7 +25,6 @@ using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $Field = ::java::lang::reflect::Field;
 using $Modifier = ::java::lang::reflect::Modifier;

@@ -24,7 +24,6 @@
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/InvocationTargetException.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/Security.h>
@@ -51,7 +50,6 @@ using $Serializable = ::java::io::Serializable;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
@@ -68,7 +66,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $Security = ::java::security::Security;

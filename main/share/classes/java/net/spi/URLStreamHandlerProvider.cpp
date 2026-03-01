@@ -2,7 +2,6 @@
 
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityManager.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <jcpp.h>
 
@@ -11,7 +10,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $Void = ::java::lang::Void;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 
 namespace java {

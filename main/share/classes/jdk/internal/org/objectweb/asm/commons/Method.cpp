@@ -2,7 +2,6 @@
 
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <jdk/internal/org/objectweb/asm/Type.h>
@@ -17,7 +16,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $Type = ::jdk::internal::org::objectweb::asm$::Type;

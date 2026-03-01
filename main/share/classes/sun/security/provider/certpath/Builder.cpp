@@ -2,7 +2,6 @@
 
 #include <java/io/IOException.h>
 #include <java/math/BigInteger.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/cert/CertSelector.h>
 #include <java/security/cert/CertStore.h>
 #include <java/security/cert/CertStoreException.h>
@@ -10,7 +9,6 @@
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/X509CertSelector.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -49,10 +47,8 @@
 
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $CertSelector = ::java::security::cert::CertSelector;
 using $CertStore = ::java::security::cert::CertStore;
 using $CertStoreException = ::java::security::cert::CertStoreException;
@@ -60,7 +56,6 @@ using $Certificate = ::java::security::cert::Certificate;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $X509CertSelector = ::java::security::cert::X509CertSelector;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

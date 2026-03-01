@@ -2,7 +2,6 @@
 
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Type.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -17,7 +16,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $Method = ::java::lang::reflect::Method;
 using $Type = ::java::lang::reflect::Type;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

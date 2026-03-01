@@ -11,7 +11,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/function/Consumer.h>
@@ -34,7 +33,6 @@ using $StackWalker$Option = ::java::lang::StackWalker$Option;
 using $StackWalker$StackFrame = ::java::lang::StackWalker$StackFrame;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Consumer = ::java::util::function::Consumer;

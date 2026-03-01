@@ -9,7 +9,6 @@
 #include <java/net/HttpCookie.h>
 #include <java/net/InMemoryCookieStore.h>
 #include <java/net/URI.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Comparator.h>
@@ -40,7 +39,6 @@ using $CookieStore = ::java::net::CookieStore;
 using $HttpCookie = ::java::net::HttpCookie;
 using $InMemoryCookieStore = ::java::net::InMemoryCookieStore;
 using $URI = ::java::net::URI;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $Comparator = ::java::util::Comparator;

@@ -5,7 +5,6 @@
 #include <java/nio/channels/SelectableChannel.h>
 #include <java/nio/channels/ServerSocketChannel.h>
 #include <java/nio/channels/SocketChannel.h>
-#include <java/nio/channels/spi/AbstractSelectableChannel.h>
 #include <jcpp.h>
 
 using $SelectableChannelArray = $Array<::java::nio::channels::SelectableChannel>;
@@ -17,7 +16,6 @@ using $DatagramChannel = ::java::nio::channels::DatagramChannel;
 using $SelectableChannel = ::java::nio::channels::SelectableChannel;
 using $ServerSocketChannel = ::java::nio::channels::ServerSocketChannel;
 using $SocketChannel = ::java::nio::channels::SocketChannel;
-using $AbstractSelectableChannel = ::java::nio::channels::spi::AbstractSelectableChannel;
 
 $MethodInfo _ConfigureBlocking_MethodInfo_[] = {
 	{"<init>", "()V", nullptr, $PUBLIC, $method(ConfigureBlocking, init$, void)},

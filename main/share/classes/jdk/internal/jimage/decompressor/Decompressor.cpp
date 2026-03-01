@@ -6,7 +6,6 @@
 #include <java/nio/ByteOrder.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <java/util/Objects.h>
@@ -29,7 +28,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteOrder = ::java::nio::ByteOrder;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $Objects = ::java::util::Objects;

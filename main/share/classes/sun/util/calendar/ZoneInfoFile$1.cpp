@@ -4,7 +4,6 @@
 #include <java/io/DataInputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/lang/Error.h>
 #include <java/time/ZoneId.h>
@@ -16,7 +15,6 @@ using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $DataInputStream = ::java::io::DataInputStream;
 using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;

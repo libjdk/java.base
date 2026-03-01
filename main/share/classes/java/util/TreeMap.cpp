@@ -7,10 +7,8 @@
 #include <java/lang/CloneNotSupportedException.h>
 #include <java/lang/Comparable.h>
 #include <java/lang/InternalError.h>
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap$SimpleImmutableEntry.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Comparator.h>
 #include <java/util/ConcurrentModificationException.h>
@@ -35,7 +33,6 @@
 #include <java/util/TreeMap$KeySet.h>
 #include <java/util/TreeMap$KeySpliterator.h>
 #include <java/util/TreeMap$NavigableSubMap.h>
-#include <java/util/TreeMap$PrivateEntryIterator.h>
 #include <java/util/TreeMap$Values.h>
 #include <java/util/function/BiConsumer.h>
 #include <java/util/function/BiFunction.h>
@@ -53,16 +50,13 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $Comparable = ::java::lang::Comparable;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractMap$SimpleImmutableEntry = ::java::util::AbstractMap$SimpleImmutableEntry;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Comparator = ::java::util::Comparator;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;
@@ -87,7 +81,6 @@ using $TreeMap$KeyIterator = ::java::util::TreeMap$KeyIterator;
 using $TreeMap$KeySet = ::java::util::TreeMap$KeySet;
 using $TreeMap$KeySpliterator = ::java::util::TreeMap$KeySpliterator;
 using $TreeMap$NavigableSubMap = ::java::util::TreeMap$NavigableSubMap;
-using $TreeMap$PrivateEntryIterator = ::java::util::TreeMap$PrivateEntryIterator;
 using $TreeMap$Values = ::java::util::TreeMap$Values;
 using $BiConsumer = ::java::util::function::BiConsumer;
 using $BiFunction = ::java::util::function::BiFunction;

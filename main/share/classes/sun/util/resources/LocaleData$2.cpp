@@ -5,7 +5,6 @@
 #include <java/util/ResourceBundle.h>
 #include <sun/util/resources/Bundles$Strategy.h>
 #include <sun/util/resources/Bundles.h>
-#include <sun/util/resources/LocaleData$LocaleDataStrategy.h>
 #include <sun/util/resources/LocaleData$SupplementaryStrategy.h>
 #include <sun/util/resources/LocaleData.h>
 #include <sun/util/resources/OpenListResourceBundle.h>
@@ -22,7 +21,6 @@ using $Locale = ::java::util::Locale;
 using $MissingResourceException = ::java::util::MissingResourceException;
 using $Bundles = ::sun::util::resources::Bundles;
 using $Bundles$Strategy = ::sun::util::resources::Bundles$Strategy;
-using $LocaleData$LocaleDataStrategy = ::sun::util::resources::LocaleData$LocaleDataStrategy;
 using $LocaleData$SupplementaryStrategy = ::sun::util::resources::LocaleData$SupplementaryStrategy;
 using $OpenListResourceBundle = ::sun::util::resources::OpenListResourceBundle;
 

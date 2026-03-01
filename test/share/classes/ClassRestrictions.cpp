@@ -13,7 +13,6 @@
 #include <java/net/URLClassLoader.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/Paths.h>
-#include <java/security/SecureClassLoader.h>
 #include <jcpp.h>
 
 #undef TYPE
@@ -38,7 +37,6 @@ using $URI = ::java::net::URI;
 using $URLClassLoader = ::java::net::URLClassLoader;
 using $Path = ::java::nio::file::Path;
 using $Paths = ::java::nio::file::Paths;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
 
 $FieldInfo _ClassRestrictions_FieldInfo_[] = {
 	{"nonPublicIntrfaceName", "Ljava/lang/String;", nullptr, $PUBLIC | $STATIC | $FINAL, $staticField(ClassRestrictions, nonPublicIntrfaceName)},

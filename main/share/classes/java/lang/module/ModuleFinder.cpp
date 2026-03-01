@@ -12,7 +12,6 @@
 #include <java/lang/module/ModuleFinder$2.h>
 #include <java/nio/file/Path.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/List.h>
@@ -34,7 +33,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $ModuleFinder$1 = ::java::lang::module::ModuleFinder$1;
 using $ModuleFinder$2 = ::java::lang::module::ModuleFinder$2;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $List = ::java::util::List;

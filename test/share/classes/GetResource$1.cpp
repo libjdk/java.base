@@ -1,7 +1,6 @@
 #include <GetResource$1.h>
 
 #include <GetResource.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/InterruptedException.h>
@@ -11,13 +10,11 @@
 #include <jcpp.h>
 
 using $GetResource = ::GetResource;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InterruptedException = ::java::lang::InterruptedException;

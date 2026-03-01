@@ -3,7 +3,6 @@
 #include <java/nio/file/attribute/FileAttribute.h>
 #include <java/nio/file/attribute/PosixFilePermission.h>
 #include <java/nio/file/attribute/PosixFilePermissions$1.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/EnumSet.h>
 #include <java/util/HashSet.h>
@@ -29,7 +28,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $FileAttribute = ::java::nio::file::attribute::FileAttribute;
 using $PosixFilePermission = ::java::nio::file::attribute::PosixFilePermission;
 using $PosixFilePermissions$1 = ::java::nio::file::attribute::PosixFilePermissions$1;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $EnumSet = ::java::util::EnumSet;
 using $HashSet = ::java::util::HashSet;

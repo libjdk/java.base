@@ -1,7 +1,6 @@
 #include <sun/nio/ch/PendingFuture.h>
 
 #include <java/io/IOException.h>
-#include <java/lang/IllegalStateException.h>
 #include <java/lang/SecurityException.h>
 #include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/CompletionHandler.h>
@@ -16,11 +15,8 @@
 
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalStateException = ::java::lang::IllegalStateException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;

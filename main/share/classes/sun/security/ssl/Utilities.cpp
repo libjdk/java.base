@@ -1,10 +1,8 @@
 #include <sun/security/ssl/Utilities.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/math/BigInteger.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -22,7 +20,6 @@
 #undef HEX_FORMATTER
 #undef SNI_HOST_NAME
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
@@ -31,7 +28,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $BigInteger = ::java::math::BigInteger;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

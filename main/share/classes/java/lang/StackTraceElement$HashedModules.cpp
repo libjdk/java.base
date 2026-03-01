@@ -7,7 +7,6 @@
 #include <java/lang/module/Configuration.h>
 #include <java/lang/module/ModuleReference.h>
 #include <java/lang/module/ResolvedModule.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
 #include <java/util/Optional.h>
@@ -29,7 +28,6 @@ using $StackTraceElement = ::java::lang::StackTraceElement;
 using $Configuration = ::java::lang::module::Configuration;
 using $ModuleReference = ::java::lang::module::ModuleReference;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;
 using $Optional = ::java::util::Optional;

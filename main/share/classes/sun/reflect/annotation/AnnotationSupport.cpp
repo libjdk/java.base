@@ -15,7 +15,6 @@
 #include <java/lang/reflect/Proxy.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -36,7 +35,6 @@
 using $AnnotationArray = $Array<::java::lang::annotation::Annotation>;
 using $ClassCastException = ::java::lang::ClassCastException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -54,7 +52,6 @@ using $Modifier = ::java::lang::reflect::Modifier;
 using $Proxy = ::java::lang::reflect::Proxy;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

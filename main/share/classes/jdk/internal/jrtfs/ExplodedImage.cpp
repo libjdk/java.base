@@ -16,8 +16,6 @@
 #include <java/nio/file/LinkOption.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -55,8 +53,6 @@ using $FileSystems = ::java::nio::file::FileSystems;
 using $Files = ::java::nio::file::Files;
 using $Path = ::java::nio::file::Path;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;

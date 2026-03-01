@@ -1,6 +1,5 @@
 #include <sun/security/x509/X509CRLEntryImpl.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/math/BigInteger.h>
@@ -40,7 +39,6 @@
 #undef REASON
 
 using $ExtensionArray = $Array<::sun::security::x509::Extension>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $Boolean = ::java::lang::Boolean;

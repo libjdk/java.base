@@ -1,6 +1,5 @@
 #include <jdk/internal/icu/text/NormalizerBase.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/CloneNotSupportedException.h>
 #include <java/lang/Cloneable.h>
@@ -29,14 +28,12 @@
 #undef UNICODE_3_2_0_ORIGINAL
 #undef UNICODE_LATEST
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $Cloneable = ::java::lang::Cloneable;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;

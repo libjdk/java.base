@@ -3,7 +3,6 @@
 #include <java/lang/RuntimePermission.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/concurrent/ForkJoinPool$DefaultCommonPoolForkJoinWorkerThreadFactory$1.h>
@@ -21,7 +20,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ForkJoinPool = ::java::util::concurrent::ForkJoinPool;

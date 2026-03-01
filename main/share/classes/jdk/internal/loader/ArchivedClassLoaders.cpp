@@ -2,7 +2,6 @@
 
 #include <java/lang/ClassLoader.h>
 #include <java/lang/InternalError.h>
-#include <java/security/SecureClassLoader.h>
 #include <java/util/Map.h>
 #include <jdk/internal/loader/BuiltinClassLoader.h>
 #include <jdk/internal/loader/ClassLoaders.h>
@@ -16,7 +15,6 @@ using $ClassLoader = ::java::lang::ClassLoader;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
 using $Map = ::java::util::Map;
 using $BuiltinClassLoader = ::jdk::internal::loader::BuiltinClassLoader;
 using $ClassLoaders = ::jdk::internal::loader::ClassLoaders;

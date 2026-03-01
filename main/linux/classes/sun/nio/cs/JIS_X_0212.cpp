@@ -3,9 +3,7 @@
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/CharsetDecoder.h>
 #include <java/nio/charset/CharsetEncoder.h>
-#include <sun/nio/cs/DoubleByte$Decoder.h>
 #include <sun/nio/cs/DoubleByte$Decoder_DBCSONLY.h>
-#include <sun/nio/cs/DoubleByte$Encoder.h>
 #include <sun/nio/cs/DoubleByte$Encoder_DBCSONLY.h>
 #include <sun/nio/cs/JIS_X_0212$DecodeHolder.h>
 #include <sun/nio/cs/JIS_X_0212$EncodeHolder.h>
@@ -18,9 +16,7 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Charset = ::java::nio::charset::Charset;
 using $CharsetDecoder = ::java::nio::charset::CharsetDecoder;
 using $CharsetEncoder = ::java::nio::charset::CharsetEncoder;
-using $DoubleByte$Decoder = ::sun::nio::cs::DoubleByte$Decoder;
 using $DoubleByte$Decoder_DBCSONLY = ::sun::nio::cs::DoubleByte$Decoder_DBCSONLY;
-using $DoubleByte$Encoder = ::sun::nio::cs::DoubleByte$Encoder;
 using $DoubleByte$Encoder_DBCSONLY = ::sun::nio::cs::DoubleByte$Encoder_DBCSONLY;
 using $JIS_X_0212$DecodeHolder = ::sun::nio::cs::JIS_X_0212$DecodeHolder;
 using $JIS_X_0212$EncodeHolder = ::sun::nio::cs::JIS_X_0212$EncodeHolder;

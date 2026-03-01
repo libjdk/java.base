@@ -14,7 +14,6 @@
 #include <java/text/spi/BreakIteratorProvider.h>
 #include <java/text/spi/CollatorProvider.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -36,12 +35,9 @@
 #include <sun/util/cldr/CLDRCalendarDataProviderImpl.h>
 #include <sun/util/cldr/CLDRCalendarNameProviderImpl.h>
 #include <sun/util/cldr/CLDRTimeZoneNameProviderImpl.h>
-#include <sun/util/locale/provider/CalendarDataProviderImpl.h>
-#include <sun/util/locale/provider/CalendarNameProviderImpl.h>
 #include <sun/util/locale/provider/JRELocaleProviderAdapter.h>
 #include <sun/util/locale/provider/LocaleDataMetaInfo.h>
 #include <sun/util/locale/provider/LocaleProviderAdapter$Type.h>
-#include <sun/util/locale/provider/TimeZoneNameProviderImpl.h>
 #include <jcpp.h>
 
 #undef CLDR
@@ -63,7 +59,6 @@ using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
 using $BreakIteratorProvider = ::java::text::spi::BreakIteratorProvider;
 using $CollatorProvider = ::java::text::spi::CollatorProvider;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
@@ -85,12 +80,9 @@ using $CLDRBaseLocaleDataMetaInfo = ::sun::util::cldr::CLDRBaseLocaleDataMetaInf
 using $CLDRCalendarDataProviderImpl = ::sun::util::cldr::CLDRCalendarDataProviderImpl;
 using $CLDRCalendarNameProviderImpl = ::sun::util::cldr::CLDRCalendarNameProviderImpl;
 using $CLDRTimeZoneNameProviderImpl = ::sun::util::cldr::CLDRTimeZoneNameProviderImpl;
-using $CalendarDataProviderImpl = ::sun::util::locale::provider::CalendarDataProviderImpl;
-using $CalendarNameProviderImpl = ::sun::util::locale::provider::CalendarNameProviderImpl;
 using $JRELocaleProviderAdapter = ::sun::util::locale::provider::JRELocaleProviderAdapter;
 using $LocaleDataMetaInfo = ::sun::util::locale::provider::LocaleDataMetaInfo;
 using $LocaleProviderAdapter$Type = ::sun::util::locale::provider::LocaleProviderAdapter$Type;
-using $TimeZoneNameProviderImpl = ::sun::util::locale::provider::TimeZoneNameProviderImpl;
 
 namespace sun {
 	namespace util {

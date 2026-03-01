@@ -10,7 +10,6 @@
 #include <java/security/PrivilegedAction.h>
 #include <java/security/Provider$Service.h>
 #include <java/security/Provider.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
@@ -29,7 +28,6 @@ using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $Provider = ::java::security::Provider;
 using $Provider$Service = ::java::security::Provider$Service;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;

@@ -4,7 +4,6 @@
 #include <java/io/ObjectInputStream.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/Math.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/CollSer.h>
 #include <java/util/ImmutableCollections$AbstractImmutableMap.h>
 #include <java/util/ImmutableCollections$MapN$1.h>
@@ -25,7 +24,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractSet = ::java::util::AbstractSet;
 using $CollSer = ::java::util::CollSer;
 using $ImmutableCollections$AbstractImmutableMap = ::java::util::ImmutableCollections$AbstractImmutableMap;
 using $ImmutableCollections$MapN$1 = ::java::util::ImmutableCollections$MapN$1;

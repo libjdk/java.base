@@ -1,15 +1,12 @@
 #include <Exceptions4String$33.h>
 
 #include <Exceptions4String.h>
-#include <java/io/IOException.h>
 #include <java/io/UnsupportedEncodingException.h>
 #include <jcpp.h>
 
-using $IOException = ::java::io::IOException;
 using $UnsupportedEncodingException = ::java::io::UnsupportedEncodingException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;

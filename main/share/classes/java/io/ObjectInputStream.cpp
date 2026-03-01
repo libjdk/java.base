@@ -45,12 +45,10 @@
 #include <java/lang/InternalError.h>
 #include <java/lang/NegativeArraySizeException.h>
 #include <java/lang/OutOfMemoryError.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/lang/System$Logger$Level.h>
 #include <java/lang/System$Logger.h>
 #include <java/lang/ThreadDeath.h>
-#include <java/lang/VirtualMachineError.h>
 #include <java/lang/invoke/CallSite.h>
 #include <java/lang/invoke/LambdaMetafactory.h>
 #include <java/lang/invoke/MethodHandle.h>
@@ -61,7 +59,6 @@
 #include <java/lang/reflect/Modifier.h>
 #include <java/lang/reflect/Proxy.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/Arrays.h>
@@ -168,21 +165,18 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NegativeArraySizeException = ::java::lang::NegativeArraySizeException;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $OutOfMemoryError = ::java::lang::OutOfMemoryError;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $Short = ::java::lang::Short;
 using $System$Logger = ::java::lang::System$Logger;
 using $System$Logger$Level = ::java::lang::System$Logger$Level;
 using $ThreadDeath = ::java::lang::ThreadDeath;
-using $VirtualMachineError = ::java::lang::VirtualMachineError;
 using $Void = ::java::lang::Void;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $1Array = ::java::lang::reflect::Array;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $Proxy = ::java::lang::reflect::Proxy;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $Arrays = ::java::util::Arrays;

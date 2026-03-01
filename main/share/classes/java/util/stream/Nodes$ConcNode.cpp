@@ -7,7 +7,6 @@
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes$AbstractConcNode.h>
 #include <java/util/stream/Nodes$InternalNodeSpliterator$OfRef.h>
-#include <java/util/stream/Nodes$InternalNodeSpliterator.h>
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/StreamShape.h>
 #include <jcpp.h>
@@ -24,7 +23,6 @@ using $IntFunction = ::java::util::function::IntFunction;
 using $Node = ::java::util::stream::Node;
 using $Nodes = ::java::util::stream::Nodes;
 using $Nodes$AbstractConcNode = ::java::util::stream::Nodes$AbstractConcNode;
-using $Nodes$InternalNodeSpliterator = ::java::util::stream::Nodes$InternalNodeSpliterator;
 using $Nodes$InternalNodeSpliterator$OfRef = ::java::util::stream::Nodes$InternalNodeSpliterator$OfRef;
 using $StreamShape = ::java::util::stream::StreamShape;
 

@@ -60,7 +60,6 @@ using $SunJCE = ::com::sun::crypto::provider::SunJCE;
 using $SymmetricCipher = ::com::sun::crypto::provider::SymmetricCipher;
 using $ArrayIndexOutOfBoundsException = ::java::lang::ArrayIndexOutOfBoundsException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;

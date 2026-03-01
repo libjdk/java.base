@@ -14,8 +14,6 @@
 #include <java/lang/module/ResolvedModule.h>
 #include <java/lang/module/Resolver.h>
 #include <java/nio/file/Path.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -57,8 +55,6 @@ using $ModuleFinder = ::java::lang::module::ModuleFinder;
 using $ModuleReference = ::java::lang::module::ModuleReference;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
 using $Resolver = ::java::lang::module::Resolver;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

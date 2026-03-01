@@ -3,7 +3,6 @@
 #include <java/nio/file/attribute/AclFileAttributeView.h>
 #include <java/nio/file/attribute/FileOwnerAttributeView.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
 #include <java/util/List.h>
@@ -19,7 +18,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AclFileAttributeView = ::java::nio::file::attribute::AclFileAttributeView;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;
 using $List = ::java::util::List;

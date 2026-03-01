@@ -15,7 +15,6 @@
 #include <java/lang/reflect/MalformedParametersException.h>
 #include <java/lang/reflect/Modifier.h>
 #include <java/lang/reflect/Parameter.h>
-#include <java/lang/reflect/ParameterizedType.h>
 #include <java/lang/reflect/Type.h>
 #include <java/lang/reflect/TypeVariable.h>
 #include <java/util/Arrays.h>
@@ -69,7 +68,6 @@ using $AnnotatedType = ::java::lang::reflect::AnnotatedType;
 using $MalformedParametersException = ::java::lang::reflect::MalformedParametersException;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $Parameter = ::java::lang::reflect::Parameter;
-using $ParameterizedType = ::java::lang::reflect::ParameterizedType;
 using $Type = ::java::lang::reflect::Type;
 using $TypeVariable = ::java::lang::reflect::TypeVariable;
 using $Arrays = ::java::util::Arrays;

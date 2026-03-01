@@ -5,7 +5,6 @@
 #include <java/net/MalformedURLException.h>
 #include <java/net/URI.h>
 #include <java/net/URL.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -18,7 +17,6 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -27,7 +25,6 @@ using $ModuleReader = ::java::lang::module::ModuleReader;
 using $ModuleReference = ::java::lang::module::ModuleReference;
 using $MalformedURLException = ::java::net::MalformedURLException;
 using $URI = ::java::net::URI;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

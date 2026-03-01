@@ -1,7 +1,6 @@
 #include <java/security/cert/CertificateFactory.h>
 
 #include <java/io/InputStream.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/Provider.h>
 #include <java/security/cert/CRL.h>
@@ -19,10 +18,8 @@
 
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $Provider = ::java::security::Provider;
 using $CRL = ::java::security::cert::CRL;

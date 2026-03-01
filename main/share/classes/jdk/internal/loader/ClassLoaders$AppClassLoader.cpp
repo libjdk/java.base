@@ -6,7 +6,6 @@
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityManager.h>
 #include <java/net/URL.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
 #include <java/security/PermissionCollection.h>
@@ -25,7 +24,6 @@ using $Package = ::java::lang::Package;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $URL = ::java::net::URL;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;

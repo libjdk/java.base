@@ -3,7 +3,6 @@
 #include <java/lang/Comparable.h>
 #include <java/lang/Math.h>
 #include <java/lang/module/ModuleDescriptor.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <jcpp.h>
@@ -16,7 +15,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 

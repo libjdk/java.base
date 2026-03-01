@@ -12,7 +12,6 @@
 #include <java/net/SocketPermission.h>
 #include <java/net/URL.h>
 #include <java/net/URLConnection.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Date.h>
 #include <jcpp.h>
@@ -75,7 +74,6 @@ using $ProtocolException = ::java::net::ProtocolException;
 using $SocketPermission = ::java::net::SocketPermission;
 using $URL = ::java::net::URL;
 using $URLConnection = ::java::net::URLConnection;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Date = ::java::util::Date;
 

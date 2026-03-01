@@ -4,7 +4,6 @@
 #include <java/util/Spliterator$OfDouble.h>
 #include <java/util/function/DoubleConsumer.h>
 #include <java/util/random/RandomGenerator$SplittableGenerator.h>
-#include <java/util/random/RandomGenerator$StreamableGenerator.h>
 #include <java/util/random/RandomGenerator.h>
 #include <jdk/internal/util/random/RandomSupport$AbstractSplittableGenerator.h>
 #include <jdk/internal/util/random/RandomSupport$RandomSpliterator.h>
@@ -20,7 +19,6 @@ using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $DoubleConsumer = ::java::util::function::DoubleConsumer;
 using $RandomGenerator = ::java::util::random::RandomGenerator;
 using $RandomGenerator$SplittableGenerator = ::java::util::random::RandomGenerator$SplittableGenerator;
-using $RandomGenerator$StreamableGenerator = ::java::util::random::RandomGenerator$StreamableGenerator;
 using $RandomSupport = ::jdk::internal::util::random::RandomSupport;
 using $RandomSupport$RandomSpliterator = ::jdk::internal::util::random::RandomSupport$RandomSpliterator;
 

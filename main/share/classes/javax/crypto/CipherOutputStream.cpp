@@ -3,7 +3,6 @@
 #include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
-#include <java/security/GeneralSecurityException.h>
 #include <javax/crypto/BadPaddingException.h>
 #include <javax/crypto/Cipher.h>
 #include <javax/crypto/IllegalBlockSizeException.h>
@@ -15,10 +14,8 @@ using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $BadPaddingException = ::javax::crypto::BadPaddingException;
 using $Cipher = ::javax::crypto::Cipher;
 using $IllegalBlockSizeException = ::javax::crypto::IllegalBlockSizeException;

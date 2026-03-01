@@ -2,7 +2,6 @@
 
 #include <java/util/TimeZone.h>
 #include <sun/util/calendar/AbstractCalendar.h>
-#include <sun/util/calendar/BaseCalendar$Date.h>
 #include <sun/util/calendar/BaseCalendar.h>
 #include <sun/util/calendar/CalendarDate.h>
 #include <sun/util/calendar/Gregorian$Date.h>
@@ -13,7 +12,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $TimeZone = ::java::util::TimeZone;
 using $BaseCalendar = ::sun::util::calendar::BaseCalendar;
-using $BaseCalendar$Date = ::sun::util::calendar::BaseCalendar$Date;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;
 using $Gregorian$Date = ::sun::util::calendar::Gregorian$Date;
 

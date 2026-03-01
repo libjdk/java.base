@@ -40,9 +40,7 @@
 #include <java/lang/reflect/Member.h>
 #include <java/lang/reflect/ReflectPermission.h>
 #include <java/nio/ByteOrder.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/BitSet.h>
@@ -97,7 +95,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
 using $Double = ::java::lang::Double;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
@@ -138,9 +135,7 @@ using $WrongMethodTypeException = ::java::lang::invoke::WrongMethodTypeException
 using $Member = ::java::lang::reflect::Member;
 using $ReflectPermission = ::java::lang::reflect::ReflectPermission;
 using $ByteOrder = ::java::nio::ByteOrder;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $BitSet = ::java::util::BitSet;

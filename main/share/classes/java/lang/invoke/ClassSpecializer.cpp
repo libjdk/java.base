@@ -4,7 +4,6 @@
 #include <java/lang/InternalError.h>
 #include <java/lang/NoSuchFieldException.h>
 #include <java/lang/NoSuchMethodException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/invoke/ClassSpecializer$1.h>
 #include <java/lang/invoke/ClassSpecializer$Factory.h>
 #include <java/lang/invoke/ClassSpecializer$SpeciesData.h>
@@ -31,14 +30,12 @@
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchFieldException = ::java::lang::NoSuchFieldException;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $Void = ::java::lang::Void;
 using $ClassSpecializer$1 = ::java::lang::invoke::ClassSpecializer$1;

@@ -7,7 +7,6 @@
 #include <java/lang/CharSequence.h>
 #include <java/lang/ClassLoader.h>
 #include <java/lang/ClassNotFoundException.h>
-#include <java/lang/Error.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/LinkageError.h>
 #include <java/lang/Module.h>
@@ -40,7 +39,6 @@
 #include <java/text/MessageFormat.h>
 #include <java/text/Normalizer$Form.h>
 #include <java/text/Normalizer.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -110,7 +108,6 @@ using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Error = ::java::lang::Error;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -145,7 +142,6 @@ using $Path = ::java::nio::file::Path;
 using $MessageFormat = ::java::text::MessageFormat;
 using $Normalizer = ::java::text::Normalizer;
 using $Normalizer$Form = ::java::text::Normalizer$Form;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

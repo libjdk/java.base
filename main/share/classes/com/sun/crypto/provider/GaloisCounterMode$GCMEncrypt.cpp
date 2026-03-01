@@ -12,7 +12,6 @@
 #include <java/io/OutputStream.h>
 #include <java/lang/ArrayIndexOutOfBoundsException.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/ProviderException.h>
 #include <javax/crypto/ShortBufferException.h>
 #include <sun/security/util/ArrayUtil.h>
@@ -29,13 +28,11 @@ using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $ArrayIndexOutOfBoundsException = ::java::lang::ArrayIndexOutOfBoundsException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $ProviderException = ::java::security::ProviderException;
 using $ShortBufferException = ::javax::crypto::ShortBufferException;
 using $ArrayUtil = ::sun::security::util::ArrayUtil;

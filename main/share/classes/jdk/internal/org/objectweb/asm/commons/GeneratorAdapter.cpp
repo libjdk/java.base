@@ -1,7 +1,6 @@
 #include <jdk/internal/org/objectweb/asm/commons/GeneratorAdapter.h>
 
 #include <java/lang/IllegalStateException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/List.h>
@@ -141,7 +140,6 @@ using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Short = ::java::lang::Short;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $List = ::java::util::List;

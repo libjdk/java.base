@@ -2,8 +2,6 @@
 
 #include <java/io/Serializable.h>
 #include <java/lang/Enum.h>
-#include <java/lang/Error.h>
-#include <java/lang/LinkageError.h>
 #include <java/lang/NoClassDefFoundError.h>
 #include <java/lang/TypeNotPresentException.h>
 #include <java/lang/annotation/Annotation.h>
@@ -24,12 +22,9 @@
 #include <java/nio/ByteBuffer.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
-#include <java/util/HashMap.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
@@ -44,7 +39,6 @@
 #include <sun/reflect/generics/factory/CoreReflectionFactory.h>
 #include <sun/reflect/generics/factory/GenericsFactory.h>
 #include <sun/reflect/generics/parser/SignatureParser.h>
-#include <sun/reflect/generics/scope/AbstractScope.h>
 #include <sun/reflect/generics/scope/ClassScope.h>
 #include <sun/reflect/generics/scope/Scope.h>
 #include <sun/reflect/generics/tree/TypeSignature.h>
@@ -68,18 +62,14 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
 using $Double = ::java::lang::Double;
 using $Enum = ::java::lang::Enum;
-using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
-using $LinkageError = ::java::lang::LinkageError;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoClassDefFoundError = ::java::lang::NoClassDefFoundError;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Short = ::java::lang::Short;
 using $TypeNotPresentException = ::java::lang::TypeNotPresentException;
 using $Void = ::java::lang::Void;
@@ -97,12 +87,9 @@ using $BufferUnderflowException = ::java::nio::BufferUnderflowException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
-using $HashMap = ::java::util::HashMap;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;
@@ -117,7 +104,6 @@ using $TypeNotPresentExceptionProxy = ::sun::reflect::annotation::TypeNotPresent
 using $CoreReflectionFactory = ::sun::reflect::generics::factory::CoreReflectionFactory;
 using $GenericsFactory = ::sun::reflect::generics::factory::GenericsFactory;
 using $SignatureParser = ::sun::reflect::generics::parser::SignatureParser;
-using $AbstractScope = ::sun::reflect::generics::scope::AbstractScope;
 using $ClassScope = ::sun::reflect::generics::scope::ClassScope;
 using $Scope = ::sun::reflect::generics::scope::Scope;
 using $TypeSignature = ::sun::reflect::generics::tree::TypeSignature;

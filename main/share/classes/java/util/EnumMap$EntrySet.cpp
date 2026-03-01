@@ -5,7 +5,6 @@
 #include <java/util/AbstractMap$SimpleEntry.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/EnumMap$EntryIterator.h>
-#include <java/util/EnumMap$EnumMapIterator.h>
 #include <java/util/EnumMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -20,7 +19,6 @@ using $AbstractMap$SimpleEntry = ::java::util::AbstractMap$SimpleEntry;
 using $AbstractSet = ::java::util::AbstractSet;
 using $EnumMap = ::java::util::EnumMap;
 using $EnumMap$EntryIterator = ::java::util::EnumMap$EntryIterator;
-using $EnumMap$EnumMapIterator = ::java::util::EnumMap$EnumMapIterator;
 using $Iterator = ::java::util::Iterator;
 using $Map$Entry = ::java::util::Map$Entry;
 

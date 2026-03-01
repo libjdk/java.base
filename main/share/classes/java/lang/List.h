@@ -101,7 +101,8 @@ public:
 		return oldValue;
 	}
 
-	inline void prependAll(T* value) {
+	inline void prependList(T* list) {
+		T* value = list;
 		while (value != nullptr) {
 			T* next = value->next;
 			value->next = nullptr;
@@ -110,7 +111,7 @@ public:
 		}
 	}
 
-	inline void prependAll(T* first, T* tail) {
+	inline void prependList(T* first, T* tail) {
 		T* oldValue = head.load(std::memory_order_relaxed);
 		do {
 			tail->next = oldValue;
@@ -279,12 +280,13 @@ public:
 		return false;
 	}
 
-	inline void prepend(T* oh) {
-		oh->next = head;
-		head = oh;
+	inline void prepend(T* value) {
+		value->next = head;
+		head = value;
 	}
 
-	inline void prependAll(T* value) {
+	inline void prependList(T* list) {
+		T* value = list;
 		while (value != nullptr) {
 			T* next = value->next;
 			value->next = nullptr;
@@ -293,7 +295,7 @@ public:
 		}
 	}
 
-	inline void prependAll(T* listHead, T* listTail) {
+	inline void prependList(T* listHead, T* listTail) {
 		listTail->next = head;
 		head = listHead;
 	}

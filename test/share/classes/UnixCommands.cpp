@@ -2,7 +2,6 @@
 
 #include <java/io/File.h>
 #include <java/lang/Error.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <jcpp.h>
@@ -12,7 +11,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $Error = ::java::lang::Error;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 

@@ -15,7 +15,6 @@
 #include <java/time/zone/Ser.h>
 #include <java/time/zone/ZoneOffsetTransition.h>
 #include <java/time/zone/ZoneOffsetTransitionRule.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collections.h>
@@ -60,7 +59,6 @@ using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;
 using $Ser = ::java::time::zone::Ser;
 using $ZoneOffsetTransition = ::java::time::zone::ZoneOffsetTransition;
 using $ZoneOffsetTransitionRule = ::java::time::zone::ZoneOffsetTransitionRule;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collections = ::java::util::Collections;

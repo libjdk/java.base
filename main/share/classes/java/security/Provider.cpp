@@ -10,13 +10,10 @@
 #include <java/security/Provider$Service.h>
 #include <java/security/Provider$ServiceKey.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashMap.h>
-#include <java/util/HashSet.h>
-#include <java/util/Hashtable.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/LinkedHashSet.h>
@@ -60,13 +57,10 @@ using $Provider$EngineDescription = ::java::security::Provider$EngineDescription
 using $Provider$Service = ::java::security::Provider$Service;
 using $Provider$ServiceKey = ::java::security::Provider$ServiceKey;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $Enumeration = ::java::util::Enumeration;
 using $HashMap = ::java::util::HashMap;
-using $HashSet = ::java::util::HashSet;
-using $Hashtable = ::java::util::Hashtable;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $LinkedHashSet = ::java::util::LinkedHashSet;

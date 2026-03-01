@@ -5,7 +5,6 @@
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -46,7 +45,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

@@ -1,7 +1,6 @@
 #include <SocketPermissionCollection.h>
 
 #include <java/net/SocketPermission.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PermissionCollection.h>
 #include <java/security/SecurityPermission.h>
@@ -14,7 +13,6 @@ using $Exception = ::java::lang::Exception;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $SocketPermission = ::java::net::SocketPermission;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;
 using $SecurityPermission = ::java::security::SecurityPermission;

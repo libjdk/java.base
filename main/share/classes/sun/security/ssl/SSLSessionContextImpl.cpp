@@ -3,7 +3,6 @@
 #include <java/lang/NumberFormatException.h>
 #include <java/util/Enumeration.h>
 #include <java/util/Locale.h>
-#include <javax/net/ssl/ExtendedSSLSession.h>
 #include <javax/net/ssl/SSLSession.h>
 #include <sun/security/action/GetIntegerAction.h>
 #include <sun/security/action/GetPropertyAction.h>
@@ -32,7 +31,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $NumberFormatException = ::java::lang::NumberFormatException;
 using $Enumeration = ::java::util::Enumeration;
 using $Locale = ::java::util::Locale;
-using $ExtendedSSLSession = ::javax::net::ssl::ExtendedSSLSession;
 using $SSLSession = ::javax::net::ssl::SSLSession;
 using $GetIntegerAction = ::sun::security::action::GetIntegerAction;
 using $GetPropertyAction = ::sun::security::action::GetPropertyAction;

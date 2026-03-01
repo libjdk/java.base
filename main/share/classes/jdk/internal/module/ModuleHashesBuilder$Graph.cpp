@@ -6,7 +6,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -29,7 +28,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

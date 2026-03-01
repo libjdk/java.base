@@ -4,7 +4,6 @@
 #include <java/nio/ByteBuffer.h>
 #include <java/security/cert/Extension.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -36,7 +35,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $1Extension = ::java::security::cert::Extension;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

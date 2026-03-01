@@ -3,7 +3,6 @@
 #include <java/io/IOException.h>
 #include <java/lang/SecurityException.h>
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/nio/file/attribute/DosFileAttributes.h>
 #include <java/nio/file/attribute/FileTime.h>
 #include <sun/nio/fs/AbstractBasicFileAttributeView.h>
 #include <sun/nio/fs/WindowsException.h>
@@ -23,7 +22,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $SecurityException = ::java::lang::SecurityException;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $DosFileAttributes = ::java::nio::file::attribute::DosFileAttributes;
 using $FileTime = ::java::nio::file::attribute::FileTime;
 using $AbstractBasicFileAttributeView = ::sun::nio::fs::AbstractBasicFileAttributeView;
 using $WindowsException = ::sun::nio::fs::WindowsException;

@@ -1,7 +1,6 @@
 #include <sun/security/x509/OIDMap$OIDInfo.h>
 
 #include <java/lang/ClassNotFoundException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/security/cert/CertificateException.h>
 #include <sun/security/util/ObjectIdentifier.h>
 #include <sun/security/x509/OIDMap.h>
@@ -9,11 +8,9 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $ObjectIdentifier = ::sun::security::util::ObjectIdentifier;
 

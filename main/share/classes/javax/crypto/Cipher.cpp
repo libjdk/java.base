@@ -6,7 +6,6 @@
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/ReadOnlyBufferException.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/InvalidParameterException.h>
@@ -24,7 +23,6 @@
 #include <java/security/cert/X509Certificate.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <java/security/spec/InvalidParameterSpecException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Iterator.h>
@@ -88,7 +86,6 @@ using $SecurityException = ::java::lang::SecurityException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $ReadOnlyBufferException = ::java::nio::ReadOnlyBufferException;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $InvalidParameterException = ::java::security::InvalidParameterException;
@@ -106,7 +103,6 @@ using $Certificate = ::java::security::cert::Certificate;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $InvalidParameterSpecException = ::java::security::spec::InvalidParameterSpecException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;

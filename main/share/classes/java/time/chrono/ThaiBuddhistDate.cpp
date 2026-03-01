@@ -10,7 +10,6 @@
 #include <java/time/LocalTime.h>
 #include <java/time/Period.h>
 #include <java/time/ZoneId.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/ChronoLocalDateImpl.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
@@ -56,7 +55,6 @@ using $LocalDate = ::java::time::LocalDate;
 using $LocalTime = ::java::time::LocalTime;
 using $Period = ::java::time::Period;
 using $ZoneId = ::java::time::ZoneId;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoLocalDateImpl = ::java::time::chrono::ChronoLocalDateImpl;
 using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;

@@ -6,8 +6,6 @@
 #include <java/io/FileReader.h>
 #include <java/io/FileWriter.h>
 #include <java/io/IOException.h>
-#include <java/io/InputStreamReader.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/PrintWriter.h>
 #include <java/io/Reader.h>
 #include <java/io/StreamTokenizer.h>
@@ -50,8 +48,6 @@ using $File = ::java::io::File;
 using $FileReader = ::java::io::FileReader;
 using $FileWriter = ::java::io::FileWriter;
 using $IOException = ::java::io::IOException;
-using $InputStreamReader = ::java::io::InputStreamReader;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintWriter = ::java::io::PrintWriter;
 using $Reader = ::java::io::Reader;
 using $StreamTokenizer = ::java::io::StreamTokenizer;

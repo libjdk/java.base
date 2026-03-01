@@ -4,7 +4,6 @@
 #include <java/text/AttributedCharacterIterator$Attribute.h>
 #include <java/text/DateFormat.h>
 #include <java/text/Format$Field.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Calendar.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -40,7 +39,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Format$Field = ::java::text::Format$Field;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Calendar = ::java::util::Calendar;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;

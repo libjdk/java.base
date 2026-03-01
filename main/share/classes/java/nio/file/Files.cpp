@@ -27,7 +27,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/nio/channels/ByteChannel.h>
 #include <java/nio/channels/Channel.h>
 #include <java/nio/channels/Channels.h>
 #include <java/nio/channels/FileChannel.h>
@@ -80,8 +79,6 @@
 #include <java/nio/file/attribute/UserPrincipal.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
 #include <java/nio/file/spi/FileTypeDetector.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -106,7 +103,6 @@
 #include <jdk/internal/util/ArraysSupport.h>
 #include <sun/nio/ch/FileChannelImpl.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/nio/fs/AbstractFileSystemProvider.h>
 #include <jcpp.h>
 
@@ -151,7 +147,6 @@ using $AssertionError = ::java::lang::AssertionError;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -166,7 +161,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $ByteChannel = ::java::nio::channels::ByteChannel;
 using $Channel = ::java::nio::channels::Channel;
 using $Channels = ::java::nio::channels::Channels;
 using $FileChannel = ::java::nio::channels::FileChannel;
@@ -218,8 +212,6 @@ using $PosixFileAttributes = ::java::nio::file::attribute::PosixFileAttributes;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
 using $FileTypeDetector = ::java::nio::file::spi::FileTypeDetector;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
@@ -243,7 +235,6 @@ using $SharedSecrets = ::jdk::internal::access::SharedSecrets;
 using $ArraysSupport = ::jdk::internal::util::ArraysSupport;
 using $FileChannelImpl = ::sun::nio::ch::FileChannelImpl;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $AbstractFileSystemProvider = ::sun::nio::fs::AbstractFileSystemProvider;
 
 namespace java {

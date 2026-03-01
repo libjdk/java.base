@@ -12,7 +12,6 @@
 #include <java/lang/invoke/MethodHandleStatics.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/lang/invoke/SimpleMethodHandle.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/List.h>
@@ -41,7 +40,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $MethodHandleStatics = ::java::lang::invoke::MethodHandleStatics;
 using $MethodType = ::java::lang::invoke::MethodType;
 using $SimpleMethodHandle = ::java::lang::invoke::SimpleMethodHandle;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $List = ::java::util::List;

@@ -3,7 +3,6 @@
 #include <java/security/Permission.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <javax/security/auth/x500/X500Principal.h>
@@ -20,7 +19,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $Permission = ::java::security::Permission;
 using $Certificate = ::java::security::cert::Certificate;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $X500Principal = ::javax::security::auth::x500::X500Principal;

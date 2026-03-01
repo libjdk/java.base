@@ -1,10 +1,6 @@
 #include <sun/security/ssl/SSLContextImpl$DefaultSSLContextHolder.h>
 
-#include <java/security/GeneralSecurityException.h>
-#include <java/security/KeyException.h>
 #include <java/security/KeyManagementException.h>
-#include <sun/security/ssl/SSLContextImpl$AbstractTLSContext.h>
-#include <sun/security/ssl/SSLContextImpl$CustomizedTLSContext.h>
 #include <sun/security/ssl/SSLContextImpl$DefaultManagersHolder.h>
 #include <sun/security/ssl/SSLContextImpl$DefaultSSLContext.h>
 #include <sun/security/ssl/SSLContextImpl.h>
@@ -16,12 +12,8 @@ using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
-using $KeyException = ::java::security::KeyException;
 using $KeyManagementException = ::java::security::KeyManagementException;
 using $SSLContextImpl = ::sun::security::ssl::SSLContextImpl;
-using $SSLContextImpl$AbstractTLSContext = ::sun::security::ssl::SSLContextImpl$AbstractTLSContext;
-using $SSLContextImpl$CustomizedTLSContext = ::sun::security::ssl::SSLContextImpl$CustomizedTLSContext;
 using $SSLContextImpl$DefaultManagersHolder = ::sun::security::ssl::SSLContextImpl$DefaultManagersHolder;
 using $SSLContextImpl$DefaultSSLContext = ::sun::security::ssl::SSLContextImpl$DefaultSSLContext;
 using $SSLLogger = ::sun::security::ssl::SSLLogger;

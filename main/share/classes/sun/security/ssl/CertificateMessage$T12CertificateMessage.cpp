@@ -3,15 +3,12 @@
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/CertificateEncodingException.h>
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/CertificateFactory.h>
 #include <java/security/cert/X509Certificate.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Iterator.h>
@@ -42,19 +39,15 @@ using $X509CertificateArray = $Array<::java::security::cert::X509Certificate>;
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $CertificateEncodingException = ::java::security::cert::CertificateEncodingException;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;

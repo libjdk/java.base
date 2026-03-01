@@ -5,8 +5,6 @@
 #include <java/lang/StackWalker$Option.h>
 #include <java/lang/StackWalker$StackFrame.h>
 #include <java/lang/UnsupportedOperationException.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedList.h>
 #include <java/util/List.h>
@@ -28,8 +26,6 @@ using $StackTraceElement = ::java::lang::StackTraceElement;
 using $StackWalker$Option = ::java::lang::StackWalker$Option;
 using $StackWalker$StackFrame = ::java::lang::StackWalker$StackFrame;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Iterator = ::java::util::Iterator;
 using $LinkedList = ::java::util::LinkedList;
 using $List = ::java::util::List;

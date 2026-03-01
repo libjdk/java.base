@@ -5,7 +5,6 @@
 #include <java/lang/CloneNotSupportedException.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/SecurityManager.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/time/ZoneId.h>
 #include <java/util/Date.h>
@@ -37,14 +36,12 @@ using $Serializable = ::java::io::Serializable;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $SecurityManager = ::java::lang::SecurityManager;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $ZoneId = ::java::time::ZoneId;
 using $Date = ::java::util::Date;

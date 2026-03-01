@@ -7,7 +7,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/text/CompactNumberFormat.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <java/util/function/BiConsumer.h>
@@ -20,7 +19,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $CompactNumberFormat = ::java::text::CompactNumberFormat;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $BiConsumer = ::java::util::function::BiConsumer;

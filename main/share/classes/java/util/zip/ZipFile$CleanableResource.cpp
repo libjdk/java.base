@@ -7,7 +7,6 @@
 #include <java/lang/Runnable.h>
 #include <java/lang/ref/Cleaner$Cleanable.h>
 #include <java/lang/ref/Cleaner.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/Collections.h>
 #include <java/util/Deque.h>
@@ -27,14 +26,12 @@ using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $UncheckedIOException = ::java::io::UncheckedIOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $Cleaner = ::java::lang::ref::Cleaner;
 using $Cleaner$Cleanable = ::java::lang::ref::Cleaner$Cleanable;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $Collections = ::java::util::Collections;
 using $Deque = ::java::util::Deque;

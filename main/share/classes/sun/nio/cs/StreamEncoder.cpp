@@ -28,7 +28,6 @@ using $Writer = ::java::io::Writer;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;

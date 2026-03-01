@@ -2,10 +2,7 @@
 
 #include <java/io/ExpiringCache$1.h>
 #include <java/io/ExpiringCache$Entry.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
-#include <java/util/LinkedHashMap.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
 #include <jcpp.h>
@@ -18,10 +15,7 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
-using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;
 

@@ -4,7 +4,6 @@
 #include <java/security/KeyStoreException.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashSet.h>
@@ -18,7 +17,6 @@ using $KeyStore = ::java::security::KeyStore;
 using $KeyStoreException = ::java::security::KeyStoreException;
 using $Certificate = ::java::security::cert::Certificate;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $Enumeration = ::java::util::Enumeration;
 using $HashSet = ::java::util::HashSet;

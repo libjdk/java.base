@@ -22,7 +22,6 @@
 #include <java/util/zip/ZipEntry.h>
 #include <java/util/zip/ZipFile.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/security/action/GetPropertyAction.h>
 #include <jcpp.h>
 
@@ -55,7 +54,6 @@ using $JarFile = ::java::util::jar::JarFile;
 using $ZipEntry = ::java::util::zip::ZipEntry;
 using $ZipFile = ::java::util::zip::ZipFile;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $GetPropertyAction = ::sun::security::action::GetPropertyAction;
 
 namespace jdk {

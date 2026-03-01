@@ -3,7 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/BootstrapMethodError.h>
 #include <java/lang/Error.h>
-#include <java/lang/invoke/AbstractConstantGroup$BSCIWithCache.h>
 #include <java/lang/invoke/BootstrapCallInfo.h>
 #include <java/lang/invoke/BootstrapMethodInvoker$PullAdapter.h>
 #include <java/lang/invoke/BootstrapMethodInvoker$PushAdapter.h>
@@ -39,7 +38,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractConstantGroup$BSCIWithCache = ::java::lang::invoke::AbstractConstantGroup$BSCIWithCache;
 using $BootstrapCallInfo = ::java::lang::invoke::BootstrapCallInfo;
 using $BootstrapMethodInvoker$PullAdapter = ::java::lang::invoke::BootstrapMethodInvoker$PullAdapter;
 using $BootstrapMethodInvoker$PushAdapter = ::java::lang::invoke::BootstrapMethodInvoker$PushAdapter;

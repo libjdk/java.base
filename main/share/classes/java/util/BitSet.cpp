@@ -40,7 +40,6 @@ using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $Cloneable = ::java::lang::Cloneable;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;

@@ -14,7 +14,6 @@
 #include <java/util/OptionalLong.h>
 #include <java/util/Spliterator$OfLong.h>
 #include <java/util/Spliterator.h>
-#include <java/util/Spliterators$AbstractLongSpliterator.h>
 #include <java/util/Spliterators.h>
 #include <java/util/function/BiConsumer.h>
 #include <java/util/function/LongBinaryOperator.h>
@@ -44,7 +43,6 @@
 #include <java/util/stream/Streams.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfLong$Dropping.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfLong$Taking.h>
-#include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfLong.h>
 #include <jcpp.h>
 
 #undef IMMUTABLE
@@ -68,7 +66,6 @@ using $OptionalLong = ::java::util::OptionalLong;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
 using $Spliterators = ::java::util::Spliterators;
-using $Spliterators$AbstractLongSpliterator = ::java::util::Spliterators$AbstractLongSpliterator;
 using $BiConsumer = ::java::util::function::BiConsumer;
 using $LongBinaryOperator = ::java::util::function::LongBinaryOperator;
 using $LongConsumer = ::java::util::function::LongConsumer;
@@ -95,7 +92,6 @@ using $Streams = ::java::util::stream::Streams;
 using $Streams$ConcatSpliterator$OfLong = ::java::util::stream::Streams$ConcatSpliterator$OfLong;
 using $Streams$LongStreamBuilderImpl = ::java::util::stream::Streams$LongStreamBuilderImpl;
 using $Streams$RangeLongSpliterator = ::java::util::stream::Streams$RangeLongSpliterator;
-using $WhileOps$UnorderedWhileSpliterator$OfLong = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfLong;
 using $WhileOps$UnorderedWhileSpliterator$OfLong$Dropping = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfLong$Dropping;
 using $WhileOps$UnorderedWhileSpliterator$OfLong$Taking = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfLong$Taking;
 

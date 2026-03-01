@@ -3,7 +3,6 @@
 #include <java/io/BufferedInputStream.h>
 #include <java/io/BufferedReader.h>
 #include <java/io/File.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -39,8 +38,6 @@
 #include <java/nio/file/attribute/BasicFileAttributes.h>
 #include <java/nio/file/attribute/FileAttribute.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
@@ -82,7 +79,6 @@
 #include <jdk/internal/module/ModuleTarget.h>
 #include <jdk/internal/perf/PerfCounter.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef AUTOMATIC_MODULE_NAME
@@ -110,7 +106,6 @@ using $FileAttributeArray = $Array<::java::nio::file::attribute::FileAttribute>;
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $BufferedReader = ::java::io::BufferedReader;
 using $File = ::java::io::File;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
@@ -121,7 +116,6 @@ using $AssertionError = ::java::lang::AssertionError;
 using $Boolean = ::java::lang::Boolean;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -146,8 +140,6 @@ using $NoSuchFileException = ::java::nio::file::NoSuchFileException;
 using $Path = ::java::nio::file::Path;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
@@ -188,7 +180,6 @@ using $ModuleResolution = ::jdk::internal::module::ModuleResolution;
 using $ModuleTarget = ::jdk::internal::module::ModuleTarget;
 using $PerfCounter = ::jdk::internal::perf::PerfCounter;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace jdk {
 	namespace internal {

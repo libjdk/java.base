@@ -10,7 +10,6 @@
 #include <java/lang/ref/FinalizerHistogram$Entry.h>
 #include <java/lang/ref/Reference.h>
 #include <java/lang/ref/ReferenceQueue.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Comparator.h>
@@ -32,7 +31,6 @@ using $Finalizer = ::java::lang::ref::Finalizer;
 using $FinalizerHistogram$Entry = ::java::lang::ref::FinalizerHistogram$Entry;
 using $Reference = ::java::lang::ref::Reference;
 using $ReferenceQueue = ::java::lang::ref::ReferenceQueue;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Comparator = ::java::util::Comparator;

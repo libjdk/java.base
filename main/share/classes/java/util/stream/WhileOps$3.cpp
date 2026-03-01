@@ -13,11 +13,8 @@
 #include <java/util/function/LongPredicate.h>
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/LongPipeline$StatefulOp.h>
-#include <java/util/stream/LongPipeline.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/PipelineHelper.h>
-#include <java/util/stream/Sink$ChainedLong.h>
-#include <java/util/stream/Sink$OfLong.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <java/util/stream/StreamShape.h>
@@ -44,13 +41,10 @@ using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
 using $IntFunction = ::java::util::function::IntFunction;
 using $LongPredicate = ::java::util::function::LongPredicate;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
-using $LongPipeline = ::java::util::stream::LongPipeline;
 using $LongPipeline$StatefulOp = ::java::util::stream::LongPipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedLong = ::java::util::stream::Sink$ChainedLong;
-using $Sink$OfLong = ::java::util::stream::Sink$OfLong;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;
 using $StreamShape = ::java::util::stream::StreamShape;
 using $WhileOps$3$1 = ::java::util::stream::WhileOps$3$1;

@@ -1,7 +1,6 @@
 #include <jdk/internal/reflect/UTF8.h>
 
 #include <java/lang/ArrayIndexOutOfBoundsException.h>
-#include <java/lang/IndexOutOfBoundsException.h>
 #include <java/lang/InternalError.h>
 #include <jcpp.h>
 
@@ -9,11 +8,8 @@
 
 using $ArrayIndexOutOfBoundsException = ::java::lang::ArrayIndexOutOfBoundsException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
-using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 
 namespace jdk {
 	namespace internal {

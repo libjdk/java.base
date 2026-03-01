@@ -6,7 +6,6 @@
 #include <java/security/Key.h>
 #include <java/security/PublicKey.h>
 #include <java/security/SecureRandom.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Set.h>
 #include <sun/security/ssl/HandshakeContext.h>
@@ -29,7 +28,6 @@ using $CryptoPrimitive = ::java::security::CryptoPrimitive;
 using $Key = ::java::security::Key;
 using $PublicKey = ::java::security::PublicKey;
 using $SecureRandom = ::java::security::SecureRandom;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Set = ::java::util::Set;
 using $HandshakeContext = ::sun::security::ssl::HandshakeContext;

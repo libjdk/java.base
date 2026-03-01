@@ -1,14 +1,11 @@
 #include <java/util/jar/Attributes.h>
 
 #include <java/io/DataOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/ClassCastException.h>
 #include <java/nio/charset/Charset.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/Map$Entry.h>
@@ -18,7 +15,6 @@
 #include <java/util/jar/Manifest$FastInputStream.h>
 #include <java/util/jar/Manifest.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/util/logging/PlatformLogger.h>
 #include <jcpp.h>
 
@@ -27,7 +23,6 @@
 #undef SIGNATURE_VERSION
 
 using $DataOutputStream = ::java::io::DataOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassCastException = ::java::lang::ClassCastException;
@@ -37,9 +32,7 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Charset = ::java::nio::charset::Charset;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $Map = ::java::util::Map;
@@ -49,7 +42,6 @@ using $Attributes$Name = ::java::util::jar::Attributes$Name;
 using $Manifest = ::java::util::jar::Manifest;
 using $Manifest$FastInputStream = ::java::util::jar::Manifest$FastInputStream;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $PlatformLogger = ::sun::util::logging::PlatformLogger;
 
 namespace java {

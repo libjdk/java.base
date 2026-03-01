@@ -17,8 +17,6 @@
 #include <java/net/HttpCookie$9.h>
 #include <java/net/HttpCookie$CookieAttributeAssignor.h>
 #include <java/text/SimpleDateFormat.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Calendar.h>
 #include <java/util/Date.h>
@@ -70,8 +68,6 @@ using $HttpCookie$8 = ::java::net::HttpCookie$8;
 using $HttpCookie$9 = ::java::net::HttpCookie$9;
 using $HttpCookie$CookieAttributeAssignor = ::java::net::HttpCookie$CookieAttributeAssignor;
 using $SimpleDateFormat = ::java::text::SimpleDateFormat;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Calendar = ::java::util::Calendar;
 using $GregorianCalendar = ::java::util::GregorianCalendar;

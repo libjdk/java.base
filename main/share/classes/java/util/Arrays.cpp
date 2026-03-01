@@ -11,8 +11,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/lang/reflect/Array.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayPrefixHelpers$CumulateTask.h>
 #include <java/util/ArrayPrefixHelpers$DoubleCumulateTask.h>
 #include <java/util/ArrayPrefixHelpers$IntCumulateTask.h>
@@ -87,8 +85,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Short = ::java::lang::Short;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $1Array = ::java::lang::reflect::Array;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayPrefixHelpers$CumulateTask = ::java::util::ArrayPrefixHelpers$CumulateTask;
 using $ArrayPrefixHelpers$DoubleCumulateTask = ::java::util::ArrayPrefixHelpers$DoubleCumulateTask;
 using $ArrayPrefixHelpers$IntCumulateTask = ::java::util::ArrayPrefixHelpers$IntCumulateTask;

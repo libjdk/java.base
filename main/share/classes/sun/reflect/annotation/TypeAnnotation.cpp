@@ -2,7 +2,6 @@
 
 #include <java/lang/annotation/Annotation.h>
 #include <java/lang/reflect/AnnotatedElement.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <sun/reflect/annotation/TypeAnnotation$LocationInfo.h>
@@ -17,7 +16,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Annotation = ::java::lang::annotation::Annotation;
 using $AnnotatedElement = ::java::lang::reflect::AnnotatedElement;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $TypeAnnotation$LocationInfo = ::sun::reflect::annotation::TypeAnnotation$LocationInfo;

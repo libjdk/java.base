@@ -13,7 +13,6 @@
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/ThreadLocal.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -44,7 +43,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $ThreadLocal = ::java::lang::ThreadLocal;
 using $Permission = ::java::security::Permission;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

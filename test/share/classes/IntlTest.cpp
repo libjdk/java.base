@@ -1,6 +1,5 @@
 #include <IntlTest.h>
 
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -9,11 +8,8 @@
 #include <java/lang/reflect/InvocationTargetException.h>
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Modifier.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/List.h>
@@ -25,7 +21,6 @@
 #undef TYPE
 
 using $MethodArray = $Array<::java::lang::reflect::Method>;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -42,10 +37,7 @@ using $Void = ::java::lang::Void;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
 using $Method = ::java::lang::reflect::Method;
 using $Modifier = ::java::lang::reflect::Modifier;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $List = ::java::util::List;

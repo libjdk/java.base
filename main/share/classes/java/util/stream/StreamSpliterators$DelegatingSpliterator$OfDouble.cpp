@@ -2,7 +2,6 @@
 
 #include <java/util/Comparator.h>
 #include <java/util/Spliterator$OfDouble.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/function/Consumer.h>
 #include <java/util/function/DoubleConsumer.h>
@@ -17,7 +16,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Comparator = ::java::util::Comparator;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $Consumer = ::java::util::function::Consumer;
 using $DoubleConsumer = ::java::util::function::DoubleConsumer;
 using $Supplier = ::java::util::function::Supplier;

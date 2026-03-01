@@ -12,7 +12,6 @@
 #include <java/security/interfaces/RSAPrivateCrtKey.h>
 #include <java/security/interfaces/RSAPrivateKey.h>
 #include <java/security/interfaces/RSAPublicKey.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Arrays.h>
 #include <java/util/Map.h>
 #include <java/util/WeakHashMap.h>
@@ -39,7 +38,6 @@ using $RSAKey = ::java::security::interfaces::RSAKey;
 using $RSAPrivateCrtKey = ::java::security::interfaces::RSAPrivateCrtKey;
 using $RSAPrivateKey = ::java::security::interfaces::RSAPrivateKey;
 using $RSAPublicKey = ::java::security::interfaces::RSAPublicKey;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Arrays = ::java::util::Arrays;
 using $Map = ::java::util::Map;
 using $WeakHashMap = ::java::util::WeakHashMap;

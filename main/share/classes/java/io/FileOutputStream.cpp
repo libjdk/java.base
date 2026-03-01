@@ -25,7 +25,6 @@ using $FileOutputStream$1 = ::java::io::FileOutputStream$1;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;

@@ -3,7 +3,6 @@
 #include <Constructor$Entry.h>
 #include <java/net/MalformedURLException.h>
 #include <java/net/URL.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -21,7 +20,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $MalformedURLException = ::java::net::MalformedURLException;
 using $URL = ::java::net::URL;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

@@ -1,14 +1,12 @@
 #include <sun/security/util/KeyStoreDelegator.h>
 
 #include <java/io/BufferedInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/Serializable.h>
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/InstantiationException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/invoke/CallSite.h>
 #include <java/lang/invoke/LambdaMetafactory.h>
 #include <java/lang/invoke/MethodHandle.h>
@@ -35,7 +33,6 @@
 
 using $CertificateArray = $Array<::java::security::cert::Certificate>;
 using $BufferedInputStream = ::java::io::BufferedInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -47,7 +44,6 @@ using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $InstantiationException = ::java::lang::InstantiationException;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AccessController = ::java::security::AccessController;

@@ -4,7 +4,6 @@
 #include <java/lang/CharSequence.h>
 #include <jdk/internal/icu/impl/Norm2AllModes$ComposeNormalizer2.h>
 #include <jdk/internal/icu/impl/Norm2AllModes$DecomposeNormalizer2.h>
-#include <jdk/internal/icu/impl/Norm2AllModes$Normalizer2WithImpl.h>
 #include <jdk/internal/icu/impl/Norm2AllModes.h>
 #include <jcpp.h>
 
@@ -13,7 +12,6 @@ using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Norm2AllModes = ::jdk::internal::icu::impl::Norm2AllModes;
-using $Norm2AllModes$Normalizer2WithImpl = ::jdk::internal::icu::impl::Norm2AllModes$Normalizer2WithImpl;
 
 namespace jdk {
 	namespace internal {

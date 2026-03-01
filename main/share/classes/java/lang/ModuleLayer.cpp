@@ -18,12 +18,7 @@
 #include <java/lang/module/ModuleDescriptor.h>
 #include <java/lang/module/ModuleReference.h>
 #include <java/lang/module/ResolvedModule.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/security/SecureClassLoader.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -76,12 +71,7 @@ using $Configuration = ::java::lang::module::Configuration;
 using $ModuleDescriptor = ::java::lang::module::ModuleDescriptor;
 using $ModuleReference = ::java::lang::module::ModuleReference;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

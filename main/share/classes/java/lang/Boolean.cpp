@@ -18,7 +18,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NamedAttribute = ::java::lang::NamedAttribute;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $ConstantDescs = ::java::lang::constant::ConstantDescs;
 using $Optional = ::java::util::Optional;
 

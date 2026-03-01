@@ -9,7 +9,6 @@
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/ReferencePipeline$StatefulOp.h>
-#include <java/util/stream/ReferencePipeline.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <java/util/stream/StreamShape.h>
@@ -17,8 +16,6 @@
 #include <java/util/stream/WhileOps$DropWhileSink.h>
 #include <java/util/stream/WhileOps$DropWhileTask.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfRef$Dropping.h>
-#include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfRef.h>
-#include <java/util/stream/WhileOps$UnorderedWhileSpliterator.h>
 #include <java/util/stream/WhileOps.h>
 #include <jcpp.h>
 
@@ -36,7 +33,6 @@ using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
 using $Node = ::java::util::stream::Node;
 using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
-using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
 using $ReferencePipeline$StatefulOp = ::java::util::stream::ReferencePipeline$StatefulOp;
 using $Sink = ::java::util::stream::Sink;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;
@@ -44,8 +40,6 @@ using $StreamShape = ::java::util::stream::StreamShape;
 using $WhileOps$1Op$1OpSink = ::java::util::stream::WhileOps$1Op$1OpSink;
 using $WhileOps$DropWhileSink = ::java::util::stream::WhileOps$DropWhileSink;
 using $WhileOps$DropWhileTask = ::java::util::stream::WhileOps$DropWhileTask;
-using $WhileOps$UnorderedWhileSpliterator = ::java::util::stream::WhileOps$UnorderedWhileSpliterator;
-using $WhileOps$UnorderedWhileSpliterator$OfRef = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfRef;
 using $WhileOps$UnorderedWhileSpliterator$OfRef$Dropping = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfRef$Dropping;
 
 namespace java {

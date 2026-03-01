@@ -4,7 +4,6 @@
 #include <GetXSpace.h>
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityException.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <jcpp.h>
 
@@ -15,7 +14,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityException = ::java::lang::SecurityException;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 
 $FieldInfo _GetXSpace$DenyFSA_FieldInfo_[] = {

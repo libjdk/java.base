@@ -32,7 +32,6 @@ using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;

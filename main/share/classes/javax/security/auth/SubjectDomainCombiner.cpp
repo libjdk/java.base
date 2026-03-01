@@ -3,14 +3,12 @@
 #include <java/lang/ClassLoader.h>
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
 #include <java/security/PermissionCollection.h>
 #include <java/security/Principal.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/ProtectionDomain.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
@@ -32,13 +30,11 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NamedAttribute = ::java::lang::NamedAttribute;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ProtectionDomain = ::java::security::ProtectionDomain;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;

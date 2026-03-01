@@ -6,10 +6,6 @@
 #include <sun/nio/cs/Big5.h>
 #include <sun/nio/cs/Big5_HKSCS$Decoder.h>
 #include <sun/nio/cs/Big5_HKSCS$Encoder.h>
-#include <sun/nio/cs/DoubleByte$Decoder.h>
-#include <sun/nio/cs/DoubleByte$Encoder.h>
-#include <sun/nio/cs/HKSCS$Decoder.h>
-#include <sun/nio/cs/HKSCS$Encoder.h>
 #include <sun/nio/cs/StandardCharsets.h>
 #include <jcpp.h>
 
@@ -22,10 +18,6 @@ using $CharsetEncoder = ::java::nio::charset::CharsetEncoder;
 using $Big5 = ::sun::nio::cs::Big5;
 using $Big5_HKSCS$Decoder = ::sun::nio::cs::Big5_HKSCS$Decoder;
 using $Big5_HKSCS$Encoder = ::sun::nio::cs::Big5_HKSCS$Encoder;
-using $DoubleByte$Decoder = ::sun::nio::cs::DoubleByte$Decoder;
-using $DoubleByte$Encoder = ::sun::nio::cs::DoubleByte$Encoder;
-using $HKSCS$Decoder = ::sun::nio::cs::HKSCS$Decoder;
-using $HKSCS$Encoder = ::sun::nio::cs::HKSCS$Encoder;
 using $StandardCharsets = ::sun::nio::cs::StandardCharsets;
 
 namespace sun {

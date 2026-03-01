@@ -1,7 +1,6 @@
 #include <javax/crypto/JceSecurity.h>
 
 #include <java/io/BufferedInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/lang/SecurityException.h>
 #include <java/net/URL.h>
@@ -13,7 +12,6 @@
 #include <java/nio/file/Path.h>
 #include <java/nio/file/Paths.h>
 #include <java/security/AccessController.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/NoSuchProviderException.h>
 #include <java/security/Permission.h>
@@ -30,7 +28,6 @@
 #include <java/util/WeakHashMap.h>
 #include <java/util/concurrent/ConcurrentHashMap.h>
 #include <javax/crypto/CryptoAllPermission.h>
-#include <javax/crypto/CryptoPermission.h>
 #include <javax/crypto/CryptoPermissions.h>
 #include <javax/crypto/JceSecurity$1.h>
 #include <javax/crypto/JceSecurity$2.h>
@@ -51,7 +48,6 @@
 using $LinkOptionArray = $Array<::java::nio::file::LinkOption>;
 using $OpenOptionArray = $Array<::java::nio::file::OpenOption>;
 using $BufferedInputStream = ::java::io::BufferedInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;
@@ -68,7 +64,6 @@ using $Files = ::java::nio::file::Files;
 using $Path = ::java::nio::file::Path;
 using $Paths = ::java::nio::file::Paths;
 using $AccessController = ::java::security::AccessController;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $NoSuchProviderException = ::java::security::NoSuchProviderException;
 using $Permission = ::java::security::Permission;
@@ -85,7 +80,6 @@ using $Map = ::java::util::Map;
 using $WeakHashMap = ::java::util::WeakHashMap;
 using $ConcurrentHashMap = ::java::util::concurrent::ConcurrentHashMap;
 using $CryptoAllPermission = ::javax::crypto::CryptoAllPermission;
-using $CryptoPermission = ::javax::crypto::CryptoPermission;
 using $CryptoPermissions = ::javax::crypto::CryptoPermissions;
 using $JceSecurity$1 = ::javax::crypto::JceSecurity$1;
 using $JceSecurity$2 = ::javax::crypto::JceSecurity$2;

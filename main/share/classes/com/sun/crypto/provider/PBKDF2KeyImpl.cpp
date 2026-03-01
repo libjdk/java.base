@@ -40,7 +40,6 @@ using $PBKDF2KeyImpl$1 = ::com::sun::crypto::provider::PBKDF2KeyImpl$1;
 using $SunJCE = ::com::sun::crypto::provider::SunJCE;
 using $Serializable = ::java::io::Serializable;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;

@@ -1,6 +1,5 @@
 #include <java/lang/System$CallersHolder.h>
 
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/Map.h>
 #include <java/util/WeakHashMap.h>
@@ -10,7 +9,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $Map = ::java::util::Map;
 using $WeakHashMap = ::java::util::WeakHashMap;

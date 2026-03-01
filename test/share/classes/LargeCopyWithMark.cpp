@@ -3,7 +3,6 @@
 #include <MyInputStream4LargeCopyWithMark.h>
 #include <MyOutputStream4LargeCopyWithMark.h>
 #include <java/io/BufferedInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <jcpp.h>
@@ -15,7 +14,6 @@
 using $MyInputStream4LargeCopyWithMark = ::MyInputStream4LargeCopyWithMark;
 using $MyOutputStream4LargeCopyWithMark = ::MyOutputStream4LargeCopyWithMark;
 using $BufferedInputStream = ::java::io::BufferedInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

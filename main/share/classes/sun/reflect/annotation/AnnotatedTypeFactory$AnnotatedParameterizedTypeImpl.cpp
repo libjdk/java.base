@@ -13,7 +13,6 @@
 #include <java/lang/reflect/AnnotatedType.h>
 #include <java/lang/reflect/ParameterizedType.h>
 #include <java/lang/reflect/Type.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/List.h>
@@ -48,7 +47,6 @@ using $AnnotatedParameterizedType = ::java::lang::reflect::AnnotatedParameterize
 using $AnnotatedType = ::java::lang::reflect::AnnotatedType;
 using $ParameterizedType = ::java::lang::reflect::ParameterizedType;
 using $Type = ::java::lang::reflect::Type;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $List = ::java::util::List;

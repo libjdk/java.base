@@ -1,7 +1,5 @@
 #include <sun/nio/fs/AbstractBasicFileAttributeView$AttributesBuilder.h>
 
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
 #include <java/util/HashSet.h>
@@ -15,8 +13,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;

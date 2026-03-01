@@ -16,13 +16,11 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map.h>
@@ -70,18 +68,15 @@ using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

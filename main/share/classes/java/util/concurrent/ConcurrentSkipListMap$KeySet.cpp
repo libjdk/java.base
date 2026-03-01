@@ -16,10 +16,8 @@
 #include <java/util/SortedSet.h>
 #include <java/util/Spliterator.h>
 #include <java/util/concurrent/ConcurrentNavigableMap.h>
-#include <java/util/concurrent/ConcurrentSkipListMap$Iter.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$KeyIterator.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$KeySpliterator.h>
-#include <java/util/concurrent/ConcurrentSkipListMap$SubMap$SubMapIter.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap$SubMapKeyIterator.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap.h>
 #include <java/util/concurrent/ConcurrentSkipListMap.h>
@@ -35,7 +33,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
@@ -49,10 +46,8 @@ using $SortedSet = ::java::util::SortedSet;
 using $Spliterator = ::java::util::Spliterator;
 using $ConcurrentNavigableMap = ::java::util::concurrent::ConcurrentNavigableMap;
 using $ConcurrentSkipListMap = ::java::util::concurrent::ConcurrentSkipListMap;
-using $ConcurrentSkipListMap$Iter = ::java::util::concurrent::ConcurrentSkipListMap$Iter;
 using $ConcurrentSkipListMap$KeyIterator = ::java::util::concurrent::ConcurrentSkipListMap$KeyIterator;
 using $ConcurrentSkipListMap$SubMap = ::java::util::concurrent::ConcurrentSkipListMap$SubMap;
-using $ConcurrentSkipListMap$SubMap$SubMapIter = ::java::util::concurrent::ConcurrentSkipListMap$SubMap$SubMapIter;
 using $ConcurrentSkipListMap$SubMap$SubMapKeyIterator = ::java::util::concurrent::ConcurrentSkipListMap$SubMap$SubMapKeyIterator;
 using $Consumer = ::java::util::function::Consumer;
 using $IntFunction = ::java::util::function::IntFunction;

@@ -3,18 +3,14 @@
 #include <java/lang/Iterable.h>
 #include <java/nio/file/FileStore.h>
 #include <java/nio/file/WatchService.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
-#include <java/util/Collection.h>
 #include <java/util/List.h>
 #include <java/util/Set.h>
-#include <sun/nio/fs/AbstractWatchService.h>
 #include <sun/nio/fs/LinuxFileStore.h>
 #include <sun/nio/fs/LinuxFileSystem$SupportedFileFileAttributeViewsHolder.h>
 #include <sun/nio/fs/LinuxNativeDispatcher.h>
 #include <sun/nio/fs/LinuxWatchService.h>
 #include <sun/nio/fs/UnixException.h>
-#include <sun/nio/fs/UnixFileStore.h>
 #include <sun/nio/fs/UnixFileSystem.h>
 #include <sun/nio/fs/UnixFileSystemProvider.h>
 #include <sun/nio/fs/UnixMountEntry.h>
@@ -28,18 +24,14 @@ using $Iterable = ::java::lang::Iterable;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $FileStore = ::java::nio::file::FileStore;
 using $WatchService = ::java::nio::file::WatchService;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
-using $Collection = ::java::util::Collection;
 using $List = ::java::util::List;
 using $Set = ::java::util::Set;
-using $AbstractWatchService = ::sun::nio::fs::AbstractWatchService;
 using $LinuxFileStore = ::sun::nio::fs::LinuxFileStore;
 using $LinuxFileSystem$SupportedFileFileAttributeViewsHolder = ::sun::nio::fs::LinuxFileSystem$SupportedFileFileAttributeViewsHolder;
 using $LinuxNativeDispatcher = ::sun::nio::fs::LinuxNativeDispatcher;
 using $LinuxWatchService = ::sun::nio::fs::LinuxWatchService;
 using $UnixException = ::sun::nio::fs::UnixException;
-using $UnixFileStore = ::sun::nio::fs::UnixFileStore;
 using $UnixFileSystem = ::sun::nio::fs::UnixFileSystem;
 using $UnixFileSystemProvider = ::sun::nio::fs::UnixFileSystemProvider;
 using $UnixMountEntry = ::sun::nio::fs::UnixMountEntry;

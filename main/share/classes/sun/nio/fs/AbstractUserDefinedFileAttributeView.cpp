@@ -5,10 +5,7 @@
 #include <java/lang/SecurityManager.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/file/attribute/UserDefinedFileAttributeView.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/HashMap.h>
@@ -26,10 +23,7 @@ using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $UserDefinedFileAttributeView = ::java::nio::file::attribute::UserDefinedFileAttributeView;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $HashMap = ::java::util::HashMap;

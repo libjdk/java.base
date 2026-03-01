@@ -7,8 +7,6 @@
 #include <java/util/concurrent/locks/ReentrantLock.h>
 #include <javax/net/ssl/SSLParameters.h>
 #include <javax/net/ssl/SSLServerSocket.h>
-#include <javax/net/ssl/SSLSocket.h>
-#include <sun/security/ssl/BaseSSLSocketImpl.h>
 #include <sun/security/ssl/CipherSuite.h>
 #include <sun/security/ssl/ClientAuthType.h>
 #include <sun/security/ssl/ProtocolVersion.h>
@@ -30,8 +28,6 @@ using $Socket = ::java::net::Socket;
 using $ReentrantLock = ::java::util::concurrent::locks::ReentrantLock;
 using $SSLParameters = ::javax::net::ssl::SSLParameters;
 using $SSLServerSocket = ::javax::net::ssl::SSLServerSocket;
-using $SSLSocket = ::javax::net::ssl::SSLSocket;
-using $BaseSSLSocketImpl = ::sun::security::ssl::BaseSSLSocketImpl;
 using $CipherSuite = ::sun::security::ssl::CipherSuite;
 using $ClientAuthType = ::sun::security::ssl::ClientAuthType;
 using $ProtocolVersion = ::sun::security::ssl::ProtocolVersion;

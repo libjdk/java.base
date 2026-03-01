@@ -13,7 +13,6 @@
 #include <TestType7.h>
 #include <java/lang/annotation/Annotation.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -37,7 +36,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

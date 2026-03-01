@@ -2,7 +2,6 @@
 
 #include <java/lang/Math.h>
 #include <java/time/LocalDate.h>
-#include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/IsoChronology.h>
 #include <java/time/format/ResolverStyle.h>
 #include <java/time/temporal/ChronoField.h>
@@ -37,7 +36,6 @@ using $Long = ::java::lang::Long;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $LocalDate = ::java::time::LocalDate;
-using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $IsoChronology = ::java::time::chrono::IsoChronology;
 using $ResolverStyle = ::java::time::format::ResolverStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;

@@ -1,6 +1,5 @@
 #include <java/util/WeakHashMap$EntrySet.h>
 
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap$SimpleEntry.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
@@ -11,7 +10,6 @@
 #include <java/util/WeakHashMap$Entry.h>
 #include <java/util/WeakHashMap$EntryIterator.h>
 #include <java/util/WeakHashMap$EntrySpliterator.h>
-#include <java/util/WeakHashMap$HashIterator.h>
 #include <java/util/WeakHashMap.h>
 #include <jcpp.h>
 
@@ -19,7 +17,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap$SimpleEntry = ::java::util::AbstractMap$SimpleEntry;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
@@ -31,7 +28,6 @@ using $WeakHashMap = ::java::util::WeakHashMap;
 using $WeakHashMap$Entry = ::java::util::WeakHashMap$Entry;
 using $WeakHashMap$EntryIterator = ::java::util::WeakHashMap$EntryIterator;
 using $WeakHashMap$EntrySpliterator = ::java::util::WeakHashMap$EntrySpliterator;
-using $WeakHashMap$HashIterator = ::java::util::WeakHashMap$HashIterator;
 
 namespace java {
 	namespace util {

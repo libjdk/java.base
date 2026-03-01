@@ -7,14 +7,10 @@
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/DoublePipeline$StatefulOp.h>
 #include <java/util/stream/Node$OfDouble.h>
-#include <java/util/stream/Node$OfPrimitive.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
-#include <java/util/stream/Sink$ChainedDouble.h>
-#include <java/util/stream/Sink$OfDouble.h>
 #include <java/util/stream/Sink.h>
-#include <java/util/stream/SortedOps$AbstractDoubleSortingSink.h>
 #include <java/util/stream/SortedOps$DoubleSortingSink.h>
 #include <java/util/stream/SortedOps$SizedDoubleSortingSink.h>
 #include <java/util/stream/SortedOps.h>
@@ -39,13 +35,9 @@ using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
 using $DoublePipeline$StatefulOp = ::java::util::stream::DoublePipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
 using $Node$OfDouble = ::java::util::stream::Node$OfDouble;
-using $Node$OfPrimitive = ::java::util::stream::Node$OfPrimitive;
 using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedDouble = ::java::util::stream::Sink$ChainedDouble;
-using $Sink$OfDouble = ::java::util::stream::Sink$OfDouble;
-using $SortedOps$AbstractDoubleSortingSink = ::java::util::stream::SortedOps$AbstractDoubleSortingSink;
 using $SortedOps$DoubleSortingSink = ::java::util::stream::SortedOps$DoubleSortingSink;
 using $SortedOps$SizedDoubleSortingSink = ::java::util::stream::SortedOps$SizedDoubleSortingSink;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;

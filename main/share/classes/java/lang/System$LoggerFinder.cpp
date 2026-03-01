@@ -12,14 +12,11 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/ResourceBundle.h>
-#include <jdk/internal/logger/AbstractLoggerWrapper.h>
 #include <jdk/internal/logger/LocalizedLoggerWrapper.h>
 #include <jdk/internal/logger/LoggerFinderLoader.h>
-#include <jdk/internal/logger/LoggerWrapper.h>
 #include <jcpp.h>
 
 #undef LOGGERFINDER_PERMISSION
@@ -38,14 +35,11 @@ using $Void = ::java::lang::Void;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ResourceBundle = ::java::util::ResourceBundle;
-using $AbstractLoggerWrapper = ::jdk::internal::logger::AbstractLoggerWrapper;
 using $LocalizedLoggerWrapper = ::jdk::internal::logger::LocalizedLoggerWrapper;
 using $LoggerFinderLoader = ::jdk::internal::logger::LoggerFinderLoader;
-using $LoggerWrapper = ::jdk::internal::logger::LoggerWrapper;
 
 namespace java {
 	namespace lang {

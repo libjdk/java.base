@@ -2,7 +2,6 @@
 
 #include <java/io/ObjectInputStream.h>
 #include <java/lang/InternalError.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/NoSuchProviderException.h>
@@ -15,12 +14,10 @@
 
 using $ObjectInputStream = ::java::io::ObjectInputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $NoSuchProviderException = ::java::security::NoSuchProviderException;

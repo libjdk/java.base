@@ -7,7 +7,6 @@
 #include <OpsAfterClose4PrintWriter$5.h>
 #include <java/io/File.h>
 #include <java/io/FileWriter.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/PrintWriter.h>
 #include <java/io/Writer.h>
 #include <java/lang/Enum.h>
@@ -27,7 +26,6 @@ using $OpsAfterClose4PrintWriter$5 = ::OpsAfterClose4PrintWriter$5;
 using $OpsAfterClose4PrintWriterArray = $Array<OpsAfterClose4PrintWriter>;
 using $File = ::java::io::File;
 using $FileWriter = ::java::io::FileWriter;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $PrintWriter = ::java::io::PrintWriter;
 using $Writer = ::java::io::Writer;

@@ -9,7 +9,6 @@
 #include <java/io/FileOutputStream.h>
 #include <java/io/FileWriter.h>
 #include <java/io/IOException.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/RandomAccessFile.h>
 #include <java/io/Writer.h>
 #include <java/nio/channels/FileChannel.h>
@@ -27,7 +26,6 @@ using $FileInputStream = ::java::io::FileInputStream;
 using $FileOutputStream = ::java::io::FileOutputStream;
 using $FileWriter = ::java::io::FileWriter;
 using $IOException = ::java::io::IOException;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $RandomAccessFile = ::java::io::RandomAccessFile;
 using $Writer = ::java::io::Writer;

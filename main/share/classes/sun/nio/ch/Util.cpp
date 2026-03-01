@@ -17,7 +17,6 @@
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/Set.h>
-#include <jdk/internal/misc/TerminatingThreadLocal.h>
 #include <jdk/internal/misc/Unsafe.h>
 #include <jdk/internal/ref/Cleaner.h>
 #include <sun/nio/ch/DirectBuffer.h>
@@ -41,7 +40,6 @@ using $IOException = ::java::io::IOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -61,7 +59,6 @@ using $MappedByteBuffer = ::java::nio::MappedByteBuffer;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $Set = ::java::util::Set;
-using $TerminatingThreadLocal = ::jdk::internal::misc::TerminatingThreadLocal;
 using $Unsafe = ::jdk::internal::misc::Unsafe;
 using $Cleaner = ::jdk::internal::ref::Cleaner;
 using $DirectBuffer = ::sun::nio::ch::DirectBuffer;

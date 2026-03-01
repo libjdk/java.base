@@ -19,7 +19,6 @@
 #include <java/util/Objects.h>
 #include <java/util/Spliterator.h>
 #include <java/util/concurrent/Helpers.h>
-#include <java/util/concurrent/LinkedBlockingDeque$AbstractItr.h>
 #include <java/util/concurrent/LinkedBlockingDeque$DescendingItr.h>
 #include <java/util/concurrent/LinkedBlockingDeque$Itr.h>
 #include <java/util/concurrent/LinkedBlockingDeque$LBDSpliterator.h>
@@ -58,7 +57,6 @@ using $NoSuchElementException = ::java::util::NoSuchElementException;
 using $Objects = ::java::util::Objects;
 using $Spliterator = ::java::util::Spliterator;
 using $Helpers = ::java::util::concurrent::Helpers;
-using $LinkedBlockingDeque$AbstractItr = ::java::util::concurrent::LinkedBlockingDeque$AbstractItr;
 using $LinkedBlockingDeque$DescendingItr = ::java::util::concurrent::LinkedBlockingDeque$DescendingItr;
 using $LinkedBlockingDeque$Itr = ::java::util::concurrent::LinkedBlockingDeque$Itr;
 using $LinkedBlockingDeque$LBDSpliterator = ::java::util::concurrent::LinkedBlockingDeque$LBDSpliterator;

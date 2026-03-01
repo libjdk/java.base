@@ -12,7 +12,6 @@
 #include <java/time/ZoneId.h>
 #include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
-#include <java/time/chrono/ChronoLocalDateImpl.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
 #include <java/time/chrono/ChronoZonedDateTime.h>
 #include <java/time/chrono/Chronology.h>
@@ -24,7 +23,6 @@
 #include <java/time/format/ResolverStyle.h>
 #include <java/time/temporal/ChronoField.h>
 #include <java/time/temporal/ChronoUnit.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalAdjuster.h>
 #include <java/time/temporal/TemporalAdjusters.h>
@@ -37,7 +35,6 @@
 #include <java/util/Locale.h>
 #include <java/util/Map.h>
 #include <java/util/TimeZone.h>
-#include <sun/util/calendar/BaseCalendar$Date.h>
 #include <sun/util/calendar/CalendarDate.h>
 #include <sun/util/calendar/CalendarSystem.h>
 #include <sun/util/calendar/Era.h>
@@ -82,7 +79,6 @@ using $Year = ::java::time::Year;
 using $ZoneId = ::java::time::ZoneId;
 using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
-using $ChronoLocalDateImpl = ::java::time::chrono::ChronoLocalDateImpl;
 using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;
 using $ChronoZonedDateTime = ::java::time::chrono::ChronoZonedDateTime;
 using $Era = ::java::time::chrono::Era;
@@ -93,7 +89,6 @@ using $JapaneseEra = ::java::time::chrono::JapaneseEra;
 using $ResolverStyle = ::java::time::format::ResolverStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
 using $ChronoUnit = ::java::time::temporal::ChronoUnit;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalAdjusters = ::java::time::temporal::TemporalAdjusters;
 using $TemporalField = ::java::time::temporal::TemporalField;
@@ -105,7 +100,6 @@ using $List = ::java::util::List;
 using $Locale = ::java::util::Locale;
 using $Map = ::java::util::Map;
 using $TimeZone = ::java::util::TimeZone;
-using $BaseCalendar$Date = ::sun::util::calendar::BaseCalendar$Date;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;
 using $CalendarSystem = ::sun::util::calendar::CalendarSystem;
 using $1Era = ::sun::util::calendar::Era;

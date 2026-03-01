@@ -10,7 +10,6 @@
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityManager.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Key.h>
 #include <java/security/KeyFactory.h>
 #include <java/security/KeyStoreException.h>
@@ -24,10 +23,8 @@
 #include <java/security/cert/CertificateFactory.h>
 #include <java/security/cert/X509Certificate.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
-#include <java/security/spec/EncodedKeySpec.h>
 #include <java/security/spec/KeySpec.h>
 #include <java/security/spec/PKCS8EncodedKeySpec.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Date.h>
@@ -79,7 +76,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Key = ::java::security::Key;
 using $KeyFactory = ::java::security::KeyFactory;
 using $KeyStoreException = ::java::security::KeyStoreException;
@@ -93,10 +89,8 @@ using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
-using $EncodedKeySpec = ::java::security::spec::EncodedKeySpec;
 using $KeySpec = ::java::security::spec::KeySpec;
 using $PKCS8EncodedKeySpec = ::java::security::spec::PKCS8EncodedKeySpec;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Date = ::java::util::Date;

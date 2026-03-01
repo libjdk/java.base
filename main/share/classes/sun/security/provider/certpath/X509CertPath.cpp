@@ -10,7 +10,6 @@
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/CertificateFactory.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -42,7 +41,6 @@ using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $CertPath = ::java::security::cert::CertPath;
@@ -50,7 +48,6 @@ using $CertificateEncodingException = ::java::security::cert::CertificateEncodin
 using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

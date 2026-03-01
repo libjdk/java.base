@@ -4,7 +4,6 @@
 #include <java/nio/BufferOverflowException.h>
 #include <java/nio/BufferUnderflowException.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
@@ -29,14 +28,11 @@
 
 using $Byte = ::java::lang::Byte;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $BufferOverflowException = ::java::nio::BufferOverflowException;
 using $BufferUnderflowException = ::java::nio::BufferUnderflowException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $List = ::java::util::List;

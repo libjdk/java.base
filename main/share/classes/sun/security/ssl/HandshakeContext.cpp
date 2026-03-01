@@ -8,14 +8,9 @@
 #include <java/security/AlgorithmConstraints.h>
 #include <java/security/AlgorithmParameters.h>
 #include <java/security/CryptoPrimitive.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap$SimpleImmutableEntry.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSequentialList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
-#include <java/util/Deque.h>
 #include <java/util/EnumMap.h>
 #include <java/util/EnumSet.h>
 #include <java/util/HashMap.h>
@@ -78,10 +73,8 @@ using $Boolean = ::java::lang::Boolean;
 using $Byte = ::java::lang::Byte;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $BufferOverflowException = ::java::nio::BufferOverflowException;
 using $BufferUnderflowException = ::java::nio::BufferUnderflowException;
@@ -89,14 +82,9 @@ using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AlgorithmConstraints = ::java::security::AlgorithmConstraints;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $CryptoPrimitive = ::java::security::CryptoPrimitive;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractMap$SimpleImmutableEntry = ::java::util::AbstractMap$SimpleImmutableEntry;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
-using $Deque = ::java::util::Deque;
 using $EnumMap = ::java::util::EnumMap;
 using $EnumSet = ::java::util::EnumSet;
 using $HashMap = ::java::util::HashMap;

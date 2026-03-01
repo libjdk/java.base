@@ -341,6 +341,14 @@ public:
 		freeBlock(block);
 	}
 
+	virtual MemoryAllocaterType getType() override  {
+		return MemoryAllocaterType_Store;
+	}
+
+	virtual int32_t getId() override {
+		return 0;
+	}
+
 	bool canAlloc() {
 		return freeCount > 0;
 	}
@@ -389,18 +397,28 @@ public:
 		freeCount++;
 	}
 
+	void freeBlocks(StoredMemoryBlock* listFirst, StoredMemoryBlock* listLast, int32_t count) {
+		StoredMemoryBlock* old = blocks.load(std::memory_order_relaxed);
+		listLast->next = old;
+		while (!blocks.compare_exchange_weak(old, listFirst, std::memory_order_release, std::memory_order_relaxed)) {
+			listLast->next = old;
+		}
+		freeCount += count;
+	}
+
 	int32_t freeBlocks(StoredMemoryBlock* listHead) {
 		if (listHead != nullptr) {
 			ListScaner<StoredMemoryBlock> scaner;
 			scaner.scan(listHead);
 			int32_t count = scaner.length;
-			StoredMemoryBlock* old = blocks.load(std::memory_order_relaxed);
-			scaner.tail->next = old;
-			while (!blocks.compare_exchange_weak(old, listHead, std::memory_order_release, std::memory_order_relaxed)) {
-				//old = banchBlocks;
-				scaner.tail->next = old;
-			}
-			freeCount += count;
+			freeBlocks(listHead, scaner.tail, count);
+			//StoredMemoryBlock* old = blocks.load(std::memory_order_relaxed);
+			//scaner.tail->next = old;
+			//while (!blocks.compare_exchange_weak(old, listHead, std::memory_order_release, std::memory_order_relaxed)) {
+			//	//old = banchBlocks;
+			//	scaner.tail->next = old;
+			//}
+			//freeCount += count;
 			return count;
 		}
 		return 0;
@@ -437,13 +455,6 @@ public:
 		stat->add(size, usedSize);
 	}
 
-	virtual MemoryAllocaterType getType() {
-		return MemoryAllocaterType_Store;
-	}
-
-	virtual int32_t getId() {
-		return 0;
-	}
 	std::atomic<StoredMemoryBlock*> blocks;
 	std::atomic<int64_t> freeCount;
 	std::atomic<MemoryStore*> next = nullptr;
@@ -465,9 +476,10 @@ public:
 		allocingList.clear();
 		allocingListCount = 0;
 		commitFreeCount = 0;
-		cacheList.clear();
-		cacheListCount = 0;
+		freeList.clear();
+		freeListCount = 0;
 		freeingList.clear();
+		freeingListTail = nullptr;
 		freeingListCount = 0;
 		payloadSize = store->payloadSize;;
 		reusedCount++;
@@ -489,12 +501,12 @@ public:
 				allocingListCount--;
 				return block;
 			}
-			if (cacheListCount > 0) {
-				StoredMemoryBlock* listHead = cacheList.exchange(nullptr);
+			if (freeListCount > 0) {
+				StoredMemoryBlock* listHead = freeList.exchange(nullptr);
 				if (listHead != nullptr) {
 					block = listHead;
 					allocingList.exchange(listHead->next);
-					cacheListCount = 0;
+					freeListCount = 0;
 					allocingListCount--;
 					block->next = nullptr;
 					return block;
@@ -547,36 +559,66 @@ public:
 		//block->clearPayloadInited();
 //		store->freeBlock(block);
 //		allocedCount--;
-
+		if (freeingListTail == nullptr) {
+			freeingListTail = block;
+		}
 		freeingList.prepend(block);
 		freeingListCount++;
 	}
 
-	void commitFreeToCache() {
+	virtual MemoryAllocaterType getType() override {
+		return MemoryAllocaterType_Stored;
+	}
+
+	virtual int32_t getId() override {
+		return id;
+	}
+
+	void moveFreeingToFree() {
 		StoredMemoryBlock* freeingListHead = freeingList.exchange(nullptr);
 		if (freeingListHead != nullptr) {
-			StoredMemoryBlock* cacheOldListHead = cacheList.exchange(nullptr);
+			StoredMemoryBlock* cacheOldListHead = freeList.exchange(nullptr);
 			StoredMemoryBlock* mergedListHead = nullptr;
 			if (cacheOldListHead != nullptr) {
-				ListScaner<StoredMemoryBlock> scaner;
-				if (freeingListCount <= cacheListCount) {
-					scaner.scan(freeingListHead);
-					scaner.tail->next = cacheOldListHead;
+				if (freeingListCount <= freeListCount) {
+					freeingListTail->next = cacheOldListHead;
+					mergedListHead = freeingListHead;
 				} else {
+					ListScaner<StoredMemoryBlock> scaner;
 					scaner.scan(cacheOldListHead);
 					scaner.tail->next = freeingListHead;
+					mergedListHead = scaner.head;
 				}
-				mergedListHead = scaner.head;
 			} else {
 				mergedListHead = freeingListHead;
 			}
-			cacheOldListHead = cacheList.exchange(mergedListHead);
+			cacheOldListHead = freeList.exchange(mergedListHead);
 			if (cacheOldListHead != nullptr) {
-				cacheList.prependAll(cacheOldListHead);
+				freeList.prependList(cacheOldListHead);
 			}
-			cacheListCount += freeingListCount;
+			freeingListTail = nullptr;
+			freeListCount += freeingListCount;
 			allocingListCount += freeingListCount;
 			freeingListCount = 0;
+		}
+	}
+
+	void moveFreeingToStore() {
+		StoredMemoryBlock* freeingListHead = freeingList.exchange(nullptr);
+		if (freeingListHead != nullptr) {
+			store->freeBlocks(freeingListHead, freeingListTail, freeListCount);
+			allocedCount -= freeListCount;
+			freeingListTail = nullptr;
+			freeingListCount = 0;
+		}
+	}
+
+	void moveFreeToStore() {
+		StoredMemoryBlock* freeListHead = freeList.exchange(nullptr);
+		if (freeListHead != nullptr) {
+			int32_t freedCount = store->freeBlocks(freeListHead);
+			allocedCount -= freedCount;
+			freeListCount = 0;
 		}
 	}
 
@@ -587,8 +629,8 @@ public:
 			allocedCount -= freedCount;
 		}
 		allocingListCount = 0;
-		listHead = cacheList.exchange(nullptr);
-		cacheListCount = 0;
+		listHead = freeList.exchange(nullptr);
+		freeListCount = 0;
 		freedCount = store->freeBlocks(listHead);
 		if (freedCount > 0) {
 			allocedCount -= freedCount;
@@ -605,9 +647,10 @@ public:
 		return allocedCount;
 	}
 
-	bool canFree() {
-		return allocedCount - freeingListCount == 0;
-	}
+	//bool canFree() {
+	//	//return allocedCount - freeingListCount == 0;
+	//	return allocedCount == 0;
+	//}
 
 	bool canAlloc() {
 		return store->canAlloc();
@@ -618,22 +661,15 @@ public:
 		allocedCount--;
 	}
 
-	virtual MemoryAllocaterType getType() {
-		return MemoryAllocaterType_Stored;
-	}
-
-	virtual int32_t getId() {
-		return id;
-	}
-
 	MemoryStore* store;
 	std::atomic<int32_t> allocedCount;
 	SList<StoredMemoryBlock> allocingList;
 	int32_t allocingListCount;
 	int32_t commitFreeCount;
-	AtomicSList<StoredMemoryBlock> cacheList;
-	std::atomic<int32_t> cacheListCount;
+	AtomicSList<StoredMemoryBlock> freeList;
+	std::atomic<int32_t> freeListCount;
 	SList<StoredMemoryBlock> freeingList;
+	StoredMemoryBlock* freeingListTail;
 	int32_t freeingListCount;
 	int32_t payloadSize;
 	int32_t reusedCount = 0;
@@ -646,10 +682,10 @@ public:
 	RawMemoryAllocater(MemoryManager* memoryManager) : memoryManager(memoryManager) {}
 	virtual MemoryBlock* allocBlockOrNull(int64_t payloadSize, bool core);
 	virtual void free(void* m) override;
-	virtual MemoryAllocaterType getType() {
+	virtual MemoryAllocaterType getType() override {
 		return MemoryAllocaterType_Raw;
 	}
-	virtual int32_t getId() {
+	virtual int32_t getId() override {
 		return 0;
 	}
 	MemoryManager* memoryManager;
@@ -660,12 +696,22 @@ class CachedRawMemoryAllocater : public MemoryAllocater {
 public:
 	CachedRawMemoryAllocater(MemoryManager* memoryManager, int64_t payloadSize) : memoryManager(memoryManager), payloadSize(payloadSize) {}
 	void* allocRawOrNull();
+
 	inline void free0(void* m) {
 		StoredMemoryBlock* block = StoredMemoryBlock::fromPayload(m);
 		addCache(block);
 	}
+
 	virtual void free(void* m) override {
 		free0(m);
+	}
+
+	virtual MemoryAllocaterType getType() override {
+		return MemoryAllocaterType_CachedRaw;
+	}
+
+	virtual int32_t getId() override {
+		return 0;
 	}
 
 	StoredMemoryBlock* removeCache() {
@@ -721,13 +767,6 @@ public:
 	void setMinCacheCount(int32_t count) {
 		minCacheCount = count;
 	}
-
-	virtual MemoryAllocaterType getType() {
-		return MemoryAllocaterType_CachedRaw;
-	}
-	virtual int32_t getId() {
-		return 0;
-	}
 private:
 	int64_t payloadSize;
 	std::atomic<StoredMemoryBlock*> removeCacheBlocks;
@@ -743,10 +782,10 @@ public:
 	ObjectMemoryAllocater(MemoryManager* memoryManager) : memoryManager(memoryManager) {}
 	virtual ObjectHead* allocObject(int64_t payloadSize);
 	virtual void free(void* m) override;
-	virtual MemoryAllocaterType getType() {
+	virtual MemoryAllocaterType getType() override {
 		return MemoryAllocaterType_Object;
 	}
-	virtual int32_t getId() {
+	virtual int32_t getId() override {
 		return 0;
 	}
 	MemoryManager* memoryManager;
@@ -785,11 +824,11 @@ public:
 	StaticMemoryAllocater(MemoryManager* memoryManager, int64_t maxBufferSize, int64_t maxAllocSize)
 		: memoryManager(memoryManager), maxBufferSize(maxBufferSize), maxAllocSize(maxAllocSize) {}
 	MemoryBlock* alloc(int64_t payloadSize);
-	virtual void free(void* m);
-	virtual MemoryAllocaterType getType() {
+	virtual void free(void* m) override;
+	virtual MemoryAllocaterType getType() override {
 		return MemoryAllocaterType_Static;
 	}
-	virtual int32_t getId() {
+	virtual int32_t getId() override {
 		return 0;
 	}
 	void stat(MemoryStat* stat) {

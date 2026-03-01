@@ -1,7 +1,6 @@
 #include <sun/security/ssl/SupportedGroupsExtension$EESupportedGroupsConsumer.h>
 
 #include <java/nio/ByteBuffer.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
@@ -24,7 +23,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;

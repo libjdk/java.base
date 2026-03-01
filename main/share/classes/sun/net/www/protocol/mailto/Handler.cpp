@@ -3,7 +3,6 @@
 #include <java/net/URL.h>
 #include <java/net/URLConnection.h>
 #include <java/net/URLStreamHandler.h>
-#include <sun/net/www/URLConnection.h>
 #include <sun/net/www/protocol/mailto/MailToURLConnection.h>
 #include <jcpp.h>
 
@@ -14,7 +13,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $URL = ::java::net::URL;
 using $URLConnection = ::java::net::URLConnection;
 using $URLStreamHandler = ::java::net::URLStreamHandler;
-using $1URLConnection = ::sun::net::www::URLConnection;
 using $MailToURLConnection = ::sun::net::www::protocol::mailto::MailToURLConnection;
 
 namespace sun {

@@ -11,7 +11,6 @@
 #include <java/nio/channels/spi/AbstractSelectionKey.h>
 #include <java/nio/channels/spi/AbstractSelector.h>
 #include <java/nio/channels/spi/SelectorProvider.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/Collections.h>
 #include <java/util/Deque.h>
@@ -42,7 +41,6 @@ using $AbstractSelectableChannel = ::java::nio::channels::spi::AbstractSelectabl
 using $AbstractSelectionKey = ::java::nio::channels::spi::AbstractSelectionKey;
 using $AbstractSelector = ::java::nio::channels::spi::AbstractSelector;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $Collections = ::java::util::Collections;
 using $Deque = ::java::util::Deque;

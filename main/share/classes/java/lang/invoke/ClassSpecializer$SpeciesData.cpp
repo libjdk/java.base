@@ -1,6 +1,5 @@
 #include <java/lang/invoke/ClassSpecializer$SpeciesData.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/InternalError.h>
@@ -27,7 +26,6 @@
 #include <jcpp.h>
 
 using $MethodHandleArray = $Array<::java::lang::invoke::MethodHandle>;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $AssertionError = ::java::lang::AssertionError;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;

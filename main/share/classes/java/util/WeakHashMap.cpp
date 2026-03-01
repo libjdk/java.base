@@ -3,9 +3,7 @@
 #include <java/lang/Math.h>
 #include <java/lang/ref/Reference.h>
 #include <java/lang/ref/ReferenceQueue.h>
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/ConcurrentModificationException.h>
@@ -38,9 +36,7 @@ using $Integer = ::java::lang::Integer;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ReferenceQueue = ::java::lang::ref::ReferenceQueue;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;

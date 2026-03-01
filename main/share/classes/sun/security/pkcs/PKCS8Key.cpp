@@ -4,10 +4,8 @@
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/ObjectInputStream.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
-#include <java/security/KeyException.h>
 #include <java/security/KeyFactory.h>
 #include <java/security/KeyRep$Type.h>
 #include <java/security/KeyRep.h>
@@ -34,13 +32,10 @@ using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $ObjectInputStream = ::java::io::ObjectInputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
-using $KeyException = ::java::security::KeyException;
 using $KeyFactory = ::java::security::KeyFactory;
 using $KeyRep = ::java::security::KeyRep;
 using $KeyRep$Type = ::java::security::KeyRep$Type;

@@ -13,7 +13,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/EnumSet.h>
@@ -46,7 +45,6 @@ using $ProcessImpl$LaunchMechanism = ::java::lang::ProcessImpl$LaunchMechanism;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $EnumSet = ::java::util::EnumSet;

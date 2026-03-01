@@ -4,9 +4,7 @@
 #include <java/net/InetAddress.h>
 #include <java/net/Socket.h>
 #include <java/util/List.h>
-#include <javax/net/ssl/SSLSocket.h>
 #include <javax/net/ssl/SSLSocketFactory.h>
-#include <sun/security/ssl/BaseSSLSocketImpl.h>
 #include <sun/security/ssl/CipherSuite.h>
 #include <sun/security/ssl/SSLContextImpl$DefaultSSLContext.h>
 #include <sun/security/ssl/SSLContextImpl.h>
@@ -20,9 +18,7 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $InetAddress = ::java::net::InetAddress;
 using $Socket = ::java::net::Socket;
-using $SSLSocket = ::javax::net::ssl::SSLSocket;
 using $SSLSocketFactory = ::javax::net::ssl::SSLSocketFactory;
-using $BaseSSLSocketImpl = ::sun::security::ssl::BaseSSLSocketImpl;
 using $CipherSuite = ::sun::security::ssl::CipherSuite;
 using $SSLContextImpl = ::sun::security::ssl::SSLContextImpl;
 using $SSLContextImpl$DefaultSSLContext = ::sun::security::ssl::SSLContextImpl$DefaultSSLContext;

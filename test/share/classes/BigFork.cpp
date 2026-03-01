@@ -8,7 +8,6 @@
 #include <java/lang/OutOfMemoryError.h>
 #include <java/lang/Process.h>
 #include <java/lang/ProcessBuilder.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/Random.h>
@@ -27,7 +26,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $OutOfMemoryError = ::java::lang::OutOfMemoryError;
 using $Process = ::java::lang::Process;
 using $ProcessBuilder = ::java::lang::ProcessBuilder;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Random = ::java::util::Random;

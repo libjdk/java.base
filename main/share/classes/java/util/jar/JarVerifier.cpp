@@ -12,8 +12,6 @@
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/CertificateException.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -53,7 +51,6 @@ using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -65,8 +62,6 @@ using $SignatureException = ::java::security::SignatureException;
 using $CertPath = ::java::security::cert::CertPath;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $AbstractCollection = ::java::util::AbstractCollection;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

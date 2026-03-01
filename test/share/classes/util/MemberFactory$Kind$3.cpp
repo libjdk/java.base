@@ -4,7 +4,6 @@
 #include <java/lang/NoSuchMethodException.h>
 #include <java/lang/reflect/AccessibleObject.h>
 #include <java/lang/reflect/Constructor.h>
-#include <java/lang/reflect/Executable.h>
 #include <util/MemberFactory$Kind.h>
 #include <util/MemberFactory.h>
 #include <jcpp.h>
@@ -18,7 +17,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AccessibleObject = ::java::lang::reflect::AccessibleObject;
-using $Executable = ::java::lang::reflect::Executable;
 using $MemberFactory = ::util::MemberFactory;
 using $MemberFactory$Kind = ::util::MemberFactory$Kind;
 

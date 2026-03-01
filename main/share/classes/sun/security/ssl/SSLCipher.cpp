@@ -6,7 +6,6 @@
 #include <java/lang/NumberFormatException.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/security/AccessController.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/PrivilegedAction.h>
@@ -90,7 +89,6 @@ using $NumberFormatException = ::java::lang::NumberFormatException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AccessController = ::java::security::AccessController;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $PrivilegedAction = ::java::security::PrivilegedAction;

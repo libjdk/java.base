@@ -16,7 +16,6 @@
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashSet.h>
@@ -33,7 +32,6 @@
 #include <jdk/internal/loader/BootLoader.h>
 #include <jdk/internal/loader/ClassLoaders.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef INSTANCE
@@ -50,7 +48,6 @@ using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -61,7 +58,6 @@ using $URLConnection = ::java::net::URLConnection;
 using $Charset = ::java::nio::charset::Charset;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $Enumeration = ::java::util::Enumeration;
 using $HashSet = ::java::util::HashSet;
@@ -78,7 +74,6 @@ using $Set = ::java::util::Set;
 using $BootLoader = ::jdk::internal::loader::BootLoader;
 using $ClassLoaders = ::jdk::internal::loader::ClassLoaders;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace java {
 	namespace util {

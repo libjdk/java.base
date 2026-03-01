@@ -12,7 +12,6 @@
 #include <java/security/PublicKey.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <java/security/spec/KeySpec.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -51,7 +50,6 @@
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BigInteger = ::java::math::BigInteger;
@@ -61,10 +59,8 @@ using $CryptoPrimitive = ::java::security::CryptoPrimitive;
 using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $KeyFactory = ::java::security::KeyFactory;
-using $PublicKey = ::java::security::PublicKey;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $KeySpec = ::java::security::spec::KeySpec;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

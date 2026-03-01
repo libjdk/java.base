@@ -1,6 +1,5 @@
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap.h>
 
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap$SimpleImmutableEntry.h>
 #include <java/util/AbstractMap.h>
 #include <java/util/AbstractSet.h>
@@ -34,7 +33,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractMap$SimpleImmutableEntry = ::java::util::AbstractMap$SimpleImmutableEntry;
 using $AbstractSet = ::java::util::AbstractSet;

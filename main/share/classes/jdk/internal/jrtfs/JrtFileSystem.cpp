@@ -37,7 +37,6 @@
 #include <java/nio/file/attribute/FileTime.h>
 #include <java/nio/file/attribute/UserPrincipalLookupService.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -108,7 +107,6 @@ using $WatchService = ::java::nio::file::WatchService;
 using $FileTime = ::java::nio::file::attribute::FileTime;
 using $UserPrincipalLookupService = ::java::nio::file::attribute::UserPrincipalLookupService;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

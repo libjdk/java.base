@@ -15,8 +15,6 @@
 #include <java/io/FileInputStream.h>
 #include <java/io/FileOutputStream.h>
 #include <java/io/FilenameFilter.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -28,8 +26,6 @@
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -65,8 +61,6 @@ using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
 using $FileOutputStream = ::java::io::FileOutputStream;
 using $FilenameFilter = ::java::io::FilenameFilter;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -92,8 +86,6 @@ using $Short = ::java::lang::Short;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

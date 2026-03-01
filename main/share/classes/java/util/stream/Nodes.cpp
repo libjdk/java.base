@@ -19,7 +19,6 @@
 #include <java/util/stream/Node$OfDouble.h>
 #include <java/util/stream/Node$OfInt.h>
 #include <java/util/stream/Node$OfLong.h>
-#include <java/util/stream/Node$OfPrimitive.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes$1.h>
 #include <java/util/stream/Nodes$AbstractConcNode.h>
@@ -32,7 +31,6 @@
 #include <java/util/stream/Nodes$ConcNode$OfDouble.h>
 #include <java/util/stream/Nodes$ConcNode$OfInt.h>
 #include <java/util/stream/Nodes$ConcNode$OfLong.h>
-#include <java/util/stream/Nodes$ConcNode$OfPrimitive.h>
 #include <java/util/stream/Nodes$ConcNode.h>
 #include <java/util/stream/Nodes$DoubleArrayNode.h>
 #include <java/util/stream/Nodes$DoubleFixedNodeBuilder.h>
@@ -41,7 +39,6 @@
 #include <java/util/stream/Nodes$EmptyNode$OfInt.h>
 #include <java/util/stream/Nodes$EmptyNode$OfLong.h>
 #include <java/util/stream/Nodes$EmptyNode$OfRef.h>
-#include <java/util/stream/Nodes$EmptyNode.h>
 #include <java/util/stream/Nodes$FixedNodeBuilder.h>
 #include <java/util/stream/Nodes$IntArrayNode.h>
 #include <java/util/stream/Nodes$IntFixedNodeBuilder.h>
@@ -93,7 +90,6 @@ using $Node$Builder$OfLong = ::java::util::stream::Node$Builder$OfLong;
 using $Node$OfDouble = ::java::util::stream::Node$OfDouble;
 using $Node$OfInt = ::java::util::stream::Node$OfInt;
 using $Node$OfLong = ::java::util::stream::Node$OfLong;
-using $Node$OfPrimitive = ::java::util::stream::Node$OfPrimitive;
 using $Nodes$1 = ::java::util::stream::Nodes$1;
 using $Nodes$AbstractConcNode = ::java::util::stream::Nodes$AbstractConcNode;
 using $Nodes$ArrayNode = ::java::util::stream::Nodes$ArrayNode;
@@ -106,11 +102,9 @@ using $Nodes$ConcNode = ::java::util::stream::Nodes$ConcNode;
 using $Nodes$ConcNode$OfDouble = ::java::util::stream::Nodes$ConcNode$OfDouble;
 using $Nodes$ConcNode$OfInt = ::java::util::stream::Nodes$ConcNode$OfInt;
 using $Nodes$ConcNode$OfLong = ::java::util::stream::Nodes$ConcNode$OfLong;
-using $Nodes$ConcNode$OfPrimitive = ::java::util::stream::Nodes$ConcNode$OfPrimitive;
 using $Nodes$DoubleArrayNode = ::java::util::stream::Nodes$DoubleArrayNode;
 using $Nodes$DoubleFixedNodeBuilder = ::java::util::stream::Nodes$DoubleFixedNodeBuilder;
 using $Nodes$DoubleSpinedNodeBuilder = ::java::util::stream::Nodes$DoubleSpinedNodeBuilder;
-using $Nodes$EmptyNode = ::java::util::stream::Nodes$EmptyNode;
 using $Nodes$EmptyNode$OfDouble = ::java::util::stream::Nodes$EmptyNode$OfDouble;
 using $Nodes$EmptyNode$OfInt = ::java::util::stream::Nodes$EmptyNode$OfInt;
 using $Nodes$EmptyNode$OfLong = ::java::util::stream::Nodes$EmptyNode$OfLong;

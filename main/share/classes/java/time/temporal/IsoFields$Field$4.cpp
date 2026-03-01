@@ -1,7 +1,6 @@
 #include <java/time/temporal/IsoFields$Field$4.h>
 
 #include <java/time/LocalDate.h>
-#include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/temporal/ChronoField.h>
 #include <java/time/temporal/ChronoUnit.h>
 #include <java/time/temporal/IsoFields$Field.h>
@@ -27,7 +26,6 @@ using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $LocalDate = ::java::time::LocalDate;
-using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoField = ::java::time::temporal::ChronoField;
 using $ChronoUnit = ::java::time::temporal::ChronoUnit;
 using $IsoFields = ::java::time::temporal::IsoFields;

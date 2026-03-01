@@ -1,7 +1,6 @@
 #include <sun/security/provider/certpath/PolicyChecker.h>
 
 #include <java/io/IOException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/cert/CertPath.h>
 #include <java/security/cert/CertPathValidatorException$Reason.h>
 #include <java/security/cert/CertPathValidatorException.h>
@@ -11,7 +10,6 @@
 #include <java/security/cert/PKIXReason.h>
 #include <java/security/cert/PolicyNode.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -45,11 +43,9 @@
 
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $CertPath = ::java::security::cert::CertPath;
 using $CertPathValidatorException = ::java::security::cert::CertPathValidatorException;
 using $CertPathValidatorException$Reason = ::java::security::cert::CertPathValidatorException$Reason;
@@ -59,7 +55,6 @@ using $PKIXCertPathChecker = ::java::security::cert::PKIXCertPathChecker;
 using $PKIXReason = ::java::security::cert::PKIXReason;
 using $PolicyNode = ::java::security::cert::PolicyNode;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

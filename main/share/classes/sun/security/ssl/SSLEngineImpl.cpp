@@ -10,7 +10,6 @@
 #include <java/util/Queue.h>
 #include <java/util/concurrent/locks/ReentrantLock.h>
 #include <java/util/function/BiFunction.h>
-#include <javax/net/ssl/ExtendedSSLSession.h>
 #include <javax/net/ssl/SSLEngine.h>
 #include <javax/net/ssl/SSLEngineResult$HandshakeStatus.h>
 #include <javax/net/ssl/SSLEngineResult$Status.h>
@@ -91,7 +90,6 @@ using $ReadOnlyBufferException = ::java::nio::ReadOnlyBufferException;
 using $Queue = ::java::util::Queue;
 using $ReentrantLock = ::java::util::concurrent::locks::ReentrantLock;
 using $BiFunction = ::java::util::function::BiFunction;
-using $ExtendedSSLSession = ::javax::net::ssl::ExtendedSSLSession;
 using $SSLEngine = ::javax::net::ssl::SSLEngine;
 using $SSLEngineResult = ::javax::net::ssl::SSLEngineResult;
 using $SSLEngineResult$HandshakeStatus = ::javax::net::ssl::SSLEngineResult$HandshakeStatus;

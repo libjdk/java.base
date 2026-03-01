@@ -3,7 +3,6 @@
 #include <java/io/ObjectStreamClass.h>
 #include <java/io/ObjectStreamField.h>
 #include <java/lang/reflect/Constructor.h>
-#include <java/lang/reflect/Executable.h>
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/Member.h>
 #include <java/lang/reflect/Method.h>
@@ -19,7 +18,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Void = ::java::lang::Void;
 using $Constructor = ::java::lang::reflect::Constructor;
-using $Executable = ::java::lang::reflect::Executable;
 using $Field = ::java::lang::reflect::Field;
 using $Member = ::java::lang::reflect::Member;
 using $Method = ::java::lang::reflect::Method;

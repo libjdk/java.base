@@ -8,12 +8,10 @@
 #include <java/lang/ref/Cleaner.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/charset/Charset.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <jdk/internal/perf/Perf$CleanerAction.h>
 #include <jdk/internal/ref/CleanerFactory.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef INSTANCE
@@ -32,12 +30,10 @@ using $SecurityManager = ::java::lang::SecurityManager;
 using $Cleaner = ::java::lang::ref::Cleaner;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $Charset = ::java::nio::charset::Charset;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Perf$CleanerAction = ::jdk::internal::perf::Perf$CleanerAction;
 using $CleanerFactory = ::jdk::internal::ref::CleanerFactory;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace jdk {
 	namespace internal {

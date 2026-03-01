@@ -11,8 +11,6 @@
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/Error.h>
 #include <java/lang/ExceptionInInitializerError.h>
-#include <java/lang/LinkageError.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/reflect/InvocationTargetException.h>
 #include <java/lang/reflect/UndeclaredThrowableException.h>
 #include <java/security/PrivilegedActionException.h>
@@ -50,10 +48,8 @@ using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
-using $LinkageError = ::java::lang::LinkageError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
 using $UndeclaredThrowableException = ::java::lang::reflect::UndeclaredThrowableException;

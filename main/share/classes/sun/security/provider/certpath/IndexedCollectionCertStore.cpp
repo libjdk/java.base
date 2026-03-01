@@ -13,8 +13,6 @@
 #include <java/security/cert/X509CertSelector.h>
 #include <java/security/cert/X509Certificate.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -44,8 +42,6 @@ using $X509CRLSelector = ::java::security::cert::X509CRLSelector;
 using $X509CertSelector = ::java::security::cert::X509CertSelector;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $AbstractCollection = ::java::util::AbstractCollection;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

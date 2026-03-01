@@ -3,7 +3,6 @@
 #include <java/security/KeyStore$Entry$Attribute.h>
 #include <java/security/KeyStore.h>
 #include <java/security/cert/Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -16,7 +15,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Certificate = ::java::security::cert::Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

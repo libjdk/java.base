@@ -9,7 +9,6 @@
 #include <java/util/Comparator.h>
 #include <java/util/Objects.h>
 #include <java/util/Spliterator$OfLong.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/function/BooleanSupplier.h>
 #include <java/util/function/Consumer.h>
@@ -20,7 +19,6 @@
 #include <java/util/stream/Sink$OfLong.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/SpinedBuffer$OfLong.h>
-#include <java/util/stream/SpinedBuffer$OfPrimitive.h>
 #include <java/util/stream/StreamSpliterators$AbstractWrappingSpliterator.h>
 #include <java/util/stream/StreamSpliterators.h>
 #include <jcpp.h>
@@ -35,7 +33,6 @@ using $Comparator = ::java::util::Comparator;
 using $Objects = ::java::util::Objects;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $BooleanSupplier = ::java::util::function::BooleanSupplier;
 using $Consumer = ::java::util::function::Consumer;
 using $LongConsumer = ::java::util::function::LongConsumer;
@@ -45,7 +42,6 @@ using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
 using $Sink$OfLong = ::java::util::stream::Sink$OfLong;
 using $SpinedBuffer$OfLong = ::java::util::stream::SpinedBuffer$OfLong;
-using $SpinedBuffer$OfPrimitive = ::java::util::stream::SpinedBuffer$OfPrimitive;
 using $StreamSpliterators$AbstractWrappingSpliterator = ::java::util::stream::StreamSpliterators$AbstractWrappingSpliterator;
 
 namespace java {

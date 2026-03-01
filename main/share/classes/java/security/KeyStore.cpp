@@ -4,12 +4,10 @@
 #include <java/io/DataInputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/security/AccessController.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/security/KeyStore$1.h>
 #include <java/security/KeyStore$Entry.h>
@@ -42,12 +40,10 @@ using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $DataInputStream = ::java::io::DataInputStream;
 using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -55,7 +51,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $AccessController = ::java::security::AccessController;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $KeyStore$1 = ::java::security::KeyStore$1;
 using $KeyStore$Entry = ::java::security::KeyStore$Entry;

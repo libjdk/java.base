@@ -6,7 +6,6 @@
 #include <java/net/InetSocketAddress.h>
 #include <java/nio/channels/AcceptPendingException.h>
 #include <java/nio/channels/AsynchronousChannel.h>
-#include <java/nio/channels/AsynchronousServerSocketChannel.h>
 #include <java/nio/channels/ClosedChannelException.h>
 #include <java/nio/channels/CompletionHandler.h>
 #include <java/nio/channels/NotYetBoundException.h>
@@ -32,14 +31,12 @@
 
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AcceptPendingException = ::java::nio::channels::AcceptPendingException;
 using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
-using $AsynchronousServerSocketChannel = ::java::nio::channels::AsynchronousServerSocketChannel;
 using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
 using $NotYetBoundException = ::java::nio::channels::NotYetBoundException;

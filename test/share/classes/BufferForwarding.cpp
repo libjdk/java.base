@@ -1,11 +1,9 @@
 #include <BufferForwarding.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/IndexOutOfBoundsException.h>
 #include <java/lang/StringBuffer.h>
 #include <java/lang/StringIndexOutOfBoundsException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <jcpp.h>
@@ -16,7 +14,6 @@
 #undef NON_EMPTY_VAL
 
 using $PrintStream = ::java::io::PrintStream;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Double = ::java::lang::Double;
@@ -28,7 +25,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $StringBuffer = ::java::lang::StringBuffer;
 using $StringIndexOutOfBoundsException = ::java::lang::StringIndexOutOfBoundsException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 

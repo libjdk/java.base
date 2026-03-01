@@ -2,7 +2,6 @@
 
 #include <java/io/IOException.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
-#include <java/nio/channels/ClosedChannelException.h>
 #include <sun/nio/ch/Iocp$ResultHandler.h>
 #include <sun/nio/ch/PendingIoCache.h>
 #include <jcpp.h>
@@ -14,7 +13,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
-using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $Iocp$ResultHandler = ::sun::nio::ch::Iocp$ResultHandler;
 using $PendingIoCache = ::sun::nio::ch::PendingIoCache;
 

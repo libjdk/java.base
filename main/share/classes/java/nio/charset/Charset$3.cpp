@@ -8,7 +8,6 @@
 #include <java/util/Comparator.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map.h>
-#include <java/util/NavigableMap.h>
 #include <java/util/SortedMap.h>
 #include <java/util/TreeMap.h>
 #include <jcpp.h>
@@ -27,7 +26,6 @@ using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;
-using $NavigableMap = ::java::util::NavigableMap;
 using $SortedMap = ::java::util::SortedMap;
 using $TreeMap = ::java::util::TreeMap;
 

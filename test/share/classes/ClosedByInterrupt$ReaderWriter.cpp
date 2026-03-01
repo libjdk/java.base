@@ -1,10 +1,8 @@
 #include <ClosedByInterrupt$ReaderWriter.h>
 
 #include <ClosedByInterrupt.h>
-#include <java/io/IOException.h>
 #include <java/lang/InterruptedException.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/nio/channels/AsynchronousCloseException.h>
 #include <java/nio/channels/ClosedByInterruptException.h>
 #include <java/nio/channels/ClosedChannelException.h>
 #include <java/nio/channels/FileChannel.h>
@@ -12,7 +10,6 @@
 #include <jcpp.h>
 
 using $ClosedByInterrupt = ::ClosedByInterrupt;
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
@@ -20,7 +17,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InterruptedException = ::java::lang::InterruptedException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
 using $ClosedByInterruptException = ::java::nio::channels::ClosedByInterruptException;
 using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $FileChannel = ::java::nio::channels::FileChannel;

@@ -2,8 +2,6 @@
 
 #include <java/nio/ByteBuffer.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/Locale.h>
@@ -43,8 +41,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractMap = ::java::util::AbstractMap;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $Locale = ::java::util::Locale;

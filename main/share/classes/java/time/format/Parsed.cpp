@@ -10,20 +10,17 @@
 #include <java/time/ZoneOffset.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
-#include <java/time/chrono/ChronoPeriod.h>
 #include <java/time/chrono/ChronoZonedDateTime.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/format/DateTimeFormatterBuilder$DayPeriod.h>
 #include <java/time/format/ResolverStyle.h>
 #include <java/time/temporal/ChronoField.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalAmount.h>
 #include <java/time/temporal/TemporalField.h>
 #include <java/time/temporal/TemporalQueries.h>
 #include <java/time/temporal/TemporalQuery.h>
 #include <java/time/temporal/UnsupportedTemporalTypeException.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -71,20 +68,17 @@ using $ZoneId = ::java::time::ZoneId;
 using $ZoneOffset = ::java::time::ZoneOffset;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;
-using $ChronoPeriod = ::java::time::chrono::ChronoPeriod;
 using $ChronoZonedDateTime = ::java::time::chrono::ChronoZonedDateTime;
 using $Chronology = ::java::time::chrono::Chronology;
 using $DateTimeFormatterBuilder$DayPeriod = ::java::time::format::DateTimeFormatterBuilder$DayPeriod;
 using $ResolverStyle = ::java::time::format::ResolverStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalAmount = ::java::time::temporal::TemporalAmount;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $TemporalQueries = ::java::time::temporal::TemporalQueries;
 using $TemporalQuery = ::java::time::temporal::TemporalQuery;
 using $UnsupportedTemporalTypeException = ::java::time::temporal::UnsupportedTemporalTypeException;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

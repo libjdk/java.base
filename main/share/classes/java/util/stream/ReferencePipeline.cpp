@@ -31,16 +31,10 @@
 #include <java/util/stream/Collector$Characteristics.h>
 #include <java/util/stream/Collector.h>
 #include <java/util/stream/DistinctOps.h>
-#include <java/util/stream/DoublePipeline$StatelessOp.h>
-#include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/DoubleStream.h>
 #include <java/util/stream/FindOps.h>
 #include <java/util/stream/ForEachOps.h>
-#include <java/util/stream/IntPipeline$StatelessOp.h>
-#include <java/util/stream/IntPipeline.h>
 #include <java/util/stream/IntStream.h>
-#include <java/util/stream/LongPipeline$StatelessOp.h>
-#include <java/util/stream/LongPipeline.h>
 #include <java/util/stream/LongStream.h>
 #include <java/util/stream/MatchOps$MatchKind.h>
 #include <java/util/stream/MatchOps.h>
@@ -71,7 +65,6 @@
 #include <java/util/stream/Stream.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <java/util/stream/StreamShape.h>
-#include <java/util/stream/StreamSpliterators$AbstractWrappingSpliterator.h>
 #include <java/util/stream/StreamSpliterators$DelegatingSpliterator.h>
 #include <java/util/stream/StreamSpliterators$WrappingSpliterator.h>
 #include <java/util/stream/TerminalOp.h>
@@ -126,16 +119,10 @@ using $BaseStream = ::java::util::stream::BaseStream;
 using $Collector = ::java::util::stream::Collector;
 using $Collector$Characteristics = ::java::util::stream::Collector$Characteristics;
 using $DistinctOps = ::java::util::stream::DistinctOps;
-using $DoublePipeline = ::java::util::stream::DoublePipeline;
-using $DoublePipeline$StatelessOp = ::java::util::stream::DoublePipeline$StatelessOp;
 using $DoubleStream = ::java::util::stream::DoubleStream;
 using $FindOps = ::java::util::stream::FindOps;
 using $ForEachOps = ::java::util::stream::ForEachOps;
-using $IntPipeline = ::java::util::stream::IntPipeline;
-using $IntPipeline$StatelessOp = ::java::util::stream::IntPipeline$StatelessOp;
 using $IntStream = ::java::util::stream::IntStream;
-using $LongPipeline = ::java::util::stream::LongPipeline;
-using $LongPipeline$StatelessOp = ::java::util::stream::LongPipeline$StatelessOp;
 using $LongStream = ::java::util::stream::LongStream;
 using $MatchOps = ::java::util::stream::MatchOps;
 using $MatchOps$MatchKind = ::java::util::stream::MatchOps$MatchKind;
@@ -166,7 +153,6 @@ using $SortedOps = ::java::util::stream::SortedOps;
 using $Stream = ::java::util::stream::Stream;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;
 using $StreamShape = ::java::util::stream::StreamShape;
-using $StreamSpliterators$AbstractWrappingSpliterator = ::java::util::stream::StreamSpliterators$AbstractWrappingSpliterator;
 using $StreamSpliterators$DelegatingSpliterator = ::java::util::stream::StreamSpliterators$DelegatingSpliterator;
 using $StreamSpliterators$WrappingSpliterator = ::java::util::stream::StreamSpliterators$WrappingSpliterator;
 using $WhileOps = ::java::util::stream::WhileOps;

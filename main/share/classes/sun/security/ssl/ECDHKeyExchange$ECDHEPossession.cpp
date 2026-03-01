@@ -19,7 +19,6 @@
 #include <java/security/spec/ECPublicKeySpec.h>
 #include <java/security/spec/EllipticCurve.h>
 #include <java/security/spec/KeySpec.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Set.h>
 #include <javax/crypto/KeyAgreement.h>
@@ -36,7 +35,6 @@
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -57,7 +55,6 @@ using $ECParameterSpec = ::java::security::spec::ECParameterSpec;
 using $ECPoint = ::java::security::spec::ECPoint;
 using $ECPublicKeySpec = ::java::security::spec::ECPublicKeySpec;
 using $KeySpec = ::java::security::spec::KeySpec;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Set = ::java::util::Set;
 using $KeyAgreement = ::javax::crypto::KeyAgreement;

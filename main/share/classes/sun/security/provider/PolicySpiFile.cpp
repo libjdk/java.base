@@ -1,6 +1,5 @@
 #include <sun/security/provider/PolicySpiFile.h>
 
-#include <java/io/IOException.h>
 #include <java/net/MalformedURLException.h>
 #include <java/net/URI.h>
 #include <java/net/URL.h>
@@ -14,9 +13,7 @@
 #include <sun/security/provider/PolicyFile.h>
 #include <jcpp.h>
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;

@@ -3,7 +3,6 @@
 #include <java/lang/constant/ClassDesc.h>
 #include <java/lang/constant/Constable.h>
 #include <java/lang/constant/ConstantDesc.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/Objects.h>
@@ -37,7 +36,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ClassDesc = ::java::lang::constant::ClassDesc;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Objects = ::java::util::Objects;

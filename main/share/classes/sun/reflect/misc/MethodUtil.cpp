@@ -8,7 +8,6 @@
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/Module.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/lang/reflect/InvocationTargetException.h>
@@ -23,7 +22,6 @@
 #include <java/security/PrivilegedExceptionAction.h>
 #include <java/security/SecureClassLoader.h>
 #include <java/security/cert/Certificate.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -50,7 +48,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Module = ::java::lang::Module;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
@@ -64,7 +61,6 @@ using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
 using $SecureClassLoader = ::java::security::SecureClassLoader;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;

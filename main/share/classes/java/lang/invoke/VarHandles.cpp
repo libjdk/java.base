@@ -16,7 +16,6 @@
 #include <java/lang/invoke/InfoFromMemberName.h>
 #include <java/lang/invoke/LambdaMetafactory.h>
 #include <java/lang/invoke/MemberName.h>
-#include <java/lang/invoke/MemoryAccessVarHandleBase.h>
 #include <java/lang/invoke/MemoryAccessVarHandleByteHelper.h>
 #include <java/lang/invoke/MemoryAccessVarHandleCharHelper.h>
 #include <java/lang/invoke/MemoryAccessVarHandleDoubleHelper.h>
@@ -42,22 +41,16 @@
 #include <java/lang/invoke/VarHandleBooleans$FieldStaticReadOnly.h>
 #include <java/lang/invoke/VarHandleBooleans$FieldStaticReadWrite.h>
 #include <java/lang/invoke/VarHandleByteArrayAsChars$ArrayHandle.h>
-#include <java/lang/invoke/VarHandleByteArrayAsChars$ByteArrayViewVarHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsChars$ByteBufferHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsDoubles$ArrayHandle.h>
-#include <java/lang/invoke/VarHandleByteArrayAsDoubles$ByteArrayViewVarHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsDoubles$ByteBufferHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsFloats$ArrayHandle.h>
-#include <java/lang/invoke/VarHandleByteArrayAsFloats$ByteArrayViewVarHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsFloats$ByteBufferHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsInts$ArrayHandle.h>
-#include <java/lang/invoke/VarHandleByteArrayAsInts$ByteArrayViewVarHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsInts$ByteBufferHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsLongs$ArrayHandle.h>
-#include <java/lang/invoke/VarHandleByteArrayAsLongs$ByteArrayViewVarHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsLongs$ByteBufferHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsShorts$ArrayHandle.h>
-#include <java/lang/invoke/VarHandleByteArrayAsShorts$ByteArrayViewVarHandle.h>
 #include <java/lang/invoke/VarHandleByteArrayAsShorts$ByteBufferHandle.h>
 #include <java/lang/invoke/VarHandleBytes$Array.h>
 #include <java/lang/invoke/VarHandleBytes$FieldInstanceReadOnly.h>
@@ -107,7 +100,6 @@
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Modifier.h>
 #include <java/nio/ByteOrder.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/List.h>
@@ -158,7 +150,6 @@ using $DirectMethodHandle = ::java::lang::invoke::DirectMethodHandle;
 using $IndirectVarHandle = ::java::lang::invoke::IndirectVarHandle;
 using $InfoFromMemberName = ::java::lang::invoke::InfoFromMemberName;
 using $MemberName = ::java::lang::invoke::MemberName;
-using $MemoryAccessVarHandleBase = ::java::lang::invoke::MemoryAccessVarHandleBase;
 using $MemoryAccessVarHandleByteHelper = ::java::lang::invoke::MemoryAccessVarHandleByteHelper;
 using $MemoryAccessVarHandleCharHelper = ::java::lang::invoke::MemoryAccessVarHandleCharHelper;
 using $MemoryAccessVarHandleDoubleHelper = ::java::lang::invoke::MemoryAccessVarHandleDoubleHelper;
@@ -182,22 +173,16 @@ using $VarHandleBooleans$FieldInstanceReadWrite = ::java::lang::invoke::VarHandl
 using $VarHandleBooleans$FieldStaticReadOnly = ::java::lang::invoke::VarHandleBooleans$FieldStaticReadOnly;
 using $VarHandleBooleans$FieldStaticReadWrite = ::java::lang::invoke::VarHandleBooleans$FieldStaticReadWrite;
 using $VarHandleByteArrayAsChars$ArrayHandle = ::java::lang::invoke::VarHandleByteArrayAsChars$ArrayHandle;
-using $VarHandleByteArrayAsChars$ByteArrayViewVarHandle = ::java::lang::invoke::VarHandleByteArrayAsChars$ByteArrayViewVarHandle;
 using $VarHandleByteArrayAsChars$ByteBufferHandle = ::java::lang::invoke::VarHandleByteArrayAsChars$ByteBufferHandle;
 using $VarHandleByteArrayAsDoubles$ArrayHandle = ::java::lang::invoke::VarHandleByteArrayAsDoubles$ArrayHandle;
-using $VarHandleByteArrayAsDoubles$ByteArrayViewVarHandle = ::java::lang::invoke::VarHandleByteArrayAsDoubles$ByteArrayViewVarHandle;
 using $VarHandleByteArrayAsDoubles$ByteBufferHandle = ::java::lang::invoke::VarHandleByteArrayAsDoubles$ByteBufferHandle;
 using $VarHandleByteArrayAsFloats$ArrayHandle = ::java::lang::invoke::VarHandleByteArrayAsFloats$ArrayHandle;
-using $VarHandleByteArrayAsFloats$ByteArrayViewVarHandle = ::java::lang::invoke::VarHandleByteArrayAsFloats$ByteArrayViewVarHandle;
 using $VarHandleByteArrayAsFloats$ByteBufferHandle = ::java::lang::invoke::VarHandleByteArrayAsFloats$ByteBufferHandle;
 using $VarHandleByteArrayAsInts$ArrayHandle = ::java::lang::invoke::VarHandleByteArrayAsInts$ArrayHandle;
-using $VarHandleByteArrayAsInts$ByteArrayViewVarHandle = ::java::lang::invoke::VarHandleByteArrayAsInts$ByteArrayViewVarHandle;
 using $VarHandleByteArrayAsInts$ByteBufferHandle = ::java::lang::invoke::VarHandleByteArrayAsInts$ByteBufferHandle;
 using $VarHandleByteArrayAsLongs$ArrayHandle = ::java::lang::invoke::VarHandleByteArrayAsLongs$ArrayHandle;
-using $VarHandleByteArrayAsLongs$ByteArrayViewVarHandle = ::java::lang::invoke::VarHandleByteArrayAsLongs$ByteArrayViewVarHandle;
 using $VarHandleByteArrayAsLongs$ByteBufferHandle = ::java::lang::invoke::VarHandleByteArrayAsLongs$ByteBufferHandle;
 using $VarHandleByteArrayAsShorts$ArrayHandle = ::java::lang::invoke::VarHandleByteArrayAsShorts$ArrayHandle;
-using $VarHandleByteArrayAsShorts$ByteArrayViewVarHandle = ::java::lang::invoke::VarHandleByteArrayAsShorts$ByteArrayViewVarHandle;
 using $VarHandleByteArrayAsShorts$ByteBufferHandle = ::java::lang::invoke::VarHandleByteArrayAsShorts$ByteBufferHandle;
 using $VarHandleBytes$Array = ::java::lang::invoke::VarHandleBytes$Array;
 using $VarHandleBytes$FieldInstanceReadOnly = ::java::lang::invoke::VarHandleBytes$FieldInstanceReadOnly;
@@ -246,7 +231,6 @@ using $Field = ::java::lang::reflect::Field;
 using $Method = ::java::lang::reflect::Method;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $ByteOrder = ::java::nio::ByteOrder;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $List = ::java::util::List;

@@ -1,7 +1,6 @@
 #include <sun/security/ssl/SSLKeyExchange$T13KeyAgreement.h>
 
 #include <java/security/SecureRandom.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <sun/security/ssl/HandshakeContext.h>
@@ -18,7 +17,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $HandshakeContext = ::sun::security::ssl::HandshakeContext;

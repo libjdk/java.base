@@ -10,14 +10,12 @@
 #include <java/io/OutputStreamWriter.h>
 #include <java/io/UnsupportedEncodingException.h>
 #include <java/io/Writer.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/IllegalCharsetNameException.h>
 #include <java/nio/charset/UnsupportedCharsetException.h>
 #include <java/text/DecimalFormatSymbols.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Formatter$Conversion.h>
 #include <java/util/Formatter$FixedString.h>
@@ -49,19 +47,16 @@ using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $UnsupportedEncodingException = ::java::io::UnsupportedEncodingException;
 using $Writer = ::java::io::Writer;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Charset = ::java::nio::charset::Charset;
 using $IllegalCharsetNameException = ::java::nio::charset::IllegalCharsetNameException;
 using $UnsupportedCharsetException = ::java::nio::charset::UnsupportedCharsetException;
 using $DecimalFormatSymbols = ::java::text::DecimalFormatSymbols;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Formatter$Conversion = ::java::util::Formatter$Conversion;
 using $Formatter$FixedString = ::java::util::Formatter$FixedString;

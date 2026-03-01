@@ -1,7 +1,6 @@
 #include <sun/nio/ch/SimpleAsynchronousFileChannelImpl.h>
 
 #include <java/io/FileDescriptor.h>
-#include <java/io/IOException.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/Runnable.h>
 #include <java/nio/ByteBuffer.h>
@@ -39,10 +38,8 @@
 #undef NO_LOCK
 
 using $FileDescriptor = ::java::io::FileDescriptor;
-using $IOException = ::java::io::IOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;

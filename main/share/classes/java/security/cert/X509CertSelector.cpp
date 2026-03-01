@@ -15,8 +15,6 @@
 #include <java/security/cert/Extension.h>
 #include <java/security/cert/X509CertSelector$1.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -41,7 +39,6 @@
 #include <sun/security/x509/DNSName.h>
 #include <sun/security/x509/EDIPartyName.h>
 #include <sun/security/x509/ExtendedKeyUsageExtension.h>
-#include <sun/security/x509/Extension.h>
 #include <sun/security/x509/GeneralName.h>
 #include <sun/security/x509/GeneralNameInterface.h>
 #include <sun/security/x509/GeneralNames.h>
@@ -89,7 +86,6 @@ using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -109,8 +105,6 @@ using $CertificateNotYetValidException = ::java::security::cert::CertificateNotY
 using $Extension = ::java::security::cert::Extension;
 using $X509CertSelector$1 = ::java::security::cert::X509CertSelector$1;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
@@ -135,7 +129,6 @@ using $CertificatePolicySet = ::sun::security::x509::CertificatePolicySet;
 using $DNSName = ::sun::security::x509::DNSName;
 using $EDIPartyName = ::sun::security::x509::EDIPartyName;
 using $ExtendedKeyUsageExtension = ::sun::security::x509::ExtendedKeyUsageExtension;
-using $1Extension = ::sun::security::x509::Extension;
 using $GeneralName = ::sun::security::x509::GeneralName;
 using $GeneralNameInterface = ::sun::security::x509::GeneralNameInterface;
 using $GeneralNames = ::sun::security::x509::GeneralNames;

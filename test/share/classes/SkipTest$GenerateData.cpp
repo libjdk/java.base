@@ -2,13 +2,11 @@
 
 #include <SkipTest.h>
 #include <java/io/BufferedOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <jcpp.h>
 
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $Character = ::java::lang::Character;

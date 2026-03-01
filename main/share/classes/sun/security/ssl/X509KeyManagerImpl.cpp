@@ -14,19 +14,14 @@
 #include <java/security/cert/CertPathValidatorException.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/Date.h>
 #include <java/util/Enumeration.h>
-#include <java/util/HashMap.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
-#include <java/util/LinkedHashMap.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -74,19 +69,14 @@ using $PrivateKey = ::java::security::PrivateKey;
 using $CertPathValidatorException = ::java::security::cert::CertPathValidatorException;
 using $Certificate = ::java::security::cert::Certificate;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $Date = ::java::util::Date;
 using $Enumeration = ::java::util::Enumeration;
-using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;
-using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;

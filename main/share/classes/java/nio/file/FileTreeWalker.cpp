@@ -7,7 +7,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/nio/file/DirectoryIteratorException.h>
 #include <java/nio/file/DirectoryStream.h>
-#include <java/nio/file/FileSystemException.h>
 #include <java/nio/file/FileSystemLoopException.h>
 #include <java/nio/file/FileTreeWalker$1.h>
 #include <java/nio/file/FileTreeWalker$DirectoryNode.h>
@@ -33,7 +32,6 @@ using $LinkOptionArray = $Array<::java::nio::file::LinkOption>;
 using $IOException = ::java::io::IOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
@@ -42,7 +40,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $SecurityException = ::java::lang::SecurityException;
 using $DirectoryIteratorException = ::java::nio::file::DirectoryIteratorException;
 using $DirectoryStream = ::java::nio::file::DirectoryStream;
-using $FileSystemException = ::java::nio::file::FileSystemException;
 using $FileSystemLoopException = ::java::nio::file::FileSystemLoopException;
 using $FileTreeWalker$1 = ::java::nio::file::FileTreeWalker$1;
 using $FileTreeWalker$DirectoryNode = ::java::nio::file::FileTreeWalker$DirectoryNode;

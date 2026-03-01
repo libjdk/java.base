@@ -1,7 +1,6 @@
 #include <jdk/internal/icu/text/FilteredNormalizer2.h>
 
 #include <java/io/IOException.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/InternalError.h>
@@ -14,11 +13,9 @@
 #undef SIMPLE
 
 using $IOException = ::java::io::IOException;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InternalError = ::java::lang::InternalError;

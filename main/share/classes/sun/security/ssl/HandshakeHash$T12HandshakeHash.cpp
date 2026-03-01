@@ -2,7 +2,6 @@
 
 #include <java/io/ByteArrayOutputStream.h>
 #include <java/lang/Cloneable.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <sun/security/ssl/CipherSuite$HashAlg.h>
@@ -16,12 +15,10 @@
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Cloneable = ::java::lang::Cloneable;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $CipherSuite = ::sun::security::ssl::CipherSuite;

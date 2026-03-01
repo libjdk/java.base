@@ -2,7 +2,6 @@
 
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/DistinctOps$1.h>
-#include <java/util/stream/ReferencePipeline$StatefulOp.h>
 #include <java/util/stream/ReferencePipeline.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <java/util/stream/StreamShape.h>
@@ -18,7 +17,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
 using $DistinctOps$1 = ::java::util::stream::DistinctOps$1;
 using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
-using $ReferencePipeline$StatefulOp = ::java::util::stream::ReferencePipeline$StatefulOp;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;
 using $StreamShape = ::java::util::stream::StreamShape;
 

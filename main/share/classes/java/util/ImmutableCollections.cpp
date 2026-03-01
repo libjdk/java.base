@@ -3,7 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/util/Collection.h>
-#include <java/util/ImmutableCollections$AbstractImmutableList.h>
 #include <java/util/ImmutableCollections$List12.h>
 #include <java/util/ImmutableCollections$ListN.h>
 #include <java/util/ImmutableCollections$MapN.h>
@@ -30,7 +29,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $Collection = ::java::util::Collection;
-using $ImmutableCollections$AbstractImmutableList = ::java::util::ImmutableCollections$AbstractImmutableList;
 using $ImmutableCollections$List12 = ::java::util::ImmutableCollections$List12;
 using $ImmutableCollections$ListN = ::java::util::ImmutableCollections$ListN;
 using $ImmutableCollections$MapN = ::java::util::ImmutableCollections$MapN;

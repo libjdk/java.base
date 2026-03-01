@@ -5,8 +5,6 @@
 #include <java/util/stream/DoublePipeline$4$1.h>
 #include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/LongPipeline$StatelessOp.h>
-#include <java/util/stream/Sink$ChainedDouble.h>
-#include <java/util/stream/Sink$OfDouble.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <jcpp.h>
@@ -22,8 +20,6 @@ using $DoublePipeline = ::java::util::stream::DoublePipeline;
 using $DoublePipeline$4$1 = ::java::util::stream::DoublePipeline$4$1;
 using $LongPipeline$StatelessOp = ::java::util::stream::LongPipeline$StatelessOp;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedDouble = ::java::util::stream::Sink$ChainedDouble;
-using $Sink$OfDouble = ::java::util::stream::Sink$OfDouble;
 using $StreamShape = ::java::util::stream::StreamShape;
 
 namespace java {

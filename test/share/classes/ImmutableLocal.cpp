@@ -1,12 +1,10 @@
 #include <ImmutableLocal.h>
 
 #include <ImmutableLocal$1.h>
-#include <ImmutableLocal$ImmutableThreadLocal.h>
 #include <java/lang/ThreadLocal.h>
 #include <jcpp.h>
 
 using $ImmutableLocal$1 = ::ImmutableLocal$1;
-using $ImmutableLocal$ImmutableThreadLocal = ::ImmutableLocal$ImmutableThreadLocal;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;

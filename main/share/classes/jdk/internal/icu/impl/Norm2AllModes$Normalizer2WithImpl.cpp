@@ -1,6 +1,5 @@
 #include <jdk/internal/icu/impl/Norm2AllModes$Normalizer2WithImpl.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <jdk/internal/icu/impl/Norm2AllModes.h>
@@ -9,7 +8,6 @@
 #include <jdk/internal/icu/text/Normalizer2.h>
 #include <jcpp.h>
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;

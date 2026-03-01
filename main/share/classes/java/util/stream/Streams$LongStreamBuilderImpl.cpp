@@ -4,7 +4,6 @@
 #include <java/util/Comparator.h>
 #include <java/util/Objects.h>
 #include <java/util/Spliterator$OfLong.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/function/Consumer.h>
 #include <java/util/function/LongConsumer.h>
@@ -24,7 +23,6 @@ using $Comparator = ::java::util::Comparator;
 using $Objects = ::java::util::Objects;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $Consumer = ::java::util::function::Consumer;
 using $LongConsumer = ::java::util::function::LongConsumer;
 using $LongStream = ::java::util::stream::LongStream;

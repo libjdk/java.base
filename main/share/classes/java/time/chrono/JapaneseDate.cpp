@@ -11,7 +11,6 @@
 #include <java/time/LocalTime.h>
 #include <java/time/Period.h>
 #include <java/time/ZoneId.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/ChronoLocalDateImpl.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
@@ -35,7 +34,6 @@
 #include <java/util/Locale.h>
 #include <java/util/Objects.h>
 #include <java/util/TimeZone.h>
-#include <sun/util/calendar/BaseCalendar$Date.h>
 #include <sun/util/calendar/CalendarDate.h>
 #include <sun/util/calendar/Era.h>
 #include <sun/util/calendar/LocalGregorianCalendar$Date.h>
@@ -74,7 +72,6 @@ using $LocalDate = ::java::time::LocalDate;
 using $LocalTime = ::java::time::LocalTime;
 using $Period = ::java::time::Period;
 using $ZoneId = ::java::time::ZoneId;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoLocalDateImpl = ::java::time::chrono::ChronoLocalDateImpl;
 using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;
@@ -97,7 +94,6 @@ using $ValueRange = ::java::time::temporal::ValueRange;
 using $Calendar = ::java::util::Calendar;
 using $Objects = ::java::util::Objects;
 using $TimeZone = ::java::util::TimeZone;
-using $BaseCalendar$Date = ::sun::util::calendar::BaseCalendar$Date;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;
 using $1Era = ::sun::util::calendar::Era;
 using $LocalGregorianCalendar = ::sun::util::calendar::LocalGregorianCalendar;

@@ -72,7 +72,6 @@ using $NoSuchFieldException = ::java::lang::NoSuchFieldException;
 using $NoSuchMethodError = ::java::lang::NoSuchMethodError;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
 using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $CallSite = ::java::lang::invoke::CallSite;
 using $ConstantBootstraps = ::java::lang::invoke::ConstantBootstraps;
 using $ConstantCallSite = ::java::lang::invoke::ConstantCallSite;

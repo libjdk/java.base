@@ -1,6 +1,5 @@
 #include <java/util/ListResourceBundle.h>
 
-#include <java/util/AbstractMap.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -14,7 +13,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Enumeration = ::java::util::Enumeration;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;

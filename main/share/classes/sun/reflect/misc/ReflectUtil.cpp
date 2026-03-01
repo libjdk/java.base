@@ -8,7 +8,6 @@
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Modifier.h>
 #include <java/lang/reflect/Proxy.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <jdk/internal/reflect/Reflection.h>
 #include <sun/security/util/SecurityConstants.h>
@@ -28,7 +27,6 @@ using $Member = ::java::lang::reflect::Member;
 using $Method = ::java::lang::reflect::Method;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $Proxy = ::java::lang::reflect::Proxy;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Reflection = ::jdk::internal::reflect::Reflection;
 using $SecurityConstants = ::sun::security::util::SecurityConstants;

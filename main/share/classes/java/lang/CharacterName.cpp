@@ -1,7 +1,6 @@
 #include <java/lang/CharacterName.h>
 
 #include <java/io/DataInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/lang/CharacterName$1.h>
 #include <java/lang/InternalError.h>
@@ -18,7 +17,6 @@
 #undef MAX_CODE_POINT
 
 using $DataInputStream = ::java::io::DataInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $Character = ::java::lang::Character;
 using $CharacterName$1 = ::java::lang::CharacterName$1;

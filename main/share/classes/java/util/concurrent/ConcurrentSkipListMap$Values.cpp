@@ -8,9 +8,7 @@
 #include <java/util/Map.h>
 #include <java/util/Spliterator.h>
 #include <java/util/concurrent/ConcurrentNavigableMap.h>
-#include <java/util/concurrent/ConcurrentSkipListMap$Iter.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap$SubMapEntryIterator.h>
-#include <java/util/concurrent/ConcurrentSkipListMap$SubMap$SubMapIter.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap$SubMapValueIterator.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$ValueIterator.h>
@@ -32,10 +30,8 @@ using $Map$Entry = ::java::util::Map$Entry;
 using $Spliterator = ::java::util::Spliterator;
 using $ConcurrentNavigableMap = ::java::util::concurrent::ConcurrentNavigableMap;
 using $ConcurrentSkipListMap = ::java::util::concurrent::ConcurrentSkipListMap;
-using $ConcurrentSkipListMap$Iter = ::java::util::concurrent::ConcurrentSkipListMap$Iter;
 using $ConcurrentSkipListMap$SubMap = ::java::util::concurrent::ConcurrentSkipListMap$SubMap;
 using $ConcurrentSkipListMap$SubMap$SubMapEntryIterator = ::java::util::concurrent::ConcurrentSkipListMap$SubMap$SubMapEntryIterator;
-using $ConcurrentSkipListMap$SubMap$SubMapIter = ::java::util::concurrent::ConcurrentSkipListMap$SubMap$SubMapIter;
 using $ConcurrentSkipListMap$SubMap$SubMapValueIterator = ::java::util::concurrent::ConcurrentSkipListMap$SubMap$SubMapValueIterator;
 using $ConcurrentSkipListMap$ValueIterator = ::java::util::concurrent::ConcurrentSkipListMap$ValueIterator;
 using $Predicate = ::java::util::function::Predicate;

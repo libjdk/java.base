@@ -1,7 +1,6 @@
 #include <java/util/zip/ZipInputStream.h>
 
 #include <java/io/EOFException.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/PushbackInputStream.h>
@@ -17,7 +16,6 @@
 #include <java/util/zip/ZipException.h>
 #include <java/util/zip/ZipUtils.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef DEFLATED
@@ -41,7 +39,6 @@
 #undef STORED
 
 using $EOFException = ::java::io::EOFException;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $PushbackInputStream = ::java::io::PushbackInputStream;
@@ -64,7 +61,6 @@ using $ZipEntry = ::java::util::zip::ZipEntry;
 using $ZipException = ::java::util::zip::ZipException;
 using $ZipUtils = ::java::util::zip::ZipUtils;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace java {
 	namespace util {

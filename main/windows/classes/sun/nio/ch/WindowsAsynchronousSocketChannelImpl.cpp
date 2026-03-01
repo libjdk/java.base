@@ -9,7 +9,6 @@
 #include <java/net/SocketAddress.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/channels/AlreadyConnectedException.h>
-#include <java/nio/channels/AsynchronousByteChannel.h>
 #include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/AsynchronousSocketChannel.h>
 #include <java/nio/channels/ClosedChannelException.h>
@@ -52,7 +51,6 @@
 using $ByteBufferArray = $Array<::java::nio::ByteBuffer>;
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -63,9 +61,7 @@ using $InetSocketAddress = ::java::net::InetSocketAddress;
 using $SocketAddress = ::java::net::SocketAddress;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AlreadyConnectedException = ::java::nio::channels::AlreadyConnectedException;
-using $AsynchronousByteChannel = ::java::nio::channels::AsynchronousByteChannel;
 using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
-using $AsynchronousSocketChannel = ::java::nio::channels::AsynchronousSocketChannel;
 using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
 using $ConnectionPendingException = ::java::nio::channels::ConnectionPendingException;

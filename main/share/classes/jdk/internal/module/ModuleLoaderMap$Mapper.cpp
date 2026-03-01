@@ -3,7 +3,6 @@
 #include <java/lang/ClassLoader.h>
 #include <java/lang/module/Configuration.h>
 #include <java/lang/module/ResolvedModule.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map.h>
@@ -26,7 +25,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Configuration = ::java::lang::module::Configuration;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

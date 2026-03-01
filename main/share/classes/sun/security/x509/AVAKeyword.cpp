@@ -1,7 +1,6 @@
 #include <sun/security/x509/AVAKeyword.h>
 
 #include <java/io/IOException.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
 #include <java/util/Locale.h>
@@ -28,7 +27,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;
 using $Locale = ::java::util::Locale;

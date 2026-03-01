@@ -21,6 +21,9 @@
 #include "jvm.h"
 #include "OS.h"
 #include "JavaThread.h"
+#include "StackWalk.h"
+
+#include <java/lang/Logger.h>
 #include "WindowsSemaphore.h"
 #include "Arguments.h"
 #include "WindowsDecoder.h"
@@ -54,6 +57,7 @@ namespace java {
 
 using ::java::lang::ObjectManagerInternal;
 using ::java::lang::NullPointerException;
+using namespace ::java::lang;
 
 WindowsDecoder windowsDecoder;
 PVOID  topLevelVectoredExceptionHandler = nullptr;
@@ -839,6 +843,9 @@ LONG WINAPI topLevelVectoredExceptionFilter(struct _EXCEPTION_POINTERS* exceptio
 			}
 			log_info("topLevelVectoredExceptionFilter exceptionCode:0x%x pc:%p flag:0x%x subcode:%d addr:%p\n",
 				exceptionCode, pc, exceptionRecord->ExceptionFlags, exceptionSubcode, addr);
+		}
+		if (Logger::isLoggable(Logger::LOG_INFO)) {
+			StackWalk::printStackTrace(nullptr);
 		}
 		//#endif
 				//dump(exceptionInfo->ContextRecord, exceptionRecord);

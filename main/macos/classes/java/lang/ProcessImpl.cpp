@@ -1,13 +1,9 @@
 #include <java/lang/ProcessImpl.h>
 
-#include <java/io/BufferedInputStream.h>
-#include <java/io/BufferedOutputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileDescriptor.h>
 #include <java/io/FileInputStream.h>
 #include <java/io/FileOutputStream.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -37,7 +33,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
@@ -61,14 +56,10 @@
 
 using $ProcessBuilder$RedirectArray = $Array<::java::lang::ProcessBuilder$Redirect>;
 using $byteArray2 = $Array<int8_t, 2>;
-using $BufferedInputStream = ::java::io::BufferedInputStream;
-using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $File = ::java::io::File;
 using $FileDescriptor = ::java::io::FileDescriptor;
 using $FileInputStream = ::java::io::FileInputStream;
 using $FileOutputStream = ::java::io::FileOutputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -100,7 +91,6 @@ using $SecurityManager = ::java::lang::SecurityManager;
 using $Void = ::java::lang::Void;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;

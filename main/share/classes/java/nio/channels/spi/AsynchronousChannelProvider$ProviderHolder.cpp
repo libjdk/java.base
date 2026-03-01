@@ -4,7 +4,6 @@
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/InstantiationException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/SecurityException.h>
 #include <java/nio/channels/spi/AsynchronousChannelProvider$ProviderHolder$1.h>
 #include <java/nio/channels/spi/AsynchronousChannelProvider.h>
@@ -18,14 +17,11 @@
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InstantiationException = ::java::lang::InstantiationException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $AsynchronousChannelProvider = ::java::nio::channels::spi::AsynchronousChannelProvider;
 using $AsynchronousChannelProvider$ProviderHolder$1 = ::java::nio::channels::spi::AsynchronousChannelProvider$ProviderHolder$1;

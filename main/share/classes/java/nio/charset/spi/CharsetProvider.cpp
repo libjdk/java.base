@@ -3,7 +3,6 @@
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityManager.h>
 #include <java/nio/charset/Charset.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Iterator.h>
 #include <jcpp.h>
@@ -14,7 +13,6 @@ using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $Void = ::java::lang::Void;
 using $Charset = ::java::nio::charset::Charset;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Iterator = ::java::util::Iterator;
 

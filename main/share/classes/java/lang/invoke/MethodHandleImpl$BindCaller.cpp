@@ -7,7 +7,6 @@
 #include <java/lang/InternalError.h>
 #include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/SecurityException.h>
-#include <java/lang/invoke/DelegatingMethodHandle.h>
 #include <java/lang/invoke/LambdaForm.h>
 #include <java/lang/invoke/MemberName.h>
 #include <java/lang/invoke/MethodHandle.h>
@@ -35,14 +34,12 @@ using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassValue = ::java::lang::ClassValue;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $SecurityException = ::java::lang::SecurityException;
-using $DelegatingMethodHandle = ::java::lang::invoke::DelegatingMethodHandle;
 using $LambdaForm = ::java::lang::invoke::LambdaForm;
 using $MemberName = ::java::lang::invoke::MemberName;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;

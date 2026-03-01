@@ -3,7 +3,6 @@
 #include <java/lang/NumberFormatException.h>
 #include <java/security/InvalidParameterException.h>
 #include <java/security/ProviderException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/concurrent/ConcurrentHashMap.h>
@@ -36,7 +35,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NumberFormatException = ::java::lang::NumberFormatException;
 using $InvalidParameterException = ::java::security::InvalidParameterException;
 using $ProviderException = ::java::security::ProviderException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $ConcurrentHashMap = ::java::util::concurrent::ConcurrentHashMap;

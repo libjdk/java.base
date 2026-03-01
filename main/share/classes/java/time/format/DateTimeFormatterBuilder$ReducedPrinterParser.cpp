@@ -16,7 +16,6 @@
 #include <java/time/format/DateTimeParseContext.h>
 #include <java/time/format/DateTimePrintContext.h>
 #include <java/time/format/SignStyle.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalField.h>
 #include <java/time/temporal/ValueRange.h>
@@ -46,7 +45,6 @@ using $DateTimeFormatterBuilder$NumberPrinterParser = ::java::time::format::Date
 using $DateTimeParseContext = ::java::time::format::DateTimeParseContext;
 using $DateTimePrintContext = ::java::time::format::DateTimePrintContext;
 using $SignStyle = ::java::time::format::SignStyle;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $ValueRange = ::java::time::temporal::ValueRange;

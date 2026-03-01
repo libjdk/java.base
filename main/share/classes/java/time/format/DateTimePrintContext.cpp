@@ -12,7 +12,6 @@
 #include <java/time/format/DateTimePrintContext$1.h>
 #include <java/time/format/DecimalStyle.h>
 #include <java/time/temporal/ChronoField.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalField.h>
 #include <java/time/temporal/TemporalQueries.h>
@@ -45,7 +44,6 @@ using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;
 using $DateTimePrintContext$1 = ::java::time::format::DateTimePrintContext$1;
 using $DecimalStyle = ::java::time::format::DecimalStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $TemporalQueries = ::java::time::temporal::TemporalQueries;

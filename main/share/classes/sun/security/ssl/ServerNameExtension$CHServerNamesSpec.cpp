@@ -1,14 +1,10 @@
 #include <sun/security/ssl/ServerNameExtension$CHServerNamesSpec.h>
 
-#include <java/io/IOException.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/List.h>
@@ -33,29 +29,22 @@
 #undef SNI_HOST_NAME
 #undef UTF_8
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;
 using $SNIHostName = ::javax::net::ssl::SNIHostName;
 using $SNIServerName = ::javax::net::ssl::SNIServerName;
-using $SSLException = ::javax::net::ssl::SSLException;
 using $SSLProtocolException = ::javax::net::ssl::SSLProtocolException;
 using $StandardConstants = ::javax::net::ssl::StandardConstants;
 using $Alert = ::sun::security::ssl::Alert;

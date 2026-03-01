@@ -1,6 +1,5 @@
 #include <sun/util/locale/provider/HostLocaleProviderAdapterImpl$6.h>
 
-#include <java/util/AbstractMap.h>
 #include <java/util/Calendar.h>
 #include <java/util/HashMap.h>
 #include <java/util/Locale.h>
@@ -17,7 +16,6 @@ using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Calendar = ::java::util::Calendar;
 using $HashMap = ::java::util::HashMap;
 using $Locale = ::java::util::Locale;

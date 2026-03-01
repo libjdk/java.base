@@ -15,7 +15,6 @@
 #undef TYPE
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;

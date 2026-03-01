@@ -36,9 +36,7 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
@@ -47,7 +45,6 @@ using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NumberFormatException = ::java::lang::NumberFormatException;
 using $Runtime = ::java::lang::Runtime;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Thread$State = ::java::lang::Thread$State;
 using $Collections = ::java::util::Collections;
 using $List = ::java::util::List;

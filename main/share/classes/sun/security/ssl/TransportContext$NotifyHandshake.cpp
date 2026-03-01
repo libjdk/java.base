@@ -3,7 +3,6 @@
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -23,7 +22,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

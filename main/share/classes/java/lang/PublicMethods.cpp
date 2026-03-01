@@ -3,9 +3,7 @@
 #include <java/lang/PublicMethods$Key.h>
 #include <java/lang/PublicMethods$MethodList.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/Map.h>
@@ -19,9 +17,7 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $PublicMethods$Key = ::java::lang::PublicMethods$Key;
 using $PublicMethods$MethodList = ::java::lang::PublicMethods$MethodList;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $Map = ::java::util::Map;

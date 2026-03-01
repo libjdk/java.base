@@ -5,9 +5,6 @@
 #include <java/security/AlgorithmParameters.h>
 #include <java/security/CryptoPrimitive.h>
 #include <java/security/SecureRandom.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/EnumSet.h>
@@ -81,9 +78,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $AlgorithmConstraints = ::java::security::AlgorithmConstraints;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $CryptoPrimitive = ::java::security::CryptoPrimitive;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $EnumSet = ::java::util::EnumSet;

@@ -10,7 +10,6 @@
 #include <java/security/cert/CertPathValidatorException$Reason.h>
 #include <java/security/cert/CertPathValidatorException.h>
 #include <java/security/cert/Certificate.h>
-#include <java/security/cert/CertificateException.h>
 #include <java/security/cert/CertificateExpiredException.h>
 #include <java/security/cert/CertificateNotYetValidException.h>
 #include <java/security/cert/PKIXCertPathChecker.h>
@@ -36,7 +35,6 @@
 #undef NOT_YET_VALID
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BigInteger = ::java::math::BigInteger;
@@ -49,7 +47,6 @@ using $CertPathValidatorException = ::java::security::cert::CertPathValidatorExc
 using $CertPathValidatorException$BasicReason = ::java::security::cert::CertPathValidatorException$BasicReason;
 using $CertPathValidatorException$Reason = ::java::security::cert::CertPathValidatorException$Reason;
 using $Certificate = ::java::security::cert::Certificate;
-using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateExpiredException = ::java::security::cert::CertificateExpiredException;
 using $CertificateNotYetValidException = ::java::security::cert::CertificateNotYetValidException;
 using $PKIXCertPathChecker = ::java::security::cert::PKIXCertPathChecker;

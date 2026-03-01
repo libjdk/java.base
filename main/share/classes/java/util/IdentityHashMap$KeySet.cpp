@@ -4,7 +4,6 @@
 #include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/ConcurrentModificationException.h>
-#include <java/util/IdentityHashMap$IdentityHashMapIterator.h>
 #include <java/util/IdentityHashMap$KeyIterator.h>
 #include <java/util/IdentityHashMap$KeySpliterator.h>
 #include <java/util/IdentityHashMap.h>
@@ -22,7 +21,6 @@ using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;
 using $IdentityHashMap = ::java::util::IdentityHashMap;
-using $IdentityHashMap$IdentityHashMapIterator = ::java::util::IdentityHashMap$IdentityHashMapIterator;
 using $IdentityHashMap$KeyIterator = ::java::util::IdentityHashMap$KeyIterator;
 using $IdentityHashMap$KeySpliterator = ::java::util::IdentityHashMap$KeySpliterator;
 using $Iterator = ::java::util::Iterator;

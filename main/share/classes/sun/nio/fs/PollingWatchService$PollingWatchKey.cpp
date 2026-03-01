@@ -11,7 +11,6 @@
 #include <java/nio/file/WatchEvent$Kind.h>
 #include <java/nio/file/Watchable.h>
 #include <java/nio/file/attribute/FileTime.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -47,7 +46,6 @@ using $LinkOption = ::java::nio::file::LinkOption;
 using $Path = ::java::nio::file::Path;
 using $StandardWatchEventKinds = ::java::nio::file::StandardWatchEventKinds;
 using $FileTime = ::java::nio::file::attribute::FileTime;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

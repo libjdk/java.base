@@ -1,12 +1,10 @@
 #include <sun/util/locale/provider/HostLocaleProviderAdapterImpl.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/text/spi/DateFormatProvider.h>
 #include <java/text/spi/DateFormatSymbolsProvider.h>
 #include <java/text/spi/DecimalFormatSymbolsProvider.h>
 #include <java/text/spi/NumberFormatProvider.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Calendar.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -63,7 +61,6 @@
 #undef NF_PERCENT
 
 using $LocaleArray = $Array<::java::util::Locale>;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
@@ -73,7 +70,6 @@ using $DateFormatProvider = ::java::text::spi::DateFormatProvider;
 using $DateFormatSymbolsProvider = ::java::text::spi::DateFormatSymbolsProvider;
 using $DecimalFormatSymbolsProvider = ::java::text::spi::DecimalFormatSymbolsProvider;
 using $NumberFormatProvider = ::java::text::spi::NumberFormatProvider;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Calendar = ::java::util::Calendar;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

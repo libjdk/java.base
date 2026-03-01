@@ -4,24 +4,18 @@
 #include <java/lang/Runnable.h>
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
-#include <java/lang/invoke/MethodHandles.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/lang/runtime/ObjectMethods.h>
 #include <java/util/Objects.h>
 #include <sun/nio/ch/IOUtil.h>
 #include <jcpp.h>
 
-using $MethodHandleArray = $Array<::java::lang::invoke::MethodHandle>;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Record = ::java::lang::Record;
 using $Runnable = ::java::lang::Runnable;
-using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $MethodHandles = ::java::lang::invoke::MethodHandles;
-using $MethodType = ::java::lang::invoke::MethodType;
-using $ObjectMethods = ::java::lang::runtime::ObjectMethods;
 using $Objects = ::java::util::Objects;
 
 namespace sun {
@@ -120,18 +114,15 @@ $Runnable* IOUtil$LinkedRunnable::next() {
 }
 
 $String* IOUtil$LinkedRunnable::toString() {
-	$useLocalCurrentObjectStackCache();
-	return $cast($String, $cast($MethodHandle, $($ObjectMethods::bootstrap($($MethodHandles::lookup()), "toString"_s, $($MethodType::methodType(nullptr)), IOUtil$LinkedRunnable::class$, "node;next"_s, $$new($MethodHandleArray, {nullptr, nullptr}))))->invoke($$new($ObjectArray, {$of(this)})));
+	return IOUtil$LinkedRunnable::class$->bootstrapToString(this);
 }
 
 int32_t IOUtil$LinkedRunnable::hashCode() {
-	$useLocalCurrentObjectStackCache();
-	return $intValue($cast($MethodHandle, $($ObjectMethods::bootstrap($($MethodHandles::lookup()), "hashCode"_s, $($MethodType::methodType(nullptr)), IOUtil$LinkedRunnable::class$, "node;next"_s, $$new($MethodHandleArray, {nullptr, nullptr}))))->invoke($$new($ObjectArray, {$of(this)})));
+	return IOUtil$LinkedRunnable::class$->bootstrapHashCode(this);
 }
 
 bool IOUtil$LinkedRunnable::equals(Object$* o) {
-	$useLocalCurrentObjectStackCache();
-	return $booleanValue($cast($MethodHandle, $($ObjectMethods::bootstrap($($MethodHandles::lookup()), "equals"_s, $($MethodType::methodType(nullptr)), IOUtil$LinkedRunnable::class$, "node;next"_s, $$new($MethodHandleArray, {nullptr, nullptr}))))->invoke($$new($ObjectArray, {$of(this), o})));
+	return IOUtil$LinkedRunnable::class$->bootstrapEquals(this, o);
 }
 
 IOUtil$LinkedRunnable::IOUtil$LinkedRunnable() {

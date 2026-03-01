@@ -2,7 +2,6 @@
 
 #include <java/lang/CharSequence.h>
 #include <java/time/ZoneId.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/chrono/IsoChronology.h>
 #include <java/time/format/DateTimeFormatter.h>
@@ -30,7 +29,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ZoneId = ::java::time::ZoneId;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $Chronology = ::java::time::chrono::Chronology;
 using $IsoChronology = ::java::time::chrono::IsoChronology;
 using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;

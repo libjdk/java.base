@@ -9,7 +9,6 @@
 #include <java/nio/file/attribute/GroupPrincipal.h>
 #include <java/nio/file/attribute/PosixFileAttributes.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -45,7 +44,6 @@ using $FileTime = ::java::nio::file::attribute::FileTime;
 using $GroupPrincipal = ::java::nio::file::attribute::GroupPrincipal;
 using $PosixFileAttributes = ::java::nio::file::attribute::PosixFileAttributes;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;

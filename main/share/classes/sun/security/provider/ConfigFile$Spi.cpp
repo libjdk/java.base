@@ -17,16 +17,12 @@
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
 #include <java/security/Security.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedList.h>
@@ -81,16 +77,12 @@ using $URI = ::java::net::URI;
 using $URL = ::java::net::URL;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
 using $Security = ::java::security::Security;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedList = ::java::util::LinkedList;

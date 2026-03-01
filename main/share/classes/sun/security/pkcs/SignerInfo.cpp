@@ -1,11 +1,9 @@
 #include <sun/security/pkcs/SignerInfo.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/math/BigInteger.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/MessageDigest.h>
@@ -22,9 +20,6 @@
 #include <java/security/cert/X509Certificate.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <java/security/spec/PSSParameterSpec.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Date.h>
 #include <java/util/HashMap.h>
@@ -71,7 +66,6 @@
 using $X509CertificateArray = $Array<::java::security::cert::X509Certificate>;
 using $SignerInfoArray = $Array<::sun::security::pkcs::SignerInfo>;
 using $DerValueArray = $Array<::sun::security::util::DerValue>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $Boolean = ::java::lang::Boolean;
@@ -81,7 +75,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BigInteger = ::java::math::BigInteger;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $MessageDigest = ::java::security::MessageDigest;
@@ -97,9 +90,6 @@ using $CertPathValidatorException = ::java::security::cert::CertPathValidatorExc
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $PSSParameterSpec = ::java::security::spec::PSSParameterSpec;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;

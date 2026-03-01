@@ -2,7 +2,6 @@
 
 #include <java/lang/CharSequence.h>
 #include <java/lang/Math.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/util/Objects.h>
 #include <javax/crypto/Mac.h>
@@ -15,13 +14,11 @@
 
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $Objects = ::java::util::Objects;
 using $Mac = ::javax::crypto::Mac;

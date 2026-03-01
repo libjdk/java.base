@@ -12,8 +12,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodHandles.h>
 #include <java/lang/invoke/VarHandle.h>
-#include <java/util/AbstractCollection.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap$SimpleImmutableEntry.h>
 #include <java/util/AbstractMap.h>
 #include <java/util/AbstractSet.h>
@@ -64,7 +62,6 @@ using $ClassCastException = ::java::lang::ClassCastException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $Comparable = ::java::lang::Comparable;
-using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalStateException = ::java::lang::IllegalStateException;
@@ -74,12 +71,9 @@ using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandles = ::java::lang::invoke::MethodHandles;
 using $MethodHandles$Lookup = ::java::lang::invoke::MethodHandles$Lookup;
 using $VarHandle = ::java::lang::invoke::VarHandle;
-using $AbstractCollection = ::java::util::AbstractCollection;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractMap$SimpleImmutableEntry = ::java::util::AbstractMap$SimpleImmutableEntry;
 using $AbstractSet = ::java::util::AbstractSet;

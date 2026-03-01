@@ -33,7 +33,6 @@ using $Appendable = ::java::lang::Appendable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Charset = ::java::nio::charset::Charset;
 using $IllegalCharsetNameException = ::java::nio::charset::IllegalCharsetNameException;

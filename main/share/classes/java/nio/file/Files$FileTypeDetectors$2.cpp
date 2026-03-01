@@ -3,7 +3,6 @@
 #include <java/lang/ClassLoader.h>
 #include <java/nio/file/Files$FileTypeDetectors.h>
 #include <java/nio/file/spi/FileTypeDetector.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -16,7 +15,6 @@ using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $FileTypeDetector = ::java::nio::file::spi::FileTypeDetector;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

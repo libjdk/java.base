@@ -5,7 +5,6 @@
 #include <java/security/Provider$Service.h>
 #include <java/security/Provider.h>
 #include <java/security/Security.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -40,7 +39,6 @@ using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $Provider = ::java::security::Provider;
 using $Provider$Service = ::java::security::Provider$Service;
 using $Security = ::java::security::Security;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

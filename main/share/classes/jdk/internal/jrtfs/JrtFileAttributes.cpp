@@ -1,13 +1,11 @@
 #include <jdk/internal/jrtfs/JrtFileAttributes.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/nio/file/attribute/FileTime.h>
 #include <java/util/Formatter.h>
 #include <jdk/internal/jimage/ImageReader$Node.h>
 #include <jcpp.h>
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;

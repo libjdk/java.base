@@ -7,14 +7,10 @@
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/LongPipeline$StatefulOp.h>
 #include <java/util/stream/Node$OfLong.h>
-#include <java/util/stream/Node$OfPrimitive.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
-#include <java/util/stream/Sink$ChainedLong.h>
-#include <java/util/stream/Sink$OfLong.h>
 #include <java/util/stream/Sink.h>
-#include <java/util/stream/SortedOps$AbstractLongSortingSink.h>
 #include <java/util/stream/SortedOps$LongSortingSink.h>
 #include <java/util/stream/SortedOps$SizedLongSortingSink.h>
 #include <java/util/stream/SortedOps.h>
@@ -39,13 +35,9 @@ using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
 using $LongPipeline$StatefulOp = ::java::util::stream::LongPipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
 using $Node$OfLong = ::java::util::stream::Node$OfLong;
-using $Node$OfPrimitive = ::java::util::stream::Node$OfPrimitive;
 using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedLong = ::java::util::stream::Sink$ChainedLong;
-using $Sink$OfLong = ::java::util::stream::Sink$OfLong;
-using $SortedOps$AbstractLongSortingSink = ::java::util::stream::SortedOps$AbstractLongSortingSink;
 using $SortedOps$LongSortingSink = ::java::util::stream::SortedOps$LongSortingSink;
 using $SortedOps$SizedLongSortingSink = ::java::util::stream::SortedOps$SizedLongSortingSink;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;

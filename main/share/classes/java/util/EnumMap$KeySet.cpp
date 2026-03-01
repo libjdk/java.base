@@ -1,7 +1,6 @@
 #include <java/util/EnumMap$KeySet.h>
 
 #include <java/util/AbstractSet.h>
-#include <java/util/EnumMap$EnumMapIterator.h>
 #include <java/util/EnumMap$KeyIterator.h>
 #include <java/util/EnumMap.h>
 #include <java/util/Iterator.h>
@@ -13,7 +12,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AbstractSet = ::java::util::AbstractSet;
 using $EnumMap = ::java::util::EnumMap;
-using $EnumMap$EnumMapIterator = ::java::util::EnumMap$EnumMapIterator;
 using $EnumMap$KeyIterator = ::java::util::EnumMap$KeyIterator;
 using $Iterator = ::java::util::Iterator;
 

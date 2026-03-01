@@ -9,7 +9,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodHandles.h>
 #include <java/lang/invoke/VarHandle.h>
-#include <java/net/DelegatingSocketImpl.h>
 #include <java/net/HttpConnectSocketImpl.h>
 #include <java/net/Inet4Address.h>
 #include <java/net/Inet6Address.h>
@@ -28,7 +27,6 @@
 #include <java/net/SocketOptions.h>
 #include <java/net/SocksSocketImpl.h>
 #include <java/nio/channels/SocketChannel.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Collections.h>
 #include <java/util/Objects.h>
@@ -75,7 +73,6 @@ using $Void = ::java::lang::Void;
 using $MethodHandles = ::java::lang::invoke::MethodHandles;
 using $MethodHandles$Lookup = ::java::lang::invoke::MethodHandles$Lookup;
 using $VarHandle = ::java::lang::invoke::VarHandle;
-using $DelegatingSocketImpl = ::java::net::DelegatingSocketImpl;
 using $HttpConnectSocketImpl = ::java::net::HttpConnectSocketImpl;
 using $Inet4Address = ::java::net::Inet4Address;
 using $Inet6Address = ::java::net::Inet6Address;
@@ -93,7 +90,6 @@ using $SocketOption = ::java::net::SocketOption;
 using $SocketOptions = ::java::net::SocketOptions;
 using $SocksSocketImpl = ::java::net::SocksSocketImpl;
 using $SocketChannel = ::java::nio::channels::SocketChannel;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Collections = ::java::util::Collections;
 using $Objects = ::java::util::Objects;

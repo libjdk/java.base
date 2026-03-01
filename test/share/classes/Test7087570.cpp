@@ -13,7 +13,6 @@
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collections.h>
@@ -48,7 +47,6 @@ using $MethodType = ::java::lang::invoke::MethodType;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $Field = ::java::lang::reflect::Field;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collections = ::java::util::Collections;

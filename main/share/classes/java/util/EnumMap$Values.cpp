@@ -1,7 +1,6 @@
 #include <java/util/EnumMap$Values.h>
 
 #include <java/util/AbstractCollection.h>
-#include <java/util/EnumMap$EnumMapIterator.h>
 #include <java/util/EnumMap$ValueIterator.h>
 #include <java/util/EnumMap.h>
 #include <java/util/Iterator.h>
@@ -13,7 +12,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $EnumMap = ::java::util::EnumMap;
-using $EnumMap$EnumMapIterator = ::java::util::EnumMap$EnumMapIterator;
 using $EnumMap$ValueIterator = ::java::util::EnumMap$ValueIterator;
 using $Iterator = ::java::util::Iterator;
 

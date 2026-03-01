@@ -21,7 +21,6 @@
 #include <java/security/Security.h>
 #include <java/security/cert/X509Certificate.h>
 #include <java/text/Collator.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -64,7 +63,6 @@ using $Provider = ::java::security::Provider;
 using $Security = ::java::security::Security;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $Collator = ::java::text::Collator;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

@@ -1,8 +1,6 @@
 #include <sun/net/www/protocol/ftp/FtpURLConnection.h>
 
 #include <java/io/FileNotFoundException.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -53,8 +51,6 @@
 #undef SOCKS
 
 using $FileNotFoundException = ::java::io::FileNotFoundException;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -65,7 +61,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $InetSocketAddress = ::java::net::InetSocketAddress;
 using $MalformedURLException = ::java::net::MalformedURLException;
 using $Proxy = ::java::net::Proxy;

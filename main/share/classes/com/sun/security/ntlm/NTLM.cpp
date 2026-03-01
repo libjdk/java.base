@@ -2,7 +2,6 @@
 
 #include <com/sun/security/ntlm/NTLMException.h>
 #include <com/sun/security/ntlm/Version.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/AssertionError.h>
@@ -40,7 +39,6 @@
 
 using $NTLMException = ::com::sun::security::ntlm::NTLMException;
 using $Version = ::com::sun::security::ntlm::Version;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;

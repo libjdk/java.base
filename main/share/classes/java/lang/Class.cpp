@@ -27,7 +27,6 @@
 #include <java/lang/PublicMethods$MethodList.h>
 #include <java/lang/PublicMethods.h>
 #include <java/lang/Record.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
@@ -59,7 +58,6 @@
 #include <java/net/URL.h>
 #include <java/security/AccessController.h>
 #include <java/security/AllPermission.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
 #include <java/security/PermissionCollection.h>
@@ -67,8 +65,6 @@
 #include <java/security/PrivilegedAction.h>
 #include <java/security/ProtectionDomain.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
@@ -108,7 +104,6 @@
 #include <sun/reflect/generics/repository/ClassRepository.h>
 #include <sun/reflect/generics/repository/ConstructorRepository.h>
 #include <sun/reflect/generics/repository/MethodRepository.h>
-#include <sun/reflect/generics/scope/AbstractScope.h>
 #include <sun/reflect/generics/scope/ClassScope.h>
 #include <sun/reflect/generics/scope/Scope.h>
 #include <sun/reflect/misc/ReflectUtil.h>
@@ -189,7 +184,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
@@ -207,7 +201,6 @@ using $Package = ::java::lang::Package;
 using $PublicMethods = ::java::lang::PublicMethods;
 using $PublicMethods$MethodList = ::java::lang::PublicMethods$MethodList;
 using $Record = ::java::lang::Record;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $Void = ::java::lang::Void;
@@ -233,7 +226,6 @@ using $Type = ::java::lang::reflect::Type;
 using $TypeVariable = ::java::lang::reflect::TypeVariable;
 using $URL = ::java::net::URL;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;
@@ -241,8 +233,6 @@ using $Permissions = ::java::security::Permissions;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ProtectionDomain = ::java::security::ProtectionDomain;
 using $AbstractCollection = ::java::util::AbstractCollection;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
@@ -281,7 +271,6 @@ using $GenericsFactory = ::sun::reflect::generics::factory::GenericsFactory;
 using $ClassRepository = ::sun::reflect::generics::repository::ClassRepository;
 using $ConstructorRepository = ::sun::reflect::generics::repository::ConstructorRepository;
 using $MethodRepository = ::sun::reflect::generics::repository::MethodRepository;
-using $AbstractScope = ::sun::reflect::generics::scope::AbstractScope;
 using $ClassScope = ::sun::reflect::generics::scope::ClassScope;
 using $Scope = ::sun::reflect::generics::scope::Scope;
 using $ReflectUtil = ::sun::reflect::misc::ReflectUtil;
@@ -4051,7 +4040,7 @@ Object* Class::allocateInstance() {
 	if (allocateInstanceFunction != nullptr) {
 		return allocateInstanceFunction(this);
 	}
-	$throwNew($ReflectiveOperationException);
+	$shouldNotReachHere();
 }
 
 #define MAX_VAR_UNION_LENGTH 16
@@ -4626,6 +4615,33 @@ int32_t Class::arrayDimension() {
 		clazz = clazz->componentType$;
 	}
 	return dim;
+}
+
+String* Class::bootstrapToString(Object$* inst) {
+	if (bootstrapToStringMethodHandle == nullptr) {
+		$synchronized(this) {
+			$set(this, bootstrapToStringMethodHandle, Machine::makeBootstrapMethodHandle(this, "toString"_s));
+		}
+	}
+	return $cast($String, bootstrapToStringMethodHandle->invoke($$new($ObjectArray, { inst })));
+}
+
+int32_t Class::bootstrapHashCode(Object$* inst) {
+	if (bootstrapHashCodeMethodHandle == nullptr) {
+		$synchronized(this) {
+			$set(this, bootstrapHashCodeMethodHandle, Machine::makeBootstrapMethodHandle(this, "hashCode"_s));
+		}
+	}
+	return $intValue(bootstrapHashCodeMethodHandle->invoke($$new($ObjectArray, { inst })));
+}
+
+bool Class::bootstrapEquals(Object$* inst, Object$* o) {
+	if (bootstrapEqualsMethodHandle == nullptr) {
+		$synchronized(this) {
+			$set(this, bootstrapEqualsMethodHandle, Machine::makeBootstrapMethodHandle(this, "equals"_s));
+		}
+	}
+	return $booleanValue(bootstrapEqualsMethodHandle->invoke($$new($ObjectArray, { inst, o })));
 }
 
 Class* Class::load$($String* name, bool initialize) {

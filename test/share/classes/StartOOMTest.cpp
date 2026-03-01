@@ -3,7 +3,6 @@
 #include <StartOOMTest$SleepRunnable.h>
 #include <java/lang/Runnable.h>
 #include <java/lang/ThreadGroup.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -17,7 +16,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $ThreadGroup = ::java::lang::ThreadGroup;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

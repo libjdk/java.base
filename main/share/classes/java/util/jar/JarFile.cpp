@@ -22,7 +22,6 @@
 #include <java/net/URL.h>
 #include <java/security/CodeSigner.h>
 #include <java/security/CodeSource.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
@@ -102,7 +101,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $SoftReference = ::java::lang::ref::SoftReference;
 using $URL = ::java::net::URL;
 using $CodeSource = ::java::security::CodeSource;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $Enumeration = ::java::util::Enumeration;

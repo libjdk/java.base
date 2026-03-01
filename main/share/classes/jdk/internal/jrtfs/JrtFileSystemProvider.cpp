@@ -37,11 +37,8 @@
 #include <java/nio/file/attribute/FileAttributeView.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/security/SecureClassLoader.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <java/util/Objects.h>
@@ -69,7 +66,6 @@ using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -100,11 +96,8 @@ using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
 using $FileAttributeView = ::java::nio::file::attribute::FileAttributeView;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $Objects = ::java::util::Objects;

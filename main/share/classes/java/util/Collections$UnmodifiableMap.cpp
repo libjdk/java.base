@@ -3,7 +3,6 @@
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections$UnmodifiableMap$UnmodifiableEntrySet.h>
-#include <java/util/Collections$UnmodifiableSet.h>
 #include <java/util/Collections.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -21,7 +20,6 @@ using $UnsupportedOperationException = ::java::lang::UnsupportedOperationExcepti
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $Collections$UnmodifiableMap$UnmodifiableEntrySet = ::java::util::Collections$UnmodifiableMap$UnmodifiableEntrySet;
-using $Collections$UnmodifiableSet = ::java::util::Collections$UnmodifiableSet;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;
 using $BiConsumer = ::java::util::function::BiConsumer;

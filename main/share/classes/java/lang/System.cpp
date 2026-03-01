@@ -6,8 +6,6 @@
 #include <java/io/FileDescriptor.h>
 #include <java/io/FileInputStream.h>
 #include <java/io/FileOutputStream.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/Serializable.h>
@@ -45,7 +43,6 @@
 #include <java/nio/file/FileSystem.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
@@ -101,8 +98,6 @@ using $Console = ::java::io::Console;
 using $FileDescriptor = ::java::io::FileDescriptor;
 using $FileInputStream = ::java::io::FileInputStream;
 using $FileOutputStream = ::java::io::FileOutputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
@@ -145,7 +140,6 @@ using $Channel = ::java::nio::channels::Channel;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;

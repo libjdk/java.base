@@ -3,7 +3,6 @@
 #include <java/util/AbstractCollection.h>
 #include <java/util/Iterator.h>
 #include <java/util/Spliterator.h>
-#include <java/util/WeakHashMap$HashIterator.h>
 #include <java/util/WeakHashMap$ValueIterator.h>
 #include <java/util/WeakHashMap$ValueSpliterator.h>
 #include <java/util/WeakHashMap.h>
@@ -17,7 +16,6 @@ using $AbstractCollection = ::java::util::AbstractCollection;
 using $Iterator = ::java::util::Iterator;
 using $Spliterator = ::java::util::Spliterator;
 using $WeakHashMap = ::java::util::WeakHashMap;
-using $WeakHashMap$HashIterator = ::java::util::WeakHashMap$HashIterator;
 using $WeakHashMap$ValueIterator = ::java::util::WeakHashMap$ValueIterator;
 using $WeakHashMap$ValueSpliterator = ::java::util::WeakHashMap$ValueSpliterator;
 

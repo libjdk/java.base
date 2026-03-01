@@ -1,6 +1,5 @@
 #include <java/util/regex/Matcher.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/IndexOutOfBoundsException.h>
@@ -30,7 +29,6 @@
 #undef ORDERED
 
 using $IntHashSetArray = $Array<::java::util::regex::IntHashSet>;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;

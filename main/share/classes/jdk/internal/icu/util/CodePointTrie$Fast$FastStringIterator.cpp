@@ -7,7 +7,6 @@
 #include <jdk/internal/icu/util/CodePointTrie$Data.h>
 #include <jdk/internal/icu/util/CodePointTrie$Fast.h>
 #include <jdk/internal/icu/util/CodePointTrie$Type.h>
-#include <jdk/internal/icu/util/CodePointTrie.h>
 #include <jcpp.h>
 
 #undef FAST
@@ -21,7 +20,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NormalizerImpl$UTF16Plus = ::jdk::internal::icu::impl::NormalizerImpl$UTF16Plus;
 using $CodePointMap = ::jdk::internal::icu::util::CodePointMap;
 using $CodePointMap$StringIterator = ::jdk::internal::icu::util::CodePointMap$StringIterator;
-using $CodePointTrie = ::jdk::internal::icu::util::CodePointTrie;
 using $CodePointTrie$Data = ::jdk::internal::icu::util::CodePointTrie$Data;
 using $CodePointTrie$Fast = ::jdk::internal::icu::util::CodePointTrie$Fast;
 using $CodePointTrie$Type = ::jdk::internal::icu::util::CodePointTrie$Type;

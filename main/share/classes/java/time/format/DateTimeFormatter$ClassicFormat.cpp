@@ -1,6 +1,5 @@
 #include <java/time/format/DateTimeFormatter$ClassicFormat.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/IndexOutOfBoundsException.h>
@@ -19,11 +18,9 @@
 #include <java/util/Set.h>
 #include <jcpp.h>
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;

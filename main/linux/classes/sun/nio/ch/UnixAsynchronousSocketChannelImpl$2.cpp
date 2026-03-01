@@ -1,30 +1,22 @@
 #include <sun/nio/ch/UnixAsynchronousSocketChannelImpl$2.h>
 
-#include <java/io/IOException.h>
-#include <java/nio/channels/AsynchronousByteChannel.h>
 #include <java/nio/channels/AsynchronousChannel.h>
-#include <java/nio/channels/AsynchronousSocketChannel.h>
 #include <java/nio/channels/CompletionHandler.h>
 #include <java/nio/channels/InterruptedByTimeoutException.h>
-#include <sun/nio/ch/AsynchronousSocketChannelImpl.h>
 #include <sun/nio/ch/Invoker.h>
 #include <sun/nio/ch/PendingFuture.h>
 #include <sun/nio/ch/UnixAsynchronousSocketChannelImpl.h>
 #include <jcpp.h>
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AsynchronousByteChannel = ::java::nio::channels::AsynchronousByteChannel;
 using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
-using $AsynchronousSocketChannel = ::java::nio::channels::AsynchronousSocketChannel;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
 using $InterruptedByTimeoutException = ::java::nio::channels::InterruptedByTimeoutException;
-using $AsynchronousSocketChannelImpl = ::sun::nio::ch::AsynchronousSocketChannelImpl;
 using $Invoker = ::sun::nio::ch::Invoker;
 using $PendingFuture = ::sun::nio::ch::PendingFuture;
 using $UnixAsynchronousSocketChannelImpl = ::sun::nio::ch::UnixAsynchronousSocketChannelImpl;

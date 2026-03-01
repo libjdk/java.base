@@ -2,7 +2,6 @@
 
 #include <java/io/IOException.h>
 #include <java/security/cert/CertificateException.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <sun/security/util/KnownOIDs.h>
@@ -71,7 +70,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $CertificateException = ::java::security::cert::CertificateException;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $KnownOIDs = ::sun::security::util::KnownOIDs;

@@ -2,8 +2,6 @@
 
 #include <java/nio/ByteBuffer.h>
 #include <java/security/GeneralSecurityException.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
@@ -48,8 +46,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $GeneralSecurityException = ::java::security::GeneralSecurityException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;

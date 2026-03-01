@@ -26,7 +26,6 @@
 #include <java/security/spec/EncodedKeySpec.h>
 #include <java/security/spec/InvalidParameterSpecException.h>
 #include <java/security/spec/KeySpec.h>
-#include <java/security/spec/NamedParameterSpec.h>
 #include <java/security/spec/PKCS8EncodedKeySpec.h>
 #include <java/security/spec/X509EncodedKeySpec.h>
 #include <java/util/Arrays.h>
@@ -68,7 +67,6 @@ using $EllipticCurve = ::java::security::spec::EllipticCurve;
 using $EncodedKeySpec = ::java::security::spec::EncodedKeySpec;
 using $InvalidParameterSpecException = ::java::security::spec::InvalidParameterSpecException;
 using $KeySpec = ::java::security::spec::KeySpec;
-using $NamedParameterSpec = ::java::security::spec::NamedParameterSpec;
 using $PKCS8EncodedKeySpec = ::java::security::spec::PKCS8EncodedKeySpec;
 using $X509EncodedKeySpec = ::java::security::spec::X509EncodedKeySpec;
 using $Arrays = ::java::util::Arrays;

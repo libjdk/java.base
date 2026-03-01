@@ -2,7 +2,6 @@
 
 #include <java/lang/RuntimePermission.h>
 #include <java/security/AccessControlContext.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
 #include <java/security/PermissionCollection.h>
@@ -19,7 +18,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $AccessControlContext = ::java::security::AccessControlContext;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;

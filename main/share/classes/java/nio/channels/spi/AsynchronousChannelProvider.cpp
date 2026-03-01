@@ -6,7 +6,6 @@
 #include <java/nio/channels/AsynchronousServerSocketChannel.h>
 #include <java/nio/channels/AsynchronousSocketChannel.h>
 #include <java/nio/channels/spi/AsynchronousChannelProvider$ProviderHolder.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/concurrent/ExecutorService.h>
 #include <java/util/concurrent/ThreadFactory.h>
@@ -22,7 +21,6 @@ using $AsynchronousChannelGroup = ::java::nio::channels::AsynchronousChannelGrou
 using $AsynchronousServerSocketChannel = ::java::nio::channels::AsynchronousServerSocketChannel;
 using $AsynchronousSocketChannel = ::java::nio::channels::AsynchronousSocketChannel;
 using $AsynchronousChannelProvider$ProviderHolder = ::java::nio::channels::spi::AsynchronousChannelProvider$ProviderHolder;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $ExecutorService = ::java::util::concurrent::ExecutorService;
 using $ThreadFactory = ::java::util::concurrent::ThreadFactory;

@@ -5,8 +5,6 @@
 #include <java/math/BigInteger.h>
 #include <java/math/MathContext.h>
 #include <java/math/RoundingMode.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Iterator.h>
@@ -36,8 +34,6 @@ using $BigDecimal = ::java::math::BigDecimal;
 using $BigInteger = ::java::math::BigInteger;
 using $MathContext = ::java::math::MathContext;
 using $RoundingMode = ::java::math::RoundingMode;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Iterator = ::java::util::Iterator;

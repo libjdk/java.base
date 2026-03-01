@@ -33,7 +33,6 @@ using $ProtectionDomainArray = $Array<::java::security::ProtectionDomain>;
 using $ForkJoinTaskArray = $Array<::java::util::concurrent::ForkJoinTask>;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;

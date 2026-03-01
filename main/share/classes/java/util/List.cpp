@@ -4,7 +4,6 @@
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Comparator.h>
-#include <java/util/ImmutableCollections$AbstractImmutableList.h>
 #include <java/util/ImmutableCollections$List12.h>
 #include <java/util/ImmutableCollections$ListN.h>
 #include <java/util/ImmutableCollections.h>
@@ -27,7 +26,6 @@ using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Comparator = ::java::util::Comparator;
 using $ImmutableCollections = ::java::util::ImmutableCollections;
-using $ImmutableCollections$AbstractImmutableList = ::java::util::ImmutableCollections$AbstractImmutableList;
 using $ImmutableCollections$List12 = ::java::util::ImmutableCollections$List12;
 using $ListIterator = ::java::util::ListIterator;
 using $Objects = ::java::util::Objects;

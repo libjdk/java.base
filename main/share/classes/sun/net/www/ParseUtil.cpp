@@ -1,7 +1,6 @@
 #include <sun/net/www/ParseUtil.h>
 
 #include <java/io/File.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/CharSequence.h>
@@ -62,7 +61,6 @@
 #undef REPORT
 
 using $File = ::java::io::File;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $AssertionError = ::java::lang::AssertionError;
 using $CharSequence = ::java::lang::CharSequence;

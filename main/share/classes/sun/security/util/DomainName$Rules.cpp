@@ -1,7 +1,6 @@
 #include <sun/security/util/DomainName$Rules.h>
 
 #include <java/io/BufferedReader.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -20,7 +19,6 @@
 #include <java/util/LinkedList.h>
 #include <java/util/Map.h>
 #include <java/util/function/Function.h>
-#include <java/util/zip/InflaterInputStream.h>
 #include <java/util/zip/ZipEntry.h>
 #include <java/util/zip/ZipInputStream.h>
 #include <sun/security/ssl/SSLLogger.h>
@@ -35,7 +33,6 @@
 #undef UTF_8
 
 using $BufferedReader = ::java::io::BufferedReader;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
@@ -53,7 +50,6 @@ using $Iterator = ::java::util::Iterator;
 using $LinkedList = ::java::util::LinkedList;
 using $Map = ::java::util::Map;
 using $Function = ::java::util::function::Function;
-using $InflaterInputStream = ::java::util::zip::InflaterInputStream;
 using $ZipEntry = ::java::util::zip::ZipEntry;
 using $ZipInputStream = ::java::util::zip::ZipInputStream;
 using $SSLLogger = ::sun::security::ssl::SSLLogger;

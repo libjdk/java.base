@@ -4,7 +4,6 @@
 #include <java/util/Iterator.h>
 #include <java/util/Spliterator.h>
 #include <java/util/TreeMap$Entry.h>
-#include <java/util/TreeMap$PrivateEntryIterator.h>
 #include <java/util/TreeMap$ValueIterator.h>
 #include <java/util/TreeMap$ValueSpliterator.h>
 #include <java/util/TreeMap.h>
@@ -19,7 +18,6 @@ using $Iterator = ::java::util::Iterator;
 using $Spliterator = ::java::util::Spliterator;
 using $TreeMap = ::java::util::TreeMap;
 using $TreeMap$Entry = ::java::util::TreeMap$Entry;
-using $TreeMap$PrivateEntryIterator = ::java::util::TreeMap$PrivateEntryIterator;
 using $TreeMap$ValueIterator = ::java::util::TreeMap$ValueIterator;
 using $TreeMap$ValueSpliterator = ::java::util::TreeMap$ValueSpliterator;
 

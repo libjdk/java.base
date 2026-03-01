@@ -1,6 +1,5 @@
 #include <sun/security/pkcs/PKCS9Attribute.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/ClassNotFoundException.h>
@@ -47,7 +46,6 @@ using $DerOutputStreamArray = $Array<::sun::security::util::DerOutputStream>;
 using $DerValueArray = $Array<::sun::security::util::DerValue>;
 using $ObjectIdentifierArray = $Array<::sun::security::util::ObjectIdentifier>;
 using $ByteArray2 = $Array<::java::lang::Byte, 2>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $Byte = ::java::lang::Byte;

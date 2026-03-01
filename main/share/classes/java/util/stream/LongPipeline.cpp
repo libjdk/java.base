@@ -15,9 +15,7 @@
 #include <java/util/OptionalDouble.h>
 #include <java/util/OptionalLong.h>
 #include <java/util/PrimitiveIterator$OfLong.h>
-#include <java/util/PrimitiveIterator.h>
 #include <java/util/Spliterator$OfLong.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/Spliterators.h>
 #include <java/util/function/BiConsumer.h>
@@ -35,13 +33,9 @@
 #include <java/util/function/ToLongFunction.h>
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/BaseStream.h>
-#include <java/util/stream/DoublePipeline$StatelessOp.h>
-#include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/DoubleStream.h>
 #include <java/util/stream/FindOps.h>
 #include <java/util/stream/ForEachOps.h>
-#include <java/util/stream/IntPipeline$StatelessOp.h>
-#include <java/util/stream/IntPipeline.h>
 #include <java/util/stream/IntStream.h>
 #include <java/util/stream/LongPipeline$1.h>
 #include <java/util/stream/LongPipeline$10.h>
@@ -61,13 +55,10 @@
 #include <java/util/stream/Node$Builder$OfLong.h>
 #include <java/util/stream/Node$Builder.h>
 #include <java/util/stream/Node$OfLong.h>
-#include <java/util/stream/Node$OfPrimitive.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/ReduceOps.h>
-#include <java/util/stream/ReferencePipeline$StatelessOp.h>
-#include <java/util/stream/ReferencePipeline.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/SliceOps.h>
 #include <java/util/stream/SortedOps.h>
@@ -112,10 +103,8 @@ using $LongSummaryStatistics = ::java::util::LongSummaryStatistics;
 using $Objects = ::java::util::Objects;
 using $OptionalDouble = ::java::util::OptionalDouble;
 using $OptionalLong = ::java::util::OptionalLong;
-using $PrimitiveIterator = ::java::util::PrimitiveIterator;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $Spliterators = ::java::util::Spliterators;
 using $BiConsumer = ::java::util::function::BiConsumer;
 using $BinaryOperator = ::java::util::function::BinaryOperator;
@@ -132,13 +121,9 @@ using $Supplier = ::java::util::function::Supplier;
 using $ToLongFunction = ::java::util::function::ToLongFunction;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
 using $BaseStream = ::java::util::stream::BaseStream;
-using $DoublePipeline = ::java::util::stream::DoublePipeline;
-using $DoublePipeline$StatelessOp = ::java::util::stream::DoublePipeline$StatelessOp;
 using $DoubleStream = ::java::util::stream::DoubleStream;
 using $FindOps = ::java::util::stream::FindOps;
 using $ForEachOps = ::java::util::stream::ForEachOps;
-using $IntPipeline = ::java::util::stream::IntPipeline;
-using $IntPipeline$StatelessOp = ::java::util::stream::IntPipeline$StatelessOp;
 using $IntStream = ::java::util::stream::IntStream;
 using $LongPipeline$1 = ::java::util::stream::LongPipeline$1;
 using $LongPipeline$10 = ::java::util::stream::LongPipeline$10;
@@ -158,12 +143,9 @@ using $MatchOps$MatchKind = ::java::util::stream::MatchOps$MatchKind;
 using $Node = ::java::util::stream::Node;
 using $Node$Builder = ::java::util::stream::Node$Builder;
 using $Node$OfLong = ::java::util::stream::Node$OfLong;
-using $Node$OfPrimitive = ::java::util::stream::Node$OfPrimitive;
 using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $ReduceOps = ::java::util::stream::ReduceOps;
-using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
-using $ReferencePipeline$StatelessOp = ::java::util::stream::ReferencePipeline$StatelessOp;
 using $Sink = ::java::util::stream::Sink;
 using $SliceOps = ::java::util::stream::SliceOps;
 using $SortedOps = ::java::util::stream::SortedOps;

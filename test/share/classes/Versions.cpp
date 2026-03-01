@@ -10,7 +10,6 @@
 #include <java/lang/UnsupportedClassVersionError.h>
 #include <java/net/URL.h>
 #include <java/net/URLClassLoader.h>
-#include <java/security/SecureClassLoader.h>
 #include <jcpp.h>
 
 using $URLArray = $Array<::java::net::URL>;
@@ -29,7 +28,6 @@ using $Runtime = ::java::lang::Runtime;
 using $Runtime$Version = ::java::lang::Runtime$Version;
 using $UnsupportedClassVersionError = ::java::lang::UnsupportedClassVersionError;
 using $URLClassLoader = ::java::net::URLClassLoader;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
 
 $FieldInfo _Versions_FieldInfo_[] = {
 	{"cl", "Ljava/lang/ClassLoader;", nullptr, $STATIC, $staticField(Versions, cl)},

@@ -1,10 +1,8 @@
 #include <jdk/internal/org/objectweb/asm/util/ASMifier.h>
 
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/PrintWriter.h>
 #include <java/lang/IllegalStateException.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
@@ -72,7 +70,6 @@
 #undef VISIT_END
 
 using $LabelArray = $Array<::jdk::internal::org::objectweb::asm$::Label>;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintWriter = ::java::io::PrintWriter;
 using $Boolean = ::java::lang::Boolean;
@@ -89,7 +86,6 @@ using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Short = ::java::lang::Short;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Arrays = ::java::util::Arrays;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;

@@ -24,7 +24,6 @@
 #include <java/time/chrono/IsoEra.h>
 #include <java/time/format/ResolverStyle.h>
 #include <java/time/temporal/ChronoField.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/ValueRange.h>
 #include <java/util/List.h>
@@ -76,7 +75,6 @@ using $Era = ::java::time::chrono::Era;
 using $IsoEra = ::java::time::chrono::IsoEra;
 using $ResolverStyle = ::java::time::format::ResolverStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $ValueRange = ::java::time::temporal::ValueRange;
 using $List = ::java::util::List;

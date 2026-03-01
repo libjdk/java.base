@@ -1,6 +1,5 @@
 #include <java/net/DefaultDatagramSocketImplFactory.h>
 
-#include <java/net/AbstractPlainDatagramSocketImpl.h>
 #include <java/net/DatagramSocketImpl.h>
 #include <java/net/SocketException.h>
 #include <java/net/TwoStacksPlainDatagramSocketImpl.h>
@@ -14,7 +13,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractPlainDatagramSocketImpl = ::java::net::AbstractPlainDatagramSocketImpl;
 using $DatagramSocketImpl = ::java::net::DatagramSocketImpl;
 using $SocketException = ::java::net::SocketException;
 using $TwoStacksPlainDatagramSocketImpl = ::java::net::TwoStacksPlainDatagramSocketImpl;

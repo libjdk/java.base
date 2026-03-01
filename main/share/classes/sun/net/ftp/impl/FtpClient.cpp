@@ -4,8 +4,6 @@
 #include <java/io/BufferedOutputStream.h>
 #include <java/io/BufferedReader.h>
 #include <java/io/FileNotFoundException.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -41,7 +39,6 @@
 #include <java/time/ZonedDateTime.h>
 #include <java/time/format/DateTimeFormatter.h>
 #include <java/time/format/DateTimeParseException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Base64$Decoder.h>
@@ -103,8 +100,6 @@ using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $BufferedReader = ::java::io::BufferedReader;
 using $FileNotFoundException = ::java::io::FileNotFoundException;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
@@ -127,7 +122,6 @@ using $InternalError = ::java::lang::InternalError;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NumberFormatException = ::java::lang::NumberFormatException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Inet6Address = ::java::net::Inet6Address;
 using $InetAddress = ::java::net::InetAddress;
@@ -146,7 +140,6 @@ using $ZoneOffset = ::java::time::ZoneOffset;
 using $ZonedDateTime = ::java::time::ZonedDateTime;
 using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;
 using $DateTimeParseException = ::java::time::format::DateTimeParseException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Base64 = ::java::util::Base64;

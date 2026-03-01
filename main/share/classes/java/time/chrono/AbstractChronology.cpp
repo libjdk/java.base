@@ -26,7 +26,6 @@
 #include <java/time/temporal/TemporalField.h>
 #include <java/time/temporal/TemporalUnit.h>
 #include <java/time/temporal/ValueRange.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -93,7 +92,6 @@ using $TemporalAdjusters = ::java::time::temporal::TemporalAdjusters;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $TemporalUnit = ::java::time::temporal::TemporalUnit;
 using $ValueRange = ::java::time::temporal::ValueRange;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

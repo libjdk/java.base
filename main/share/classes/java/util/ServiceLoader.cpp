@@ -3,7 +3,6 @@
 #include <java/io/Serializable.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/ClassLoader.h>
-#include <java/lang/Error.h>
 #include <java/lang/LinkageError.h>
 #include <java/lang/Module.h>
 #include <java/lang/ModuleLayer.h>
@@ -23,7 +22,6 @@
 #include <java/security/PrivilegedAction.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -56,7 +54,6 @@ using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Error = ::java::lang::Error;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $LinkageError = ::java::lang::LinkageError;
@@ -75,7 +72,6 @@ using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

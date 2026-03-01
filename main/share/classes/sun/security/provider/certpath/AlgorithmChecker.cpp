@@ -25,7 +25,6 @@
 #include <java/security/interfaces/DSAPublicKey.h>
 #include <java/security/spec/DSAPublicKeySpec.h>
 #include <java/security/spec/KeySpec.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/Date.h>
@@ -33,7 +32,6 @@
 #include <java/util/Set.h>
 #include <sun/security/provider/certpath/CertPathConstraintsParameters.h>
 #include <sun/security/provider/certpath/PKIX.h>
-#include <sun/security/util/AbstractAlgorithmConstraints.h>
 #include <sun/security/util/ConstraintsParameters.h>
 #include <sun/security/util/Debug.h>
 #include <sun/security/util/DisabledAlgorithmConstraints.h>
@@ -57,7 +55,6 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -85,7 +82,6 @@ using $DSAParams = ::java::security::interfaces::DSAParams;
 using $DSAPublicKey = ::java::security::interfaces::DSAPublicKey;
 using $DSAPublicKeySpec = ::java::security::spec::DSAPublicKeySpec;
 using $KeySpec = ::java::security::spec::KeySpec;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $Date = ::java::util::Date;
@@ -93,7 +89,6 @@ using $EnumSet = ::java::util::EnumSet;
 using $Set = ::java::util::Set;
 using $CertPathConstraintsParameters = ::sun::security::provider::certpath::CertPathConstraintsParameters;
 using $PKIX = ::sun::security::provider::certpath::PKIX;
-using $AbstractAlgorithmConstraints = ::sun::security::util::AbstractAlgorithmConstraints;
 using $ConstraintsParameters = ::sun::security::util::ConstraintsParameters;
 using $Debug = ::sun::security::util::Debug;
 using $DisabledAlgorithmConstraints = ::sun::security::util::DisabledAlgorithmConstraints;

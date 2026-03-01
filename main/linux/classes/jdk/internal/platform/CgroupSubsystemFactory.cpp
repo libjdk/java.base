@@ -14,7 +14,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/Paths.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
@@ -62,7 +61,6 @@ using $System$Logger$Level = ::java::lang::System$Logger$Level;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Path = ::java::nio::file::Path;
 using $Paths = ::java::nio::file::Paths;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;

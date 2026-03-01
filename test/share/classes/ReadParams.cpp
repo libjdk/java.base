@@ -3,7 +3,6 @@
 #include <java/io/BufferedReader.h>
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/CharArrayReader.h>
-#include <java/io/FilterReader.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
 #include <java/io/PipedReader.h>
@@ -21,7 +20,6 @@ using $charArray2 = $Array<char16_t, 2>;
 using $BufferedReader = ::java::io::BufferedReader;
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $CharArrayReader = ::java::io::CharArrayReader;
-using $FilterReader = ::java::io::FilterReader;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
 using $PipedReader = ::java::io::PipedReader;

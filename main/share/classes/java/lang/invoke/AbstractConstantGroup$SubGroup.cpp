@@ -4,7 +4,6 @@
 #include <java/lang/invoke/AbstractConstantGroup.h>
 #include <java/lang/invoke/ConstantGroup.h>
 #include <java/lang/invoke/MethodHandleStatics.h>
-#include <java/util/AbstractList.h>
 #include <java/util/List.h>
 #include <jcpp.h>
 
@@ -16,7 +15,6 @@ using $AbstractConstantGroup = ::java::lang::invoke::AbstractConstantGroup;
 using $AbstractConstantGroup$AsList = ::java::lang::invoke::AbstractConstantGroup$AsList;
 using $ConstantGroup = ::java::lang::invoke::ConstantGroup;
 using $MethodHandleStatics = ::java::lang::invoke::MethodHandleStatics;
-using $AbstractList = ::java::util::AbstractList;
 using $List = ::java::util::List;
 
 namespace java {

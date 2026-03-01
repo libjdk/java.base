@@ -35,7 +35,6 @@
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Modifier.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/ProtectionDomain.h>
 #include <java/util/Objects.h>
@@ -73,7 +72,6 @@ using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -111,7 +109,6 @@ using $Constructor = ::java::lang::reflect::Constructor;
 using $Field = ::java::lang::reflect::Field;
 using $Method = ::java::lang::reflect::Method;
 using $Modifier = ::java::lang::reflect::Modifier;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $ProtectionDomain = ::java::security::ProtectionDomain;
 using $Objects = ::java::util::Objects;

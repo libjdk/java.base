@@ -15,7 +15,6 @@
 #include <sun/security/ssl/StatusResponseManager$StaplingParameters.h>
 #include <sun/security/ssl/TransportContext.h>
 #include <sun/security/ssl/Utilities.h>
-#include <sun/security/util/AbstractAlgorithmConstraints.h>
 #include <sun/security/util/AlgorithmDecomposer.h>
 #include <sun/security/util/LegacyAlgorithmConstraints.h>
 #include <jcpp.h>
@@ -40,7 +39,6 @@ using $SSLContextImpl = ::sun::security::ssl::SSLContextImpl;
 using $SSLHandshake = ::sun::security::ssl::SSLHandshake;
 using $TransportContext = ::sun::security::ssl::TransportContext;
 using $Utilities = ::sun::security::ssl::Utilities;
-using $AbstractAlgorithmConstraints = ::sun::security::util::AbstractAlgorithmConstraints;
 using $AlgorithmDecomposer = ::sun::security::util::AlgorithmDecomposer;
 using $LegacyAlgorithmConstraints = ::sun::security::util::LegacyAlgorithmConstraints;
 

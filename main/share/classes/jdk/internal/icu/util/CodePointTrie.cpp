@@ -14,11 +14,9 @@
 #include <jdk/internal/icu/util/CodePointMap.h>
 #include <jdk/internal/icu/util/CodePointTrie$1.h>
 #include <jdk/internal/icu/util/CodePointTrie$Data.h>
-#include <jdk/internal/icu/util/CodePointTrie$Fast.h>
 #include <jdk/internal/icu/util/CodePointTrie$Fast16.h>
 #include <jdk/internal/icu/util/CodePointTrie$Fast32.h>
 #include <jdk/internal/icu/util/CodePointTrie$Fast8.h>
-#include <jdk/internal/icu/util/CodePointTrie$Small.h>
 #include <jdk/internal/icu/util/CodePointTrie$Small16.h>
 #include <jdk/internal/icu/util/CodePointTrie$Small32.h>
 #include <jdk/internal/icu/util/CodePointTrie$Small8.h>
@@ -83,11 +81,9 @@ using $CodePointMap$Range = ::jdk::internal::icu::util::CodePointMap$Range;
 using $CodePointMap$ValueFilter = ::jdk::internal::icu::util::CodePointMap$ValueFilter;
 using $CodePointTrie$1 = ::jdk::internal::icu::util::CodePointTrie$1;
 using $CodePointTrie$Data = ::jdk::internal::icu::util::CodePointTrie$Data;
-using $CodePointTrie$Fast = ::jdk::internal::icu::util::CodePointTrie$Fast;
 using $CodePointTrie$Fast16 = ::jdk::internal::icu::util::CodePointTrie$Fast16;
 using $CodePointTrie$Fast32 = ::jdk::internal::icu::util::CodePointTrie$Fast32;
 using $CodePointTrie$Fast8 = ::jdk::internal::icu::util::CodePointTrie$Fast8;
-using $CodePointTrie$Small = ::jdk::internal::icu::util::CodePointTrie$Small;
 using $CodePointTrie$Small16 = ::jdk::internal::icu::util::CodePointTrie$Small16;
 using $CodePointTrie$Small32 = ::jdk::internal::icu::util::CodePointTrie$Small32;
 using $CodePointTrie$Small8 = ::jdk::internal::icu::util::CodePointTrie$Small8;

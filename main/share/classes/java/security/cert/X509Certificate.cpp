@@ -1,7 +1,6 @@
 #include <java/security/cert/X509Certificate.h>
 
 #include <java/math/BigInteger.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/Principal.h>
 #include <java/security/Provider.h>
@@ -22,12 +21,10 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NamedAttribute = ::java::lang::NamedAttribute;
 using $BigInteger = ::java::math::BigInteger;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $Principal = ::java::security::Principal;
 using $Provider = ::java::security::Provider;

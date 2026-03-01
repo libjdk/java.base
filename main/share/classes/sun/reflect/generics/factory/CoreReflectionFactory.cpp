@@ -3,11 +3,9 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/ClassLoader.h>
 #include <java/lang/ClassNotFoundException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/TypeNotPresentException.h>
 #include <java/lang/reflect/Array.h>
 #include <java/lang/reflect/Constructor.h>
-#include <java/lang/reflect/GenericArrayType.h>
 #include <java/lang/reflect/GenericDeclaration.h>
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/ParameterizedType.h>
@@ -35,19 +33,16 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
 using $Double = ::java::lang::Double;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Short = ::java::lang::Short;
 using $TypeNotPresentException = ::java::lang::TypeNotPresentException;
 using $Void = ::java::lang::Void;
 using $1Array = ::java::lang::reflect::Array;
 using $Constructor = ::java::lang::reflect::Constructor;
-using $GenericArrayType = ::java::lang::reflect::GenericArrayType;
 using $GenericDeclaration = ::java::lang::reflect::GenericDeclaration;
 using $Method = ::java::lang::reflect::Method;
 using $ParameterizedType = ::java::lang::reflect::ParameterizedType;

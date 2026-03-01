@@ -3,7 +3,6 @@
 #include <java/io/BufferedInputStream.h>
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/FileDescriptor.h>
-#include <java/io/FileInputStream.h>
 #include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
@@ -17,7 +16,6 @@
 
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
-using $FileInputStream = ::java::io::FileInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

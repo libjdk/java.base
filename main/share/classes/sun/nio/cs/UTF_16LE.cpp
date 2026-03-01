@@ -7,8 +7,6 @@
 #include <sun/nio/cs/UTF_16LE$Decoder.h>
 #include <sun/nio/cs/UTF_16LE$Encoder.h>
 #include <sun/nio/cs/Unicode.h>
-#include <sun/nio/cs/UnicodeDecoder.h>
-#include <sun/nio/cs/UnicodeEncoder.h>
 #include <jcpp.h>
 
 #undef UTF_16LE
@@ -23,8 +21,6 @@ using $StandardCharsets = ::sun::nio::cs::StandardCharsets;
 using $UTF_16LE$Decoder = ::sun::nio::cs::UTF_16LE$Decoder;
 using $UTF_16LE$Encoder = ::sun::nio::cs::UTF_16LE$Encoder;
 using $Unicode = ::sun::nio::cs::Unicode;
-using $UnicodeDecoder = ::sun::nio::cs::UnicodeDecoder;
-using $UnicodeEncoder = ::sun::nio::cs::UnicodeEncoder;
 
 namespace sun {
 	namespace nio {

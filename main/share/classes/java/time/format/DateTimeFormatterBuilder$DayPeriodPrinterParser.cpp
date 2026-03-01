@@ -17,7 +17,6 @@
 #include <java/time/format/TextStyle.h>
 #include <java/time/temporal/ChronoField.h>
 #include <java/time/temporal/TemporalField.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Calendar.h>
 #include <java/util/Comparator.h>
 #include <java/util/HashMap.h>
@@ -60,7 +59,6 @@ using $DateTimeTextProvider$LocaleStore = ::java::time::format::DateTimeTextProv
 using $TextStyle = ::java::time::format::TextStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
 using $TemporalField = ::java::time::temporal::TemporalField;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Calendar = ::java::util::Calendar;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

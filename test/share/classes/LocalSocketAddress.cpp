@@ -4,7 +4,6 @@
 #include <java/net/Inet6Address.h>
 #include <java/net/InetAddress.h>
 #include <java/net/NetworkInterface.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
@@ -20,7 +19,6 @@ using $DatagramSocket = ::java::net::DatagramSocket;
 using $Inet6Address = ::java::net::Inet6Address;
 using $InetAddress = ::java::net::InetAddress;
 using $NetworkInterface = ::java::net::NetworkInterface;
-using $AbstractList = ::java::util::AbstractList;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

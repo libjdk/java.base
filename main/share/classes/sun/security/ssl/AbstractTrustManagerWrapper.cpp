@@ -2,7 +2,6 @@
 
 #include <java/net/Socket.h>
 #include <java/security/AlgorithmConstraints.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/cert/CertPathValidatorException.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/CertificateException.h>
@@ -32,12 +31,10 @@
 
 using $X509CertificateArray = $Array<::java::security::cert::X509Certificate>;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Socket = ::java::net::Socket;
 using $AlgorithmConstraints = ::java::security::AlgorithmConstraints;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $CertPathValidatorException = ::java::security::cert::CertPathValidatorException;
 using $Certificate = ::java::security::cert::Certificate;
 using $CertificateException = ::java::security::cert::CertificateException;

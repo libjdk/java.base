@@ -10,7 +10,6 @@
 #include <java/nio/channels/Selector.h>
 #include <java/nio/channels/ServerSocketChannel.h>
 #include <java/nio/channels/SocketChannel.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -35,7 +34,6 @@ using $SelectionKey = ::java::nio::channels::SelectionKey;
 using $Selector = ::java::nio::channels::Selector;
 using $ServerSocketChannel = ::java::nio::channels::ServerSocketChannel;
 using $SocketChannel = ::java::nio::channels::SocketChannel;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

@@ -9,7 +9,6 @@
 #include <java/util/Iterator.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
-#include <javax/net/ssl/ExtendedSSLSession.h>
 #include <javax/net/ssl/SSLSession.h>
 #include <sun/security/ssl/SSLSessionContextImpl.h>
 #include <sun/security/ssl/SSLSessionImpl.h>
@@ -29,7 +28,6 @@ using $Enumeration = ::java::util::Enumeration;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;
-using $ExtendedSSLSession = ::javax::net::ssl::ExtendedSSLSession;
 using $SSLSession = ::javax::net::ssl::SSLSession;
 using $SSLSessionContextImpl = ::sun::security::ssl::SSLSessionContextImpl;
 using $SSLSessionImpl = ::sun::security::ssl::SSLSessionImpl;

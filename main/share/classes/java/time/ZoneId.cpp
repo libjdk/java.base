@@ -20,7 +20,6 @@
 #include <java/time/zone/ZoneRules.h>
 #include <java/time/zone/ZoneRulesException.h>
 #include <java/time/zone/ZoneRulesProvider.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
 #include <java/util/Locale.h>
@@ -44,12 +43,10 @@ using $Serializable = ::java::io::Serializable;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $DateTimeException = ::java::time::DateTimeException;
 using $Instant = ::java::time::Instant;
 using $Ser = ::java::time::Ser;
@@ -64,7 +61,6 @@ using $TemporalQueries = ::java::time::temporal::TemporalQueries;
 using $ZoneRules = ::java::time::zone::ZoneRules;
 using $ZoneRulesException = ::java::time::zone::ZoneRulesException;
 using $ZoneRulesProvider = ::java::time::zone::ZoneRulesProvider;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;
 using $Locale = ::java::util::Locale;

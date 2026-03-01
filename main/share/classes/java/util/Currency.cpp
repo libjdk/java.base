@@ -9,7 +9,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Currency$1.h>
@@ -77,7 +76,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Currency$1 = ::java::util::Currency$1;

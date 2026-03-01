@@ -9,16 +9,13 @@
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/InstantiationException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
-#include <java/security/KeyException.h>
 #include <java/security/KeyFactory.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/Provider.h>
 #include <java/security/PublicKey.h>
 #include <java/security/Security.h>
-#include <java/security/spec/EncodedKeySpec.h>
 #include <java/security/spec/InvalidKeySpecException.h>
 #include <java/security/spec/KeySpec.h>
 #include <java/security/spec/X509EncodedKeySpec.h>
@@ -41,21 +38,17 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $InstantiationException = ::java::lang::InstantiationException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
-using $KeyException = ::java::security::KeyException;
 using $KeyFactory = ::java::security::KeyFactory;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $Provider = ::java::security::Provider;
 using $PublicKey = ::java::security::PublicKey;
 using $Security = ::java::security::Security;
-using $EncodedKeySpec = ::java::security::spec::EncodedKeySpec;
 using $InvalidKeySpecException = ::java::security::spec::InvalidKeySpecException;
 using $KeySpec = ::java::security::spec::KeySpec;
 using $X509EncodedKeySpec = ::java::security::spec::X509EncodedKeySpec;

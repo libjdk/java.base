@@ -1,6 +1,5 @@
 #include <sun/security/provider/PolicyParser$DomainEntry.h>
 
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -17,7 +16,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

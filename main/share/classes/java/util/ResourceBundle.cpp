@@ -18,10 +18,8 @@
 #include <java/lang/ref/Reference.h>
 #include <java/lang/ref/ReferenceQueue.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashSet.h>
@@ -89,10 +87,8 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Reference = ::java::lang::ref::Reference;
 using $ReferenceQueue = ::java::lang::ref::ReferenceQueue;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Enumeration = ::java::util::Enumeration;
 using $HashSet = ::java::util::HashSet;

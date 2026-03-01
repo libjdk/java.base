@@ -1,6 +1,5 @@
 #include <sun/security/rsa/PSSParameters.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/security/AlgorithmParametersSpi.h>
@@ -22,7 +21,6 @@
 #undef TRAILER_FIELD_BC
 
 using $DerValueArray = $Array<::sun::security::util::DerValue>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

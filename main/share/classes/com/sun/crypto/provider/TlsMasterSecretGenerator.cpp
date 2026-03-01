@@ -4,7 +4,6 @@
 #include <com/sun/crypto/provider/TlsPrfGenerator.h>
 #include <java/lang/IllegalStateException.h>
 #include <java/security/DigestException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidParameterException.h>
 #include <java/security/MessageDigest.h>
@@ -15,7 +14,6 @@
 #include <java/util/Arrays.h>
 #include <javax/crypto/KeyGeneratorSpi.h>
 #include <javax/crypto/SecretKey.h>
-#include <sun/security/internal/interfaces/TlsMasterSecret.h>
 #include <sun/security/internal/spec/TlsMasterSecretParameterSpec.h>
 #include <jcpp.h>
 
@@ -27,13 +25,11 @@
 using $TlsMasterSecretGenerator$TlsMasterSecretKey = ::com::sun::crypto::provider::TlsMasterSecretGenerator$TlsMasterSecretKey;
 using $TlsPrfGenerator = ::com::sun::crypto::provider::TlsPrfGenerator;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $DigestException = ::java::security::DigestException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidParameterException = ::java::security::InvalidParameterException;
 using $MessageDigest = ::java::security::MessageDigest;
@@ -44,7 +40,6 @@ using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $Arrays = ::java::util::Arrays;
 using $KeyGeneratorSpi = ::javax::crypto::KeyGeneratorSpi;
 using $SecretKey = ::javax::crypto::SecretKey;
-using $TlsMasterSecret = ::sun::security::internal::interfaces::TlsMasterSecret;
 using $TlsMasterSecretParameterSpec = ::sun::security::internal::spec::TlsMasterSecretParameterSpec;
 
 namespace com {

@@ -3,7 +3,6 @@
 #include <java/lang/ArrayIndexOutOfBoundsException.h>
 #include <java/lang/Math.h>
 #include <java/security/DigestException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigestSpi.h>
 #include <java/security/ProviderException.h>
 #include <java/util/Arrays.h>
@@ -13,12 +12,10 @@
 using $ArrayIndexOutOfBoundsException = ::java::lang::ArrayIndexOutOfBoundsException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $DigestException = ::java::security::DigestException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $MessageDigestSpi = ::java::security::MessageDigestSpi;
 using $ProviderException = ::java::security::ProviderException;
 using $Arrays = ::java::util::Arrays;

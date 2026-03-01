@@ -1,7 +1,6 @@
 #include <jdk/internal/util/SystemProps.h>
 
 #include <java/lang/AssertionError.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <jdk/internal/util/SystemProps$Raw.h>
@@ -12,7 +11,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $SystemProps$Raw = ::jdk::internal::util::SystemProps$Raw;

@@ -1,6 +1,5 @@
 #include <java/util/concurrent/ForkJoinPool$InvokeAnyRoot.h>
 
-#include <java/lang/IllegalStateException.h>
 #include <java/util/concurrent/Callable.h>
 #include <java/util/concurrent/CancellationException.h>
 #include <java/util/concurrent/ForkJoinPool.h>
@@ -9,12 +8,9 @@
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Callable = ::java::util::concurrent::Callable;
 using $CancellationException = ::java::util::concurrent::CancellationException;
 using $ForkJoinPool = ::java::util::concurrent::ForkJoinPool;

@@ -3,7 +3,6 @@
 #include <Responses.h>
 #include <java/io/BufferedOutputStream.h>
 #include <java/io/BufferedReader.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -21,7 +20,6 @@ using $Responses = ::Responses;
 using $ObjectArray2 = $Array<::java::lang::Object, 2>;
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $BufferedReader = ::java::io::BufferedReader;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStreamReader = ::java::io::InputStreamReader;
 using $OutputStream = ::java::io::OutputStream;

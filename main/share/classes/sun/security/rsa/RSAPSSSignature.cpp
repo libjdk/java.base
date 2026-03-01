@@ -9,7 +9,6 @@
 #include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
-#include <java/security/KeyException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/PrivateKey.h>
@@ -57,7 +56,6 @@ using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
-using $KeyException = ::java::security::KeyException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $PrivateKey = ::java::security::PrivateKey;

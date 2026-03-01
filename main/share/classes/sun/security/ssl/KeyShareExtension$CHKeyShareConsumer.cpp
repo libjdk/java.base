@@ -9,8 +9,6 @@
 #include <java/nio/ByteBuffer.h>
 #include <java/security/AlgorithmConstraints.h>
 #include <java/security/GeneralSecurityException.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -45,8 +43,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $GeneralSecurityException = ::java::security::GeneralSecurityException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

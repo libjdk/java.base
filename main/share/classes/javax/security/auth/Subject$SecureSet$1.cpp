@@ -3,7 +3,6 @@
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/LinkedList.h>
 #include <java/util/ListIterator.h>
@@ -31,7 +30,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $LinkedList = ::java::util::LinkedList;
 using $ListIterator = ::java::util::ListIterator;

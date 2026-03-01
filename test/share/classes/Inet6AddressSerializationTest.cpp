@@ -16,7 +16,6 @@
 #include <java/net/InetAddress.h>
 #include <java/net/NetworkInterface.h>
 #include <java/net/UnknownHostException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Enumeration.h>
@@ -57,7 +56,6 @@ using $Inet6Address = ::java::net::Inet6Address;
 using $InetAddress = ::java::net::InetAddress;
 using $NetworkInterface = ::java::net::NetworkInterface;
 using $UnknownHostException = ::java::net::UnknownHostException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Enumeration = ::java::util::Enumeration;

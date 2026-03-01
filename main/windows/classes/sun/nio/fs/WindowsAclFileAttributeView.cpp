@@ -6,7 +6,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/nio/file/ProviderMismatchException.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/List.h>
 #include <sun/nio/fs/AbstractAclFileAttributeView.h>
@@ -35,7 +34,6 @@ using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $ProviderMismatchException = ::java::nio::file::ProviderMismatchException;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $List = ::java::util::List;
 using $AbstractAclFileAttributeView = ::sun::nio::fs::AbstractAclFileAttributeView;

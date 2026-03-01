@@ -10,7 +10,6 @@
 #include <jdk/internal/icu/impl/Trie2$Range.h>
 #include <jdk/internal/icu/impl/Trie2_16.h>
 #include <jdk/internal/icu/impl/UCharacterProperty$1.h>
-#include <jdk/internal/icu/impl/UCharacterProperty$BiDiIntProperty.h>
 #include <jdk/internal/icu/impl/UCharacterProperty$IntProperty.h>
 #include <jdk/internal/icu/impl/UCharacterProperty$IsAcceptable.h>
 #include <jdk/internal/icu/lang/UCharacter$HangulSyllableType.h>
@@ -114,7 +113,6 @@ using $ICUBinary$Authenticate = ::jdk::internal::icu::impl::ICUBinary$Authentica
 using $Trie2$Range = ::jdk::internal::icu::impl::Trie2$Range;
 using $Trie2_16 = ::jdk::internal::icu::impl::Trie2_16;
 using $UCharacterProperty$1 = ::jdk::internal::icu::impl::UCharacterProperty$1;
-using $UCharacterProperty$BiDiIntProperty = ::jdk::internal::icu::impl::UCharacterProperty$BiDiIntProperty;
 using $UCharacterProperty$IntProperty = ::jdk::internal::icu::impl::UCharacterProperty$IntProperty;
 using $UCharacterProperty$IsAcceptable = ::jdk::internal::icu::impl::UCharacterProperty$IsAcceptable;
 using $UCharacter$HangulSyllableType = ::jdk::internal::icu::lang::UCharacter$HangulSyllableType;

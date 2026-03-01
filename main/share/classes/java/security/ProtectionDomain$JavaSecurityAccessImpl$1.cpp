@@ -4,7 +4,6 @@
 #include <java/security/ProtectionDomain$JavaSecurityAccessImpl.h>
 #include <java/security/ProtectionDomain$Key.h>
 #include <java/security/ProtectionDomain.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/Map.h>
 #include <java/util/WeakHashMap.h>
@@ -19,7 +18,6 @@ using $PermissionCollection = ::java::security::PermissionCollection;
 using $ProtectionDomain = ::java::security::ProtectionDomain;
 using $ProtectionDomain$JavaSecurityAccessImpl = ::java::security::ProtectionDomain$JavaSecurityAccessImpl;
 using $ProtectionDomain$Key = ::java::security::ProtectionDomain$Key;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $Map = ::java::util::Map;
 using $WeakHashMap = ::java::util::WeakHashMap;

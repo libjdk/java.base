@@ -2,20 +2,17 @@
 
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/IllegalStateException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/Modifier.h>
 #include <jcpp.h>
 
 using $FieldArray = $Array<::java::lang::reflect::Field>;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Field = ::java::lang::reflect::Field;
 using $Modifier = ::java::lang::reflect::Modifier;
 

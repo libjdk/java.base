@@ -1315,6 +1315,7 @@
 #include <PathOps.h>
 #include <Patterns.h>
 #include <PeekInputStreamTest.h>
+#include <Person.h>
 #include <PhantomReferentClearing.h>
 #include <Pin.h>
 #include <PipeChannel.h>
@@ -1399,6 +1400,7 @@
 #include <Ready$BoundedReader.h>
 #include <Receive.h>
 #include <ReceiveISA.h>
+#include <RecordTest.h>
 #include <RecursiveAnnotation.h>
 #include <RecursiveSystemLoader.h>
 #include <RedirectWithLongFilename.h>
@@ -3784,6 +3786,7 @@
 	$classEntry("PathOps", ::PathOps),
 	$classEntry("Patterns", ::Patterns),
 	$classEntry("PeekInputStreamTest", ::PeekInputStreamTest),
+	$classEntry("Person", ::Person),
 	$classEntry("PhantomReferentClearing", ::PhantomReferentClearing),
 	$classEntry("Pin", ::Pin),
 	$classEntry("PipeChannel", ::PipeChannel),
@@ -3868,6 +3871,7 @@
 	$classEntry("Ready$BoundedReader", ::Ready$BoundedReader),
 	$classEntry("Receive", ::Receive),
 	$classEntry("ReceiveISA", ::ReceiveISA),
+	$classEntry("RecordTest", ::RecordTest),
 	$classEntry("RecursiveAnnotation", ::RecursiveAnnotation),
 	$classEntry("RecursiveSystemLoader", ::RecursiveSystemLoader),
 	$classEntry("RedirectWithLongFilename", ::RedirectWithLongFilename),

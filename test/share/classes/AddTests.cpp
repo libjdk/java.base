@@ -5,7 +5,6 @@
 #include <java/math/BigInteger.h>
 #include <java/math/MathContext.h>
 #include <java/math/RoundingMode.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/Set.h>
@@ -29,7 +28,6 @@ using $BigDecimal = ::java::math::BigDecimal;
 using $BigInteger = ::java::math::BigInteger;
 using $MathContext = ::java::math::MathContext;
 using $RoundingMode = ::java::math::RoundingMode;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Iterator = ::java::util::Iterator;
 using $Set = ::java::util::Set;

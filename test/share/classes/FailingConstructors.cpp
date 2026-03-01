@@ -23,7 +23,6 @@ using $PrintWriter = ::java::io::PrintWriter;
 using $UnsupportedEncodingException = ::java::io::UnsupportedEncodingException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;

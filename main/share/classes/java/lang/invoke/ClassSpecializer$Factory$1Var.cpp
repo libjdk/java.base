@@ -4,7 +4,6 @@
 #include <java/lang/invoke/ClassSpecializer$Factory.h>
 #include <java/lang/invoke/ClassSpecializer.h>
 #include <java/lang/invoke/LambdaForm$BasicType.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -24,7 +23,6 @@ using $Void = ::java::lang::Void;
 using $ClassSpecializer = ::java::lang::invoke::ClassSpecializer;
 using $ClassSpecializer$Factory = ::java::lang::invoke::ClassSpecializer$Factory;
 using $LambdaForm$BasicType = ::java::lang::invoke::LambdaForm$BasicType;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

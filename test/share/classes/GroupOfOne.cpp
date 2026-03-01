@@ -11,7 +11,6 @@
 #include <java/nio/channels/AsynchronousSocketChannel.h>
 #include <java/nio/channels/CompletionHandler.h>
 #include <java/nio/channels/NetworkChannel.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -38,7 +37,6 @@ using $AsynchronousChannelGroup = ::java::nio::channels::AsynchronousChannelGrou
 using $AsynchronousServerSocketChannel = ::java::nio::channels::AsynchronousServerSocketChannel;
 using $AsynchronousSocketChannel = ::java::nio::channels::AsynchronousSocketChannel;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

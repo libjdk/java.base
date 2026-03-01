@@ -3,14 +3,12 @@
 #include <java/io/BufferedOutputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <jcpp.h>
 
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $File = ::java::io::File;
 using $FileOutputStream = ::java::io::FileOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;

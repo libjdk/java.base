@@ -15,7 +15,6 @@
 #include <java/io/File.h>
 #include <java/io/FileDescriptor.h>
 #include <java/io/FileInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/PipedInputStream.h>
@@ -50,7 +49,6 @@ using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $DataInputStream = ::java::io::DataInputStream;
 using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $PipedInputStream = ::java::io::PipedInputStream;

@@ -2,7 +2,6 @@
 
 #include <java/io/BufferedWriter.h>
 #include <java/io/CharArrayWriter.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/OutputStreamWriter.h>
 #include <java/io/PipedReader.h>
@@ -18,7 +17,6 @@
 using $charArray2 = $Array<char16_t, 2>;
 using $BufferedWriter = ::java::io::BufferedWriter;
 using $CharArrayWriter = ::java::io::CharArrayWriter;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PipedReader = ::java::io::PipedReader;

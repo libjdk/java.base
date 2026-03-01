@@ -5,7 +5,6 @@
 #include <java/nio/file/attribute/FileAttribute.h>
 #include <java/nio/file/attribute/PosixFilePermission.h>
 #include <java/nio/file/attribute/PosixFilePermissions.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Set.h>
 #include <jcpp.h>
@@ -22,7 +21,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $FileAttribute = ::java::nio::file::attribute::FileAttribute;
 using $PosixFilePermission = ::java::nio::file::attribute::PosixFilePermission;
 using $PosixFilePermissions = ::java::nio::file::attribute::PosixFilePermissions;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Set = ::java::util::Set;
 

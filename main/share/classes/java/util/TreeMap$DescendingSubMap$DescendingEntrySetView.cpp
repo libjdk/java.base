@@ -5,7 +5,6 @@
 #include <java/util/TreeMap$Entry.h>
 #include <java/util/TreeMap$NavigableSubMap$DescendingSubMapEntryIterator.h>
 #include <java/util/TreeMap$NavigableSubMap$EntrySetView.h>
-#include <java/util/TreeMap$NavigableSubMap$SubMapIterator.h>
 #include <java/util/TreeMap$NavigableSubMap.h>
 #include <jcpp.h>
 
@@ -19,7 +18,6 @@ using $TreeMap$Entry = ::java::util::TreeMap$Entry;
 using $TreeMap$NavigableSubMap = ::java::util::TreeMap$NavigableSubMap;
 using $TreeMap$NavigableSubMap$DescendingSubMapEntryIterator = ::java::util::TreeMap$NavigableSubMap$DescendingSubMapEntryIterator;
 using $TreeMap$NavigableSubMap$EntrySetView = ::java::util::TreeMap$NavigableSubMap$EntrySetView;
-using $TreeMap$NavigableSubMap$SubMapIterator = ::java::util::TreeMap$NavigableSubMap$SubMapIterator;
 
 namespace java {
 	namespace util {

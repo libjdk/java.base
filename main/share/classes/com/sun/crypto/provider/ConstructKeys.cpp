@@ -1,7 +1,6 @@
 #include <com/sun/crypto/provider/ConstructKeys.h>
 
 #include <com/sun/crypto/provider/SunJCE.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
 #include <java/security/KeyFactory.h>
@@ -28,9 +27,7 @@
 
 using $SunJCE = ::com::sun::crypto::provider::SunJCE;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
 using $KeyFactory = ::java::security::KeyFactory;

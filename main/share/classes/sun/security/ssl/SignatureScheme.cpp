@@ -17,10 +17,7 @@
 #include <java/security/Signature.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <java/security/spec/ECParameterSpec.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap$SimpleImmutableEntry.h>
-#include <java/util/AbstractSequentialList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -92,10 +89,7 @@ using $Security = ::java::security::Security;
 using $Signature = ::java::security::Signature;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $ECParameterSpec = ::java::security::spec::ECParameterSpec;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap$SimpleImmutableEntry = ::java::util::AbstractMap$SimpleImmutableEntry;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

@@ -24,7 +24,6 @@
 #include <java/nio/file/NotLinkException.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/ProviderMismatchException.h>
-#include <java/nio/file/SecureDirectoryStream.h>
 #include <java/nio/file/attribute/BasicFileAttributeView.h>
 #include <java/nio/file/attribute/BasicFileAttributes.h>
 #include <java/nio/file/attribute/FileAttribute.h>
@@ -33,7 +32,6 @@
 #include <java/nio/file/attribute/PosixFileAttributeView.h>
 #include <java/nio/file/attribute/PosixFileAttributes.h>
 #include <java/nio/file/spi/FileTypeDetector.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -121,7 +119,6 @@ using $NotDirectoryException = ::java::nio::file::NotDirectoryException;
 using $NotLinkException = ::java::nio::file::NotLinkException;
 using $Path = ::java::nio::file::Path;
 using $ProviderMismatchException = ::java::nio::file::ProviderMismatchException;
-using $SecureDirectoryStream = ::java::nio::file::SecureDirectoryStream;
 using $BasicFileAttributeView = ::java::nio::file::attribute::BasicFileAttributeView;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
 using $FileAttributeView = ::java::nio::file::attribute::FileAttributeView;
@@ -129,7 +126,6 @@ using $FileOwnerAttributeView = ::java::nio::file::attribute::FileOwnerAttribute
 using $PosixFileAttributeView = ::java::nio::file::attribute::PosixFileAttributeView;
 using $PosixFileAttributes = ::java::nio::file::attribute::PosixFileAttributes;
 using $FileTypeDetector = ::java::nio::file::spi::FileTypeDetector;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;
@@ -137,7 +133,6 @@ using $ExecutorService = ::java::util::concurrent::ExecutorService;
 using $ThreadPool = ::sun::nio::ch::ThreadPool;
 using $AbstractBasicFileAttributeView = ::sun::nio::fs::AbstractBasicFileAttributeView;
 using $AbstractFileSystemProvider = ::sun::nio::fs::AbstractFileSystemProvider;
-using $AbstractFileTypeDetector = ::sun::nio::fs::AbstractFileTypeDetector;
 using $DynamicFileAttributeView = ::sun::nio::fs::DynamicFileAttributeView;
 using $UnixChannelFactory = ::sun::nio::fs::UnixChannelFactory;
 using $UnixConstants = ::sun::nio::fs::UnixConstants;
@@ -146,7 +141,6 @@ using $UnixDirectoryStream = ::sun::nio::fs::UnixDirectoryStream;
 using $UnixException = ::sun::nio::fs::UnixException;
 using $UnixFileAttributeViews = ::sun::nio::fs::UnixFileAttributeViews;
 using $UnixFileAttributeViews$Basic = ::sun::nio::fs::UnixFileAttributeViews$Basic;
-using $UnixFileAttributeViews$Posix = ::sun::nio::fs::UnixFileAttributeViews$Posix;
 using $UnixFileAttributes = ::sun::nio::fs::UnixFileAttributes;
 using $UnixFileModeAttribute = ::sun::nio::fs::UnixFileModeAttribute;
 using $UnixFileSystem = ::sun::nio::fs::UnixFileSystem;

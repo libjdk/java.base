@@ -6,9 +6,7 @@
 #include <java/lang/CloneNotSupportedException.h>
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/InternalError.h>
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/ConcurrentModificationException.h>
 #include <java/util/IdentityHashMap$EntrySet.h>
@@ -36,7 +34,6 @@ using $StreamCorruptedException = ::java::io::StreamCorruptedException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $Double = ::java::lang::Double;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
@@ -44,9 +41,7 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;
 using $IdentityHashMap$EntrySet = ::java::util::IdentityHashMap$EntrySet;

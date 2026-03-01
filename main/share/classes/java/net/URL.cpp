@@ -32,7 +32,6 @@
 #include <java/net/UnknownHostException.h>
 #include <java/net/UrlDeserializedState.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/Hashtable.h>
@@ -95,7 +94,6 @@ using $URLStreamHandlerFactory = ::java::net::URLStreamHandlerFactory;
 using $UnknownHostException = ::java::net::UnknownHostException;
 using $UrlDeserializedState = ::java::net::UrlDeserializedState;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $Hashtable = ::java::util::Hashtable;

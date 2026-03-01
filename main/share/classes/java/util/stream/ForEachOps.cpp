@@ -9,7 +9,6 @@
 #include <java/util/stream/ForEachOps$ForEachOp$OfInt.h>
 #include <java/util/stream/ForEachOps$ForEachOp$OfLong.h>
 #include <java/util/stream/ForEachOps$ForEachOp$OfRef.h>
-#include <java/util/stream/ForEachOps$ForEachOp.h>
 #include <java/util/stream/TerminalOp.h>
 #include <jcpp.h>
 
@@ -21,7 +20,6 @@ using $Consumer = ::java::util::function::Consumer;
 using $DoubleConsumer = ::java::util::function::DoubleConsumer;
 using $IntConsumer = ::java::util::function::IntConsumer;
 using $LongConsumer = ::java::util::function::LongConsumer;
-using $ForEachOps$ForEachOp = ::java::util::stream::ForEachOps$ForEachOp;
 using $ForEachOps$ForEachOp$OfDouble = ::java::util::stream::ForEachOps$ForEachOp$OfDouble;
 using $ForEachOps$ForEachOp$OfInt = ::java::util::stream::ForEachOps$ForEachOp$OfInt;
 using $ForEachOps$ForEachOp$OfLong = ::java::util::stream::ForEachOps$ForEachOp$OfLong;

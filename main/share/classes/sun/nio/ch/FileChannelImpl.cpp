@@ -5,13 +5,11 @@
 #include <java/io/IOException.h>
 #include <java/io/UncheckedIOException.h>
 #include <java/lang/AssertionError.h>
-#include <java/lang/Error.h>
 #include <java/lang/InterruptedException.h>
 #include <java/lang/Math.h>
 #include <java/lang/OutOfMemoryError.h>
 #include <java/lang/Runnable.h>
 #include <java/lang/UnsupportedOperationException.h>
-#include <java/lang/VirtualMachineError.h>
 #include <java/lang/ref/Cleaner$Cleanable.h>
 #include <java/lang/ref/Cleaner.h>
 #include <java/nio/ByteBuffer.h>
@@ -87,7 +85,6 @@ using $IOException = ::java::io::IOException;
 using $UncheckedIOException = ::java::io::UncheckedIOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Error = ::java::lang::Error;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -99,7 +96,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $OutOfMemoryError = ::java::lang::OutOfMemoryError;
 using $Runnable = ::java::lang::Runnable;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
-using $VirtualMachineError = ::java::lang::VirtualMachineError;
 using $Cleaner = ::java::lang::ref::Cleaner;
 using $Cleaner$Cleanable = ::java::lang::ref::Cleaner$Cleanable;
 using $ByteBuffer = ::java::nio::ByteBuffer;

@@ -12,7 +12,6 @@
 #include <java/nio/file/Path.h>
 #include <java/nio/file/attribute/FileAttribute.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -40,7 +39,6 @@ using $AbstractInterruptibleChannel = ::java::nio::channels::spi::AbstractInterr
 using $FileSystem = ::java::nio::file::FileSystem;
 using $Path = ::java::nio::file::Path;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

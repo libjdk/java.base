@@ -1,7 +1,6 @@
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfInt$Dropping.h>
 
 #include <java/util/Spliterator$OfInt.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/concurrent/atomic/AtomicBoolean.h>
 #include <java/util/function/IntConsumer.h>
@@ -15,7 +14,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfInt = ::java::util::Spliterator$OfInt;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $AtomicBoolean = ::java::util::concurrent::atomic::AtomicBoolean;
 using $IntConsumer = ::java::util::function::IntConsumer;
 using $IntPredicate = ::java::util::function::IntPredicate;

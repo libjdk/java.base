@@ -23,7 +23,6 @@
 #include <java/nio/channels/spi/AbstractInterruptibleChannel.h>
 #include <java/nio/channels/spi/AbstractSelectableChannel.h>
 #include <java/nio/channels/spi/SelectorProvider.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <sun/nio/ch/DatagramChannelImpl.h>
 #include <sun/nio/ch/IOUtil.h>
@@ -55,7 +54,6 @@ using $FileDescriptor = ::java::io::FileDescriptor;
 using $IOException = ::java::io::IOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -81,7 +79,6 @@ using $SocketChannel = ::java::nio::channels::SocketChannel;
 using $AbstractInterruptibleChannel = ::java::nio::channels::spi::AbstractInterruptibleChannel;
 using $AbstractSelectableChannel = ::java::nio::channels::spi::AbstractSelectableChannel;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $DatagramChannelImpl = ::sun::nio::ch::DatagramChannelImpl;
 using $IOUtil = ::sun::nio::ch::IOUtil;

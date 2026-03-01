@@ -1,6 +1,5 @@
 #include <java/util/TreeMap$AscendingSubMap.h>
 
-#include <java/util/AbstractSet.h>
 #include <java/util/Comparator.h>
 #include <java/util/Iterator.h>
 #include <java/util/NavigableMap.h>
@@ -11,7 +10,6 @@
 #include <java/util/TreeMap$Entry.h>
 #include <java/util/TreeMap$NavigableSubMap$DescendingSubMapKeyIterator.h>
 #include <java/util/TreeMap$NavigableSubMap$EntrySetView.h>
-#include <java/util/TreeMap$NavigableSubMap$SubMapIterator.h>
 #include <java/util/TreeMap$NavigableSubMap$SubMapKeyIterator.h>
 #include <java/util/TreeMap$NavigableSubMap.h>
 #include <java/util/TreeMap.h>
@@ -22,7 +20,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Comparator = ::java::util::Comparator;
 using $Iterator = ::java::util::Iterator;
 using $NavigableMap = ::java::util::NavigableMap;
@@ -35,7 +32,6 @@ using $TreeMap$Entry = ::java::util::TreeMap$Entry;
 using $TreeMap$NavigableSubMap = ::java::util::TreeMap$NavigableSubMap;
 using $TreeMap$NavigableSubMap$DescendingSubMapKeyIterator = ::java::util::TreeMap$NavigableSubMap$DescendingSubMapKeyIterator;
 using $TreeMap$NavigableSubMap$EntrySetView = ::java::util::TreeMap$NavigableSubMap$EntrySetView;
-using $TreeMap$NavigableSubMap$SubMapIterator = ::java::util::TreeMap$NavigableSubMap$SubMapIterator;
 using $TreeMap$NavigableSubMap$SubMapKeyIterator = ::java::util::TreeMap$NavigableSubMap$SubMapKeyIterator;
 
 namespace java {

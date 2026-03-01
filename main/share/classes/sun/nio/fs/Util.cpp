@@ -3,7 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/file/LinkOption.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
@@ -21,7 +20,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Charset = ::java::nio::charset::Charset;
 using $LinkOption = ::java::nio::file::LinkOption;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;

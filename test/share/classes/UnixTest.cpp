@@ -4,7 +4,6 @@
 #include <java/io/BufferedWriter.h>
 #include <java/io/File.h>
 #include <java/io/FileWriter.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/Writer.h>
 #include <java/lang/Process.h>
 #include <java/lang/ProcessBuilder.h>
@@ -14,7 +13,6 @@ using $ProcessTest = ::ProcessTest;
 using $BufferedWriter = ::java::io::BufferedWriter;
 using $File = ::java::io::File;
 using $FileWriter = ::java::io::FileWriter;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $Writer = ::java::io::Writer;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;

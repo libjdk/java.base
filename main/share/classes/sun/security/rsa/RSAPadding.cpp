@@ -1,7 +1,6 @@
 #include <sun/security/rsa/RSAPadding.h>
 
 #include <java/lang/AssertionError.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/MessageDigest.h>
@@ -9,7 +8,6 @@
 #include <java/security/SecureRandom.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <java/security/spec/MGF1ParameterSpec.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -31,17 +29,14 @@
 
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $SecureRandom = ::java::security::SecureRandom;
 using $MGF1ParameterSpec = ::java::security::spec::MGF1ParameterSpec;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;

@@ -633,6 +633,7 @@ add_test(NAME ReaderBulkReadContract COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_N
 add_test(NAME Ready COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_NAME}-test> Ready)
 add_test(NAME Receive COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_NAME}-test> Receive)
 add_test(NAME ReceiveISA COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_NAME}-test> ReceiveISA)
+add_test(NAME RecordTest COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_NAME}-test> RecordTest)
 add_test(NAME RecursiveAnnotation COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_NAME}-test> RecursiveAnnotation)
 add_test(NAME RedirectWithLongFilename COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_NAME}-test> RedirectWithLongFilename)
 add_test(NAME ReferenceClone COMMAND $<TARGET_FILE:${JCPP_PROJECT_FULL_NAME}-test> ReferenceClone)

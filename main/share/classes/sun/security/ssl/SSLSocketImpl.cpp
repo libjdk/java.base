@@ -18,7 +18,6 @@
 #include <java/util/concurrent/TimeUnit.h>
 #include <java/util/concurrent/locks/ReentrantLock.h>
 #include <java/util/function/BiFunction.h>
-#include <javax/net/ssl/ExtendedSSLSession.h>
 #include <javax/net/ssl/HandshakeCompletedListener.h>
 #include <javax/net/ssl/SSLException.h>
 #include <javax/net/ssl/SSLHandshakeException.h>
@@ -95,7 +94,6 @@ using $Set = ::java::util::Set;
 using $TimeUnit = ::java::util::concurrent::TimeUnit;
 using $ReentrantLock = ::java::util::concurrent::locks::ReentrantLock;
 using $BiFunction = ::java::util::function::BiFunction;
-using $ExtendedSSLSession = ::javax::net::ssl::ExtendedSSLSession;
 using $HandshakeCompletedListener = ::javax::net::ssl::HandshakeCompletedListener;
 using $SSLException = ::javax::net::ssl::SSLException;
 using $SSLHandshakeException = ::javax::net::ssl::SSLHandshakeException;
@@ -110,7 +108,6 @@ using $CipherSuite = ::sun::security::ssl::CipherSuite;
 using $ClientAuthType = ::sun::security::ssl::ClientAuthType;
 using $ConnectionContext = ::sun::security::ssl::ConnectionContext;
 using $ContentType = ::sun::security::ssl::ContentType;
-using $HandshakeContext = ::sun::security::ssl::HandshakeContext;
 using $HandshakeHash = ::sun::security::ssl::HandshakeHash;
 using $InputRecord = ::sun::security::ssl::InputRecord;
 using $NewSessionTicket = ::sun::security::ssl::NewSessionTicket;

@@ -11,8 +11,6 @@
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Type.h>
 #include <java/lang/reflect/TypeVariable.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/HashMap.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/Map.h>
 #include <java/util/Objects.h>
@@ -45,8 +43,6 @@ using $GenericDeclaration = ::java::lang::reflect::GenericDeclaration;
 using $Member = ::java::lang::reflect::Member;
 using $Method = ::java::lang::reflect::Method;
 using $TypeVariable = ::java::lang::reflect::TypeVariable;
-using $AbstractMap = ::java::util::AbstractMap;
-using $HashMap = ::java::util::HashMap;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $Map = ::java::util::Map;
 using $Objects = ::java::util::Objects;

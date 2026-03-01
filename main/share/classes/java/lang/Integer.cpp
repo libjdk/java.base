@@ -38,7 +38,6 @@ using $NamedAttribute = ::java::lang::NamedAttribute;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Number = ::java::lang::Number;
 using $NumberFormatException = ::java::lang::NumberFormatException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $StringLatin1 = ::java::lang::StringLatin1;
 using $StringUTF16 = ::java::lang::StringUTF16;
 using $MethodHandles$Lookup = ::java::lang::invoke::MethodHandles$Lookup;

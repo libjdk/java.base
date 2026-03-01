@@ -1,6 +1,5 @@
 #include <java/nio/charset/Charset.h>
 
-#include <java/io/IOException.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/Error.h>
 #include <java/lang/ThreadLocal.h>
@@ -19,7 +18,6 @@
 #include <java/nio/charset/spi/CharsetProvider.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -32,7 +30,6 @@
 #include <sun/nio/cs/StandardCharsets.h>
 #include <sun/nio/cs/ThreadLocalCoders.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/security/action/GetPropertyAction.h>
 #include <jcpp.h>
 
@@ -40,11 +37,9 @@
 #undef REPLACE
 
 using $CharsetProviderArray = $Array<::java::nio::charset::spi::CharsetProvider>;
-using $IOException = ::java::io::IOException;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -65,7 +60,6 @@ using $UnsupportedCharsetException = ::java::nio::charset::UnsupportedCharsetExc
 using $CharsetProvider = ::java::nio::charset::spi::CharsetProvider;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;
@@ -78,7 +72,6 @@ using $VM = ::jdk::internal::misc::VM;
 using $StandardCharsets = ::sun::nio::cs::StandardCharsets;
 using $ThreadLocalCoders = ::sun::nio::cs::ThreadLocalCoders;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $GetPropertyAction = ::sun::security::action::GetPropertyAction;
 
 namespace java {

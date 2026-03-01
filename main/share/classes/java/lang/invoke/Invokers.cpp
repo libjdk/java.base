@@ -4,7 +4,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/NoSuchMethodException.h>
-#include <java/lang/Number.h>
 #include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/constant/Constable.h>
 #include <java/lang/invoke/BoundMethodHandle$SpeciesData.h>
@@ -112,7 +111,6 @@ using $Integer = ::java::lang::Integer;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
-using $Number = ::java::lang::Number;
 using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Void = ::java::lang::Void;
 using $Constable = ::java::lang::constant::Constable;

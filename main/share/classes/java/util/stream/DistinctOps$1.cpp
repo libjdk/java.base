@@ -7,7 +7,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
 #include <java/util/LinkedHashSet.h>
@@ -31,7 +30,6 @@
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/ReduceOps.h>
 #include <java/util/stream/ReferencePipeline$StatefulOp.h>
-#include <java/util/stream/Sink$ChainedReference.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <java/util/stream/StreamShape.h>
@@ -53,7 +51,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AbstractCollection = ::java::util::AbstractCollection;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;
 using $LinkedHashSet = ::java::util::LinkedHashSet;
@@ -76,7 +73,6 @@ using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $ReduceOps = ::java::util::stream::ReduceOps;
 using $ReferencePipeline$StatefulOp = ::java::util::stream::ReferencePipeline$StatefulOp;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedReference = ::java::util::stream::Sink$ChainedReference;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;
 using $StreamShape = ::java::util::stream::StreamShape;
 using $StreamSpliterators$DistinctSpliterator = ::java::util::stream::StreamSpliterators$DistinctSpliterator;

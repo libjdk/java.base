@@ -8,7 +8,6 @@
 #include <java/net/ProxySelector.h>
 #include <java/net/SocketAddress.h>
 #include <java/net/URI.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <jcpp.h>
@@ -26,7 +25,6 @@ using $Proxy$Type = ::java::net::Proxy$Type;
 using $ProxySelector = ::java::net::ProxySelector;
 using $SocketAddress = ::java::net::SocketAddress;
 using $URI = ::java::net::URI;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 

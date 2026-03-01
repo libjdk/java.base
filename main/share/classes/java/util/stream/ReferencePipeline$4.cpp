@@ -5,7 +5,6 @@
 #include <java/util/stream/IntPipeline$StatelessOp.h>
 #include <java/util/stream/ReferencePipeline$4$1.h>
 #include <java/util/stream/ReferencePipeline.h>
-#include <java/util/stream/Sink$ChainedReference.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <jcpp.h>
@@ -21,7 +20,6 @@ using $IntPipeline$StatelessOp = ::java::util::stream::IntPipeline$StatelessOp;
 using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
 using $ReferencePipeline$4$1 = ::java::util::stream::ReferencePipeline$4$1;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedReference = ::java::util::stream::Sink$ChainedReference;
 using $StreamShape = ::java::util::stream::StreamShape;
 
 namespace java {

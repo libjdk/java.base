@@ -1,6 +1,5 @@
 #include <Open.h>
 
-#include <java/io/IOException.h>
 #include <java/net/SocketException.h>
 #include <java/nio/channels/DatagramChannel.h>
 #include <java/nio/channels/Pipe.h>
@@ -9,7 +8,6 @@
 #include <java/nio/channels/spi/SelectorProvider.h>
 #include <jcpp.h>
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;

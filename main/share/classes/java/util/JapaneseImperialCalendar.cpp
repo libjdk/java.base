@@ -4,7 +4,6 @@
 #include <java/lang/ArrayIndexOutOfBoundsException.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/Math.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Calendar.h>
 #include <java/util/Collection.h>
 #include <java/util/GregorianCalendar.h>
@@ -106,7 +105,6 @@ using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Calendar = ::java::util::Calendar;
 using $Collection = ::java::util::Collection;
 using $GregorianCalendar = ::java::util::GregorianCalendar;

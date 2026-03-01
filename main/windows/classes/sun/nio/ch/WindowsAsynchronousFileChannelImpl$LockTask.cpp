@@ -3,7 +3,6 @@
 #include <java/io/IOException.h>
 #include <java/lang/Runnable.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
-#include <java/nio/channels/ClosedChannelException.h>
 #include <sun/nio/ch/FileLockImpl.h>
 #include <sun/nio/ch/IOStatus.h>
 #include <sun/nio/ch/Invoker.h>
@@ -16,13 +15,11 @@
 
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
-using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $FileLockImpl = ::sun::nio::ch::FileLockImpl;
 using $IOStatus = ::sun::nio::ch::IOStatus;
 using $Invoker = ::sun::nio::ch::Invoker;

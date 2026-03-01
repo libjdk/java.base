@@ -6,9 +6,7 @@
 #include <java/lang/ClassCastException.h>
 #include <java/lang/CloneNotSupportedException.h>
 #include <java/lang/Enum.h>
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/EnumMap$1.h>
@@ -36,9 +34,7 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $EnumMap$1 = ::java::util::EnumMap$1;

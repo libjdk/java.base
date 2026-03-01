@@ -2,7 +2,6 @@
 
 #include <com/sun/crypto/provider/ARCFOURCipher.h>
 #include <com/sun/crypto/provider/CipherCore.h>
-#include <com/sun/crypto/provider/DESCrypt.h>
 #include <com/sun/crypto/provider/DESedeCrypt.h>
 #include <com/sun/crypto/provider/RC2Crypt.h>
 #include <com/sun/crypto/provider/SunJCE.h>
@@ -43,7 +42,6 @@
 
 using $ARCFOURCipher = ::com::sun::crypto::provider::ARCFOURCipher;
 using $CipherCore = ::com::sun::crypto::provider::CipherCore;
-using $DESCrypt = ::com::sun::crypto::provider::DESCrypt;
 using $DESedeCrypt = ::com::sun::crypto::provider::DESedeCrypt;
 using $RC2Crypt = ::com::sun::crypto::provider::RC2Crypt;
 using $SunJCE = ::com::sun::crypto::provider::SunJCE;

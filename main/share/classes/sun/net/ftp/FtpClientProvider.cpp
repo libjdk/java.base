@@ -8,7 +8,6 @@
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/ServiceConfigurationError.h>
@@ -29,7 +28,6 @@ using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ServiceConfigurationError = ::java::util::ServiceConfigurationError;

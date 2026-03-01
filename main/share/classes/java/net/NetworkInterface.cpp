@@ -11,9 +11,7 @@
 #include <java/net/NetPermission.h>
 #include <java/net/NetworkInterface$1.h>
 #include <java/net/SocketException.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Enumeration.h>
@@ -47,9 +45,7 @@ using $InterfaceAddress = ::java::net::InterfaceAddress;
 using $NetPermission = ::java::net::NetPermission;
 using $NetworkInterface$1 = ::java::net::NetworkInterface$1;
 using $SocketException = ::java::net::SocketException;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Enumeration = ::java::util::Enumeration;

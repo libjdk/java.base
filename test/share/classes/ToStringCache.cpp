@@ -1,11 +1,9 @@
 #include <ToStringCache.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/StringBuffer.h>
 #include <jcpp.h>
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;

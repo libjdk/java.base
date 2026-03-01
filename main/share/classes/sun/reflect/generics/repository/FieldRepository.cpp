@@ -4,7 +4,6 @@
 #include <sun/reflect/generics/factory/GenericsFactory.h>
 #include <sun/reflect/generics/parser/SignatureParser.h>
 #include <sun/reflect/generics/repository/AbstractRepository.h>
-#include <sun/reflect/generics/tree/ReturnType.h>
 #include <sun/reflect/generics/tree/Tree.h>
 #include <sun/reflect/generics/tree/TypeSignature.h>
 #include <sun/reflect/generics/tree/TypeTree.h>
@@ -19,10 +18,8 @@ using $Type = ::java::lang::reflect::Type;
 using $GenericsFactory = ::sun::reflect::generics::factory::GenericsFactory;
 using $SignatureParser = ::sun::reflect::generics::parser::SignatureParser;
 using $AbstractRepository = ::sun::reflect::generics::repository::AbstractRepository;
-using $ReturnType = ::sun::reflect::generics::tree::ReturnType;
 using $Tree = ::sun::reflect::generics::tree::Tree;
 using $TypeSignature = ::sun::reflect::generics::tree::TypeSignature;
-using $TypeTree = ::sun::reflect::generics::tree::TypeTree;
 using $Reifier = ::sun::reflect::generics::visitor::Reifier;
 using $TypeTreeVisitor = ::sun::reflect::generics::visitor::TypeTreeVisitor;
 

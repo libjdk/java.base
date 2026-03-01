@@ -17,7 +17,6 @@
 #include <java/text/spi/DateFormatSymbolsProvider.h>
 #include <java/text/spi/DecimalFormatSymbolsProvider.h>
 #include <java/text/spi/NumberFormatProvider.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -86,7 +85,6 @@ using $DateFormatProvider = ::java::text::spi::DateFormatProvider;
 using $DateFormatSymbolsProvider = ::java::text::spi::DateFormatSymbolsProvider;
 using $DecimalFormatSymbolsProvider = ::java::text::spi::DecimalFormatSymbolsProvider;
 using $NumberFormatProvider = ::java::text::spi::NumberFormatProvider;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

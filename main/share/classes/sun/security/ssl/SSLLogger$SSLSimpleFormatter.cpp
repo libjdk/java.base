@@ -24,7 +24,6 @@
 #include <java/time/Instant.h>
 #include <java/time/ZoneId.h>
 #include <java/time/format/DateTimeFormatter.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/util/Collection.h>
 #include <java/util/Date.h>
@@ -80,7 +79,6 @@ using $MessageFormat = ::java::text::MessageFormat;
 using $Instant = ::java::time::Instant;
 using $ZoneId = ::java::time::ZoneId;
 using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $Collection = ::java::util::Collection;
 using $Date = ::java::util::Date;

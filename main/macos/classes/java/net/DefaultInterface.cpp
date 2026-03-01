@@ -148,7 +148,7 @@ $NetworkInterface* DefaultInterface::chooseDefaultInterface() {
 					}
 				}
 			}
-			bool isLoopback = ni->isLoopback();
+			bool isLoopback = $nc(ni)->isLoopback();
 			bool isPPP = ni->isPointToPoint();
 			if (!isLoopback && !isPPP) {
 				if (preferred == nullptr) {

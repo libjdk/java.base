@@ -3,7 +3,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessController.h>
 #include <java/security/AllPermission.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/Permission.h>
@@ -46,7 +45,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NamedAttribute = ::java::lang::NamedAttribute;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $Permission = ::java::security::Permission;

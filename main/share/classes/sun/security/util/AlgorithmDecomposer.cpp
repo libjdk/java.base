@@ -1,7 +1,6 @@
 #include <sun/security/util/AlgorithmDecomposer.h>
 
 #include <java/lang/CharSequence.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
@@ -17,7 +16,6 @@ using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;

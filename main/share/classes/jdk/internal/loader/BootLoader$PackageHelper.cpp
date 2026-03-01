@@ -15,7 +15,6 @@
 #include <java/nio/file/Path.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/security/SecureClassLoader.h>
 #include <java/util/Optional.h>
 #include <java/util/function/Supplier.h>
 #include <java/util/jar/Manifest.h>
@@ -47,7 +46,6 @@ using $URL = ::java::net::URL;
 using $Path = ::java::nio::file::Path;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
 using $Optional = ::java::util::Optional;
 using $Supplier = ::java::util::function::Supplier;
 using $Manifest = ::java::util::jar::Manifest;

@@ -3,7 +3,6 @@
 #include <java/lang/System$Logger.h>
 #include <java/util/ResourceBundle.h>
 #include <java/util/function/Supplier.h>
-#include <jdk/internal/logger/AbstractLoggerWrapper.h>
 #include <jdk/internal/logger/LoggerWrapper.h>
 #include <sun/util/logging/PlatformLogger$Level.h>
 #include <sun/util/logging/PlatformLogger.h>
@@ -15,7 +14,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $System$Logger = ::java::lang::System$Logger;
 using $ResourceBundle = ::java::util::ResourceBundle;
 using $Supplier = ::java::util::function::Supplier;
-using $AbstractLoggerWrapper = ::jdk::internal::logger::AbstractLoggerWrapper;
 using $LoggerWrapper = ::jdk::internal::logger::LoggerWrapper;
 using $PlatformLogger$Level = ::sun::util::logging::PlatformLogger$Level;
 

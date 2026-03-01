@@ -7,7 +7,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -20,7 +19,6 @@
 #include <java/util/Spliterator$OfInt.h>
 #include <java/util/Spliterator$OfLong.h>
 #include <java/util/Spliterator.h>
-#include <java/util/Spliterators$AbstractSpliterator.h>
 #include <java/util/Spliterators.h>
 #include <java/util/function/BiConsumer.h>
 #include <java/util/function/BiFunction.h>
@@ -47,17 +45,12 @@
 #include <java/util/stream/Stream$2.h>
 #include <java/util/stream/Stream$Builder.h>
 #include <java/util/stream/StreamSpliterators$InfiniteSupplyingSpliterator$OfRef.h>
-#include <java/util/stream/StreamSpliterators$InfiniteSupplyingSpliterator.h>
 #include <java/util/stream/StreamSupport.h>
-#include <java/util/stream/Streams$AbstractStreamBuilderImpl.h>
 #include <java/util/stream/Streams$ConcatSpliterator$OfRef.h>
-#include <java/util/stream/Streams$ConcatSpliterator.h>
 #include <java/util/stream/Streams$StreamBuilderImpl.h>
 #include <java/util/stream/Streams.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfRef$Dropping.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfRef$Taking.h>
-#include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfRef.h>
-#include <java/util/stream/WhileOps$UnorderedWhileSpliterator.h>
 #include <jcpp.h>
 
 #undef IMMUTABLE
@@ -73,7 +66,6 @@ using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
@@ -87,7 +79,6 @@ using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $Spliterator$OfInt = ::java::util::Spliterator$OfInt;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
 using $Spliterators = ::java::util::Spliterators;
-using $Spliterators$AbstractSpliterator = ::java::util::Spliterators$AbstractSpliterator;
 using $BiConsumer = ::java::util::function::BiConsumer;
 using $BiFunction = ::java::util::function::BiFunction;
 using $BinaryOperator = ::java::util::function::BinaryOperator;
@@ -112,16 +103,11 @@ using $SpinedBuffer$OfLong = ::java::util::stream::SpinedBuffer$OfLong;
 using $Stream$1 = ::java::util::stream::Stream$1;
 using $Stream$2 = ::java::util::stream::Stream$2;
 using $Stream$Builder = ::java::util::stream::Stream$Builder;
-using $StreamSpliterators$InfiniteSupplyingSpliterator = ::java::util::stream::StreamSpliterators$InfiniteSupplyingSpliterator;
 using $StreamSpliterators$InfiniteSupplyingSpliterator$OfRef = ::java::util::stream::StreamSpliterators$InfiniteSupplyingSpliterator$OfRef;
 using $StreamSupport = ::java::util::stream::StreamSupport;
 using $Streams = ::java::util::stream::Streams;
-using $Streams$AbstractStreamBuilderImpl = ::java::util::stream::Streams$AbstractStreamBuilderImpl;
-using $Streams$ConcatSpliterator = ::java::util::stream::Streams$ConcatSpliterator;
 using $Streams$ConcatSpliterator$OfRef = ::java::util::stream::Streams$ConcatSpliterator$OfRef;
 using $Streams$StreamBuilderImpl = ::java::util::stream::Streams$StreamBuilderImpl;
-using $WhileOps$UnorderedWhileSpliterator = ::java::util::stream::WhileOps$UnorderedWhileSpliterator;
-using $WhileOps$UnorderedWhileSpliterator$OfRef = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfRef;
 using $WhileOps$UnorderedWhileSpliterator$OfRef$Dropping = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfRef$Dropping;
 using $WhileOps$UnorderedWhileSpliterator$OfRef$Taking = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfRef$Taking;
 

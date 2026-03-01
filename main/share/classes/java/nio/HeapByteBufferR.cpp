@@ -2,28 +2,16 @@
 
 #include <java/nio/Buffer.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/nio/ByteBufferAsCharBufferB.h>
-#include <java/nio/ByteBufferAsCharBufferL.h>
 #include <java/nio/ByteBufferAsCharBufferRB.h>
 #include <java/nio/ByteBufferAsCharBufferRL.h>
-#include <java/nio/ByteBufferAsDoubleBufferB.h>
-#include <java/nio/ByteBufferAsDoubleBufferL.h>
 #include <java/nio/ByteBufferAsDoubleBufferRB.h>
 #include <java/nio/ByteBufferAsDoubleBufferRL.h>
-#include <java/nio/ByteBufferAsFloatBufferB.h>
-#include <java/nio/ByteBufferAsFloatBufferL.h>
 #include <java/nio/ByteBufferAsFloatBufferRB.h>
 #include <java/nio/ByteBufferAsFloatBufferRL.h>
-#include <java/nio/ByteBufferAsIntBufferB.h>
-#include <java/nio/ByteBufferAsIntBufferL.h>
 #include <java/nio/ByteBufferAsIntBufferRB.h>
 #include <java/nio/ByteBufferAsIntBufferRL.h>
-#include <java/nio/ByteBufferAsLongBufferB.h>
-#include <java/nio/ByteBufferAsLongBufferL.h>
 #include <java/nio/ByteBufferAsLongBufferRB.h>
 #include <java/nio/ByteBufferAsLongBufferRL.h>
-#include <java/nio/ByteBufferAsShortBufferB.h>
-#include <java/nio/ByteBufferAsShortBufferL.h>
 #include <java/nio/ByteBufferAsShortBufferRB.h>
 #include <java/nio/ByteBufferAsShortBufferRL.h>
 #include <java/nio/CharBuffer.h>
@@ -48,28 +36,16 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Buffer = ::java::nio::Buffer;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $ByteBufferAsCharBufferB = ::java::nio::ByteBufferAsCharBufferB;
-using $ByteBufferAsCharBufferL = ::java::nio::ByteBufferAsCharBufferL;
 using $ByteBufferAsCharBufferRB = ::java::nio::ByteBufferAsCharBufferRB;
 using $ByteBufferAsCharBufferRL = ::java::nio::ByteBufferAsCharBufferRL;
-using $ByteBufferAsDoubleBufferB = ::java::nio::ByteBufferAsDoubleBufferB;
-using $ByteBufferAsDoubleBufferL = ::java::nio::ByteBufferAsDoubleBufferL;
 using $ByteBufferAsDoubleBufferRB = ::java::nio::ByteBufferAsDoubleBufferRB;
 using $ByteBufferAsDoubleBufferRL = ::java::nio::ByteBufferAsDoubleBufferRL;
-using $ByteBufferAsFloatBufferB = ::java::nio::ByteBufferAsFloatBufferB;
-using $ByteBufferAsFloatBufferL = ::java::nio::ByteBufferAsFloatBufferL;
 using $ByteBufferAsFloatBufferRB = ::java::nio::ByteBufferAsFloatBufferRB;
 using $ByteBufferAsFloatBufferRL = ::java::nio::ByteBufferAsFloatBufferRL;
-using $ByteBufferAsIntBufferB = ::java::nio::ByteBufferAsIntBufferB;
-using $ByteBufferAsIntBufferL = ::java::nio::ByteBufferAsIntBufferL;
 using $ByteBufferAsIntBufferRB = ::java::nio::ByteBufferAsIntBufferRB;
 using $ByteBufferAsIntBufferRL = ::java::nio::ByteBufferAsIntBufferRL;
-using $ByteBufferAsLongBufferB = ::java::nio::ByteBufferAsLongBufferB;
-using $ByteBufferAsLongBufferL = ::java::nio::ByteBufferAsLongBufferL;
 using $ByteBufferAsLongBufferRB = ::java::nio::ByteBufferAsLongBufferRB;
 using $ByteBufferAsLongBufferRL = ::java::nio::ByteBufferAsLongBufferRL;
-using $ByteBufferAsShortBufferB = ::java::nio::ByteBufferAsShortBufferB;
-using $ByteBufferAsShortBufferL = ::java::nio::ByteBufferAsShortBufferL;
 using $ByteBufferAsShortBufferRB = ::java::nio::ByteBufferAsShortBufferRB;
 using $ByteBufferAsShortBufferRL = ::java::nio::ByteBufferAsShortBufferRL;
 using $CharBuffer = ::java::nio::CharBuffer;

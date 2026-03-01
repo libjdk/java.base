@@ -1,7 +1,6 @@
 #include <sun/reflect/generics/scope/ConstructorScope.h>
 
 #include <java/lang/reflect/Constructor.h>
-#include <java/lang/reflect/Executable.h>
 #include <java/lang/reflect/GenericDeclaration.h>
 #include <sun/reflect/generics/scope/AbstractScope.h>
 #include <sun/reflect/generics/scope/ClassScope.h>
@@ -11,7 +10,6 @@
 using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Constructor = ::java::lang::reflect::Constructor;
-using $Executable = ::java::lang::reflect::Executable;
 using $GenericDeclaration = ::java::lang::reflect::GenericDeclaration;
 using $AbstractScope = ::sun::reflect::generics::scope::AbstractScope;
 using $ClassScope = ::sun::reflect::generics::scope::ClassScope;

@@ -1,7 +1,6 @@
 #include <sun/nio/fs/UnixUriUtils.h>
 
 #include <java/io/File.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/Math.h>
@@ -39,7 +38,6 @@
 #undef S_IFMT
 
 using $File = ::java::io::File;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;

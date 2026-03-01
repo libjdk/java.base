@@ -2,10 +2,8 @@
 
 #include <java/util/Collection.h>
 #include <java/util/Comparator.h>
-#include <java/util/Set.h>
 #include <java/util/SortedSet$1.h>
 #include <java/util/Spliterator.h>
-#include <java/util/Spliterators$IteratorSpliterator.h>
 #include <jcpp.h>
 
 #undef DISTINCT
@@ -17,10 +15,8 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Collection = ::java::util::Collection;
 using $Comparator = ::java::util::Comparator;
-using $Set = ::java::util::Set;
 using $SortedSet$1 = ::java::util::SortedSet$1;
 using $Spliterator = ::java::util::Spliterator;
-using $Spliterators$IteratorSpliterator = ::java::util::Spliterators$IteratorSpliterator;
 
 namespace java {
 	namespace util {

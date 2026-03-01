@@ -12,10 +12,7 @@
 #include <java/nio/file/WatchService.h>
 #include <java/nio/file/attribute/UserPrincipalLookupService.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -25,8 +22,6 @@
 #include <java/util/Objects.h>
 #include <java/util/Set.h>
 #include <java/util/regex/Pattern.h>
-#include <sun/nio/fs/AbstractFileSystemProvider.h>
-#include <sun/nio/fs/AbstractWatchService.h>
 #include <sun/nio/fs/Globs.h>
 #include <sun/nio/fs/WindowsException.h>
 #include <sun/nio/fs/WindowsFileSystem$1.h>
@@ -65,10 +60,7 @@ using $PathMatcher = ::java::nio::file::PathMatcher;
 using $WatchService = ::java::nio::file::WatchService;
 using $UserPrincipalLookupService = ::java::nio::file::attribute::UserPrincipalLookupService;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
@@ -78,8 +70,6 @@ using $List = ::java::util::List;
 using $Objects = ::java::util::Objects;
 using $Set = ::java::util::Set;
 using $Pattern = ::java::util::regex::Pattern;
-using $AbstractFileSystemProvider = ::sun::nio::fs::AbstractFileSystemProvider;
-using $AbstractWatchService = ::sun::nio::fs::AbstractWatchService;
 using $Globs = ::sun::nio::fs::Globs;
 using $WindowsException = ::sun::nio::fs::WindowsException;
 using $WindowsFileSystem$1 = ::sun::nio::fs::WindowsFileSystem$1;

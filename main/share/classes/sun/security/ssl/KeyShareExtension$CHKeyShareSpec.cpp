@@ -1,10 +1,7 @@
 #include <sun/security/ssl/KeyShareExtension$CHKeyShareSpec.h>
 
-#include <java/io/IOException.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Collections.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedList.h>
@@ -24,22 +21,17 @@
 #undef DECODE_ERROR
 #undef ENGLISH
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;
 using $LinkedList = ::java::util::LinkedList;
 using $List = ::java::util::List;
 using $Locale = ::java::util::Locale;
-using $SSLException = ::javax::net::ssl::SSLException;
 using $SSLProtocolException = ::javax::net::ssl::SSLProtocolException;
 using $Alert = ::sun::security::ssl::Alert;
 using $HandshakeContext = ::sun::security::ssl::HandshakeContext;

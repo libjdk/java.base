@@ -25,8 +25,6 @@
 #include <java/nio/file/Path.h>
 #include <java/nio/file/Paths.h>
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/HashSet.h>
@@ -85,8 +83,6 @@ using $Files = ::java::nio::file::Files;
 using $Path = ::java::nio::file::Path;
 using $Paths = ::java::nio::file::Paths;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;

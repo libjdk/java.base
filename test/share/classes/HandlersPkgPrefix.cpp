@@ -1,7 +1,6 @@
 #include <HandlersPkgPrefix.h>
 
 #include <HandlersPkgPrefix$Result.h>
-#include <java/io/IOException.h>
 #include <java/io/Serializable.h>
 #include <java/lang/invoke/CallSite.h>
 #include <java/lang/invoke/LambdaMetafactory.h>
@@ -17,7 +16,6 @@
 #undef UNKNOWN
 
 using $HandlersPkgPrefix$Result = ::HandlersPkgPrefix$Result;
-using $IOException = ::java::io::IOException;
 using $PrintStream = ::java::io::PrintStream;
 using $Serializable = ::java::io::Serializable;
 using $ClassInfo = ::java::lang::ClassInfo;

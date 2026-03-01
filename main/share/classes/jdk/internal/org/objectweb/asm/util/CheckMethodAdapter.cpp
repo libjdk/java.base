@@ -3,9 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/UnsupportedOperationException.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -25,7 +22,6 @@
 #include <jdk/internal/org/objectweb/asm/Type.h>
 #include <jdk/internal/org/objectweb/asm/TypePath.h>
 #include <jdk/internal/org/objectweb/asm/TypeReference.h>
-#include <jdk/internal/org/objectweb/asm/tree/MethodNode.h>
 #include <jdk/internal/org/objectweb/asm/util/CheckAnnotationAdapter.h>
 #include <jdk/internal/org/objectweb/asm/util/CheckClassAdapter.h>
 #include <jdk/internal/org/objectweb/asm/util/CheckMethodAdapter$1.h>
@@ -114,7 +110,6 @@ using $Byte = ::java::lang::Byte;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Double = ::java::lang::Double;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -123,12 +118,8 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Short = ::java::lang::Short;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
@@ -148,7 +139,6 @@ using $Opcodes = ::jdk::internal::org::objectweb::asm$::Opcodes;
 using $Type = ::jdk::internal::org::objectweb::asm$::Type;
 using $TypePath = ::jdk::internal::org::objectweb::asm$::TypePath;
 using $TypeReference = ::jdk::internal::org::objectweb::asm$::TypeReference;
-using $MethodNode = ::jdk::internal::org::objectweb::asm$::tree::MethodNode;
 using $CheckAnnotationAdapter = ::jdk::internal::org::objectweb::asm$::util::CheckAnnotationAdapter;
 using $CheckClassAdapter = ::jdk::internal::org::objectweb::asm$::util::CheckClassAdapter;
 using $CheckMethodAdapter$1 = ::jdk::internal::org::objectweb::asm$::util::CheckMethodAdapter$1;

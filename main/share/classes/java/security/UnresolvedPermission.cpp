@@ -16,7 +16,6 @@
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/CertificateFactory.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Hashtable.h>
 #include <java/util/List.h>
@@ -51,7 +50,6 @@ using $CertificateEncodingException = ::java::security::cert::CertificateEncodin
 using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Hashtable = ::java::util::Hashtable;
 using $List = ::java::util::List;

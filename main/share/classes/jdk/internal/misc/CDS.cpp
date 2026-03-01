@@ -18,7 +18,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Iterator.h>
@@ -59,7 +58,6 @@ using $Runnable = ::java::lang::Runnable;
 using $Runtime = ::java::lang::Runtime;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Iterator = ::java::util::Iterator;

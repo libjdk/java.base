@@ -3,7 +3,6 @@
 #include <java/text/DateFormat.h>
 #include <java/text/ParseException.h>
 #include <java/text/SimpleDateFormat.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Date.h>
 #include <java/util/Iterator.h>
@@ -22,7 +21,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $DateFormat = ::java::text::DateFormat;
 using $ParseException = ::java::text::ParseException;
 using $SimpleDateFormat = ::java::text::SimpleDateFormat;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Date = ::java::util::Date;
 using $Iterator = ::java::util::Iterator;

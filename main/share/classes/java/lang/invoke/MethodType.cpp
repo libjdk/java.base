@@ -26,7 +26,6 @@
 #include <java/lang/invoke/TypeDescriptor$OfField.h>
 #include <java/lang/invoke/TypeDescriptor$OfMethod.h>
 #include <java/lang/ref/Reference.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collections.h>
@@ -89,7 +88,6 @@ using $MethodType$OffsetHolder = ::java::lang::invoke::MethodType$OffsetHolder;
 using $MethodTypeForm = ::java::lang::invoke::MethodTypeForm;
 using $TypeDescriptor$OfField = ::java::lang::invoke::TypeDescriptor$OfField;
 using $TypeDescriptor$OfMethod = ::java::lang::invoke::TypeDescriptor$OfMethod;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Arrays = ::java::util::Arrays;
 using $Collections = ::java::util::Collections;

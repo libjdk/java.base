@@ -1,6 +1,5 @@
 #include <jdk/internal/org/objectweb/asm/tree/analysis/SourceValue.h>
 
-#include <java/util/AbstractSet.h>
 #include <java/util/Set.h>
 #include <jdk/internal/org/objectweb/asm/tree/AbstractInsnNode.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/SmallSet.h>
@@ -9,7 +8,6 @@
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Set = ::java::util::Set;
 using $AbstractInsnNode = ::jdk::internal::org::objectweb::asm$::tree::AbstractInsnNode;
 using $SmallSet = ::jdk::internal::org::objectweb::asm$::tree::analysis::SmallSet;

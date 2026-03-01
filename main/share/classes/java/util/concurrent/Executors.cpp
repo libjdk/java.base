@@ -5,7 +5,6 @@
 #include <java/lang/Thread$UncaughtExceptionHandler.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/PrivilegedExceptionAction.h>
-#include <java/util/concurrent/AbstractExecutorService.h>
 #include <java/util/concurrent/BlockingQueue.h>
 #include <java/util/concurrent/Callable.h>
 #include <java/util/concurrent/ExecutorService.h>
@@ -46,7 +45,6 @@ using $Runtime = ::java::lang::Runtime;
 using $Thread$UncaughtExceptionHandler = ::java::lang::Thread$UncaughtExceptionHandler;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractExecutorService = ::java::util::concurrent::AbstractExecutorService;
 using $BlockingQueue = ::java::util::concurrent::BlockingQueue;
 using $Callable = ::java::util::concurrent::Callable;
 using $ExecutorService = ::java::util::concurrent::ExecutorService;

@@ -1,14 +1,12 @@
 #include <java/util/concurrent/CompletableFuture.h>
 
 #include <java/lang/ExceptionInInitializerError.h>
-#include <java/lang/IllegalStateException.h>
 #include <java/lang/InterruptedException.h>
 #include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/Runnable.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodHandles.h>
 #include <java/lang/invoke/VarHandle.h>
-#include <java/util/concurrent/AbstractExecutorService.h>
 #include <java/util/concurrent/CancellationException.h>
 #include <java/util/concurrent/CompletableFuture$AltResult.h>
 #include <java/util/concurrent/CompletableFuture$AnyOf.h>
@@ -34,7 +32,6 @@
 #include <java/util/concurrent/CompletableFuture$Timeout.h>
 #include <java/util/concurrent/CompletableFuture$UniAccept.h>
 #include <java/util/concurrent/CompletableFuture$UniApply.h>
-#include <java/util/concurrent/CompletableFuture$UniCompletion.h>
 #include <java/util/concurrent/CompletableFuture$UniCompose.h>
 #include <java/util/concurrent/CompletableFuture$UniComposeExceptionally.h>
 #include <java/util/concurrent/CompletableFuture$UniExceptionally.h>
@@ -46,7 +43,6 @@
 #include <java/util/concurrent/CompletionStage.h>
 #include <java/util/concurrent/ExecutionException.h>
 #include <java/util/concurrent/Executor.h>
-#include <java/util/concurrent/ExecutorService.h>
 #include <java/util/concurrent/ForkJoinPool$ManagedBlocker.h>
 #include <java/util/concurrent/ForkJoinPool.h>
 #include <java/util/concurrent/ForkJoinWorkerThread.h>
@@ -74,21 +70,17 @@
 
 using $CompletableFutureArray = $Array<::java::util::concurrent::CompletableFuture>;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InterruptedException = ::java::lang::InterruptedException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Runnable = ::java::lang::Runnable;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandles = ::java::lang::invoke::MethodHandles;
 using $MethodHandles$Lookup = ::java::lang::invoke::MethodHandles$Lookup;
 using $VarHandle = ::java::lang::invoke::VarHandle;
-using $AbstractExecutorService = ::java::util::concurrent::AbstractExecutorService;
 using $CancellationException = ::java::util::concurrent::CancellationException;
 using $CompletableFuture$AltResult = ::java::util::concurrent::CompletableFuture$AltResult;
 using $CompletableFuture$AnyOf = ::java::util::concurrent::CompletableFuture$AnyOf;
@@ -114,7 +106,6 @@ using $CompletableFuture$ThreadPerTaskExecutor = ::java::util::concurrent::Compl
 using $CompletableFuture$Timeout = ::java::util::concurrent::CompletableFuture$Timeout;
 using $CompletableFuture$UniAccept = ::java::util::concurrent::CompletableFuture$UniAccept;
 using $CompletableFuture$UniApply = ::java::util::concurrent::CompletableFuture$UniApply;
-using $CompletableFuture$UniCompletion = ::java::util::concurrent::CompletableFuture$UniCompletion;
 using $CompletableFuture$UniCompose = ::java::util::concurrent::CompletableFuture$UniCompose;
 using $CompletableFuture$UniComposeExceptionally = ::java::util::concurrent::CompletableFuture$UniComposeExceptionally;
 using $CompletableFuture$UniExceptionally = ::java::util::concurrent::CompletableFuture$UniExceptionally;
@@ -126,7 +117,6 @@ using $CompletionException = ::java::util::concurrent::CompletionException;
 using $CompletionStage = ::java::util::concurrent::CompletionStage;
 using $ExecutionException = ::java::util::concurrent::ExecutionException;
 using $Executor = ::java::util::concurrent::Executor;
-using $ExecutorService = ::java::util::concurrent::ExecutorService;
 using $ForkJoinPool = ::java::util::concurrent::ForkJoinPool;
 using $ForkJoinPool$ManagedBlocker = ::java::util::concurrent::ForkJoinPool$ManagedBlocker;
 using $ForkJoinWorkerThread = ::java::util::concurrent::ForkJoinWorkerThread;

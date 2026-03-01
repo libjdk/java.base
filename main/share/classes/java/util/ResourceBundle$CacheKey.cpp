@@ -23,7 +23,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Module = ::java::lang::Module;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Locale = ::java::util::Locale;
 using $Objects = ::java::util::Objects;
 using $ResourceBundle = ::java::util::ResourceBundle;

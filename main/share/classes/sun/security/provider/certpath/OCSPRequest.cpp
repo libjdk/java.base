@@ -1,6 +1,5 @@
 #include <sun/security/provider/certpath/OCSPRequest.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/security/cert/Extension.h>
 #include <java/util/Collections.h>
@@ -17,7 +16,6 @@
 
 #undef TAG_CONTEXT
 
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;

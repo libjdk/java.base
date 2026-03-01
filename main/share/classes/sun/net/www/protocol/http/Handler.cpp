@@ -1,6 +1,5 @@
 #include <sun/net/www/protocol/http/Handler.h>
 
-#include <java/net/HttpURLConnection.h>
 #include <java/net/Proxy.h>
 #include <java/net/URL.h>
 #include <java/net/URLConnection.h>
@@ -11,12 +10,11 @@
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $HttpURLConnection = ::java::net::HttpURLConnection;
 using $Proxy = ::java::net::Proxy;
 using $URL = ::java::net::URL;
 using $URLConnection = ::java::net::URLConnection;
 using $URLStreamHandler = ::java::net::URLStreamHandler;
-using $1HttpURLConnection = ::sun::net::www::protocol::http::HttpURLConnection;
+using $HttpURLConnection = ::sun::net::www::protocol::http::HttpURLConnection;
 
 namespace sun {
 	namespace net {
@@ -73,7 +71,7 @@ $URLConnection* Handler::openConnection($URL* u) {
 }
 
 $URLConnection* Handler::openConnection($URL* u, $Proxy* p) {
-	return $new($1HttpURLConnection, u, p, this);
+	return $new($HttpURLConnection, u, p, this);
 }
 
 Handler::Handler() {

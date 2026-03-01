@@ -11,7 +11,6 @@
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
 #include <java/io/Reader.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/Math.h>
 #include <java/lang/Process.h>
@@ -47,10 +46,8 @@ using $IOException = ::java::io::IOException;
 using $InputStreamReader = ::java::io::InputStreamReader;
 using $PrintStream = ::java::io::PrintStream;
 using $Reader = ::java::io::Reader;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;

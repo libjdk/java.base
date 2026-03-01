@@ -26,7 +26,6 @@
 #include <java/security/cert/PolicyNode.h>
 #include <java/security/cert/TrustAnchor.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -64,7 +63,6 @@
 using $IOException = ::java::io::IOException;
 using $Serializable = ::java::io::Serializable;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
@@ -86,7 +84,6 @@ using $PKIXRevocationChecker = ::java::security::cert::PKIXRevocationChecker;
 using $PolicyNode = ::java::security::cert::PolicyNode;
 using $TrustAnchor = ::java::security::cert::TrustAnchor;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

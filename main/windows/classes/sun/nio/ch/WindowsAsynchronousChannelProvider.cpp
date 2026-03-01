@@ -7,9 +7,6 @@
 #include <java/nio/channels/spi/AsynchronousChannelProvider.h>
 #include <java/util/concurrent/ExecutorService.h>
 #include <java/util/concurrent/ThreadFactory.h>
-#include <sun/nio/ch/AsynchronousChannelGroupImpl.h>
-#include <sun/nio/ch/AsynchronousServerSocketChannelImpl.h>
-#include <sun/nio/ch/AsynchronousSocketChannelImpl.h>
 #include <sun/nio/ch/Iocp.h>
 #include <sun/nio/ch/ThreadPool.h>
 #include <sun/nio/ch/WindowsAsynchronousServerSocketChannelImpl.h>
@@ -26,9 +23,6 @@ using $IllegalChannelGroupException = ::java::nio::channels::IllegalChannelGroup
 using $AsynchronousChannelProvider = ::java::nio::channels::spi::AsynchronousChannelProvider;
 using $ExecutorService = ::java::util::concurrent::ExecutorService;
 using $ThreadFactory = ::java::util::concurrent::ThreadFactory;
-using $AsynchronousChannelGroupImpl = ::sun::nio::ch::AsynchronousChannelGroupImpl;
-using $AsynchronousServerSocketChannelImpl = ::sun::nio::ch::AsynchronousServerSocketChannelImpl;
-using $AsynchronousSocketChannelImpl = ::sun::nio::ch::AsynchronousSocketChannelImpl;
 using $Iocp = ::sun::nio::ch::Iocp;
 using $ThreadPool = ::sun::nio::ch::ThreadPool;
 using $WindowsAsynchronousServerSocketChannelImpl = ::sun::nio::ch::WindowsAsynchronousServerSocketChannelImpl;

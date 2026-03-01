@@ -11,7 +11,6 @@
 #include <java/time/DateTimeException.h>
 #include <java/time/LocalDate.h>
 #include <java/time/Ser.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/ChronoPeriod.h>
 #include <java/time/chrono/Chronology.h>
@@ -53,19 +52,15 @@ using $ArithmeticException = ::java::lang::ArithmeticException;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NumberFormatException = ::java::lang::NumberFormatException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $DateTimeException = ::java::time::DateTimeException;
 using $LocalDate = ::java::time::LocalDate;
 using $Ser = ::java::time::Ser;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoPeriod = ::java::time::chrono::ChronoPeriod;
 using $Chronology = ::java::time::chrono::Chronology;

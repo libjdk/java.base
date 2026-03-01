@@ -12,7 +12,6 @@
 #include <java/nio/channels/spi/AbstractSelectionKey.h>
 #include <java/nio/channels/spi/AbstractSelector$1.h>
 #include <java/nio/channels/spi/SelectorProvider.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
 #include <sun/nio/ch/Interruptible.h>
@@ -39,7 +38,6 @@ using $AbstractSelectableChannel = ::java::nio::channels::spi::AbstractSelectabl
 using $AbstractSelectionKey = ::java::nio::channels::spi::AbstractSelectionKey;
 using $AbstractSelector$1 = ::java::nio::channels::spi::AbstractSelector$1;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;
 using $Interruptible = ::sun::nio::ch::Interruptible;

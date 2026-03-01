@@ -54,6 +54,31 @@ using ::jdk::internal::misc::Unsafe;
 #include "jvm.h"
 #include "TimeZone_md.h"
 
+Object* unsafeGet(Object$* inst, int64_t offset, $Class* type) {
+	if (type->isPrimitive()) {
+		if (type == Integer::TYPE) {
+			return $of(Unsafe::theUnsafe->getInt(inst, offset));
+		} else if (type == Boolean::TYPE) {
+			return $of(Unsafe::theUnsafe->getBoolean(inst, offset));
+		} else if (type == Byte::TYPE) {
+			return $of(Unsafe::theUnsafe->getByte(inst, offset));
+		} else if (type == Short::TYPE) {
+			return $of(Unsafe::theUnsafe->getShort(inst, offset));
+		} else if (type == Character::TYPE) {
+			return $of(Unsafe::theUnsafe->getChar(inst, offset));
+		} else if (type == Long::TYPE) {
+			return $of(Unsafe::theUnsafe->getLong(inst, offset));
+		} else if (type == Float::TYPE) {
+			return $of(Unsafe::theUnsafe->getFloat(inst, offset));
+		} else if (type == Double::TYPE) {
+			return $of(Unsafe::theUnsafe->getDouble(inst, offset));
+		}
+		$shouldNotReachHere();
+	} else {
+		return Unsafe::theUnsafe->getObject(inst, offset);
+	}
+}
+
 inline Object* invokeBasic0(MemberName* mn, $ObjectArray* args) {
 	int8_t refKind = mn->getReferenceKind();
 	::java::lang::reflect::Executable* exe = mn->method->vmtarget;
@@ -99,15 +124,15 @@ $ObjectArray* makeArgs(::java::lang::invoke::MethodHandle* this__, $ObjectArray*
 Object* _Java_java_lang_invoke_MethodHandle_invoke(::java::lang::invoke::MethodHandle* this__, $ObjectArray* args) {
 	Class* thisClazz = $of(this__)->getClass();
 	if (thisClazz == DirectMethodHandle$Accessor::class$) {
-		$var(DirectMethodHandle$Accessor, dmha, $cast<DirectMethodHandle$Accessor>(this__));
-		return ((Object*)Unsafe::theUnsafe->getObject(args->get(0), dmha->fieldOffset));
+		DirectMethodHandle$Accessor* dmha = $cast(DirectMethodHandle$Accessor, this__);
+		return unsafeGet(args->get(0), dmha->fieldOffset, dmha->fieldType);
 	}
 	if (thisClazz == DirectMethodHandle$StaticAccessor::class$) {
-		$var(DirectMethodHandle$StaticAccessor, dmha, $cast<DirectMethodHandle$StaticAccessor>(this__));
-		return ((Object*)Unsafe::theUnsafe->getObject(nullptr, dmha->staticOffset));
+		DirectMethodHandle$StaticAccessor* dmhsa = $cast(DirectMethodHandle$StaticAccessor, this__);
+		return unsafeGet(nullptr, dmhsa->staticOffset, dmhsa->fieldType);
 	}
 	if ($instanceOf<DirectMethodHandle>(this__)) {
-		$var(DirectMethodHandle, dmh, $cast<DirectMethodHandle>(this__));
+		DirectMethodHandle* dmh = $cast(DirectMethodHandle, this__);
 		return invokeBasic0(dmh->member, args);
 
 		//$var(DirectMethodHandle, dmh, $cast<DirectMethodHandle>(this__));
@@ -170,15 +195,15 @@ Object* _Java_java_lang_invoke_MethodHandle_invoke(::java::lang::invoke::MethodH
 Object* _Java_java_lang_invoke_MethodHandle_invokeBasic(::java::lang::invoke::MethodHandle* this__, $ObjectArray* args) {
 	Class* thisClazz = $of(this__)->getClass();
 	if (thisClazz == DirectMethodHandle$Accessor::class$) {
-		$var(DirectMethodHandle$Accessor, dmha, $cast<DirectMethodHandle$Accessor>(this__));
-		return ((Object*)Unsafe::theUnsafe->getObject(args->get(0), dmha->fieldOffset));
+		DirectMethodHandle$Accessor* dmha = $cast(DirectMethodHandle$Accessor, this__);
+		return unsafeGet(args->get(0), dmha->fieldOffset, dmha->fieldType);
 	}
 	if (thisClazz == DirectMethodHandle$StaticAccessor::class$) {
-		$var(DirectMethodHandle$StaticAccessor, dmha, $cast<DirectMethodHandle$StaticAccessor>(this__));
-		return ((Object*)Unsafe::theUnsafe->getObject(nullptr, dmha->staticOffset));
+		DirectMethodHandle$StaticAccessor* dmhsa = $cast(DirectMethodHandle$StaticAccessor, this__);
+		return unsafeGet(nullptr, dmhsa->staticOffset, dmhsa->fieldType);
 	}
 	if ($instanceOf<DirectMethodHandle>(this__)) {
-		$var(DirectMethodHandle, dmh, $cast<DirectMethodHandle>(this__));
+		DirectMethodHandle* dmh = $cast(DirectMethodHandle, this__);
 		return invokeBasic0(dmh->member, args);
 		//if (dmh->member__->method__->vmtarget->getClass() == Method::class$) {
 		//	Method* method = _scast<Method>(dmh->member__->method__->vmtarget);
@@ -235,7 +260,7 @@ Object* _Java_java_lang_invoke_MethodHandle_invokeBasic(::java::lang::invoke::Me
 		//$return (_Java_java_lang_invoke_MethodHandle_invokeBasic(mh, args2));
 	}
 	if ($instanceOf<DelegatingMethodHandle>(this__)) {
-		DelegatingMethodHandle* dmh = $cast<DelegatingMethodHandle>(this__);
+		DelegatingMethodHandle* dmh = $cast(DelegatingMethodHandle, this__);
 		MethodHandle* target = dmh->getTarget();
 		return ($Object*)target->invokeBasic(args);
 	}
@@ -310,16 +335,15 @@ Object* _Java_java_lang_invoke_MethodHandle_invokeExact(::java::lang::invoke::Me
 	Class* thisClazz = $of(this__)->getClass();
 	checkArgsType(this__->type$, args);
 	if (thisClazz == DirectMethodHandle$Accessor::class$) {
-		$var(DirectMethodHandle$Accessor, dmha, $cast<DirectMethodHandle$Accessor>(this__));
-		return (Object*)Unsafe::theUnsafe->getObject(args->get(0), dmha->fieldOffset);
+		DirectMethodHandle$Accessor* dmha = $cast(DirectMethodHandle$Accessor, this__);
+		return unsafeGet(args->get(0), dmha->fieldOffset, dmha->fieldType);
 	}
 	if (thisClazz == DirectMethodHandle$StaticAccessor::class$) {
-		$var(DirectMethodHandle$StaticAccessor, dmha, $cast<DirectMethodHandle$StaticAccessor>(this__));
-		return (Object*)Unsafe::theUnsafe->getObject(nullptr, dmha->staticOffset);
+		DirectMethodHandle$StaticAccessor* dmhsa = $cast(DirectMethodHandle$StaticAccessor, this__);
+		return unsafeGet(nullptr, dmhsa->staticOffset, dmhsa->fieldType);
 	}
 	if ($instanceOf<DirectMethodHandle>(this__)) {
-
-		$var(DirectMethodHandle, dmh, $cast<DirectMethodHandle>(this__));
+		DirectMethodHandle* dmh = $cast(DirectMethodHandle, this__);
 		$var($ObjectArray, args2, args);
 		//if (needConvertArgs($fcast<MethodType>(dmh->member__->type), args)) {
 		//	$assign(args, convertArgs($fcast<MethodType>(dmh->member__->type), args));

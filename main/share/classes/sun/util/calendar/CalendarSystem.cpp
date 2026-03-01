@@ -4,8 +4,6 @@
 #include <java/util/TimeZone.h>
 #include <java/util/concurrent/ConcurrentHashMap.h>
 #include <java/util/concurrent/ConcurrentMap.h>
-#include <sun/util/calendar/AbstractCalendar.h>
-#include <sun/util/calendar/BaseCalendar.h>
 #include <sun/util/calendar/CalendarDate.h>
 #include <sun/util/calendar/Era.h>
 #include <sun/util/calendar/Gregorian.h>
@@ -24,8 +22,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $TimeZone = ::java::util::TimeZone;
 using $ConcurrentHashMap = ::java::util::concurrent::ConcurrentHashMap;
 using $ConcurrentMap = ::java::util::concurrent::ConcurrentMap;
-using $AbstractCalendar = ::sun::util::calendar::AbstractCalendar;
-using $BaseCalendar = ::sun::util::calendar::BaseCalendar;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;
 using $Era = ::sun::util::calendar::Era;
 using $Gregorian = ::sun::util::calendar::Gregorian;

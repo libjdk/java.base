@@ -24,9 +24,7 @@
 #include <java/nio/file/FileSystem.h>
 #include <java/nio/file/FileSystems.h>
 #include <java/nio/file/Path.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <jdk/internal/misc/Unsafe.h>
@@ -66,7 +64,6 @@ using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -83,9 +80,7 @@ using $URL = ::java::net::URL;
 using $1FileSystem = ::java::nio::file::FileSystem;
 using $FileSystems = ::java::nio::file::FileSystems;
 using $Path = ::java::nio::file::Path;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Unsafe = ::jdk::internal::misc::Unsafe;

@@ -7,7 +7,6 @@
 #include <java/nio/file/attribute/GroupPrincipal.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
 #include <java/nio/file/attribute/UserPrincipalNotFoundException.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <sun/nio/fs/UnixException.h>
 #include <sun/nio/fs/UnixNativeDispatcher.h>
@@ -32,7 +31,6 @@ using $SecurityManager = ::java::lang::SecurityManager;
 using $GroupPrincipal = ::java::nio::file::attribute::GroupPrincipal;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
 using $UserPrincipalNotFoundException = ::java::nio::file::attribute::UserPrincipalNotFoundException;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $UnixException = ::sun::nio::fs::UnixException;
 using $UnixNativeDispatcher = ::sun::nio::fs::UnixNativeDispatcher;

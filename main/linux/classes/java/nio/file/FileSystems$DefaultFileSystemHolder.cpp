@@ -10,10 +10,8 @@
 #include <java/nio/file/spi/FileSystemProvider.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <sun/nio/fs/AbstractFileSystemProvider.h>
 #include <sun/nio/fs/DefaultFileSystemProvider.h>
 #include <sun/nio/fs/LinuxFileSystemProvider.h>
-#include <sun/nio/fs/UnixFileSystemProvider.h>
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
@@ -30,9 +28,7 @@ using $FileSystems$DefaultFileSystemHolder$1 = ::java::nio::file::FileSystems$De
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractFileSystemProvider = ::sun::nio::fs::AbstractFileSystemProvider;
 using $DefaultFileSystemProvider = ::sun::nio::fs::DefaultFileSystemProvider;
-using $UnixFileSystemProvider = ::sun::nio::fs::UnixFileSystemProvider;
 
 namespace java {
 	namespace nio {

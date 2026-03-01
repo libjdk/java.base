@@ -4,7 +4,6 @@
 #include <java/io/IOException.h>
 #include <java/lang/AssertionError.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
 #include <java/nio/channels/AsynchronousFileChannel.h>
 #include <java/nio/channels/Channel.h>
@@ -30,7 +29,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
 using $AsynchronousFileChannel = ::java::nio::channels::AsynchronousFileChannel;
 using $Channel = ::java::nio::channels::Channel;

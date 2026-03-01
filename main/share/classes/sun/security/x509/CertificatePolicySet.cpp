@@ -1,6 +1,5 @@
 #include <sun/security/x509/CertificatePolicySet.h>
 
-#include <java/util/AbstractList.h>
 #include <java/util/Collections.h>
 #include <java/util/List.h>
 #include <java/util/Vector.h>
@@ -14,7 +13,6 @@ using $DerValueArray = $Array<::sun::security::util::DerValue>;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractList = ::java::util::AbstractList;
 using $Collections = ::java::util::Collections;
 using $List = ::java::util::List;
 using $Vector = ::java::util::Vector;

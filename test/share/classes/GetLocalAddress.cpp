@@ -14,10 +14,6 @@
 #include <java/net/SocketAddress.h>
 #include <java/nio/channels/DatagramChannel.h>
 #include <java/nio/channels/NetworkChannel.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
-#include <java/util/HashMap.h>
-#include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/LinkedHashSet.h>
@@ -40,10 +36,6 @@ using $InetSocketAddress = ::java::net::InetSocketAddress;
 using $MulticastSocket = ::java::net::MulticastSocket;
 using $SocketAddress = ::java::net::SocketAddress;
 using $DatagramChannel = ::java::nio::channels::DatagramChannel;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
-using $HashMap = ::java::util::HashMap;
-using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $LinkedHashSet = ::java::util::LinkedHashSet;

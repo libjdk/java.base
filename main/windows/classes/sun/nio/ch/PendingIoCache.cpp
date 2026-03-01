@@ -4,7 +4,6 @@
 #include <java/lang/InterruptedException.h>
 #include <java/lang/Runnable.h>
 #include <java/nio/channels/AsynchronousChannel.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map.h>
@@ -28,7 +27,6 @@ using $InterruptedException = ::java::lang::InterruptedException;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

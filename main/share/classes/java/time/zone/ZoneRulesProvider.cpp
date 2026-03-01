@@ -7,8 +7,6 @@
 #include <java/time/zone/ZoneRules.h>
 #include <java/time/zone/ZoneRulesException.h>
 #include <java/time/zone/ZoneRulesProvider$1.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -41,8 +39,6 @@ using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ZoneRules = ::java::time::zone::ZoneRules;
 using $ZoneRulesException = ::java::time::zone::ZoneRulesException;
 using $ZoneRulesProvider$1 = ::java::time::zone::ZoneRulesProvider$1;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

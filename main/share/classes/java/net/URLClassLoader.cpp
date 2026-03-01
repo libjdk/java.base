@@ -26,7 +26,6 @@
 #include <java/nio/ByteBuffer.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSigner.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
@@ -76,7 +75,6 @@ using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -99,7 +97,6 @@ using $URLStreamHandlerFactory = ::java::net::URLStreamHandlerFactory;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;

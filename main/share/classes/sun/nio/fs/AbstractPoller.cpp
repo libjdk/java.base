@@ -12,7 +12,6 @@
 #include <java/nio/file/WatchKey.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/LinkedList.h>
 #include <java/util/Set.h>
@@ -50,7 +49,6 @@ using $WatchEvent$Kind = ::java::nio::file::WatchEvent$Kind;
 using $WatchKey = ::java::nio::file::WatchKey;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $LinkedList = ::java::util::LinkedList;
 using $Set = ::java::util::Set;

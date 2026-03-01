@@ -2,7 +2,6 @@
 
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/ByteArrayOutputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/PushbackInputStream.h>
@@ -50,16 +49,13 @@ using $X509CRLArray = $Array<::java::security::cert::X509CRL>;
 using $X509CertificateArray = $Array<::java::security::cert::X509Certificate>;
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $PushbackInputStream = ::java::io::PushbackInputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $BigInteger = ::java::math::BigInteger;
 using $Key = ::java::security::Key;
 using $Principal = ::java::security::Principal;

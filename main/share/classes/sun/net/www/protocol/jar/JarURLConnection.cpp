@@ -2,7 +2,6 @@
 
 #include <java/io/BufferedInputStream.h>
 #include <java/io/FileNotFoundException.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/net/JarURLConnection.h>
@@ -22,7 +21,6 @@
 
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $FileNotFoundException = ::java::io::FileNotFoundException;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

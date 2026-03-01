@@ -1,11 +1,8 @@
 #include <sun/reflect/generics/parser/SignatureParser.h>
 
 #include <java/lang/AssertionError.h>
-#include <java/lang/ClassFormatError.h>
 #include <java/lang/Error.h>
-#include <java/lang/LinkageError.h>
 #include <java/lang/reflect/GenericSignatureFormatError.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <sun/reflect/generics/tree/ArrayTypeSignature.h>
@@ -43,14 +40,11 @@ using $TypeArgumentArray = $Array<::sun::reflect::generics::tree::TypeArgument>;
 using $TypeSignatureArray = $Array<::sun::reflect::generics::tree::TypeSignature>;
 using $AssertionError = ::java::lang::AssertionError;
 using $Character = ::java::lang::Character;
-using $ClassFormatError = ::java::lang::ClassFormatError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Error = ::java::lang::Error;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $LinkageError = ::java::lang::LinkageError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $GenericSignatureFormatError = ::java::lang::reflect::GenericSignatureFormatError;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $ArrayTypeSignature = ::sun::reflect::generics::tree::ArrayTypeSignature;

@@ -2,7 +2,6 @@
 
 #include <java/lang/AssertionError.h>
 #include <java/lang/ThreadLocal.h>
-#include <jdk/internal/misc/TerminatingThreadLocal.h>
 #include <jdk/internal/misc/Unsafe.h>
 #include <sun/nio/fs/NativeBuffer.h>
 #include <sun/nio/fs/NativeBuffers$1.h>
@@ -18,7 +17,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ThreadLocal = ::java::lang::ThreadLocal;
-using $TerminatingThreadLocal = ::jdk::internal::misc::TerminatingThreadLocal;
 using $Unsafe = ::jdk::internal::misc::Unsafe;
 using $NativeBuffer = ::sun::nio::fs::NativeBuffer;
 using $NativeBuffers$1 = ::sun::nio::fs::NativeBuffers$1;

@@ -12,7 +12,6 @@
 #include <sun/security/ssl/HandshakeContext.h>
 #include <sun/security/ssl/NamedGroup$NamedGroupSpec.h>
 #include <sun/security/ssl/NamedGroup.h>
-#include <sun/security/ssl/NamedGroupPossession.h>
 #include <sun/security/ssl/ProtocolVersion.h>
 #include <sun/security/ssl/SSLContextImpl.h>
 #include <sun/security/ssl/SSLPossession.h>
@@ -40,7 +39,6 @@ using $DHKeyExchange$DHEPossession = ::sun::security::ssl::DHKeyExchange$DHEPoss
 using $HandshakeContext = ::sun::security::ssl::HandshakeContext;
 using $NamedGroup = ::sun::security::ssl::NamedGroup;
 using $NamedGroup$NamedGroupSpec = ::sun::security::ssl::NamedGroup$NamedGroupSpec;
-using $NamedGroupPossession = ::sun::security::ssl::NamedGroupPossession;
 using $SSLContextImpl = ::sun::security::ssl::SSLContextImpl;
 using $SSLPossession = ::sun::security::ssl::SSLPossession;
 using $ServerHandshakeContext = ::sun::security::ssl::ServerHandshakeContext;

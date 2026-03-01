@@ -27,7 +27,6 @@
 #include <sun/reflect/generics/factory/GenericsFactory.h>
 #include <sun/reflect/generics/repository/ConstructorRepository.h>
 #include <sun/reflect/generics/repository/MethodRepository.h>
-#include <sun/reflect/generics/scope/AbstractScope.h>
 #include <sun/reflect/generics/scope/MethodScope.h>
 #include <sun/reflect/generics/scope/Scope.h>
 #include <jcpp.h>
@@ -75,7 +74,6 @@ using $CoreReflectionFactory = ::sun::reflect::generics::factory::CoreReflection
 using $GenericsFactory = ::sun::reflect::generics::factory::GenericsFactory;
 using $ConstructorRepository = ::sun::reflect::generics::repository::ConstructorRepository;
 using $MethodRepository = ::sun::reflect::generics::repository::MethodRepository;
-using $AbstractScope = ::sun::reflect::generics::scope::AbstractScope;
 using $MethodScope = ::sun::reflect::generics::scope::MethodScope;
 using $Scope = ::sun::reflect::generics::scope::Scope;
 
@@ -525,7 +523,7 @@ bool Method::isHidden() {
 	return getAnnotation(::jdk::internal::vm::annotation::Hidden::class$) != nullptr;
 }
 
-Object$* Method::invokeSpecial(Object$* obj, $ObjectArray* args) {
+$Object* Method::invokeSpecial(Object$* obj, $ObjectArray* args) {
 	$MethodAccessor* ma = this->methodAccessor;
 	if (ma != nullptr) {
 		return ma->invokeSpecial(obj, args);

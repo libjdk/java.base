@@ -15,7 +15,6 @@ using $Spliterator = ::java::util::Spliterator;
 using $AtomicBoolean = ::java::util::concurrent::atomic::AtomicBoolean;
 using $Consumer = ::java::util::function::Consumer;
 using $Predicate = ::java::util::function::Predicate;
-using $WhileOps$UnorderedWhileSpliterator = ::java::util::stream::WhileOps$UnorderedWhileSpliterator;
 using $WhileOps$UnorderedWhileSpliterator$OfRef = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfRef;
 
 namespace java {

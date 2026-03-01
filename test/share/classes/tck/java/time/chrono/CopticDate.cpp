@@ -4,7 +4,6 @@
 #include <java/time/LocalDate.h>
 #include <java/time/Period.h>
 #include <java/time/Year.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/ChronoPeriod.h>
 #include <java/time/chrono/Chronology.h>
@@ -46,7 +45,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $LocalDate = ::java::time::LocalDate;
 using $Period = ::java::time::Period;
 using $Year = ::java::time::Year;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoPeriod = ::java::time::chrono::ChronoPeriod;
 using $Chronology = ::java::time::chrono::Chronology;

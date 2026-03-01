@@ -1,13 +1,11 @@
 #include <Basic4Appendable$9.h>
 
 #include <Basic4Appendable.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/StringBuffer.h>
 #include <jcpp.h>
 
 using $Basic4Appendable = ::Basic4Appendable;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;

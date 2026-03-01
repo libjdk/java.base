@@ -13,7 +13,6 @@
 #include <java/net/SocketOptions.h>
 #include <java/net/StandardSocketOptions.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -50,7 +49,6 @@ using $NetworkInterface = ::java::net::NetworkInterface;
 using $SocketException = ::java::net::SocketException;
 using $SocketOptions = ::java::net::SocketOptions;
 using $StandardSocketOptions = ::java::net::StandardSocketOptions;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

@@ -2,17 +2,9 @@
 
 #include <java/util/Comparator.h>
 #include <java/util/stream/AbstractPipeline.h>
-#include <java/util/stream/DoublePipeline$StatefulOp.h>
-#include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/DoubleStream.h>
-#include <java/util/stream/IntPipeline$StatefulOp.h>
-#include <java/util/stream/IntPipeline.h>
 #include <java/util/stream/IntStream.h>
-#include <java/util/stream/LongPipeline$StatefulOp.h>
-#include <java/util/stream/LongPipeline.h>
 #include <java/util/stream/LongStream.h>
-#include <java/util/stream/ReferencePipeline$StatefulOp.h>
-#include <java/util/stream/ReferencePipeline.h>
 #include <java/util/stream/SortedOps$OfDouble.h>
 #include <java/util/stream/SortedOps$OfInt.h>
 #include <java/util/stream/SortedOps$OfLong.h>
@@ -25,17 +17,9 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Comparator = ::java::util::Comparator;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
-using $DoublePipeline = ::java::util::stream::DoublePipeline;
-using $DoublePipeline$StatefulOp = ::java::util::stream::DoublePipeline$StatefulOp;
 using $DoubleStream = ::java::util::stream::DoubleStream;
-using $IntPipeline = ::java::util::stream::IntPipeline;
-using $IntPipeline$StatefulOp = ::java::util::stream::IntPipeline$StatefulOp;
 using $IntStream = ::java::util::stream::IntStream;
-using $LongPipeline = ::java::util::stream::LongPipeline;
-using $LongPipeline$StatefulOp = ::java::util::stream::LongPipeline$StatefulOp;
 using $LongStream = ::java::util::stream::LongStream;
-using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
-using $ReferencePipeline$StatefulOp = ::java::util::stream::ReferencePipeline$StatefulOp;
 using $SortedOps$OfDouble = ::java::util::stream::SortedOps$OfDouble;
 using $SortedOps$OfInt = ::java::util::stream::SortedOps$OfInt;
 using $SortedOps$OfLong = ::java::util::stream::SortedOps$OfLong;

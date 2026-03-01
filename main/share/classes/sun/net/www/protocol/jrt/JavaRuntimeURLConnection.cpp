@@ -14,7 +14,6 @@
 #include <java/net/URL.h>
 #include <java/net/URLConnection.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <jdk/internal/jimage/ImageLocation.h>
@@ -37,7 +36,6 @@ using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $Serializable = ::java::io::Serializable;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
@@ -47,7 +45,6 @@ using $RuntimePermission = ::java::lang::RuntimePermission;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $MalformedURLException = ::java::net::MalformedURLException;
 using $URL = ::java::net::URL;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ImageReader = ::jdk::internal::jimage::ImageReader;

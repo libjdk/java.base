@@ -15,7 +15,6 @@
 #include <java/nio/file/Paths.h>
 #include <java/nio/file/SimpleFileVisitor.h>
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
@@ -44,7 +43,6 @@ using $Path = ::java::nio::file::Path;
 using $Paths = ::java::nio::file::Paths;
 using $SimpleFileVisitor = ::java::nio::file::SimpleFileVisitor;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;

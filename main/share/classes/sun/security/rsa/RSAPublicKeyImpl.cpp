@@ -7,7 +7,6 @@
 #include <java/security/KeyRep$Type.h>
 #include <java/security/KeyRep.h>
 #include <java/security/ProviderException.h>
-#include <java/security/PublicKey.h>
 #include <java/security/interfaces/RSAPublicKey.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <sun/security/rsa/RSAKeyFactory.h>
@@ -27,17 +26,14 @@
 using $BigIntegerArray = $Array<::java::math::BigInteger>;
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $BigInteger = ::java::math::BigInteger;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
 using $KeyRep = ::java::security::KeyRep;
 using $KeyRep$Type = ::java::security::KeyRep$Type;
 using $ProviderException = ::java::security::ProviderException;
-using $PublicKey = ::java::security::PublicKey;
 using $RSAPublicKey = ::java::security::interfaces::RSAPublicKey;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $RSAKeyFactory = ::sun::security::rsa::RSAKeyFactory;

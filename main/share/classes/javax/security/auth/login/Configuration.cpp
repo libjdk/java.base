@@ -5,7 +5,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
@@ -37,7 +36,6 @@ using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;

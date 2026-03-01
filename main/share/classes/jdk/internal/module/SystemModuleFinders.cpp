@@ -16,8 +16,6 @@
 #include <java/nio/file/Files.h>
 #include <java/nio/file/LinkOption.h>
 #include <java/nio/file/Path.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashMap.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -75,8 +73,6 @@ using $ModuleFinder = ::java::lang::module::ModuleFinder;
 using $ModuleReference = ::java::lang::module::ModuleReference;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $URI = ::java::net::URI;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

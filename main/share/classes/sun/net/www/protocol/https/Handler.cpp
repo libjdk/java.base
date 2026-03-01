@@ -1,10 +1,8 @@
 #include <sun/net/www/protocol/https/Handler.h>
 
-#include <java/net/HttpURLConnection.h>
 #include <java/net/Proxy.h>
 #include <java/net/URL.h>
 #include <java/net/URLConnection.h>
-#include <javax/net/ssl/HttpsURLConnection.h>
 #include <sun/net/www/protocol/http/Handler.h>
 #include <sun/net/www/protocol/https/HttpsURLConnectionImpl.h>
 #include <jcpp.h>
@@ -12,11 +10,9 @@
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $HttpURLConnection = ::java::net::HttpURLConnection;
 using $Proxy = ::java::net::Proxy;
 using $URL = ::java::net::URL;
 using $URLConnection = ::java::net::URLConnection;
-using $HttpsURLConnection = ::javax::net::ssl::HttpsURLConnection;
 using $Handler = ::sun::net::www::protocol::http::Handler;
 using $HttpsURLConnectionImpl = ::sun::net::www::protocol::https::HttpsURLConnectionImpl;
 

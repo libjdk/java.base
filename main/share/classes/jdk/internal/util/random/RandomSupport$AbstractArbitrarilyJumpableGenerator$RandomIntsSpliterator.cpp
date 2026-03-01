@@ -4,9 +4,6 @@
 #include <java/util/Spliterator$OfInt.h>
 #include <java/util/function/IntConsumer.h>
 #include <java/util/random/RandomGenerator$ArbitrarilyJumpableGenerator.h>
-#include <java/util/random/RandomGenerator$JumpableGenerator.h>
-#include <java/util/random/RandomGenerator$LeapableGenerator.h>
-#include <java/util/random/RandomGenerator$StreamableGenerator.h>
 #include <java/util/random/RandomGenerator.h>
 #include <jdk/internal/util/random/RandomSupport$AbstractArbitrarilyJumpableGenerator.h>
 #include <jdk/internal/util/random/RandomSupport$RandomSpliterator.h>
@@ -23,9 +20,6 @@ using $Spliterator$OfInt = ::java::util::Spliterator$OfInt;
 using $IntConsumer = ::java::util::function::IntConsumer;
 using $RandomGenerator = ::java::util::random::RandomGenerator;
 using $RandomGenerator$ArbitrarilyJumpableGenerator = ::java::util::random::RandomGenerator$ArbitrarilyJumpableGenerator;
-using $RandomGenerator$JumpableGenerator = ::java::util::random::RandomGenerator$JumpableGenerator;
-using $RandomGenerator$LeapableGenerator = ::java::util::random::RandomGenerator$LeapableGenerator;
-using $RandomGenerator$StreamableGenerator = ::java::util::random::RandomGenerator$StreamableGenerator;
 using $RandomSupport = ::jdk::internal::util::random::RandomSupport;
 using $RandomSupport$RandomSpliterator = ::jdk::internal::util::random::RandomSupport$RandomSpliterator;
 

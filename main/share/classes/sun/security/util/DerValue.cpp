@@ -8,22 +8,18 @@
 #include <java/math/BigInteger.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Date.h>
 #include <java/util/List.h>
 #include <java/util/TimeZone.h>
 #include <sun/nio/cs/UTF_32BE.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/security/util/BitArray.h>
 #include <sun/security/util/DerIndefLenConverter.h>
 #include <sun/security/util/DerInputStream.h>
 #include <sun/security/util/DerOutputStream.h>
 #include <sun/security/util/IOUtils.h>
 #include <sun/security/util/ObjectIdentifier.h>
-#include <sun/util/calendar/AbstractCalendar.h>
-#include <sun/util/calendar/BaseCalendar.h>
 #include <sun/util/calendar/CalendarDate.h>
 #include <sun/util/calendar/CalendarSystem.h>
 #include <sun/util/calendar/Gregorian.h>
@@ -53,22 +49,18 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $BigInteger = ::java::math::BigInteger;
 using $Charset = ::java::nio::charset::Charset;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Date = ::java::util::Date;
 using $List = ::java::util::List;
 using $TimeZone = ::java::util::TimeZone;
 using $UTF_32BE = ::sun::nio::cs::UTF_32BE;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $BitArray = ::sun::security::util::BitArray;
 using $DerIndefLenConverter = ::sun::security::util::DerIndefLenConverter;
 using $DerInputStream = ::sun::security::util::DerInputStream;
 using $DerOutputStream = ::sun::security::util::DerOutputStream;
 using $IOUtils = ::sun::security::util::IOUtils;
 using $ObjectIdentifier = ::sun::security::util::ObjectIdentifier;
-using $AbstractCalendar = ::sun::util::calendar::AbstractCalendar;
-using $BaseCalendar = ::sun::util::calendar::BaseCalendar;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;
 using $CalendarSystem = ::sun::util::calendar::CalendarSystem;
 

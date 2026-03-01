@@ -2,7 +2,6 @@
 
 #include <java/util/Arrays.h>
 #include <java/util/Spliterator$OfDouble.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/function/DoubleConsumer.h>
 #include <java/util/stream/Nodes.h>
@@ -16,7 +15,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Arrays = ::java::util::Arrays;
 using $Spliterator = ::java::util::Spliterator;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $DoubleConsumer = ::java::util::function::DoubleConsumer;
 
 namespace java {

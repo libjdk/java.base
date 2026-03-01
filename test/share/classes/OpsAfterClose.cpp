@@ -12,7 +12,6 @@
 #include <java/io/CharArrayReader.h>
 #include <java/io/File.h>
 #include <java/io/FileReader.h>
-#include <java/io/FilterReader.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -46,7 +45,6 @@ using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $CharArrayReader = ::java::io::CharArrayReader;
 using $File = ::java::io::File;
 using $FileReader = ::java::io::FileReader;
-using $FilterReader = ::java::io::FilterReader;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;

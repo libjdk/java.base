@@ -127,7 +127,7 @@ public:
 	bool isCallerSensitive();
 	bool isHidden();
 	$String* getDescriptor();
-	Object$* invokeSpecial(Object$* obj, $ObjectArray* args);
+	$Object* invokeSpecial(Object$* obj, $ObjectArray* args);
 	$Value invokev(Object$* obj, $Value* argv);
 	int32_t virtualOffset = 0;
 	int32_t virtualIndex = 0;

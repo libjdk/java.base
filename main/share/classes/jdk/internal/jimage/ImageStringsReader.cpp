@@ -1,6 +1,5 @@
 #include <jdk/internal/jimage/ImageStringsReader.h>
 
-#include <java/io/IOException.h>
 #include <java/io/UTFDataFormatException.h>
 #include <java/lang/InternalError.h>
 #include <java/nio/ByteBuffer.h>
@@ -14,10 +13,8 @@
 #undef POSITIVE_MASK
 #undef US_ASCII
 
-using $IOException = ::java::io::IOException;
 using $UTFDataFormatException = ::java::io::UTFDataFormatException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $InternalError = ::java::lang::InternalError;

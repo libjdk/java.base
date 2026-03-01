@@ -1,8 +1,6 @@
 #include <sun/security/ssl/SupportedGroupsExtension$CHSupportedGroupsConsumer.h>
 
 #include <java/nio/ByteBuffer.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/LinkedList.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
@@ -24,8 +22,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $LinkedList = ::java::util::LinkedList;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;

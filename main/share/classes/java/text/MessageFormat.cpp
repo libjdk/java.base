@@ -22,7 +22,6 @@
 #include <java/text/ParseException.h>
 #include <java/text/ParsePosition.h>
 #include <java/text/SimpleDateFormat.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Date.h>
@@ -80,7 +79,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Number = ::java::lang::Number;
 using $NumberFormatException = ::java::lang::NumberFormatException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $StringBuffer = ::java::lang::StringBuffer;
 using $AttributedCharacterIterator = ::java::text::AttributedCharacterIterator;
 using $AttributedCharacterIterator$Attribute = ::java::text::AttributedCharacterIterator$Attribute;
@@ -91,13 +89,11 @@ using $DecimalFormat = ::java::text::DecimalFormat;
 using $DecimalFormatSymbols = ::java::text::DecimalFormatSymbols;
 using $FieldPosition = ::java::text::FieldPosition;
 using $Format = ::java::text::Format;
-using $Format$Field = ::java::text::Format$Field;
 using $MessageFormat$Field = ::java::text::MessageFormat$Field;
 using $NumberFormat = ::java::text::NumberFormat;
 using $ParseException = ::java::text::ParseException;
 using $ParsePosition = ::java::text::ParsePosition;
 using $SimpleDateFormat = ::java::text::SimpleDateFormat;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Date = ::java::util::Date;

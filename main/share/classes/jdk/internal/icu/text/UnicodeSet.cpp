@@ -9,7 +9,6 @@
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
-#include <java/util/NavigableSet.h>
 #include <java/util/SortedSet.h>
 #include <java/util/TreeSet.h>
 #include <jdk/internal/icu/impl/BMPSet.h>
@@ -57,7 +56,6 @@ using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
-using $NavigableSet = ::java::util::NavigableSet;
 using $SortedSet = ::java::util::SortedSet;
 using $TreeSet = ::java::util::TreeSet;
 using $BMPSet = ::jdk::internal::icu::impl::BMPSet;

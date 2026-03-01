@@ -42,6 +42,13 @@ namespace java {
 }
 namespace java {
 	namespace lang {
+		namespace invoke {
+			class MethodHandle;
+		}
+	}
+}
+namespace java {
+	namespace lang {
 		namespace module {
 			class ModuleFinder;
 		}
@@ -158,6 +165,8 @@ public:
 	static bool isLambdaClass(String* name);
 	static String* getLambdaHoder(String* name);
 	static bool isLambdaMethod(String* name);
+
+	static ::java::lang::invoke::MethodHandle* makeBootstrapMethodHandle(Class* recordClass, String* methodName);
 
 	static Class* voidClass;
 	static Class* booleanClass;

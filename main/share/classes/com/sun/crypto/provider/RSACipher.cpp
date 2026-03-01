@@ -6,7 +6,6 @@
 #include <java/lang/IllegalStateException.h>
 #include <java/math/BigInteger.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
@@ -68,7 +67,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $BigInteger = ::java::math::BigInteger;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;

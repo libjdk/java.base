@@ -2,7 +2,6 @@
 
 #include <java/io/IOException.h>
 #include <java/io/UncheckedIOException.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/CharSequence.h>
@@ -27,7 +26,6 @@
 
 using $IOException = ::java::io::IOException;
 using $UncheckedIOException = ::java::io::UncheckedIOException;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $AssertionError = ::java::lang::AssertionError;
 using $Boolean = ::java::lang::Boolean;

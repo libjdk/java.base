@@ -4,7 +4,6 @@
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
 #include <java/security/PermissionCollection.h>
@@ -17,7 +16,6 @@
 #include <java/security/ProtectionDomain$JavaSecurityAccessImpl.h>
 #include <java/security/ProtectionDomain$Key.h>
 #include <java/security/SecurityPermission.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Enumeration.h>
 #include <java/util/List.h>
@@ -42,7 +40,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;
@@ -54,7 +51,6 @@ using $ProtectionDomain$1 = ::java::security::ProtectionDomain$1;
 using $ProtectionDomain$DebugHolder = ::java::security::ProtectionDomain$DebugHolder;
 using $ProtectionDomain$JavaSecurityAccessImpl = ::java::security::ProtectionDomain$JavaSecurityAccessImpl;
 using $ProtectionDomain$Key = ::java::security::ProtectionDomain$Key;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Enumeration = ::java::util::Enumeration;
 using $List = ::java::util::List;

@@ -13,7 +13,6 @@
 #include <java/util/function/IntFunction.h>
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/DoublePipeline$StatefulOp.h>
-#include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/Sink.h>
@@ -43,7 +42,6 @@ using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $DoublePredicate = ::java::util::function::DoublePredicate;
 using $IntFunction = ::java::util::function::IntFunction;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
-using $DoublePipeline = ::java::util::stream::DoublePipeline;
 using $DoublePipeline$StatefulOp = ::java::util::stream::DoublePipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;

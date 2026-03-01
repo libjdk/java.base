@@ -1,6 +1,5 @@
 #include <Supplementary4StringBuffer.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/IndexOutOfBoundsException.h>
 #include <java/lang/StringBuffer.h>
@@ -12,7 +11,6 @@
 
 using $intArray2 = $Array<int32_t, 2>;
 using $StringArray2 = $Array<::java::lang::String, 2>;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;

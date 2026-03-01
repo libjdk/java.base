@@ -21,9 +21,6 @@
 #include <java/lang/module/ResolutionException.h>
 #include <java/lang/module/ResolvedModule.h>
 #include <java/net/URI.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
@@ -77,9 +74,6 @@ using $ModuleReference = ::java::lang::module::ModuleReference;
 using $ResolutionException = ::java::lang::module::ResolutionException;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
 using $URI = ::java::net::URI;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;

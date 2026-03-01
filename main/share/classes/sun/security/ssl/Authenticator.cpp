@@ -6,13 +6,9 @@
 #include <sun/security/ssl/Authenticator$DTLS10Authenticator.h>
 #include <sun/security/ssl/Authenticator$DTLS10Mac.h>
 #include <sun/security/ssl/Authenticator$DTLS13Authenticator.h>
-#include <sun/security/ssl/Authenticator$DTLSAuthenticator.h>
-#include <sun/security/ssl/Authenticator$DTLSNullAuthenticator.h>
 #include <sun/security/ssl/Authenticator$DTLSNullMac.h>
 #include <sun/security/ssl/Authenticator$SSL30Authenticator.h>
 #include <sun/security/ssl/Authenticator$SSL30Mac.h>
-#include <sun/security/ssl/Authenticator$SSLAuthenticator.h>
-#include <sun/security/ssl/Authenticator$SSLNullAuthenticator.h>
 #include <sun/security/ssl/Authenticator$SSLNullMac.h>
 #include <sun/security/ssl/Authenticator$TLS10Authenticator.h>
 #include <sun/security/ssl/Authenticator$TLS10Mac.h>
@@ -32,13 +28,9 @@ using $SecretKey = ::javax::crypto::SecretKey;
 using $Authenticator$DTLS10Authenticator = ::sun::security::ssl::Authenticator$DTLS10Authenticator;
 using $Authenticator$DTLS10Mac = ::sun::security::ssl::Authenticator$DTLS10Mac;
 using $Authenticator$DTLS13Authenticator = ::sun::security::ssl::Authenticator$DTLS13Authenticator;
-using $Authenticator$DTLSAuthenticator = ::sun::security::ssl::Authenticator$DTLSAuthenticator;
-using $Authenticator$DTLSNullAuthenticator = ::sun::security::ssl::Authenticator$DTLSNullAuthenticator;
 using $Authenticator$DTLSNullMac = ::sun::security::ssl::Authenticator$DTLSNullMac;
 using $Authenticator$SSL30Authenticator = ::sun::security::ssl::Authenticator$SSL30Authenticator;
 using $Authenticator$SSL30Mac = ::sun::security::ssl::Authenticator$SSL30Mac;
-using $Authenticator$SSLAuthenticator = ::sun::security::ssl::Authenticator$SSLAuthenticator;
-using $Authenticator$SSLNullAuthenticator = ::sun::security::ssl::Authenticator$SSLNullAuthenticator;
 using $Authenticator$SSLNullMac = ::sun::security::ssl::Authenticator$SSLNullMac;
 using $Authenticator$TLS10Authenticator = ::sun::security::ssl::Authenticator$TLS10Authenticator;
 using $Authenticator$TLS10Mac = ::sun::security::ssl::Authenticator$TLS10Mac;

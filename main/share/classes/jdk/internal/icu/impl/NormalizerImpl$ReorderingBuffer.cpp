@@ -1,7 +1,6 @@
 #include <jdk/internal/icu/impl/NormalizerImpl$ReorderingBuffer.h>
 
 #include <java/io/IOException.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/InternalError.h>
@@ -10,12 +9,10 @@
 #include <jcpp.h>
 
 using $IOException = ::java::io::IOException;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;

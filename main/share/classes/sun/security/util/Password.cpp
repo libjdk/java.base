@@ -2,7 +2,6 @@
 
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/Console.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/PushbackInputStream.h>
 #include <java/nio/ByteBuffer.h>
@@ -18,7 +17,6 @@
 
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $Console = ::java::io::Console;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $PushbackInputStream = ::java::io::PushbackInputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

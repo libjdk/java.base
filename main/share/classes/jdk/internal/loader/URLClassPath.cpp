@@ -16,8 +16,6 @@
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
@@ -72,8 +70,6 @@ using $AccessController = ::java::security::AccessController;
 using $Permission = ::java::security::Permission;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;

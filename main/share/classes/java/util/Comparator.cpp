@@ -487,54 +487,56 @@ $Object* Comparator::$deserializeLambda$($SerializedLambda* lambda) {
 				bool var$6 = var$7 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
 				bool var$5 = var$6 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
 				if (var$5 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/Comparator;Ljava/util/function/Function;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
-					return $of(static_cast<Comparator*>($new(Comparator$$Lambda$lambda$comparing$ea9a8b3a$1$1, $cast(Comparator, $(lambda->getCapturedArg(0))), $cast($Function, $(lambda->getCapturedArg(1))))));
+					$var(Comparator, var$10, $cast(Comparator, lambda->getCapturedArg(0)));
+					return $of(static_cast<Comparator*>($new(Comparator$$Lambda$lambda$comparing$ea9a8b3a$1$1, var$10, $cast($Function, $(lambda->getCapturedArg(1))))));
 				}
 				break;
 			}
 		case 2:
 			{
-				bool var$14 = lambda->getImplMethodKind() == 6;
-				bool var$13 = var$14 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
-				bool var$12 = var$13 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
-				bool var$11 = var$12 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
-				bool var$10 = var$11 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
-				if (var$10 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/function/Function;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
+				bool var$15 = lambda->getImplMethodKind() == 6;
+				bool var$14 = var$15 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
+				bool var$13 = var$14 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
+				bool var$12 = var$13 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
+				bool var$11 = var$12 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
+				if (var$11 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/function/Function;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
 					return $of(static_cast<Comparator*>($new(Comparator$$Lambda$lambda$comparing$77a9974f$1$2, $cast($Function, $(lambda->getCapturedArg(0))))));
 				}
 				break;
 			}
 		case 3:
 			{
-				bool var$19 = lambda->getImplMethodKind() == 6;
-				bool var$18 = var$19 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
-				bool var$17 = var$18 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
-				bool var$16 = var$17 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
-				bool var$15 = var$16 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
-				if (var$15 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/function/ToDoubleFunction;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
+				bool var$20 = lambda->getImplMethodKind() == 6;
+				bool var$19 = var$20 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
+				bool var$18 = var$19 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
+				bool var$17 = var$18 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
+				bool var$16 = var$17 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
+				if (var$16 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/function/ToDoubleFunction;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
 					return $of(static_cast<Comparator*>($new(Comparator$$Lambda$lambda$comparingDouble$8dcf42ea$1$5, $cast($ToDoubleFunction, $(lambda->getCapturedArg(0))))));
 				}
 				break;
 			}
 		case 4:
 			{
-				bool var$24 = lambda->getImplMethodKind() == 9;
-				bool var$23 = var$24 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
-				bool var$22 = var$23 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
-				bool var$21 = var$22 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
-				bool var$20 = var$21 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
-				if (var$20 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/Comparator;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
-					return $of(static_cast<Comparator*>($new(Comparator$$Lambda$lambda$thenComparing$36697e65$1, $cast(Comparator, $(lambda->getCapturedArg(0))), $cast(Comparator, $(lambda->getCapturedArg(1))))));
+				bool var$25 = lambda->getImplMethodKind() == 9;
+				bool var$24 = var$25 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
+				bool var$23 = var$24 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
+				bool var$22 = var$23 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
+				bool var$21 = var$22 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
+				if (var$21 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/Comparator;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
+					$var(Comparator, var$26, $cast(Comparator, lambda->getCapturedArg(0)));
+					return $of(static_cast<Comparator*>($new(Comparator$$Lambda$lambda$thenComparing$36697e65$1, var$26, $cast(Comparator, $(lambda->getCapturedArg(1))))));
 				}
 				break;
 			}
 		case 5:
 			{
-				bool var$29 = lambda->getImplMethodKind() == 6;
-				bool var$28 = var$29 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
-				bool var$27 = var$28 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
-				bool var$26 = var$27 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
-				bool var$25 = var$26 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
-				if (var$25 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/function/ToIntFunction;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
+				bool var$31 = lambda->getImplMethodKind() == 6;
+				bool var$30 = var$31 && $nc($of($(lambda->getFunctionalInterfaceClass())))->equals("java/util/Comparator"_s);
+				bool var$29 = var$30 && $nc($of($(lambda->getFunctionalInterfaceMethodName())))->equals("compare"_s);
+				bool var$28 = var$29 && $nc($of($(lambda->getFunctionalInterfaceMethodSignature())))->equals("(Ljava/lang/Object;Ljava/lang/Object;)I"_s);
+				bool var$27 = var$28 && $nc($of($(lambda->getImplClass())))->equals("java/util/Comparator"_s);
+				if (var$27 && $nc($of($(lambda->getImplMethodSignature())))->equals("(Ljava/util/function/ToIntFunction;Ljava/lang/Object;Ljava/lang/Object;)I"_s)) {
 					return $of(static_cast<Comparator*>($new(Comparator$$Lambda$lambda$comparingInt$7b0bb60$1$3, $cast($ToIntFunction, $(lambda->getCapturedArg(0))))));
 				}
 				break;

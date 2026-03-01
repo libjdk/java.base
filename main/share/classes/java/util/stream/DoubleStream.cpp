@@ -13,7 +13,6 @@
 #include <java/util/OptionalDouble.h>
 #include <java/util/Spliterator$OfDouble.h>
 #include <java/util/Spliterator.h>
-#include <java/util/Spliterators$AbstractDoubleSpliterator.h>
 #include <java/util/Spliterators.h>
 #include <java/util/function/BiConsumer.h>
 #include <java/util/function/DoubleBinaryOperator.h>
@@ -42,7 +41,6 @@
 #include <java/util/stream/Streams.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfDouble$Dropping.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfDouble$Taking.h>
-#include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfDouble.h>
 #include <jcpp.h>
 
 #undef IMMUTABLE
@@ -65,7 +63,6 @@ using $OptionalDouble = ::java::util::OptionalDouble;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $Spliterators = ::java::util::Spliterators;
-using $Spliterators$AbstractDoubleSpliterator = ::java::util::Spliterators$AbstractDoubleSpliterator;
 using $BiConsumer = ::java::util::function::BiConsumer;
 using $DoubleBinaryOperator = ::java::util::function::DoubleBinaryOperator;
 using $DoubleConsumer = ::java::util::function::DoubleConsumer;
@@ -91,7 +88,6 @@ using $StreamSupport = ::java::util::stream::StreamSupport;
 using $Streams = ::java::util::stream::Streams;
 using $Streams$ConcatSpliterator$OfDouble = ::java::util::stream::Streams$ConcatSpliterator$OfDouble;
 using $Streams$DoubleStreamBuilderImpl = ::java::util::stream::Streams$DoubleStreamBuilderImpl;
-using $WhileOps$UnorderedWhileSpliterator$OfDouble = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfDouble;
 using $WhileOps$UnorderedWhileSpliterator$OfDouble$Dropping = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfDouble$Dropping;
 using $WhileOps$UnorderedWhileSpliterator$OfDouble$Taking = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfDouble$Taking;
 

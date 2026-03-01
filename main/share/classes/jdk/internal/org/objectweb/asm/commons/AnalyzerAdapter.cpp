@@ -3,8 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/Math.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -214,8 +212,6 @@ using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

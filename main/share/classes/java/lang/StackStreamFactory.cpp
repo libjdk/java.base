@@ -8,7 +8,6 @@
 #include <java/lang/StackWalker.h>
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
 #include <java/util/function/Function.h>
@@ -39,7 +38,6 @@ using $StackStreamFactory$StackFrameTraverser = ::java::lang::StackStreamFactory
 using $StackWalker = ::java::lang::StackWalker;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;
 using $Function = ::java::util::function::Function;

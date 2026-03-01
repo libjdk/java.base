@@ -16,9 +16,6 @@
 #include <java/lang/module/ModuleDescriptor$Requires.h>
 #include <java/lang/module/ModuleDescriptor$Version.h>
 #include <java/lang/module/ModuleDescriptor.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -55,9 +52,6 @@ using $ModuleDescriptor$Provides = ::java::lang::module::ModuleDescriptor$Provid
 using $ModuleDescriptor$Requires = ::java::lang::module::ModuleDescriptor$Requires;
 using $ModuleDescriptor$Requires$Modifier = ::java::lang::module::ModuleDescriptor$Requires$Modifier;
 using $ModuleDescriptor$Version = ::java::lang::module::ModuleDescriptor$Version;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

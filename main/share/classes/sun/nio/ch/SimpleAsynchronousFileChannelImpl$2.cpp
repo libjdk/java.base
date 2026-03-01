@@ -4,7 +4,6 @@
 #include <java/io/IOException.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
-#include <java/nio/channels/ClosedChannelException.h>
 #include <java/nio/channels/CompletionHandler.h>
 #include <sun/nio/ch/FileDispatcher.h>
 #include <sun/nio/ch/IOStatus.h>
@@ -21,14 +20,12 @@
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
-using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
 using $IOStatus = ::sun::nio::ch::IOStatus;
 using $IOUtil = ::sun::nio::ch::IOUtil;

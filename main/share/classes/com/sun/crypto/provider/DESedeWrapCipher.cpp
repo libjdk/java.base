@@ -3,7 +3,6 @@
 #include <com/sun/crypto/provider/CipherBlockChaining.h>
 #include <com/sun/crypto/provider/ConstructKeys.h>
 #include <com/sun/crypto/provider/DESConstants.h>
-#include <com/sun/crypto/provider/DESCrypt.h>
 #include <com/sun/crypto/provider/DESedeCrypt.h>
 #include <com/sun/crypto/provider/DESedeParameters.h>
 #include <com/sun/crypto/provider/FeedbackCipher.h>
@@ -13,7 +12,6 @@
 #include <java/lang/Math.h>
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
@@ -40,7 +38,6 @@
 using $CipherBlockChaining = ::com::sun::crypto::provider::CipherBlockChaining;
 using $ConstructKeys = ::com::sun::crypto::provider::ConstructKeys;
 using $DESConstants = ::com::sun::crypto::provider::DESConstants;
-using $DESCrypt = ::com::sun::crypto::provider::DESCrypt;
 using $DESedeCrypt = ::com::sun::crypto::provider::DESedeCrypt;
 using $DESedeParameters = ::com::sun::crypto::provider::DESedeParameters;
 using $FeedbackCipher = ::com::sun::crypto::provider::FeedbackCipher;
@@ -55,7 +52,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;

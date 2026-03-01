@@ -2,7 +2,6 @@
 
 #include <java/security/PrivateKey.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
 #include <javax/security/auth/x500/X500Principal.h>
@@ -16,7 +15,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $PrivateKey = ::java::security::PrivateKey;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;
 

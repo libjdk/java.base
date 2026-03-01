@@ -9,7 +9,6 @@
 #include <java/util/NavigableSet.h>
 #include <java/util/Set.h>
 #include <java/util/SortedMap.h>
-#include <java/util/SortedSet.h>
 #include <java/util/Spliterator.h>
 #include <java/util/TreeMap$Entry.h>
 #include <java/util/TreeMap$KeySet.h>
@@ -34,7 +33,6 @@ using $NavigableMap = ::java::util::NavigableMap;
 using $NavigableSet = ::java::util::NavigableSet;
 using $Set = ::java::util::Set;
 using $SortedMap = ::java::util::SortedMap;
-using $SortedSet = ::java::util::SortedSet;
 using $Spliterator = ::java::util::Spliterator;
 using $TreeMap = ::java::util::TreeMap;
 using $TreeMap$Entry = ::java::util::TreeMap$Entry;

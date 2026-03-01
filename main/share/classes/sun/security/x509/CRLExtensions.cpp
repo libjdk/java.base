@@ -1,6 +1,5 @@
 #include <sun/security/x509/CRLExtensions.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/reflect/Constructor.h>
@@ -29,7 +28,6 @@
 #undef TAG_CONTEXT
 
 using $DerValueArray = $Array<::sun::security::util::DerValue>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $Boolean = ::java::lang::Boolean;

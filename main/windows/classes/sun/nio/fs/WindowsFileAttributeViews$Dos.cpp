@@ -1,7 +1,6 @@
 #include <sun/nio/fs/WindowsFileAttributeViews$Dos.h>
 
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/nio/file/attribute/DosFileAttributes.h>
 #include <java/nio/file/attribute/FileTime.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -30,7 +29,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $DosFileAttributes = ::java::nio::file::attribute::DosFileAttributes;
 using $FileTime = ::java::nio::file::attribute::FileTime;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;

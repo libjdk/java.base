@@ -8,7 +8,6 @@
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Type.h>
 #include <java/lang/reflect/TypeVariable.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -31,7 +30,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $Field = ::java::lang::reflect::Field;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

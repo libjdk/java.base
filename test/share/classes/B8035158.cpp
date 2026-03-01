@@ -1,9 +1,6 @@
 #include <B8035158.h>
 
 #include <B8035158$TestCase.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -22,9 +19,6 @@ using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

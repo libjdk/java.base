@@ -1,15 +1,12 @@
 #include <jdk/internal/org/objectweb/asm/util/CheckClassAdapter.h>
 
 #include <java/io/FileInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/PrintWriter.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/ClassLoader.h>
 #include <java/lang/IllegalStateException.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -34,9 +31,7 @@
 #include <jdk/internal/org/objectweb/asm/tree/TryCatchBlockNode.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/AnalyzerException.h>
-#include <jdk/internal/org/objectweb/asm/tree/analysis/BasicInterpreter.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/BasicValue.h>
-#include <jdk/internal/org/objectweb/asm/tree/analysis/BasicVerifier.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/Frame.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/Interpreter.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/SimpleVerifier.h>
@@ -104,7 +99,6 @@
 #undef USAGE
 
 using $FileInputStream = ::java::io::FileInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintWriter = ::java::io::PrintWriter;
@@ -113,16 +107,12 @@ using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
@@ -147,9 +137,7 @@ using $MethodNode = ::jdk::internal::org::objectweb::asm$::tree::MethodNode;
 using $TryCatchBlockNode = ::jdk::internal::org::objectweb::asm$::tree::TryCatchBlockNode;
 using $Analyzer = ::jdk::internal::org::objectweb::asm$::tree::analysis::Analyzer;
 using $AnalyzerException = ::jdk::internal::org::objectweb::asm$::tree::analysis::AnalyzerException;
-using $BasicInterpreter = ::jdk::internal::org::objectweb::asm$::tree::analysis::BasicInterpreter;
 using $BasicValue = ::jdk::internal::org::objectweb::asm$::tree::analysis::BasicValue;
-using $BasicVerifier = ::jdk::internal::org::objectweb::asm$::tree::analysis::BasicVerifier;
 using $Frame = ::jdk::internal::org::objectweb::asm$::tree::analysis::Frame;
 using $Interpreter = ::jdk::internal::org::objectweb::asm$::tree::analysis::Interpreter;
 using $SimpleVerifier = ::jdk::internal::org::objectweb::asm$::tree::analysis::SimpleVerifier;

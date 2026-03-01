@@ -8,7 +8,6 @@
 #include <java/net/URL.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -39,7 +38,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $URL = ::java::net::URL;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

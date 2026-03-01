@@ -21,9 +21,7 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/List.h>
@@ -60,14 +58,11 @@ using $ProcessBuilder$Redirect$Type = ::java::lang::ProcessBuilder$Redirect$Type
 using $ProcessBuilder$RedirectPipeImpl = ::java::lang::ProcessBuilder$RedirectPipeImpl;
 using $ProcessEnvironment = ::java::lang::ProcessEnvironment;
 using $ProcessImpl = ::java::lang::ProcessImpl;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $List = ::java::util::List;

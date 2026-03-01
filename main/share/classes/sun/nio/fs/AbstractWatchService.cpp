@@ -7,7 +7,6 @@
 #include <java/nio/file/WatchKey.h>
 #include <java/util/concurrent/LinkedBlockingDeque.h>
 #include <java/util/concurrent/TimeUnit.h>
-#include <sun/nio/fs/AbstractWatchKey.h>
 #include <sun/nio/fs/AbstractWatchService$1.h>
 #include <jcpp.h>
 
@@ -24,7 +23,6 @@ using $Path = ::java::nio::file::Path;
 using $WatchKey = ::java::nio::file::WatchKey;
 using $LinkedBlockingDeque = ::java::util::concurrent::LinkedBlockingDeque;
 using $TimeUnit = ::java::util::concurrent::TimeUnit;
-using $AbstractWatchKey = ::sun::nio::fs::AbstractWatchKey;
 using $AbstractWatchService$1 = ::sun::nio::fs::AbstractWatchService$1;
 
 namespace sun {

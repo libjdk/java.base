@@ -6,7 +6,6 @@
 #include <java/io/FileInputStream.h>
 #include <java/io/FileNotFoundException.h>
 #include <java/io/FilePermission.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/net/FileNameMap.h>
@@ -44,7 +43,6 @@ using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
 using $FileNotFoundException = ::java::io::FileNotFoundException;
 using $FilePermission = ::java::io::FilePermission;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

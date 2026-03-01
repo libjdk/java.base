@@ -4,20 +4,15 @@
 #include <java/util/Spliterator$OfDouble.h>
 #include <java/util/Spliterator$OfInt.h>
 #include <java/util/Spliterator$OfLong.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/function/Supplier.h>
 #include <java/util/stream/DoublePipeline$Head.h>
-#include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/DoubleStream.h>
 #include <java/util/stream/IntPipeline$Head.h>
-#include <java/util/stream/IntPipeline.h>
 #include <java/util/stream/IntStream.h>
 #include <java/util/stream/LongPipeline$Head.h>
-#include <java/util/stream/LongPipeline.h>
 #include <java/util/stream/LongStream.h>
 #include <java/util/stream/ReferencePipeline$Head.h>
-#include <java/util/stream/ReferencePipeline.h>
 #include <java/util/stream/Stream.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <jcpp.h>
@@ -29,18 +24,13 @@ using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $Spliterator$OfInt = ::java::util::Spliterator$OfInt;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $Supplier = ::java::util::function::Supplier;
-using $DoublePipeline = ::java::util::stream::DoublePipeline;
 using $DoublePipeline$Head = ::java::util::stream::DoublePipeline$Head;
 using $DoubleStream = ::java::util::stream::DoubleStream;
-using $IntPipeline = ::java::util::stream::IntPipeline;
 using $IntPipeline$Head = ::java::util::stream::IntPipeline$Head;
 using $IntStream = ::java::util::stream::IntStream;
-using $LongPipeline = ::java::util::stream::LongPipeline;
 using $LongPipeline$Head = ::java::util::stream::LongPipeline$Head;
 using $LongStream = ::java::util::stream::LongStream;
-using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
 using $ReferencePipeline$Head = ::java::util::stream::ReferencePipeline$Head;
 using $Stream = ::java::util::stream::Stream;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;

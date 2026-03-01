@@ -6,7 +6,6 @@
 #include <java/security/AccessControlException.h>
 #include <java/security/AccessController.h>
 #include <java/security/AllPermission.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/DomainCombiner.h>
 #include <java/security/Permission.h>
@@ -14,7 +13,6 @@
 #include <java/security/PrivilegedAction.h>
 #include <java/security/ProtectionDomain.h>
 #include <java/security/SecurityPermission.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <sun/security/util/Debug.h>
@@ -40,14 +38,12 @@ using $AccessControlContext$1 = ::java::security::AccessControlContext$1;
 using $AccessControlException = ::java::security::AccessControlException;
 using $AccessController = ::java::security::AccessController;
 using $AllPermission = ::java::security::AllPermission;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $DomainCombiner = ::java::security::DomainCombiner;
 using $Permission = ::java::security::Permission;
 using $Policy = ::java::security::Policy;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ProtectionDomain = ::java::security::ProtectionDomain;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Debug = ::sun::security::util::Debug;

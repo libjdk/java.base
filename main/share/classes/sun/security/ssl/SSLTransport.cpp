@@ -7,7 +7,6 @@
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/net/SocketException.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/security/GeneralSecurityException.h>
 #include <javax/crypto/AEADBadTagException.h>
 #include <javax/crypto/BadPaddingException.h>
 #include <javax/net/ssl/SSLException.h>
@@ -37,17 +36,13 @@ using $EOFException = ::java::io::EOFException;
 using $IOException = ::java::io::IOException;
 using $InterruptedIOException = ::java::io::InterruptedIOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $SocketException = ::java::net::SocketException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $AEADBadTagException = ::javax::crypto::AEADBadTagException;
 using $BadPaddingException = ::javax::crypto::BadPaddingException;
-using $SSLException = ::javax::net::ssl::SSLException;
 using $SSLHandshakeException = ::javax::net::ssl::SSLHandshakeException;
 using $Alert = ::sun::security::ssl::Alert;
 using $ContentType = ::sun::security::ssl::ContentType;

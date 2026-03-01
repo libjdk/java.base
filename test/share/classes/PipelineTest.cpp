@@ -6,9 +6,7 @@
 #include <java/io/FileWriter.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
-#include <java/io/InputStreamReader.h>
 #include <java/io/OutputStream.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/Reader.h>
 #include <java/io/Serializable.h>
 #include <java/io/Writer.h>
@@ -43,9 +41,7 @@ using $FileReader = ::java::io::FileReader;
 using $FileWriter = ::java::io::FileWriter;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
-using $InputStreamReader = ::java::io::InputStreamReader;
 using $OutputStream = ::java::io::OutputStream;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $Reader = ::java::io::Reader;
 using $Serializable = ::java::io::Serializable;

@@ -4,7 +4,6 @@
 #include <java/lang/Runnable.h>
 #include <java/lang/ThreadGroup.h>
 #include <java/security/AccessController.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/PrivilegedAction.h>
@@ -22,7 +21,6 @@ using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $AccessController = ::java::security::AccessController;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $PrivilegedAction = ::java::security::PrivilegedAction;

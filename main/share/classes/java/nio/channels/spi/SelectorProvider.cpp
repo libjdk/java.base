@@ -11,7 +11,6 @@
 #include <java/nio/channels/SocketChannel.h>
 #include <java/nio/channels/spi/AbstractSelector.h>
 #include <java/nio/channels/spi/SelectorProvider$Holder.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Objects.h>
 #include <jcpp.h>
@@ -33,7 +32,6 @@ using $ServerSocketChannel = ::java::nio::channels::ServerSocketChannel;
 using $SocketChannel = ::java::nio::channels::SocketChannel;
 using $AbstractSelector = ::java::nio::channels::spi::AbstractSelector;
 using $SelectorProvider$Holder = ::java::nio::channels::spi::SelectorProvider$Holder;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Objects = ::java::util::Objects;
 

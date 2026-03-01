@@ -3,7 +3,6 @@
 #include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Iterator.h>
-#include <java/util/List.h>
 #include <java/util/Objects.h>
 #include <java/util/Set.h>
 #include <java/util/Spliterator.h>
@@ -22,7 +21,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Iterator = ::java::util::Iterator;
-using $List = ::java::util::List;
 using $Objects = ::java::util::Objects;
 using $Set = ::java::util::Set;
 using $Spliterator = ::java::util::Spliterator;

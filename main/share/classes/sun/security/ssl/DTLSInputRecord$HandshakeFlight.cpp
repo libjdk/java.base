@@ -1,6 +1,5 @@
 #include <sun/security/ssl/DTLSInputRecord$HandshakeFlight.h>
 
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <sun/security/ssl/DTLSInputRecord.h>
@@ -14,7 +13,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $SSLHandshake = ::sun::security::ssl::SSLHandshake;

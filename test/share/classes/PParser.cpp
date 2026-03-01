@@ -2,7 +2,6 @@
 
 #include <java/io/FileReader.h>
 #include <java/io/IOException.h>
-#include <java/io/InputStreamReader.h>
 #include <java/io/Reader.h>
 #include <java/io/Serializable.h>
 #include <java/lang/Iterable.h>
@@ -12,8 +11,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashMap.h>
 #include <java/util/List.h>
@@ -33,7 +30,6 @@
 
 using $FileReader = ::java::io::FileReader;
 using $IOException = ::java::io::IOException;
-using $InputStreamReader = ::java::io::InputStreamReader;
 using $PrintStream = ::java::io::PrintStream;
 using $Reader = ::java::io::Reader;
 using $Serializable = ::java::io::Serializable;
@@ -43,8 +39,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $StringBuffer = ::java::lang::StringBuffer;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $HashMap = ::java::util::HashMap;
 using $List = ::java::util::List;

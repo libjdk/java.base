@@ -8,7 +8,6 @@
 #include <java/lang/InternalError.h>
 #include <java/lang/Module.h>
 #include <java/lang/NoSuchMethodException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/invoke/CallSite.h>
 #include <java/lang/invoke/LambdaMetafactory.h>
 #include <java/lang/invoke/MethodHandle.h>
@@ -27,8 +26,6 @@
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/ProtectionDomain.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
@@ -69,7 +66,6 @@ using $ClassFormatError = ::java::lang::ClassFormatError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -77,7 +73,6 @@ using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Module = ::java::lang::Module;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $ModuleDescriptor = ::java::lang::module::ModuleDescriptor;
 using $ModuleDescriptor$Builder = ::java::lang::module::ModuleDescriptor$Builder;
@@ -92,8 +87,6 @@ using $URI = ::java::net::URI;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ProtectionDomain = ::java::security::ProtectionDomain;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;

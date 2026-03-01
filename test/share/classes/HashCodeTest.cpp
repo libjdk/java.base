@@ -4,8 +4,6 @@
 #include <HashCodeTest$Node.h>
 #include <java/lang/Enum.h>
 #include <java/lang/reflect/TypeVariable.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -25,8 +23,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $TypeVariable = ::java::lang::reflect::TypeVariable;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

@@ -1,6 +1,5 @@
 #include <java/util/spi/ToolProvider.h>
 
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/PrintWriter.h>
 #include <java/io/Serializable.h>
@@ -21,7 +20,6 @@
 #include <java/util/stream/StreamSupport.h>
 #include <jcpp.h>
 
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
 using $PrintWriter = ::java::io::PrintWriter;

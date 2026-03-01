@@ -6,7 +6,6 @@
 #include <java/security/PublicKey.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -25,7 +24,6 @@ using $PrivateKey = ::java::security::PrivateKey;
 using $PublicKey = ::java::security::PublicKey;
 using $Certificate = ::java::security::cert::Certificate;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

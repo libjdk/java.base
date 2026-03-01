@@ -4,12 +4,10 @@
 #include <java/lang/InternalError.h>
 #include <java/math/BigInteger.h>
 #include <java/security/DigestException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/NoSuchProviderException.h>
 #include <java/security/SecureRandomParameters.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/HexFormat.h>
@@ -26,18 +24,15 @@
 using $byteArray2 = $Array<int8_t, 2>;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BigInteger = ::java::math::BigInteger;
 using $DigestException = ::java::security::DigestException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $NoSuchProviderException = ::java::security::NoSuchProviderException;
 using $SecureRandomParameters = ::java::security::SecureRandomParameters;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $HexFormat = ::java::util::HexFormat;

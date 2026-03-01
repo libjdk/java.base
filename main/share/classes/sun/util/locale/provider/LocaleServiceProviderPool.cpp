@@ -8,8 +8,6 @@
 #include <java/text/spi/DateFormatSymbolsProvider.h>
 #include <java/text/spi/DecimalFormatSymbolsProvider.h>
 #include <java/text/spi/NumberFormatProvider.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -57,8 +55,6 @@ using $DateFormatProvider = ::java::text::spi::DateFormatProvider;
 using $DateFormatSymbolsProvider = ::java::text::spi::DateFormatSymbolsProvider;
 using $DecimalFormatSymbolsProvider = ::java::text::spi::DecimalFormatSymbolsProvider;
 using $NumberFormatProvider = ::java::text::spi::NumberFormatProvider;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

@@ -6,7 +6,6 @@
 #include <java/io/FileWriter.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/PrintWriter.h>
 #include <java/io/Writer.h>
 #include <java/lang/SecurityException.h>
@@ -28,12 +27,10 @@ using $BufferedWriter = ::java::io::BufferedWriter;
 using $FileWriter = ::java::io::FileWriter;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $PrintWriter = ::java::io::PrintWriter;
 using $Writer = ::java::io::Writer;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;

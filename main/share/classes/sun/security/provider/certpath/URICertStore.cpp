@@ -22,7 +22,6 @@
 #include <java/security/cert/URICertStoreParameters.h>
 #include <java/security/cert/X509CRL.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -80,7 +79,6 @@ using $CertificateFactory = ::java::security::cert::CertificateFactory;
 using $URICertStoreParameters = ::java::security::cert::URICertStoreParameters;
 using $X509CRL = ::java::security::cert::X509CRL;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

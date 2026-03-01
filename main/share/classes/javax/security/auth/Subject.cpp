@@ -8,13 +8,11 @@
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/Principal.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/PrivilegedExceptionAction.h>
 #include <java/security/ProtectionDomain.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -56,12 +54,10 @@ using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Principal = ::java::security::Principal;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

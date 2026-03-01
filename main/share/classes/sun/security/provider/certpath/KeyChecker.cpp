@@ -8,7 +8,6 @@
 #include <java/security/cert/PKIXCertPathChecker.h>
 #include <java/security/cert/PKIXReason.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -32,7 +31,6 @@ using $Certificate = ::java::security::cert::Certificate;
 using $PKIXCertPathChecker = ::java::security::cert::PKIXCertPathChecker;
 using $PKIXReason = ::java::security::cert::PKIXReason;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

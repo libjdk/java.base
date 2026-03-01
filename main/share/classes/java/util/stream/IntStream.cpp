@@ -14,7 +14,6 @@
 #include <java/util/OptionalInt.h>
 #include <java/util/Spliterator$OfInt.h>
 #include <java/util/Spliterator.h>
-#include <java/util/Spliterators$AbstractIntSpliterator.h>
 #include <java/util/Spliterators.h>
 #include <java/util/function/BiConsumer.h>
 #include <java/util/function/IntBinaryOperator.h>
@@ -44,7 +43,6 @@
 #include <java/util/stream/Streams.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfInt$Dropping.h>
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfInt$Taking.h>
-#include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfInt.h>
 #include <jcpp.h>
 
 #undef IMMUTABLE
@@ -68,7 +66,6 @@ using $OptionalInt = ::java::util::OptionalInt;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfInt = ::java::util::Spliterator$OfInt;
 using $Spliterators = ::java::util::Spliterators;
-using $Spliterators$AbstractIntSpliterator = ::java::util::Spliterators$AbstractIntSpliterator;
 using $BiConsumer = ::java::util::function::BiConsumer;
 using $IntBinaryOperator = ::java::util::function::IntBinaryOperator;
 using $IntConsumer = ::java::util::function::IntConsumer;
@@ -95,7 +92,6 @@ using $Streams = ::java::util::stream::Streams;
 using $Streams$ConcatSpliterator$OfInt = ::java::util::stream::Streams$ConcatSpliterator$OfInt;
 using $Streams$IntStreamBuilderImpl = ::java::util::stream::Streams$IntStreamBuilderImpl;
 using $Streams$RangeIntSpliterator = ::java::util::stream::Streams$RangeIntSpliterator;
-using $WhileOps$UnorderedWhileSpliterator$OfInt = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfInt;
 using $WhileOps$UnorderedWhileSpliterator$OfInt$Dropping = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfInt$Dropping;
 using $WhileOps$UnorderedWhileSpliterator$OfInt$Taking = ::java::util::stream::WhileOps$UnorderedWhileSpliterator$OfInt$Taking;
 

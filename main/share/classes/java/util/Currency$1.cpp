@@ -4,10 +4,8 @@
 #include <java/io/DataInputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileReader.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
-#include <java/io/InputStreamReader.h>
 #include <java/io/Reader.h>
 #include <java/io/Serializable.h>
 #include <java/lang/InternalError.h>
@@ -30,15 +28,12 @@ using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $DataInputStream = ::java::io::DataInputStream;
 using $File = ::java::io::File;
 using $FileReader = ::java::io::FileReader;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
-using $InputStreamReader = ::java::io::InputStreamReader;
 using $Reader = ::java::io::Reader;
 using $Serializable = ::java::io::Serializable;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;

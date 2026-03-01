@@ -31,7 +31,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $ProxyClassesDumper$1 = ::java::lang::invoke::ProxyClassesDumper$1;
 using $Files = ::java::nio::file::Files;
 using $InvalidPathException = ::java::nio::file::InvalidPathException;

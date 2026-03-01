@@ -5,7 +5,6 @@
 #include <java/nio/channels/Channel.h>
 #include <java/nio/channels/ShutdownChannelGroupException.h>
 #include <java/nio/channels/spi/AsynchronousChannelProvider.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map.h>
@@ -33,7 +32,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Channel = ::java::nio::channels::Channel;
 using $ShutdownChannelGroupException = ::java::nio::channels::ShutdownChannelGroupException;
 using $AsynchronousChannelProvider = ::java::nio::channels::spi::AsynchronousChannelProvider;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

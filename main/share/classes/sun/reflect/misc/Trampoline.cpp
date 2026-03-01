@@ -9,9 +9,7 @@
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
 using $Method = ::java::lang::reflect::Method;

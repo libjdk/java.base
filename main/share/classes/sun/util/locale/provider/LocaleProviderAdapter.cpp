@@ -17,7 +17,6 @@
 #include <java/text/spi/DateFormatSymbolsProvider.h>
 #include <java/text/spi/DecimalFormatSymbolsProvider.h>
 #include <java/text/spi/NumberFormatProvider.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
@@ -58,7 +57,6 @@ using $LocaleArray = $Array<::java::util::Locale>;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -78,7 +76,6 @@ using $DateFormatProvider = ::java::text::spi::DateFormatProvider;
 using $DateFormatSymbolsProvider = ::java::text::spi::DateFormatSymbolsProvider;
 using $DecimalFormatSymbolsProvider = ::java::text::spi::DecimalFormatSymbolsProvider;
 using $NumberFormatProvider = ::java::text::spi::NumberFormatProvider;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;

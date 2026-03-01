@@ -7,14 +7,12 @@
 #include <java/nio/ByteBuffer.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
 #include <java/util/Queue.h>
 #include <java/util/concurrent/locks/ReentrantLock.h>
 #include <javax/crypto/SecretKey.h>
-#include <javax/net/ssl/ExtendedSSLSession.h>
 #include <javax/net/ssl/HandshakeCompletedEvent.h>
 #include <javax/net/ssl/SSLEngineResult$HandshakeStatus.h>
 #include <javax/net/ssl/SSLException.h>
@@ -75,12 +73,10 @@ using $Runnable = ::java::lang::Runnable;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $ThreadGroup = ::java::lang::ThreadGroup;
 using $AccessController = ::java::security::AccessController;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $Queue = ::java::util::Queue;
 using $ReentrantLock = ::java::util::concurrent::locks::ReentrantLock;
-using $ExtendedSSLSession = ::javax::net::ssl::ExtendedSSLSession;
 using $HandshakeCompletedEvent = ::javax::net::ssl::HandshakeCompletedEvent;
 using $SSLEngineResult$HandshakeStatus = ::javax::net::ssl::SSLEngineResult$HandshakeStatus;
 using $SSLException = ::javax::net::ssl::SSLException;

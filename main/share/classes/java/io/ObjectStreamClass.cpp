@@ -32,11 +32,9 @@
 #include <java/lang/Enum.h>
 #include <java/lang/Error.h>
 #include <java/lang/IllegalAccessException.h>
-#include <java/lang/IncompatibleClassChangeError.h>
 #include <java/lang/InstantiationError.h>
 #include <java/lang/InstantiationException.h>
 #include <java/lang/InternalError.h>
-#include <java/lang/LinkageError.h>
 #include <java/lang/Math.h>
 #include <java/lang/NoSuchFieldException.h>
 #include <java/lang/NoSuchMethodException.h>
@@ -71,8 +69,6 @@
 #include <java/security/Permissions.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/ProtectionDomain.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collections.h>
@@ -154,18 +150,15 @@ using $Error = ::java::lang::Error;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
-using $IncompatibleClassChangeError = ::java::lang::IncompatibleClassChangeError;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InstantiationError = ::java::lang::InstantiationError;
 using $InstantiationException = ::java::lang::InstantiationException;
 using $InternalError = ::java::lang::InternalError;
-using $LinkageError = ::java::lang::LinkageError;
 using $Long = ::java::lang::Long;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchFieldException = ::java::lang::NoSuchFieldException;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
@@ -193,8 +186,6 @@ using $PermissionCollection = ::java::security::PermissionCollection;
 using $Permissions = ::java::security::Permissions;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ProtectionDomain = ::java::security::ProtectionDomain;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collections = ::java::util::Collections;

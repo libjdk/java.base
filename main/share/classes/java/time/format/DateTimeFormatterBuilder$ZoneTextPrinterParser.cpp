@@ -33,7 +33,6 @@
 #include <java/time/zone/ZoneRulesProvider.h>
 #include <java/util/AbstractMap$SimpleImmutableEntry.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
@@ -94,7 +93,6 @@ using $ZoneRules = ::java::time::zone::ZoneRules;
 using $ZoneRulesProvider = ::java::time::zone::ZoneRulesProvider;
 using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractMap$SimpleImmutableEntry = ::java::util::AbstractMap$SimpleImmutableEntry;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;

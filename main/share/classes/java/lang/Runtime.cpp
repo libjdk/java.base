@@ -11,7 +11,6 @@
 #include <java/lang/Shutdown.h>
 #include <java/lang/UnsatisfiedLinkError.h>
 #include <java/lang/VersionProps.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/List.h>
 #include <java/util/Optional.h>
@@ -41,7 +40,6 @@ using $SecurityManager = ::java::lang::SecurityManager;
 using $Shutdown = ::java::lang::Shutdown;
 using $UnsatisfiedLinkError = ::java::lang::UnsatisfiedLinkError;
 using $VersionProps = ::java::lang::VersionProps;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $List = ::java::util::List;
 using $Optional = ::java::util::Optional;

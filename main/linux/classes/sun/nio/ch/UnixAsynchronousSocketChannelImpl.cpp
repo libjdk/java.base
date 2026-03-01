@@ -3,7 +3,6 @@
 #include <java/io/FileDescriptor.h>
 #include <java/io/IOException.h>
 #include <java/lang/AssertionError.h>
-#include <java/lang/IllegalStateException.h>
 #include <java/lang/Number.h>
 #include <java/lang/Runnable.h>
 #include <java/lang/SecurityManager.h>
@@ -12,10 +11,8 @@
 #include <java/net/SocketAddress.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/channels/AlreadyConnectedException.h>
-#include <java/nio/channels/AsynchronousByteChannel.h>
 #include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
-#include <java/nio/channels/AsynchronousSocketChannel.h>
 #include <java/nio/channels/ClosedChannelException.h>
 #include <java/nio/channels/CompletionHandler.h>
 #include <java/nio/channels/ConnectionPendingException.h>
@@ -61,26 +58,21 @@ using $IOException = ::java::io::IOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Number = ::java::lang::Number;
 using $Runnable = ::java::lang::Runnable;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $InetAddress = ::java::net::InetAddress;
 using $InetSocketAddress = ::java::net::InetSocketAddress;
 using $SocketAddress = ::java::net::SocketAddress;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AlreadyConnectedException = ::java::nio::channels::AlreadyConnectedException;
-using $AsynchronousByteChannel = ::java::nio::channels::AsynchronousByteChannel;
 using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
-using $AsynchronousSocketChannel = ::java::nio::channels::AsynchronousSocketChannel;
 using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
 using $ConnectionPendingException = ::java::nio::channels::ConnectionPendingException;

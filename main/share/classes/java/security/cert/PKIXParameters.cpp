@@ -12,8 +12,6 @@
 #include <java/security/cert/PKIXCertPathChecker.h>
 #include <java/security/cert/TrustAnchor.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -28,7 +26,6 @@
 using $ClassCastException = ::java::lang::ClassCastException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -42,8 +39,6 @@ using $Certificate = ::java::security::cert::Certificate;
 using $PKIXCertPathChecker = ::java::security::cert::PKIXCertPathChecker;
 using $TrustAnchor = ::java::security::cert::TrustAnchor;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

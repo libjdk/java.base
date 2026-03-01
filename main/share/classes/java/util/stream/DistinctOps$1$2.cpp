@@ -1,6 +1,5 @@
 #include <java/util/stream/DistinctOps$1$2.h>
 
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
 #include <java/util/stream/DistinctOps$1.h>
@@ -13,7 +12,6 @@ using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;
 using $DistinctOps$1 = ::java::util::stream::DistinctOps$1;

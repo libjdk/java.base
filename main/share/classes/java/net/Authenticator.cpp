@@ -12,7 +12,6 @@
 #include <java/net/NetPermission.h>
 #include <java/net/PasswordAuthentication.h>
 #include <java/net/URL.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <sun/net/www/protocol/http/AuthenticatorKeys$AuthenticatorKeyAccess.h>
 #include <sun/net/www/protocol/http/AuthenticatorKeys.h>
@@ -32,7 +31,6 @@ using $InetAddress = ::java::net::InetAddress;
 using $NetPermission = ::java::net::NetPermission;
 using $PasswordAuthentication = ::java::net::PasswordAuthentication;
 using $URL = ::java::net::URL;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $AuthenticatorKeys = ::sun::net::www::protocol::http::AuthenticatorKeys;
 using $AuthenticatorKeys$AuthenticatorKeyAccess = ::sun::net::www::protocol::http::AuthenticatorKeys$AuthenticatorKeyAccess;

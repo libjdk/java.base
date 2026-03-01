@@ -14,7 +14,6 @@
 #include <java/nio/file/Files.h>
 #include <java/nio/file/LinkOption.h>
 #include <java/nio/file/Path.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -33,7 +32,6 @@ using $IOException = ::java::io::IOException;
 using $UncheckedIOException = ::java::io::UncheckedIOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
@@ -46,7 +44,6 @@ using $URL = ::java::net::URL;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $Files = ::java::nio::file::Files;
 using $Path = ::java::nio::file::Path;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

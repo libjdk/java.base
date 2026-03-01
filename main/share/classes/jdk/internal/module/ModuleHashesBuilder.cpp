@@ -11,7 +11,6 @@
 #include <java/lang/module/ModuleReference.h>
 #include <java/lang/module/ResolvedModule.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/Collection.h>
 #include <java/util/Deque.h>
@@ -43,7 +42,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Configuration = ::java::lang::module::Configuration;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $Collection = ::java::util::Collection;
 using $Deque = ::java::util::Deque;

@@ -8,7 +8,6 @@
 #include <java/nio/file/attribute/PosixFileAttributeView.h>
 #include <java/nio/file/attribute/PosixFileAttributes.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <jcpp.h>
@@ -26,7 +25,6 @@ using $FileOwnerAttributeView = ::java::nio::file::attribute::FileOwnerAttribute
 using $PosixFileAttributeView = ::java::nio::file::attribute::PosixFileAttributeView;
 using $PosixFileAttributes = ::java::nio::file::attribute::PosixFileAttributes;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 

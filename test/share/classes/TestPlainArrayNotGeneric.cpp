@@ -8,7 +8,6 @@
 #include <java/lang/reflect/Type.h>
 #include <java/lang/reflect/TypeVariable.h>
 #include <java/lang/reflect/WildcardType.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/List.h>
 #include <java/util/Set.h>
@@ -32,7 +31,6 @@ using $ParameterizedType = ::java::lang::reflect::ParameterizedType;
 using $Type = ::java::lang::reflect::Type;
 using $TypeVariable = ::java::lang::reflect::TypeVariable;
 using $WildcardType = ::java::lang::reflect::WildcardType;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $List = ::java::util::List;
 using $Set = ::java::util::Set;

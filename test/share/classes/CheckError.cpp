@@ -3,9 +3,7 @@
 #include <java/io/File.h>
 #include <java/io/FileOutputStream.h>
 #include <java/io/FileWriter.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/PrintWriter.h>
 #include <java/io/Writer.h>
 #include <jcpp.h>
@@ -13,9 +11,7 @@
 using $File = ::java::io::File;
 using $FileOutputStream = ::java::io::FileOutputStream;
 using $FileWriter = ::java::io::FileWriter;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $PrintWriter = ::java::io::PrintWriter;
 using $Writer = ::java::io::Writer;

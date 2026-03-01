@@ -6,8 +6,6 @@
 #include <java/io/File.h>
 #include <java/io/FileReader.h>
 #include <java/io/FileWriter.h>
-#include <java/io/InputStreamReader.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/Reader.h>
 #include <java/io/Writer.h>
 #include <java/lang/Runnable.h>
@@ -24,8 +22,6 @@ using $BufferedWriter = ::java::io::BufferedWriter;
 using $File = ::java::io::File;
 using $FileReader = ::java::io::FileReader;
 using $FileWriter = ::java::io::FileWriter;
-using $InputStreamReader = ::java::io::InputStreamReader;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $Reader = ::java::io::Reader;
 using $Writer = ::java::io::Writer;
 using $ClassInfo = ::java::lang::ClassInfo;

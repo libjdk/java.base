@@ -8,7 +8,6 @@
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/Math.h>
 #include <java/lang/UnsupportedOperationException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/util/AbstractCollection.h>
@@ -46,7 +45,6 @@ using $DataOutputStream = ::java::io::DataOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -54,7 +52,6 @@ using $Long = ::java::lang::Long;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $AbstractCollection = ::java::util::AbstractCollection;

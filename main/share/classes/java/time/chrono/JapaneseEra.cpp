@@ -7,7 +7,6 @@
 #include <java/io/Serializable.h>
 #include <java/time/DateTimeException.h>
 #include <java/time/LocalDate.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/chrono/Era.h>
@@ -18,7 +17,6 @@
 #include <java/time/format/DateTimeFormatterBuilder.h>
 #include <java/time/format/TextStyle.h>
 #include <java/time/temporal/ChronoField.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalField.h>
 #include <java/time/temporal/ValueRange.h>
@@ -60,7 +58,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $DateTimeException = ::java::time::DateTimeException;
 using $LocalDate = ::java::time::LocalDate;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $Chronology = ::java::time::chrono::Chronology;
 using $1Era = ::java::time::chrono::Era;
@@ -71,7 +68,6 @@ using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;
 using $DateTimeFormatterBuilder = ::java::time::format::DateTimeFormatterBuilder;
 using $TextStyle = ::java::time::format::TextStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $ValueRange = ::java::time::temporal::ValueRange;

@@ -4,11 +4,9 @@
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/InstantiationException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
 #include <java/nio/charset/spi/CharsetProvider.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -19,8 +17,6 @@
 #include <sun/nio/cs/StandardCharsets$Classes.h>
 #include <sun/nio/cs/US_ASCII.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
-#include <sun/util/PreHashedMap.h>
 #include <jcpp.h>
 
 #undef INSTANCE
@@ -36,11 +32,9 @@ using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InstantiationException = ::java::lang::InstantiationException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Charset = ::java::nio::charset::Charset;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
 using $CharsetProvider = ::java::nio::charset::spi::CharsetProvider;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;
@@ -51,8 +45,6 @@ using $StandardCharsets$Cache = ::sun::nio::cs::StandardCharsets$Cache;
 using $StandardCharsets$Classes = ::sun::nio::cs::StandardCharsets$Classes;
 using $US_ASCII = ::sun::nio::cs::US_ASCII;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
-using $PreHashedMap = ::sun::util::PreHashedMap;
 
 namespace sun {
 	namespace nio {

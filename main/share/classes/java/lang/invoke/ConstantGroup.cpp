@@ -4,10 +4,8 @@
 #include <java/lang/invoke/AbstractConstantGroup$AsList.h>
 #include <java/lang/invoke/AbstractConstantGroup$SubGroup.h>
 #include <java/lang/invoke/AbstractConstantGroup$WithCache.h>
-#include <java/lang/invoke/AbstractConstantGroup.h>
 #include <java/lang/invoke/ConstantGroup$1.h>
 #include <java/lang/invoke/ConstantGroup$1Impl.h>
-#include <java/util/AbstractList.h>
 #include <java/util/List.h>
 #include <java/util/function/IntFunction.h>
 #include <jcpp.h>
@@ -19,13 +17,11 @@ using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractConstantGroup = ::java::lang::invoke::AbstractConstantGroup;
 using $AbstractConstantGroup$AsList = ::java::lang::invoke::AbstractConstantGroup$AsList;
 using $AbstractConstantGroup$SubGroup = ::java::lang::invoke::AbstractConstantGroup$SubGroup;
 using $AbstractConstantGroup$WithCache = ::java::lang::invoke::AbstractConstantGroup$WithCache;
 using $ConstantGroup$1 = ::java::lang::invoke::ConstantGroup$1;
 using $ConstantGroup$1Impl = ::java::lang::invoke::ConstantGroup$1Impl;
-using $AbstractList = ::java::util::AbstractList;
 using $List = ::java::util::List;
 using $IntFunction = ::java::util::function::IntFunction;
 

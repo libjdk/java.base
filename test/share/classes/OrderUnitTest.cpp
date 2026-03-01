@@ -5,7 +5,6 @@
 #include <Foo4OrderUnitTest.h>
 #include <java/lang/annotation/Annotation.h>
 #include <java/lang/reflect/AnnotatedElement.h>
-#include <java/lang/reflect/GenericDeclaration.h>
 #include <jcpp.h>
 
 using $Case1B = ::Case1B;
@@ -17,7 +16,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AnnotatedElement = ::java::lang::reflect::AnnotatedElement;
-using $GenericDeclaration = ::java::lang::reflect::GenericDeclaration;
 
 $MethodInfo _OrderUnitTest_MethodInfo_[] = {
 	{"<init>", "()V", nullptr, $PUBLIC, $method(OrderUnitTest, init$, void)},

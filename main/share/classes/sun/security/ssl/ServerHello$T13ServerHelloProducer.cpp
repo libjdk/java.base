@@ -7,7 +7,6 @@
 #include <java/security/GeneralSecurityException.h>
 #include <java/security/SecureRandom.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -68,7 +67,6 @@ using $SSLExtensionArray = $Array<::sun::security::ssl::SSLExtension>;
 using $Byte = ::java::lang::Byte;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AlgorithmConstraints = ::java::security::AlgorithmConstraints;
@@ -76,7 +74,6 @@ using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $CryptoPrimitive = ::java::security::CryptoPrimitive;
 using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

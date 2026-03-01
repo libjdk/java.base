@@ -4,7 +4,6 @@
 #include <javax/net/ssl/KeyManager.h>
 #include <javax/net/ssl/KeyManagerFactorySpi.h>
 #include <javax/net/ssl/X509ExtendedKeyManager.h>
-#include <javax/net/ssl/X509KeyManager.h>
 #include <jcpp.h>
 
 using $KeyManagerArray = $Array<::javax::net::ssl::KeyManager>;
@@ -15,7 +14,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $KeyManager = ::javax::net::ssl::KeyManager;
 using $KeyManagerFactorySpi = ::javax::net::ssl::KeyManagerFactorySpi;
-using $X509KeyManager = ::javax::net::ssl::X509KeyManager;
 
 namespace sun {
 	namespace security {

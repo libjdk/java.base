@@ -5,9 +5,6 @@
 #include <java/security/cert/PKIXCertPathChecker.h>
 #include <java/security/cert/PKIXRevocationChecker$Option.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -27,9 +24,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $URI = ::java::net::URI;
 using $PKIXCertPathChecker = ::java::security::cert::PKIXCertPathChecker;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

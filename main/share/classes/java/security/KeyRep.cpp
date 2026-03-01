@@ -5,7 +5,6 @@
 #include <java/security/KeyRep$Type.h>
 #include <java/security/PrivateKey.h>
 #include <java/security/PublicKey.h>
-#include <java/security/spec/EncodedKeySpec.h>
 #include <java/security/spec/KeySpec.h>
 #include <java/security/spec/PKCS8EncodedKeySpec.h>
 #include <java/security/spec/X509EncodedKeySpec.h>
@@ -29,7 +28,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $KeyFactory = ::java::security::KeyFactory;
 using $KeyRep$Type = ::java::security::KeyRep$Type;
-using $EncodedKeySpec = ::java::security::spec::EncodedKeySpec;
 using $KeySpec = ::java::security::spec::KeySpec;
 using $PKCS8EncodedKeySpec = ::java::security::spec::PKCS8EncodedKeySpec;
 using $X509EncodedKeySpec = ::java::security::spec::X509EncodedKeySpec;

@@ -20,7 +20,6 @@
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/TypeVariable.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <jcpp.h>
@@ -49,7 +48,6 @@ using $AnnotatedType = ::java::lang::reflect::AnnotatedType;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $Method = ::java::lang::reflect::Method;
 using $TypeVariable = ::java::lang::reflect::TypeVariable;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 

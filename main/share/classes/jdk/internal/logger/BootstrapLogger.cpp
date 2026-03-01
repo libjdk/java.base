@@ -13,7 +13,6 @@
 #include <jdk/internal/logger/BootstrapLogger$LoggingBackend.h>
 #include <jdk/internal/logger/BootstrapLogger$RedirectedLoggers.h>
 #include <jdk/internal/logger/LazyLoggers$LazyLoggerAccessor.h>
-#include <jdk/internal/logger/SimpleConsoleLogger.h>
 #include <jdk/internal/logger/SurrogateLogger.h>
 #include <jdk/internal/misc/VM.h>
 #include <sun/util/logging/PlatformLogger$Bridge.h>
@@ -44,7 +43,6 @@ using $BootstrapLogger$LogEvent = ::jdk::internal::logger::BootstrapLogger$LogEv
 using $BootstrapLogger$LoggingBackend = ::jdk::internal::logger::BootstrapLogger$LoggingBackend;
 using $BootstrapLogger$RedirectedLoggers = ::jdk::internal::logger::BootstrapLogger$RedirectedLoggers;
 using $LazyLoggers$LazyLoggerAccessor = ::jdk::internal::logger::LazyLoggers$LazyLoggerAccessor;
-using $SimpleConsoleLogger = ::jdk::internal::logger::SimpleConsoleLogger;
 using $VM = ::jdk::internal::misc::VM;
 using $PlatformLogger$Bridge = ::sun::util::logging::PlatformLogger$Bridge;
 using $PlatformLogger$ConfigurableBridge = ::sun::util::logging::PlatformLogger$ConfigurableBridge;

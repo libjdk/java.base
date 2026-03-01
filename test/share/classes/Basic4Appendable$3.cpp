@@ -6,10 +6,7 @@
 #include <java/io/FileReader.h>
 #include <java/io/FileWriter.h>
 #include <java/io/IOException.h>
-#include <java/io/InputStreamReader.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/Reader.h>
-#include <java/io/Writer.h>
 #include <java/lang/Appendable.h>
 #include <jcpp.h>
 
@@ -18,14 +15,10 @@ using $BufferedReader = ::java::io::BufferedReader;
 using $FileReader = ::java::io::FileReader;
 using $FileWriter = ::java::io::FileWriter;
 using $IOException = ::java::io::IOException;
-using $InputStreamReader = ::java::io::InputStreamReader;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $Reader = ::java::io::Reader;
-using $Writer = ::java::io::Writer;
 using $Appendable = ::java::lang::Appendable;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;

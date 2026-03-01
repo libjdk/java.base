@@ -4,7 +4,6 @@
 #include <java/io/Reader.h>
 #include <java/lang/Math.h>
 #include <java/lang/UnsupportedOperationException.h>
-#include <java/nio/channels/ByteChannel.h>
 #include <java/nio/channels/Channels.h>
 #include <java/nio/channels/ReadableByteChannel.h>
 #include <java/nio/channels/SeekableByteChannel.h>
@@ -23,7 +22,6 @@
 #include <java/util/Properties.h>
 #include <jdk/internal/util/StaticProperty.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/nio/fs/UnixConstants.h>
 #include <sun/nio/fs/UnixException.h>
 #include <sun/nio/fs/UnixFileAttributes.h>
@@ -55,7 +53,6 @@ using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
-using $ByteChannel = ::java::nio::channels::ByteChannel;
 using $Channels = ::java::nio::channels::Channels;
 using $ReadableByteChannel = ::java::nio::channels::ReadableByteChannel;
 using $Charset = ::java::nio::charset::Charset;
@@ -72,7 +69,6 @@ using $Arrays = ::java::util::Arrays;
 using $Properties = ::java::util::Properties;
 using $StaticProperty = ::jdk::internal::util::StaticProperty;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $UnixConstants = ::sun::nio::fs::UnixConstants;
 using $UnixException = ::sun::nio::fs::UnixException;
 using $UnixFileAttributes = ::sun::nio::fs::UnixFileAttributes;

@@ -12,7 +12,6 @@
 #include <java/lang/ref/ReferenceQueue.h>
 #include <java/text/MessageFormat.h>
 #include <java/text/NumberFormat$Style.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Calendar.h>
 #include <java/util/Collection.h>
@@ -78,7 +77,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $ReferenceQueue = ::java::lang::ref::ReferenceQueue;
 using $MessageFormat = ::java::text::MessageFormat;
 using $NumberFormat$Style = ::java::text::NumberFormat$Style;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Calendar = ::java::util::Calendar;
 using $Collection = ::java::util::Collection;

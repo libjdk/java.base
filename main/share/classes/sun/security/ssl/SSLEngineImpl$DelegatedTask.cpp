@@ -1,6 +1,5 @@
 #include <sun/security/ssl/SSLEngineImpl$DelegatedTask.h>
 
-#include <java/io/IOException.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedActionException.h>
@@ -15,7 +14,6 @@
 #include <sun/security/ssl/TransportContext.h>
 #include <jcpp.h>
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;

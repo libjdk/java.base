@@ -1,6 +1,5 @@
 #include <java/util/zip/ZipCoder.h>
 
-#include <java/io/IOException.h>
 #include <java/lang/CharSequence.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/CharBuffer.h>
@@ -14,7 +13,6 @@
 #include <jdk/internal/access/JavaLangAccess.h>
 #include <jdk/internal/access/SharedSecrets.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef INSTANCE
@@ -22,10 +20,8 @@
 #undef REPORT
 #undef UTF8
 
-using $IOException = ::java::io::IOException;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -42,7 +38,6 @@ using $ZipCoder$UTF8ZipCoder = ::java::util::zip::ZipCoder$UTF8ZipCoder;
 using $JavaLangAccess = ::jdk::internal::access::JavaLangAccess;
 using $SharedSecrets = ::jdk::internal::access::SharedSecrets;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace java {
 	namespace util {

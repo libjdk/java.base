@@ -8,7 +8,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/util/Objects.h>
 #include <java/util/function/Function.h>
-#include <java/util/random/RandomGenerator$StreamableGenerator.h>
 #include <java/util/random/RandomGenerator.h>
 #include <java/util/random/RandomGeneratorFactory.h>
 #include <java/util/stream/Stream.h>
@@ -22,7 +21,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Objects = ::java::util::Objects;
 using $Function = ::java::util::function::Function;
 using $RandomGenerator = ::java::util::random::RandomGenerator;
-using $RandomGenerator$StreamableGenerator = ::java::util::random::RandomGenerator$StreamableGenerator;
 using $RandomGeneratorFactory = ::java::util::random::RandomGeneratorFactory;
 using $Stream = ::java::util::stream::Stream;
 

@@ -6,7 +6,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
 #include <java/nio/file/attribute/UserPrincipalNotFoundException.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <sun/nio/fs/NativeBuffer.h>
 #include <sun/nio/fs/NativeBuffers.h>
@@ -27,7 +26,6 @@ using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
 using $UserPrincipalNotFoundException = ::java::nio::file::attribute::UserPrincipalNotFoundException;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $NativeBuffer = ::sun::nio::fs::NativeBuffer;
 using $NativeBuffers = ::sun::nio::fs::NativeBuffers;

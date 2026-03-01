@@ -7,7 +7,6 @@
 #include <java/net/InetAddress.h>
 #include <java/net/UnknownHostException.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/Principal.h>
 #include <java/security/PrivateKey.h>
@@ -16,7 +15,6 @@
 #include <java/security/cert/X509Certificate.h>
 #include <java/util/AbstractCollection.h>
 #include <java/util/AbstractList.h>
-#include <java/util/AbstractQueue.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -93,7 +91,6 @@ using $BigInteger = ::java::math::BigInteger;
 using $InetAddress = ::java::net::InetAddress;
 using $UnknownHostException = ::java::net::UnknownHostException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Principal = ::java::security::Principal;
 using $PrivateKey = ::java::security::PrivateKey;
@@ -101,7 +98,6 @@ using $SecureRandom = ::java::security::SecureRandom;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractList = ::java::util::AbstractList;
-using $AbstractQueue = ::java::util::AbstractQueue;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

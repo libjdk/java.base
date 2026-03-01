@@ -3,7 +3,6 @@
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/util/Collection.h>
 #include <javax/net/ssl/ManagerFactoryParameters.h>
-#include <javax/net/ssl/X509ExtendedTrustManager.h>
 #include <javax/net/ssl/X509TrustManager.h>
 #include <sun/security/ssl/TrustManagerFactoryImpl.h>
 #include <sun/security/ssl/X509TrustManagerImpl.h>
@@ -18,7 +17,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $Collection = ::java::util::Collection;
 using $ManagerFactoryParameters = ::javax::net::ssl::ManagerFactoryParameters;
-using $X509ExtendedTrustManager = ::javax::net::ssl::X509ExtendedTrustManager;
 using $X509TrustManager = ::javax::net::ssl::X509TrustManager;
 using $TrustManagerFactoryImpl = ::sun::security::ssl::TrustManagerFactoryImpl;
 using $X509TrustManagerImpl = ::sun::security::ssl::X509TrustManagerImpl;

@@ -20,7 +20,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $IDN = ::java::net::IDN;
 using $Matcher = ::java::util::regex::Matcher;
 using $Pattern = ::java::util::regex::Pattern;

@@ -1,7 +1,6 @@
 #include <sun/security/provider/certpath/PKIXMasterCertPathValidator.h>
 
 #include <java/lang/CharSequence.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/cert/CertPath.h>
 #include <java/security/cert/CertPathValidatorException$Reason.h>
 #include <java/security/cert/CertPathValidatorException.h>
@@ -23,10 +22,8 @@
 
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $CertPath = ::java::security::cert::CertPath;
 using $CertPathValidatorException = ::java::security::cert::CertPathValidatorException;
 using $CertPathValidatorException$Reason = ::java::security::cert::CertPathValidatorException$Reason;

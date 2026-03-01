@@ -9,8 +9,6 @@
 #include <java/security/PublicKey.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
@@ -48,8 +46,6 @@ using $Principal = ::java::security::Principal;
 using $PrivateKey = ::java::security::PrivateKey;
 using $PublicKey = ::java::security::PublicKey;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $Enumeration = ::java::util::Enumeration;

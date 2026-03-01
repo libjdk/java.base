@@ -47,7 +47,6 @@
 using $X509CertificateArray = $Array<::java::security::cert::X509Certificate>;
 using $SSLExtensionArray = $Array<::sun::security::ssl::SSLExtension>;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $CertificateException = ::java::security::cert::CertificateException;

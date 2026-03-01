@@ -2,7 +2,6 @@
 
 #include <java/security/Provider$Service.h>
 #include <java/security/Provider.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashSet.h>
@@ -17,7 +16,6 @@ using $Float = ::java::lang::Float;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Provider = ::java::security::Provider;
 using $Provider$Service = ::java::security::Provider$Service;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashSet = ::java::util::LinkedHashSet;

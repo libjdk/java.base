@@ -6,7 +6,6 @@
 #include <java/security/Key.h>
 #include <java/security/PrivateKey.h>
 #include <java/security/ProviderException.h>
-#include <java/security/interfaces/RSAPrivateCrtKey.h>
 #include <java/security/interfaces/RSAPrivateKey.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <java/util/Arrays.h>
@@ -25,16 +24,13 @@ using $BigIntegerArray = $Array<::java::math::BigInteger>;
 using $byteArray2 = $Array<int8_t, 2>;
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $BigInteger = ::java::math::BigInteger;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
 using $PrivateKey = ::java::security::PrivateKey;
 using $ProviderException = ::java::security::ProviderException;
-using $RSAPrivateCrtKey = ::java::security::interfaces::RSAPrivateCrtKey;
 using $RSAPrivateKey = ::java::security::interfaces::RSAPrivateKey;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $Arrays = ::java::util::Arrays;

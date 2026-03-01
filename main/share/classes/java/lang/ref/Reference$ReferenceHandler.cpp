@@ -4,7 +4,6 @@
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/Error.h>
 #include <java/lang/NoClassDefFoundError.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/Runnable.h>
 #include <java/lang/ThreadGroup.h>
 #include <java/lang/ref/Reference.h>
@@ -14,11 +13,9 @@
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoClassDefFoundError = ::java::lang::NoClassDefFoundError;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Runnable = ::java::lang::Runnable;
 using $ThreadGroup = ::java::lang::ThreadGroup;
 using $Reference = ::java::lang::ref::Reference;

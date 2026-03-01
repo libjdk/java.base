@@ -1,7 +1,6 @@
 #include <java/util/Map.h>
 
 #include <java/lang/IllegalStateException.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/ConcurrentModificationException.h>
 #include <java/util/ImmutableCollections$AbstractImmutableMap.h>
@@ -23,12 +22,9 @@
 using $Map$EntryArray = $Array<::java::util::Map$Entry>;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;
 using $ImmutableCollections = ::java::util::ImmutableCollections;

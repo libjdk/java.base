@@ -10,7 +10,6 @@
 #include <java/nio/channels/spi/AbstractInterruptibleChannel.h>
 #include <java/nio/channels/spi/AbstractSelector.h>
 #include <java/nio/channels/spi/SelectorProvider.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Deque.h>
@@ -49,9 +48,7 @@ using $Pipe = ::java::nio::channels::Pipe;
 using $Pipe$SinkChannel = ::java::nio::channels::Pipe$SinkChannel;
 using $Pipe$SourceChannel = ::java::nio::channels::Pipe$SourceChannel;
 using $Selector = ::java::nio::channels::Selector;
-using $AbstractSelector = ::java::nio::channels::spi::AbstractSelector;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $ArrayList = ::java::util::ArrayList;
 using $Deque = ::java::util::Deque;

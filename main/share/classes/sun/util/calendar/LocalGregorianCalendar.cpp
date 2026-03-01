@@ -7,7 +7,6 @@
 #include <java/util/regex/Pattern.h>
 #include <sun/security/action/GetPropertyAction.h>
 #include <sun/util/calendar/AbstractCalendar.h>
-#include <sun/util/calendar/BaseCalendar$Date.h>
 #include <sun/util/calendar/BaseCalendar.h>
 #include <sun/util/calendar/CalendarDate.h>
 #include <sun/util/calendar/CalendarUtils.h>
@@ -35,7 +34,6 @@ using $Pattern = ::java::util::regex::Pattern;
 using $GetPropertyAction = ::sun::security::action::GetPropertyAction;
 using $AbstractCalendar = ::sun::util::calendar::AbstractCalendar;
 using $BaseCalendar = ::sun::util::calendar::BaseCalendar;
-using $BaseCalendar$Date = ::sun::util::calendar::BaseCalendar$Date;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;
 using $CalendarUtils = ::sun::util::calendar::CalendarUtils;
 using $Era = ::sun::util::calendar::Era;

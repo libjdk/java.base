@@ -3,7 +3,6 @@
 #include <java/net/InetAddress.h>
 #include <java/net/ServerSocket.h>
 #include <java/util/List.h>
-#include <javax/net/ssl/SSLServerSocket.h>
 #include <javax/net/ssl/SSLServerSocketFactory.h>
 #include <sun/security/ssl/CipherSuite.h>
 #include <sun/security/ssl/SSLContextImpl$DefaultSSLContext.h>
@@ -18,7 +17,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $InetAddress = ::java::net::InetAddress;
 using $ServerSocket = ::java::net::ServerSocket;
-using $SSLServerSocket = ::javax::net::ssl::SSLServerSocket;
 using $SSLServerSocketFactory = ::javax::net::ssl::SSLServerSocketFactory;
 using $CipherSuite = ::sun::security::ssl::CipherSuite;
 using $SSLContextImpl = ::sun::security::ssl::SSLContextImpl;

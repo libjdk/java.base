@@ -1,6 +1,5 @@
 #include <sun/security/x509/AlgorithmId.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/io/Serializable.h>
@@ -35,7 +34,6 @@
 #undef SHA_1
 
 using $ProviderArray = $Array<::java::security::Provider>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $Serializable = ::java::io::Serializable;

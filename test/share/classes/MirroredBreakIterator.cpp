@@ -4,7 +4,6 @@
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/text/BreakIterator.h>
 #include <java/text/CharacterIterator.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/List.h>
@@ -23,7 +22,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $BreakIterator = ::java::text::BreakIterator;
 using $CharacterIterator = ::java::text::CharacterIterator;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $List = ::java::util::List;

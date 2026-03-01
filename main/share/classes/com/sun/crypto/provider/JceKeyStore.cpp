@@ -9,8 +9,6 @@
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/DataInputStream.h>
 #include <java/io/DataOutputStream.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InvalidClassException.h>
@@ -30,18 +28,15 @@
 #include <java/security/AccessController.h>
 #include <java/security/DigestInputStream.h>
 #include <java/security/DigestOutputStream.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/security/KeyStoreException.h>
 #include <java/security/KeyStoreSpi.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/PrivateKey.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/security/UnrecoverableEntryException.h>
 #include <java/security/UnrecoverableKeyException.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/CertificateFactory.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Date.h>
 #include <java/util/Enumeration.h>
@@ -71,8 +66,6 @@ using $KeyProtector = ::com::sun::crypto::provider::KeyProtector;
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $DataInputStream = ::java::io::DataInputStream;
 using $DataOutputStream = ::java::io::DataOutputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InvalidClassException = ::java::io::InvalidClassException;
@@ -95,18 +88,15 @@ using $StandardCharsets = ::java::nio::charset::StandardCharsets;
 using $AccessController = ::java::security::AccessController;
 using $DigestInputStream = ::java::security::DigestInputStream;
 using $DigestOutputStream = ::java::security::DigestOutputStream;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $KeyStoreException = ::java::security::KeyStoreException;
 using $KeyStoreSpi = ::java::security::KeyStoreSpi;
 using $MessageDigest = ::java::security::MessageDigest;
 using $PrivateKey = ::java::security::PrivateKey;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $UnrecoverableEntryException = ::java::security::UnrecoverableEntryException;
 using $UnrecoverableKeyException = ::java::security::UnrecoverableKeyException;
 using $Certificate = ::java::security::cert::Certificate;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Date = ::java::util::Date;
 using $Enumeration = ::java::util::Enumeration;

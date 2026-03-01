@@ -1,7 +1,6 @@
 #include <jdk/internal/util/xml/impl/XMLWriter.h>
 
 #include <java/io/BufferedOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/io/OutputStreamWriter.h>
@@ -13,14 +12,12 @@
 #include <jcpp.h>
 
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $UnsupportedEncodingException = ::java::io::UnsupportedEncodingException;
 using $Writer = ::java::io::Writer;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Charset = ::java::nio::charset::Charset;

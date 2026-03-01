@@ -4,7 +4,6 @@
 #include <java/io/InvalidObjectException.h>
 #include <java/io/ObjectInputStream.h>
 #include <java/io/ObjectOutputStream.h>
-#include <java/io/ObjectStreamException.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/Comparable.h>
@@ -78,13 +77,11 @@ using $IOException = ::java::io::IOException;
 using $InvalidObjectException = ::java::io::InvalidObjectException;
 using $ObjectInputStream = ::java::io::ObjectInputStream;
 using $ObjectOutputStream = ::java::io::ObjectOutputStream;
-using $ObjectStreamException = ::java::io::ObjectStreamException;
 using $AssertionError = ::java::lang::AssertionError;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Comparable = ::java::lang::Comparable;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;

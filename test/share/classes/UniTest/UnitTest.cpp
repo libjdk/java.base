@@ -167,7 +167,6 @@
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/Executable.h>
 #include <java/lang/reflect/Field.h>
-#include <java/lang/reflect/GenericDeclaration.h>
 #include <java/lang/reflect/Method.h>
 #include <java/util/Collection.h>
 #include <java/util/Iterator.h>
@@ -372,7 +371,6 @@ using $Annotation = ::java::lang::annotation::Annotation;
 using $AccessibleObject = ::java::lang::reflect::AccessibleObject;
 using $AnnotatedElement = ::java::lang::reflect::AnnotatedElement;
 using $Executable = ::java::lang::reflect::Executable;
-using $GenericDeclaration = ::java::lang::reflect::GenericDeclaration;
 using $Method = ::java::lang::reflect::Method;
 using $Collection = ::java::util::Collection;
 using $Iterator = ::java::util::Iterator;

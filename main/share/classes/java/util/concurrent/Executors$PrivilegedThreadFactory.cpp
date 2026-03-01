@@ -6,7 +6,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/concurrent/Executors$DefaultThreadFactory.h>
 #include <java/util/concurrent/Executors$PrivilegedThreadFactory$1.h>
@@ -24,7 +23,6 @@ using $Runnable = ::java::lang::Runnable;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Executors$DefaultThreadFactory = ::java::util::concurrent::Executors$DefaultThreadFactory;
 using $Executors$PrivilegedThreadFactory$1 = ::java::util::concurrent::Executors$PrivilegedThreadFactory$1;

@@ -10,9 +10,7 @@
 #include <java/lang/reflect/Array.h>
 #include <java/lang/reflect/ParameterizedType.h>
 #include <java/lang/reflect/Type.h>
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/ConcurrentModificationException.h>
 #include <java/util/HashMap$EntrySet.h>
@@ -21,7 +19,6 @@
 #include <java/util/HashMap$TreeNode.h>
 #include <java/util/HashMap$Values.h>
 #include <java/util/Iterator.h>
-#include <java/util/LinkedHashMap$Entry.h>
 #include <java/util/Map$Entry.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -49,7 +46,6 @@ using $ObjectOutputStream = ::java::io::ObjectOutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $Comparable = ::java::lang::Comparable;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -62,9 +58,7 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $1Array = ::java::lang::reflect::Array;
 using $ParameterizedType = ::java::lang::reflect::ParameterizedType;
 using $Type = ::java::lang::reflect::Type;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;
 using $HashMap$EntrySet = ::java::util::HashMap$EntrySet;
@@ -73,7 +67,6 @@ using $HashMap$Node = ::java::util::HashMap$Node;
 using $HashMap$TreeNode = ::java::util::HashMap$TreeNode;
 using $HashMap$Values = ::java::util::HashMap$Values;
 using $Iterator = ::java::util::Iterator;
-using $LinkedHashMap$Entry = ::java::util::LinkedHashMap$Entry;
 using $Map = ::java::util::Map;
 using $Map$Entry = ::java::util::Map$Entry;
 using $Set = ::java::util::Set;

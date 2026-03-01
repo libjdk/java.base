@@ -3,7 +3,6 @@
 #include <java/io/BufferedInputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/net/MalformedURLException.h>
 #include <java/net/URL.h>
@@ -20,7 +19,6 @@
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;

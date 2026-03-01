@@ -50,7 +50,6 @@
 #include <java/util/Scanner$PatternLRUCache.h>
 #include <java/util/Scanner$TokenSpliterator.h>
 #include <java/util/Spliterator.h>
-#include <java/util/Spliterators$AbstractSpliterator.h>
 #include <java/util/regex/MatchResult.h>
 #include <java/util/regex/Matcher.h>
 #include <java/util/regex/Pattern.h>
@@ -82,7 +81,6 @@ using $FileInputStream = ::java::io::FileInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
-using $Reader = ::java::io::Reader;
 using $Serializable = ::java::io::Serializable;
 using $StringReader = ::java::io::StringReader;
 using $AssertionError = ::java::lang::AssertionError;
@@ -92,7 +90,6 @@ using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Double = ::java::lang::Double;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -105,7 +102,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $NumberFormatException = ::java::lang::NumberFormatException;
 using $Readable = ::java::lang::Readable;
 using $Runnable = ::java::lang::Runnable;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Short = ::java::lang::Short;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
@@ -136,7 +132,6 @@ using $Scanner$FindSpliterator = ::java::util::Scanner$FindSpliterator;
 using $Scanner$PatternLRUCache = ::java::util::Scanner$PatternLRUCache;
 using $Scanner$TokenSpliterator = ::java::util::Scanner$TokenSpliterator;
 using $Spliterator = ::java::util::Spliterator;
-using $Spliterators$AbstractSpliterator = ::java::util::Spliterators$AbstractSpliterator;
 using $MatchResult = ::java::util::regex::MatchResult;
 using $Matcher = ::java::util::regex::Matcher;
 using $Pattern = ::java::util::regex::Pattern;

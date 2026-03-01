@@ -1,7 +1,6 @@
 #include <sun/text/DictionaryBasedBreakIterator.h>
 
 #include <java/text/CharacterIterator.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/Stack.h>
@@ -16,7 +15,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $CharacterIterator = ::java::text::CharacterIterator;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Stack = ::java::util::Stack;

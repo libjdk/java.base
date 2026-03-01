@@ -2,7 +2,6 @@
 
 #include <java/lang/CharSequence.h>
 #include <java/security/AccessController.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/NoSuchProviderException.h>
@@ -34,7 +33,6 @@ using $Boolean = ::java::lang::Boolean;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -42,7 +40,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NamedAttribute = ::java::lang::NamedAttribute;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AccessController = ::java::security::AccessController;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $NoSuchProviderException = ::java::security::NoSuchProviderException;
 using $PrivilegedAction = ::java::security::PrivilegedAction;

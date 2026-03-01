@@ -1,8 +1,6 @@
 #include <ICCBasher.h>
 
 #include <java/lang/StringBuffer.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Collections.h>
 #include <java/util/Comparator.h>
 #include <java/util/LinkedList.h>
@@ -20,8 +18,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $StringBuffer = ::java::lang::StringBuffer;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Collections = ::java::util::Collections;
 using $LinkedList = ::java::util::LinkedList;
 using $List = ::java::util::List;

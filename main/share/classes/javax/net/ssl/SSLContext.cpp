@@ -1,16 +1,12 @@
 #include <javax/net/ssl/SSLContext.h>
 
 #include <java/lang/AbstractMethodError.h>
-#include <java/lang/Error.h>
 #include <java/lang/ExceptionInInitializerError.h>
-#include <java/lang/IncompatibleClassChangeError.h>
-#include <java/lang/LinkageError.h>
 #include <java/lang/SecurityManager.h>
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodHandles.h>
 #include <java/lang/invoke/VarHandle.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/Provider.h>
 #include <java/security/SecureRandom.h>
@@ -34,12 +30,9 @@ using $KeyManagerArray = $Array<::javax::net::ssl::KeyManager>;
 using $TrustManagerArray = $Array<::javax::net::ssl::TrustManager>;
 using $AbstractMethodError = ::java::lang::AbstractMethodError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Error = ::java::lang::Error;
 using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IncompatibleClassChangeError = ::java::lang::IncompatibleClassChangeError;
-using $LinkageError = ::java::lang::LinkageError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $SecurityManager = ::java::lang::SecurityManager;
@@ -47,7 +40,6 @@ using $UnsupportedOperationException = ::java::lang::UnsupportedOperationExcepti
 using $MethodHandles = ::java::lang::invoke::MethodHandles;
 using $MethodHandles$Lookup = ::java::lang::invoke::MethodHandles$Lookup;
 using $VarHandle = ::java::lang::invoke::VarHandle;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Provider = ::java::security::Provider;
 using $SecureRandom = ::java::security::SecureRandom;

@@ -552,6 +552,7 @@
 #include <Ready.h>
 #include <Receive.h>
 #include <ReceiveISA.h>
+#include <RecordTest.h>
 #include <RecursiveAnnotation.h>
 #include <RecursiveSystemLoader.h>
 #include <RedirectWithLongFilename.h>
@@ -1557,6 +1558,7 @@ void TestCases::runCases() {
 	run("Ready", ::Ready);
 	run("Receive", ::Receive);
 	run("ReceiveISA", ::ReceiveISA);
+	run("RecordTest", ::RecordTest);
 	run("RecursiveAnnotation", ::RecursiveAnnotation);
 	run("RecursiveSystemLoader", ::RecursiveSystemLoader, true);
 	run("RedirectWithLongFilename", ::RedirectWithLongFilename);

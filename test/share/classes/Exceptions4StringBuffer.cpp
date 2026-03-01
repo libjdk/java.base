@@ -8,7 +8,6 @@
 #include <Exceptions4StringBuffer$6.h>
 #include <Exceptions4StringBuffer$7.h>
 #include <Exceptions4StringBuffer$8.h>
-#include <java/lang/IndexOutOfBoundsException.h>
 #include <java/lang/NegativeArraySizeException.h>
 #include <java/lang/Runnable.h>
 #include <java/lang/StringIndexOutOfBoundsException.h>
@@ -24,9 +23,7 @@ using $Exceptions4StringBuffer$7 = ::Exceptions4StringBuffer$7;
 using $Exceptions4StringBuffer$8 = ::Exceptions4StringBuffer$8;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NegativeArraySizeException = ::java::lang::NegativeArraySizeException;

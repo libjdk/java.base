@@ -10,9 +10,7 @@
 #include <java/time/Instant.h>
 #include <java/time/ZoneId.h>
 #include <java/time/ZonedDateTime.h>
-#include <java/time/chrono/ChronoZonedDateTime.h>
 #include <java/time/format/DateTimeFormatter.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalQuery.h>
 #include <java/util/Map$Entry.h>
@@ -35,9 +33,7 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Instant = ::java::time::Instant;
 using $ZoneId = ::java::time::ZoneId;
 using $ZonedDateTime = ::java::time::ZonedDateTime;
-using $ChronoZonedDateTime = ::java::time::chrono::ChronoZonedDateTime;
 using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalQuery = ::java::time::temporal::TemporalQuery;
 using $Map = ::java::util::Map;

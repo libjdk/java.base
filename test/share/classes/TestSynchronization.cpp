@@ -4,7 +4,6 @@
 #include <TestSynchronization$InvokeTask.h>
 #include <TestSynchronization$MyTestClass.h>
 #include <TestSynchronization$TestFailedException.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/InterruptedException.h>
 #include <java/lang/Runnable.h>
@@ -13,7 +12,6 @@
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Modifier.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Iterator.h>
@@ -39,7 +37,6 @@ using $TestSynchronization$InvokeTask = ::TestSynchronization$InvokeTask;
 using $TestSynchronization$MyTestClass = ::TestSynchronization$MyTestClass;
 using $TestSynchronization$TestFailedException = ::TestSynchronization$TestFailedException;
 using $CharSequenceArray = $Array<::java::lang::CharSequence>;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Boolean = ::java::lang::Boolean;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
@@ -59,7 +56,6 @@ using $Thread$State = ::java::lang::Thread$State;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $Method = ::java::lang::reflect::Method;
 using $Modifier = ::java::lang::reflect::Modifier;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Iterator = ::java::util::Iterator;

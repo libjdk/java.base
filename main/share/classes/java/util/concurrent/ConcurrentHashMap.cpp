@@ -20,7 +20,6 @@
 #include <java/util/Map.h>
 #include <java/util/Set.h>
 #include <java/util/concurrent/ConcurrentHashMap$BulkTask.h>
-#include <java/util/concurrent/ConcurrentHashMap$CollectionView.h>
 #include <java/util/concurrent/ConcurrentHashMap$CounterCell.h>
 #include <java/util/concurrent/ConcurrentHashMap$EntrySetView.h>
 #include <java/util/concurrent/ConcurrentHashMap$ForEachEntryTask.h>
@@ -152,7 +151,6 @@ using $Map = ::java::util::Map;
 using $Map$Entry = ::java::util::Map$Entry;
 using $Set = ::java::util::Set;
 using $ConcurrentHashMap$BulkTask = ::java::util::concurrent::ConcurrentHashMap$BulkTask;
-using $ConcurrentHashMap$CollectionView = ::java::util::concurrent::ConcurrentHashMap$CollectionView;
 using $ConcurrentHashMap$CounterCell = ::java::util::concurrent::ConcurrentHashMap$CounterCell;
 using $ConcurrentHashMap$EntrySetView = ::java::util::concurrent::ConcurrentHashMap$EntrySetView;
 using $ConcurrentHashMap$ForEachEntryTask = ::java::util::concurrent::ConcurrentHashMap$ForEachEntryTask;

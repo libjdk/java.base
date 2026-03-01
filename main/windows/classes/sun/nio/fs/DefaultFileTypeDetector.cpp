@@ -1,14 +1,12 @@
 #include <sun/nio/fs/DefaultFileTypeDetector.h>
 
 #include <java/nio/file/spi/FileTypeDetector.h>
-#include <sun/nio/fs/AbstractFileTypeDetector.h>
 #include <sun/nio/fs/RegistryFileTypeDetector.h>
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $FileTypeDetector = ::java::nio::file::spi::FileTypeDetector;
-using $AbstractFileTypeDetector = ::sun::nio::fs::AbstractFileTypeDetector;
 using $RegistryFileTypeDetector = ::sun::nio::fs::RegistryFileTypeDetector;
 
 namespace sun {

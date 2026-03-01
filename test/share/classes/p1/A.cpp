@@ -1,7 +1,6 @@
 #include <p1/A.h>
 
 #include <java/lang/IllegalAccessException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodHandles.h>
 #include <jcpp.h>
@@ -9,11 +8,9 @@
 #undef A
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandles = ::java::lang::invoke::MethodHandles;
 using $MethodHandles$Lookup = ::java::lang::invoke::MethodHandles$Lookup;

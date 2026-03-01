@@ -5,11 +5,9 @@
 #include <java/lang/Cloneable.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
-#include <java/security/KeyException.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/PrivateKey.h>
 #include <java/security/Provider$Service.h>
@@ -46,11 +44,9 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
-using $KeyException = ::java::security::KeyException;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $PrivateKey = ::java::security::PrivateKey;
 using $Provider$Service = ::java::security::Provider$Service;

@@ -4,7 +4,6 @@
 #include <java/io/File.h>
 #include <java/lang/InterruptedException.h>
 #include <java/lang/Runnable.h>
-#include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/AsynchronousFileChannel.h>
 #include <java/nio/channels/Channel.h>
 #include <java/nio/channels/ClosedChannelException.h>
@@ -28,14 +27,12 @@ using $FileLockArray = $Array<::java::nio::channels::FileLock>;
 using $OpenOptionArray = $Array<::java::nio::file::OpenOption>;
 using $File = ::java::io::File;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InterruptedException = ::java::lang::InterruptedException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $RuntimeException = ::java::lang::RuntimeException;
-using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $AsynchronousFileChannel = ::java::nio::channels::AsynchronousFileChannel;
 using $Channel = ::java::nio::channels::Channel;
 using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;

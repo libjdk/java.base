@@ -3,10 +3,7 @@
 #include <java/io/BufferedInputStream.h>
 #include <java/io/BufferedOutputStream.h>
 #include <java/io/FileDescriptor.h>
-#include <java/io/FileInputStream.h>
 #include <java/io/FileOutputStream.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/Process$PipeInputStream.h>
@@ -21,10 +18,7 @@
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $FileDescriptor = ::java::io::FileDescriptor;
-using $FileInputStream = ::java::io::FileInputStream;
 using $FileOutputStream = ::java::io::FileOutputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

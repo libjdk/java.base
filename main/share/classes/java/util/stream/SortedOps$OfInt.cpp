@@ -7,14 +7,10 @@
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/IntPipeline$StatefulOp.h>
 #include <java/util/stream/Node$OfInt.h>
-#include <java/util/stream/Node$OfPrimitive.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
-#include <java/util/stream/Sink$ChainedInt.h>
-#include <java/util/stream/Sink$OfInt.h>
 #include <java/util/stream/Sink.h>
-#include <java/util/stream/SortedOps$AbstractIntSortingSink.h>
 #include <java/util/stream/SortedOps$IntSortingSink.h>
 #include <java/util/stream/SortedOps$SizedIntSortingSink.h>
 #include <java/util/stream/SortedOps.h>
@@ -39,13 +35,9 @@ using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
 using $IntPipeline$StatefulOp = ::java::util::stream::IntPipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
 using $Node$OfInt = ::java::util::stream::Node$OfInt;
-using $Node$OfPrimitive = ::java::util::stream::Node$OfPrimitive;
 using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedInt = ::java::util::stream::Sink$ChainedInt;
-using $Sink$OfInt = ::java::util::stream::Sink$OfInt;
-using $SortedOps$AbstractIntSortingSink = ::java::util::stream::SortedOps$AbstractIntSortingSink;
 using $SortedOps$IntSortingSink = ::java::util::stream::SortedOps$IntSortingSink;
 using $SortedOps$SizedIntSortingSink = ::java::util::stream::SortedOps$SizedIntSortingSink;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;

@@ -1,7 +1,6 @@
 #include <java/lang/Character$UnicodeBlock.h>
 
 #include <java/lang/Character$Subset.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Locale.h>
 #include <java/util/Map.h>
@@ -331,7 +330,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NamedAttribute = ::java::lang::NamedAttribute;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Locale = ::java::util::Locale;
 using $Map = ::java::util::Map;

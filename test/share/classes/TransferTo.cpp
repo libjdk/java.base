@@ -7,7 +7,6 @@
 #include <TransferTo$Thrower.h>
 #include <TransferTo$ThrowingInputStream.h>
 #include <java/io/ByteArrayOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -29,7 +28,6 @@ using $TransferTo$CloseLoggingOutputStream = ::TransferTo$CloseLoggingOutputStre
 using $TransferTo$Thrower = ::TransferTo$Thrower;
 using $TransferTo$ThrowingInputStream = ::TransferTo$ThrowingInputStream;
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;

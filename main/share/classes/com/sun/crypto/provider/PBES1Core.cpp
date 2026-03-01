@@ -9,7 +9,6 @@
 #include <com/sun/crypto/provider/SymmetricCipher.h>
 #include <java/security/AlgorithmParameters.h>
 #include <java/security/DigestException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
@@ -24,7 +23,6 @@
 #include <javax/crypto/BadPaddingException.h>
 #include <javax/crypto/Cipher.h>
 #include <javax/crypto/IllegalBlockSizeException.h>
-#include <javax/crypto/SecretKey.h>
 #include <javax/crypto/spec/DESedeKeySpec.h>
 #include <javax/crypto/spec/IvParameterSpec.h>
 #include <javax/crypto/spec/PBEParameterSpec.h>
@@ -44,13 +42,11 @@ using $DESedeCrypt = ::com::sun::crypto::provider::DESedeCrypt;
 using $SunJCE = ::com::sun::crypto::provider::SunJCE;
 using $SymmetricCipher = ::com::sun::crypto::provider::SymmetricCipher;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $DigestException = ::java::security::DigestException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
@@ -65,7 +61,6 @@ using $Arrays = ::java::util::Arrays;
 using $BadPaddingException = ::javax::crypto::BadPaddingException;
 using $Cipher = ::javax::crypto::Cipher;
 using $IllegalBlockSizeException = ::javax::crypto::IllegalBlockSizeException;
-using $SecretKey = ::javax::crypto::SecretKey;
 using $DESedeKeySpec = ::javax::crypto::spec::DESedeKeySpec;
 using $IvParameterSpec = ::javax::crypto::spec::IvParameterSpec;
 using $PBEParameterSpec = ::javax::crypto::spec::PBEParameterSpec;

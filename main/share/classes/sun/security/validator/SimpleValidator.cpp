@@ -10,8 +10,6 @@
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/TrustAnchor.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -65,7 +63,6 @@ using $X509CertificateArray = $Array<::java::security::cert::X509Certificate>;
 using $IOException = ::java::io::IOException;
 using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AlgorithmConstraints = ::java::security::AlgorithmConstraints;
@@ -77,8 +74,6 @@ using $Certificate = ::java::security::cert::Certificate;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $TrustAnchor = ::java::security::cert::TrustAnchor;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

@@ -4,7 +4,6 @@
 #include <java/nio/file/spi/FileTypeDetector.h>
 #include <jdk/internal/util/StaticProperty.h>
 #include <sun/nio/fs/AbstractFileTypeDetector.h>
-#include <sun/nio/fs/BsdFileSystem.h>
 #include <sun/nio/fs/BsdFileSystemProvider.h>
 #include <sun/nio/fs/MacOSXFileSystem.h>
 #include <sun/nio/fs/MimeTypesFileTypeDetector.h>
@@ -20,7 +19,6 @@ using $Path = ::java::nio::file::Path;
 using $FileTypeDetector = ::java::nio::file::spi::FileTypeDetector;
 using $StaticProperty = ::jdk::internal::util::StaticProperty;
 using $AbstractFileTypeDetector = ::sun::nio::fs::AbstractFileTypeDetector;
-using $BsdFileSystem = ::sun::nio::fs::BsdFileSystem;
 using $BsdFileSystemProvider = ::sun::nio::fs::BsdFileSystemProvider;
 using $MacOSXFileSystem = ::sun::nio::fs::MacOSXFileSystem;
 using $MimeTypesFileTypeDetector = ::sun::nio::fs::MimeTypesFileTypeDetector;

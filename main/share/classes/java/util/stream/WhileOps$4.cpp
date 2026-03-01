@@ -13,11 +13,8 @@
 #include <java/util/function/IntFunction.h>
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/DoublePipeline$StatefulOp.h>
-#include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/PipelineHelper.h>
-#include <java/util/stream/Sink$ChainedDouble.h>
-#include <java/util/stream/Sink$OfDouble.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <java/util/stream/StreamShape.h>
@@ -44,13 +41,10 @@ using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $DoublePredicate = ::java::util::function::DoublePredicate;
 using $IntFunction = ::java::util::function::IntFunction;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
-using $DoublePipeline = ::java::util::stream::DoublePipeline;
 using $DoublePipeline$StatefulOp = ::java::util::stream::DoublePipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedDouble = ::java::util::stream::Sink$ChainedDouble;
-using $Sink$OfDouble = ::java::util::stream::Sink$OfDouble;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;
 using $StreamShape = ::java::util::stream::StreamShape;
 using $WhileOps$4$1 = ::java::util::stream::WhileOps$4$1;

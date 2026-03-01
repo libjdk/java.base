@@ -9,7 +9,6 @@
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamOpFlag.h>
 #include <java/util/stream/TerminalOp.h>
-#include <java/util/stream/TerminalSink.h>
 #include <jcpp.h>
 
 #undef NOT_ORDERED
@@ -25,7 +24,6 @@ using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;
 using $TerminalOp = ::java::util::stream::TerminalOp;
-using $TerminalSink = ::java::util::stream::TerminalSink;
 
 namespace java {
 	namespace util {

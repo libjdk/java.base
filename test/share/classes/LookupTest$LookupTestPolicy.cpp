@@ -5,7 +5,6 @@
 #include <java/net/NetPermission.h>
 #include <java/net/SocketPermission.h>
 #include <java/net/URLPermission.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/Permission.h>
 #include <java/security/PermissionCollection.h>
@@ -25,7 +24,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NetPermission = ::java::net::NetPermission;
 using $SocketPermission = ::java::net::SocketPermission;
 using $URLPermission = ::java::net::URLPermission;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $Permission = ::java::security::Permission;
 using $PermissionCollection = ::java::security::PermissionCollection;

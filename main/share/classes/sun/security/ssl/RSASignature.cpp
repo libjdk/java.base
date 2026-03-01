@@ -2,7 +2,6 @@
 
 #include <java/security/AlgorithmParameters.h>
 #include <java/security/DigestException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/InvalidParameterException.h>
@@ -21,12 +20,10 @@
 #undef SIGNATURE_SSLRSA
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $DigestException = ::java::security::DigestException;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $InvalidParameterException = ::java::security::InvalidParameterException;

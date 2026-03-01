@@ -2,13 +2,11 @@
 
 #include <Fill4BufferedInputStream$Source.h>
 #include <java/io/BufferedInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <jcpp.h>
 
 using $Fill4BufferedInputStream$Source = ::Fill4BufferedInputStream$Source;
 using $BufferedInputStream = ::java::io::BufferedInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;

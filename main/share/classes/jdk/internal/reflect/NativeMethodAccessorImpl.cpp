@@ -103,7 +103,7 @@ void clinit$NativeMethodAccessorImpl($Class* class$) {
 NativeMethodAccessorImpl::NativeMethodAccessorImpl() {
 }
 
-Object$* NativeMethodAccessorImpl::invokeSpecial(Object$* obj, $ObjectArray* args) {
+$Object* NativeMethodAccessorImpl::invokeSpecial(Object$* obj, $ObjectArray* args) {
 	try {
 		return method->clazz->invokeSpecial(method, obj, args);
 	} catch (InvocationTargetException& e0) {

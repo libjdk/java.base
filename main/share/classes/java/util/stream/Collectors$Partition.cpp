@@ -1,7 +1,6 @@
 #include <java/util/stream/Collectors$Partition.h>
 
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Set.h>
 #include <java/util/stream/Collectors$Partition$1.h>
 #include <java/util/stream/Collectors.h>
@@ -12,7 +11,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Set = ::java::util::Set;
 using $Collectors$Partition$1 = ::java::util::stream::Collectors$Partition$1;
 

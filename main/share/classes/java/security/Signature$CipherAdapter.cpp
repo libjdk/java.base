@@ -1,7 +1,6 @@
 #include <java/security/Signature$CipherAdapter.h>
 
 #include <java/io/ByteArrayOutputStream.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidParameterException.h>
 #include <java/security/Key.h>
 #include <java/security/MessageDigest.h>
@@ -21,11 +20,9 @@
 
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidParameterException = ::java::security::InvalidParameterException;
 using $Key = ::java::security::Key;
 using $MessageDigest = ::java::security::MessageDigest;

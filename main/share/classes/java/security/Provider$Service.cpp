@@ -3,7 +3,6 @@
 #include <java/lang/ClassLoader.h>
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/NoSuchMethodException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/ref/WeakReference.h>
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/InvocationTargetException.h>
@@ -14,8 +13,6 @@
 #include <java/security/Provider$EngineDescription.h>
 #include <java/security/Provider$UString.h>
 #include <java/security/Provider.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -40,7 +37,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $WeakReference = ::java::lang::ref::WeakReference;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
@@ -51,8 +47,6 @@ using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $Provider = ::java::security::Provider;
 using $Provider$EngineDescription = ::java::security::Provider$EngineDescription;
 using $Provider$UString = ::java::security::Provider$UString;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

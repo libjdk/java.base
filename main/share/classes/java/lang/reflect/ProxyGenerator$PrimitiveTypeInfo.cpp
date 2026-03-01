@@ -3,7 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/reflect/Array.h>
 #include <java/lang/reflect/ProxyGenerator.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <jcpp.h>
@@ -25,7 +24,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Short = ::java::lang::Short;
 using $1Array = ::java::lang::reflect::Array;
 using $ProxyGenerator = ::java::lang::reflect::ProxyGenerator;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 

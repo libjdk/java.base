@@ -3,7 +3,6 @@
 #include <java/io/BufferedOutputStream.h>
 #include <java/io/BufferedReader.h>
 #include <java/io/ByteArrayInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
 #include <java/io/OutputStream.h>
@@ -20,7 +19,6 @@
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $BufferedReader = ::java::io::BufferedReader;
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
 using $OutputStream = ::java::io::OutputStream;

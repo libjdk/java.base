@@ -75,6 +75,10 @@
 #include <java/lang/module/RuntimeModuleFinder.h>
 #include <java/lang/module/ModuleFinder.h>
 #include <java/lang/module/Resolver.h>
+#include <java/lang/invoke/MethodHandle.h>
+#include <java/lang/invoke/MethodHandles.h>
+#include <java/lang/invoke/MethodHandles$Lookup.h>
+#include <java/lang/runtime/ObjectMethods.h>
 #include <java/lang/reflect/Proxy.h>
 #include <java/lang/reflect/Proxy$ProxyBuilder.h>
 #include <java/security/Security.h>
@@ -108,6 +112,8 @@
 using namespace ::java::lang;
 using namespace ::java::lang::module;
 using namespace ::java::lang::ref;
+using namespace ::java::lang::invoke;
+using namespace ::java::lang::runtime;
 using namespace ::java::lang::reflect;
 using namespace ::java::io;
 using namespace ::java::nio;
@@ -124,6 +130,8 @@ using namespace ::jdk::internal::loader;
 using namespace ::jdk::internal::module;
 using namespace ::jdk::internal::jrtfs;
 using namespace ::jdk::internal::jimage;
+using FieldArray = $Array<::java::lang::reflect::Field>;
+using MethodHandleArray = $Array<MethodHandle>;
 
 extern "C" {
 	int jcpp_launch(int argc, char** argv, int jargc, char** jargv, const char* javaArgPrefix);
@@ -1904,6 +1912,40 @@ Class* Machine::loadArrayClassInternal(String* name, ClassLoader* loader) {
 		createSubObjectArrayClass(name, arrayComponentTypeClazz);
 	}
 	return arrayComponentTypeClazz->arrayType$;
+}
+
+MethodHandle* Machine::makeBootstrapMethodHandle(Class* recordClass, String* methodName) {
+	WillCallCallerSensitive wccs(recordClass);
+	$var(MethodHandles$Lookup, lookup, MethodHandles::lookup());
+	$var(FieldArray, fields, recordClass->getDeclaredFields());
+	int32_t nonStaticFieldCount = 0;
+	for (int32_t i = 0; i < fields->length; i++) {
+		Field* field = $arrayGet(Field, fields, i);
+		if (!field->isStatic()) {
+			nonStaticFieldCount++;
+		}
+	}
+	$var(MethodHandleArray, mha, $new(MethodHandleArray, nonStaticFieldCount));
+	int32_t nonStaticFieldIndex = 0;
+	$var($StringBuilder, sb, $new($StringBuilder));
+	for (int32_t i = 0; i < fields->length; i++) {
+		Field* field = $arrayGet(Field, fields, i);
+		if (!field->isStatic()) {
+			$var(MethodHandle, getter, lookup->findGetter(recordClass, field->name, field->type));
+			mha->set(nonStaticFieldIndex, getter);
+			nonStaticFieldIndex++;
+			if (!sb->isEmpty()) {
+				sb->append(";"_s);
+			}
+			sb->append(field->name);
+		}
+	}
+	return $sure(MethodHandle, ObjectMethods::bootstrap(lookup,
+		methodName,
+		MethodHandle::class$,
+		recordClass,
+		$(sb->toString()),
+		mha));
 }
 
 	} // lang

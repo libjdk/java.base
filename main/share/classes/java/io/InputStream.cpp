@@ -6,7 +6,6 @@
 #include <java/io/OutputStream.h>
 #include <java/lang/Math.h>
 #include <java/lang/OutOfMemoryError.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Iterator.h>
@@ -31,7 +30,6 @@ using $Integer = ::java::lang::Integer;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $OutOfMemoryError = ::java::lang::OutOfMemoryError;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Iterator = ::java::util::Iterator;

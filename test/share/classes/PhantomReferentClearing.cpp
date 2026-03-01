@@ -3,7 +3,6 @@
 #include <java/lang/ref/PhantomReference.h>
 #include <java/lang/ref/Reference.h>
 #include <java/lang/ref/ReferenceQueue.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <jcpp.h>
@@ -16,7 +15,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $PhantomReference = ::java::lang::ref::PhantomReference;
 using $ReferenceQueue = ::java::lang::ref::ReferenceQueue;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 

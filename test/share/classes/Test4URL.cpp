@@ -2,7 +2,6 @@
 
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/ByteArrayOutputStream.h>
-#include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/ObjectInputStream.h>
 #include <java/io/ObjectOutputStream.h>
@@ -24,7 +23,6 @@
 
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
-using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $ObjectInputStream = ::java::io::ObjectInputStream;
 using $ObjectOutputStream = ::java::io::ObjectOutputStream;

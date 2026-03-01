@@ -9,7 +9,6 @@
 #include <java/util/concurrent/Executors.h>
 #include <java/util/concurrent/Future.h>
 #include <java/util/concurrent/RejectedExecutionHandler.h>
-#include <java/util/concurrent/RunnableFuture.h>
 #include <java/util/concurrent/RunnableScheduledFuture.h>
 #include <java/util/concurrent/ScheduledFuture.h>
 #include <java/util/concurrent/ScheduledThreadPoolExecutor$DelayedWorkQueue.h>
@@ -42,7 +41,6 @@ using $Delayed = ::java::util::concurrent::Delayed;
 using $Executors = ::java::util::concurrent::Executors;
 using $Future = ::java::util::concurrent::Future;
 using $RejectedExecutionHandler = ::java::util::concurrent::RejectedExecutionHandler;
-using $RunnableFuture = ::java::util::concurrent::RunnableFuture;
 using $RunnableScheduledFuture = ::java::util::concurrent::RunnableScheduledFuture;
 using $ScheduledFuture = ::java::util::concurrent::ScheduledFuture;
 using $ScheduledThreadPoolExecutor$DelayedWorkQueue = ::java::util::concurrent::ScheduledThreadPoolExecutor$DelayedWorkQueue;

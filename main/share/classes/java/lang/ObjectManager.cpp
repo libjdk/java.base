@@ -386,21 +386,7 @@ public:
 
 	inline void addOne(ObjectHead* oh);
 
-	inline ObjectHead* removeOne() {
-		ScanContextPending* scp = head;
-		if (scp == nullptr) {
-			return nullptr;
-		}
-		if (scp->isEmpty()) {
-			head = head->next;
-			ScanContextPending::free(scp);
-			if (head == nullptr) {
-				return nullptr;
-			}
-			scp = head;
-		}
-		return scp->removeLast();
-	}
+	inline ObjectHead* removeOne();
 
 	inline void clear() {
 		ObjectHead* oh = removeOne();
@@ -411,6 +397,172 @@ public:
 
 	ScanContextPending* head = nullptr;
 };
+
+template<typename T>
+class ScanMarkBase {
+public:
+	inline static void scanObject(T* scanner, ObjectHead* oh) {
+		Class* clazz = oh->clazz;
+		//if (clazz == nullptr) {
+		//	log_info("scanObject clazz == nullptr\n");
+		//}
+		Class* componentType = clazz->componentType$;
+		if (componentType == nullptr) {
+			int32_t* offsetArray = clazz->objectFieldOffsetArray;
+			if (offsetArray != nullptr) {
+				scanner->depth++;
+				Object0* this__ = fromOh(oh);
+				int32_t offset = *offsetArray;
+				while (offset > 0) {
+					Object* obj = *(Object**)((int8_t*)this__ + offset);
+					if (obj != nullptr) {
+						Object0* obj0 = toObject0(obj);
+						ObjectHead* ohField = toOh(obj0);
+						scanner->scanField(oh, ohField, offset);
+					}
+					offsetArray++;
+					offset = *offsetArray;
+				}
+				scanner->depth--;
+			}
+		} else {
+			if (!componentType->primitive) {
+				scanner->depth++;
+				ObjectArray* oa = (ObjectArray*)fromOh(oh);
+				Object0** begin = oa->begin();
+				int32_t len = oa->_;
+				//int32_t len = oa->length;
+				for (int32_t i = 0; i < len; i++) {
+					Object0* o = begin[i];
+					if (o != nullptr) {
+						ObjectHead* elementOh = toOh(o);
+						scanner->scanField(oh, elementOh, 0);
+					}
+				}
+				scanner->depth--;
+			}
+		}
+	}
+
+	inline static bool isEndObject(ObjectHead* oh) {
+		Class* type = oh->clazz->componentType$;
+		if (type != nullptr) {
+			if (type->primitive) {
+				return true;
+			}
+			return false;
+		}
+		if (oh->clazz->objectFieldOffsetArrayLength == 0) {
+			return true;
+		}
+		return false;
+	}
+
+	inline static bool isBigObjectArray(ObjectHead* oh) {
+		Class* type = oh->clazz->componentType$;
+		if (type != nullptr && !type->primitive) {
+			ObjectArray* oa = (ObjectArray*)fromOh(oh);
+			return oa->_ > 32;
+		}
+		return false;
+	}
+
+	inline static void scanNext(T* scanner, ObjectHead* ohThis, ObjectHead* oh) {
+		if (scanner->depth >= MAX_SCAN_DEPTH //|| !this->isPendingQueueEmpty()
+			) {
+			if (isEndObject(oh)) {
+				scanObject(scanner, oh);
+				return;
+			}
+			if (isBigObjectArray(ohThis)) {
+				if (scanner->depth >= MAX_SCAN_DEPTH + 5) {
+					scanner->addOnePending(oh);
+					return;
+				}
+			} else {
+				scanner->addOnePending(oh);
+				return;
+			}
+		}
+		//  this->depth++;
+		scanObject(scanner, oh);
+		//  this->depth--;
+
+		//if (scanner->depth < MAX_SCAN_DEPTH - 3) {
+		//	if (!scanner->isPendingQueueEmpty()) {
+		//		scanner->processPendingScan();
+		//	}
+		//}
+	}
+
+	inline void processPendingScan() {
+		ObjectHead* oh = removeOnePending();
+		while (oh != nullptr) {
+			scanObject((T*)this, oh);
+			oh = removeOnePending();
+		}
+	}
+
+	inline bool isPendingQueueEmpty() {
+		return pendingManager->isEmpty();
+	}
+
+	inline void addOnePending(ObjectHead* oh) {
+		//debugObjectHead("addOne pending", oh);
+		pendingManager->addOne(oh);
+	}
+
+	inline ObjectHead* removeOnePending() {
+		return pendingManager->removeOne();
+	}
+
+	ScanMarkBase() {
+	}
+	~ScanMarkBase() {
+	}
+
+	int32_t depth = 0;
+	ScanContextPendingManager* pendingManager = nullptr;
+};
+
+class ScanMarkGlobal : public ScanMarkBase<ScanMarkGlobal> {
+public:
+	template<typename T>
+	inline void scan(T obj) {
+		if (obj != nullptr) {
+			Object0* obj0 = toObject0(obj);
+			ObjectHead* oh = toOh(obj0);
+			scan(oh);
+		}
+	}
+	inline void changeToGlobal(ObjectHead* oh) {
+#ifdef OBJECT_DEBUG
+		oh->markGobalLiveCode = globalController->liveCodeGlobal;
+		if (oh->isDebug() || !oh->isUsed()) {
+			debugObjectHead("ScanMarkGlobal.changeToGlobal", oh);
+		}
+#endif
+		// is local monitor
+		if (!oh->isMonitor() && oh->objectMonitor != 0) {
+			Platform::upgradeMonitor(oh);
+		}
+		oh->setGlobal();
+		tryUpdateAllocater4Global(oh);
+	}
+	inline void scan(ObjectHead* oh) {
+		if (!oh->isGlobal()) {
+			changeToGlobal(oh);
+			scanObject(this, oh);
+		}
+	}
+	inline void scanField(ObjectHead* ohThis, ObjectHead* oh, int32_t fieldOffset) {
+		if (!oh->isGlobal()) {
+			changeToGlobal(oh);
+			scanNext(this, ohThis, oh);
+		}
+	}
+};
+
 
 #define MAX_ATOMIC_GC_HANDLE_PENDING_SIZE 4096
 
@@ -774,6 +926,8 @@ public:
 		jniLocalRefStackFrameIndex = 0;
 		jniLocalRefStackEndIndex = 0;
 		jniLocalRefStackFrame[jniLocalRefStackFrameIndex].begin = jniLocalRefStackEndIndex;
+
+		scanMarkGlobalScanner.pendingManager = &scanMarkGlobalPendingManager;
 	}
 
 	static LocalController* create() {
@@ -831,6 +985,18 @@ public:
 	void freeAllocs();
 	void optAllocs(bool isFinalFullGc);
 
+	inline StoredMemoryAllocater* createAllocater(int32_t slabIndex) {
+		StoredMemoryAllocater* oa = memoryManager.createAllocater(slabIndex);
+		if (oa != nullptr) {
+			statLocal.allocAllocater();
+		}
+		return oa;
+	}
+	inline void freeAllocater(StoredMemoryAllocater* allocater) {
+		memoryManager.freeAllocater(allocater);
+		statLocal.freeAllocater();
+	}
+
 	void init(Thread* thread);
 	void deinit();
 
@@ -839,6 +1005,14 @@ public:
 
 	template<typename T>
 	inline void savePending4Gc(T obj);
+
+	inline void scanMarkGlobal(ObjectHead* oh);
+
+	ScanContextPendingManager scanMarkGlobalPendingManager;
+	ScanMarkGlobal scanMarkGlobalScanner;
+	inline void scanMarkGlobal0(std::nullptr_t) {}
+	template<typename T>
+	inline void scanMarkGlobal0(T* obj);
 
 #ifdef ENABLE_OBJECT_REF_COUNT
 	inline static void addRefCount(std::nullptr_t) {
@@ -1216,7 +1390,7 @@ public:
 				cacheCS.add(block->getMemorySize());
 				block = block->next;
 			}
-			block = allocater->cacheList.head;
+			block = allocater->freeList.head;
 			while (block != nullptr) {
 				cacheCS.add(block->getMemorySize());
 				block = block->next;
@@ -1901,7 +2075,7 @@ public:
 	}
 
 	void opt() {
-		LocalControllerAtomicList toFreeLocalControllerList;
+		//LocalControllerAtomicList toFreeLocalControllerList;
 		{
 			std::lock_guard lock(mutexGlobal);
 
@@ -1914,20 +2088,23 @@ public:
 					controller->status = LC_STATUS_CLEARING;
 				} else if (controller->status == LC_STATUS_CLEARING) {
 					it.remove();
-					toFreeLocalControllerList.prepend(controller);
+					//toFreeLocalControllerList.prepend(controller);
+					controller->deinit();
+					statLocalHistorySum.add(controller->statLocal);
+					LocalController::free(controller);
 					continue;
 				}
 				it.next();
 			}
 			cvGlobal.notify_all();
 		}
-		LocalController* lc = toFreeLocalControllerList.removeFirst();
-		while (lc != nullptr) {
-			lc->deinit();
-			statLocalHistorySum.add(lc->statLocal);
-			LocalController::free(lc);
-			lc = toFreeLocalControllerList.removeFirst();
-		}
+		//LocalController* lc = toFreeLocalControllerList.removeFirst();
+		//while (lc != nullptr) {
+		//	lc->deinit();
+		//	statLocalHistorySum.add(lc->statLocal);
+		//	LocalController::free(lc);
+		//	lc = toFreeLocalControllerList.removeFirst();
+		//}
 	}
 
 	ObjectList normalListGlobal;
@@ -2082,28 +2259,7 @@ bool isObjectField2(const char* descriptor) {
 	return descriptor[1] != '\0';
 }
 
-inline bool isEndObject(ObjectHead* oh) {
-	Class* type = oh->clazz->componentType$;
-	if (type != nullptr) {
-		if (type->primitive) {
-			return true;
-		}
-		return false;
-	}
-	if (oh->clazz->objectFieldOffsetArrayLength == 0) {
-		return true;
-	}
-	return false;
-}
 
-inline bool isBigObjectArray(ObjectHead* oh) {
-	Class* type = oh->clazz->componentType$;
-	if (type != nullptr && !type->primitive) {
-		ObjectArray* oa = (ObjectArray*)fromOh(oh);
-		return oa->_ > 32;
-	}
-	return false;
-}
 
 inline void ScanContextPendingManager::addOne(ObjectHead* oh) {
 #ifdef OBJECT_DEBUG
@@ -2120,101 +2276,25 @@ inline void ScanContextPendingManager::addOne(ObjectHead* oh) {
 	scp->addLast(oh);
 }
 
+inline ObjectHead* ScanContextPendingManager::removeOne() {
+	ScanContextPending* scp = head;
+	if (scp == nullptr) {
+		return nullptr;
+	}
+	if (scp->isEmpty()) {
+		head = head->next;
+		ScanContextPending::free(scp);
+		if (head == nullptr) {
+			return nullptr;
+		}
+		scp = head;
+	}
+	return scp->removeLast();
+}
+
 template<typename T>
-class ScanMarkBase {
+class ScanMarkLive : public ScanMarkBase<T> {
 public:
-	inline static void scanObject(T* scanner, ObjectHead* oh) {
-		Class* clazz = oh->clazz;
-		//if (clazz == nullptr) {
-		//	log_info("scanObject clazz == nullptr\n");
-		//}
-		Class* componentType = clazz->componentType$;
-		if (componentType == nullptr) {
-			int32_t* offsetArray = clazz->objectFieldOffsetArray;
-			if (offsetArray != nullptr) {
-				scanner->depth++;
-				Object0* this__ = fromOh(oh);
-				int32_t offset = *offsetArray;
-				while (offset > 0) {
-					Object* obj = *(Object**)((int8_t*)this__ + offset);
-					if (obj != nullptr) {
-						Object0* obj0 = toObject0(obj);
-						ObjectHead* ohField = toOh(obj0);
-						scanner->scanField(oh, ohField, offset);
-					}
-					offsetArray++;
-					offset = *offsetArray;
-				}
-				scanner->depth--;
-			}
-		} else {
-			if (!componentType->primitive) {
-				scanner->depth++;
-				ObjectArray* oa = (ObjectArray*)fromOh(oh);
-				Object0** begin = oa->begin();
-				int32_t len = oa->_;
-				//int32_t len = oa->length;
-				for (int32_t i = 0; i < len; i++) {
-					Object0* o = begin[i];
-					if (o != nullptr) {
-						ObjectHead* elementOh = toOh(o);
-						scanner->scanField(oh, elementOh, 0);
-					}
-				}
-				scanner->depth--;
-			}
-		}
-	}
-
-	inline static void scanNext(T* scanner, ObjectHead* ohThis, ObjectHead* oh) {
-		if (scanner->depth >= MAX_SCAN_DEPTH //|| !this->isPendingQueueEmpty()
-			) {
-			if (isEndObject(oh)) {
-				scanObject(scanner, oh);
-				return;
-			}
-			if (isBigObjectArray(ohThis)) {
-				if (scanner->depth >= MAX_SCAN_DEPTH + 5) {
-					scanner->addOne(oh);
-					return;
-				}
-			} else {
-				scanner->addOne(oh);
-				return;
-			}
-		}
-		//  this->depth++;
-		scanObject(scanner, oh);
-		//  this->depth--;
-
-		//if (scanner->depth < MAX_SCAN_DEPTH - 3) {
-		//	if (!scanner->isPendingQueueEmpty()) {
-		//		scanner->processPendingScan();
-		//	}
-		//}
-	}
-
-	inline void processPendingScan() {
-		ObjectHead* oh = removeOne();
-		while (oh != nullptr) {
-			scanObject((T*)this, oh);
-			oh = removeOne();
-		}
-	}
-
-	inline bool isPendingQueueEmpty() {
-		return pendingManager->isEmpty();
-	}
-
-	inline void addOne(ObjectHead* oh) {
-		//debugObjectHead("addOne pending", oh);
-		pendingManager->addOne(oh);
-	}
-
-	inline ObjectHead* removeOne() {
-		return pendingManager->removeOne();
-	}
-
 	inline bool isReferent(ObjectHead* ohThis, int32_t fieldOffset) {
 		if (ohThis->isRef() && fieldOffset == $offsetof(Reference, referent)) {
 			return true;
@@ -2227,14 +2307,6 @@ public:
 		return this->scanRefLevel >= refType;
 	}
 
-	ScanMarkBase() {
-	}
-	~ScanMarkBase() {
-	}
-
-	int32_t depth = 0;
-	int32_t unused0 = 0;
-
 	int8_t liveCode = 0;
 	int32_t unused1 = 0;
 
@@ -2242,10 +2314,9 @@ public:
 	int32_t unused2 = 0;
 
 	int32_t scanedCount = 0;
-	ScanContextPendingManager* pendingManager = nullptr;
 };
 
-class ScanMarkLive4Local : public ScanMarkBase<ScanMarkLive4Local> {
+class ScanMarkLive4Local : public ScanMarkLive<ScanMarkLive4Local> {
 public:
 	template<typename T>
 	inline void scan(T obj) {
@@ -2335,7 +2406,7 @@ public:
 	}
 };
 */
-class ScanMarkReach4Local : public ScanMarkBase<ScanMarkReach4Local> {
+class ScanMarkReach4Local : public ScanMarkLive<ScanMarkReach4Local> {
 public:
 	template<typename T>
 	inline void scan(T obj) {
@@ -2408,7 +2479,7 @@ public:
 };
 */
 
-class ScanMarkLive4All : public ScanMarkBase<ScanMarkLive4All> {
+class ScanMarkLive4All : public ScanMarkLive<ScanMarkLive4All> {
 public:
 	template<typename T>
 	inline void scan(T obj) {
@@ -2485,7 +2556,7 @@ public:
 	}
 };
 
-class ScanMarkReach4All : public ScanMarkBase<ScanMarkReach4All> {
+class ScanMarkReach4All : public ScanMarkLive<ScanMarkReach4All> {
 public:
 	template<typename T>
 	inline void scan(T obj) {
@@ -2525,44 +2596,6 @@ public:
 #ifdef OBJECT_DEBUG
 			oh->scanIndex = scanIndex++;
 #endif
-			scanNext(this, ohThis, oh);
-		}
-	}
-};
-
-class ScanMarkGlobal : public ScanMarkBase<ScanMarkGlobal> {
-public:
-	template<typename T>
-	inline void scan(T obj) {
-		if (obj != nullptr) {
-			Object0* obj0 = toObject0(obj);
-			ObjectHead* oh = toOh(obj0);
-			scan(oh);
-		}
-	}
-	inline void changeToGlobal(ObjectHead* oh) {
-#ifdef OBJECT_DEBUG
-		oh->markGobalLiveCode = globalController->liveCodeGlobal;
-		if (oh->isDebug() || !oh->isUsed()) {
-			debugObjectHead("ScanMarkGlobal.changeToGlobal", oh);
-		}
-#endif
-		// is local monitor
-		if (!oh->isMonitor() && oh->objectMonitor != 0) {
-			Platform::upgradeMonitor(oh);
-		}
-		oh->setGlobal();
-		tryUpdateAllocater4Global(oh);
-	}
-	inline void scan(ObjectHead* oh) {
-		if (!oh->isGlobal()) {
-			changeToGlobal(oh);
-			scanObject(this, oh);
-		}
-	}
-	inline void scanField(ObjectHead* ohThis, ObjectHead* oh, int32_t fieldOffset) {
-		if (!oh->isGlobal()) {
-			changeToGlobal(oh);
 			scanNext(this, ohThis, oh);
 		}
 	}
@@ -2658,28 +2691,23 @@ void LocalController::freeAllocs() {
 		StoredMemoryAllocater* allocater = objectAllocaterLocalCurrent[i];
 		if (allocater != nullptr) {
 			objectAllocaterLocalCurrent[i] = nullptr;
-			memoryManager.freeAllocater(allocater);
-			statLocal.freeAllocater();
+			freeAllocater(allocater);
 		}
 		{
-			AtomicMemoryAllocaterList& allocaterList = objectAllocaterLocal[i];
-			StoredMemoryAllocater* listHead = allocaterList.exchange(nullptr);
+			StoredMemoryAllocater* listHead = objectAllocaterLocal[i].exchange(nullptr);
 			MemoryAllocaterList listTemp(listHead);
 			allocater = listTemp.removeFirst();
 			while (allocater != nullptr) {
-				memoryManager.freeAllocater(allocater);
-				statLocal.freeAllocater();
+				freeAllocater(allocater);
 				allocater = listTemp.removeFirst();
 			}
 		}
 		{
-			AtomicMemoryAllocaterList& allocaterPendingList = objectAllocaterLocalPending[i];
-			StoredMemoryAllocater* listHead = allocaterPendingList.exchange(nullptr);
+			StoredMemoryAllocater* listHead = objectAllocaterLocalPending[i].exchange(nullptr);
 			MemoryAllocaterList listTemp(listHead);
 			allocater = listTemp.removeFirst();
 			while (allocater != nullptr) {
-				memoryManager.freeAllocater(allocater);
-				statLocal.freeAllocater();
+				freeAllocater(allocater);
 				allocater = listTemp.removeFirst();
 			}
 		}
@@ -2691,57 +2719,51 @@ void LocalController::optAllocs(bool isFinalFullGc) {
 	for (int i = 0; i < SLAB_COUNT; i++) {
 		StoredMemoryAllocater* allocater = objectAllocaterLocalCurrent[i];
 		if (allocater != nullptr) {
-			allocater->commitFreeToCache();
+			allocater->moveFreeingToFree();
 		}
 		int32_t optCount = 0;
+		AtomicMemoryAllocaterList& allocaterList = objectAllocaterLocal[i];
+		AtomicMemoryAllocaterList& allocaterPendingList = objectAllocaterLocalPending[i];
 		{
-			AtomicMemoryAllocaterList& allocaterList = objectAllocaterLocal[i];
 			StoredMemoryAllocater* listHead = allocaterList.exchange(nullptr);
 			MemoryAllocaterList listTemp(listHead);
 			allocater = listTemp.removeFirst();
 			while (allocater != nullptr) {
 				if (isFinalFullGc) {
-					allocater->flush();
+					allocater->moveFreeingToStore();
+					allocater->moveFreeToStore();
 				} else {
-					allocater->commitFreeToCache();
+					allocater->moveFreeingToFree();
 				}
-				if (allocater->canFree() && optCount < maxOptCount) {
-					memoryManager.freeAllocater(allocater);
-					statLocal.freeAllocater();
+				if (allocater->getAllocedCount() == 0 && optCount < maxOptCount) {
+					freeAllocater(allocater);
 					optCount++;
 				} else {
-					//allocater->commitFreeToCache();
-					if (allocater->canAlloc()) {
-						allocaterList.prepend(allocater);
-					} else {
-						objectAllocaterLocalPending[i].prepend(allocater);
-					}
+					allocaterList.prepend(allocater);
 				}
 				allocater = listTemp.removeFirst();
 			}
 		}
 		{
-			AtomicMemoryAllocaterList& allocaterPendingList = objectAllocaterLocalPending[i];
 			StoredMemoryAllocater* listHead = allocaterPendingList.exchange(nullptr);
 			MemoryAllocaterList listTemp(listHead);
 			allocater = listTemp.removeFirst();
 			while (allocater != nullptr) {
-				if (isFinalFullGc) {
-					allocater->flush();
-				} else {
-					allocater->commitFreeToCache();
-				}
-				if (allocater->canFree() && optCount < maxOptCount) {
-					memoryManager.freeAllocater(allocater);
-					statLocal.freeAllocater();
-					optCount++;
-				} else {
-					//allocater->commitFreeToCache();
-					if (allocater->canAlloc()) {
-						objectAllocaterLocal[i].prepend(allocater);
+				if (allocater->freeingListCount > 0) {
+					if (isFinalFullGc) {
+						allocater->moveFreeingToStore();
+						allocater->moveFreeToStore();
 					} else {
-						allocaterPendingList.prepend(allocater);
+						allocater->moveFreeingToFree();
 					}
+					if (allocater->getAllocedCount() == 0 && optCount < maxOptCount) {
+						freeAllocater(allocater);
+						optCount++;
+					} else {
+						allocaterList.prepend(allocater);
+					}
+				} else {
+					allocaterPendingList.prepend(allocater);
 				}
 				allocater = listTemp.removeFirst();
 			}
@@ -2749,19 +2771,13 @@ void LocalController::optAllocs(bool isFinalFullGc) {
 	}
 }
 
-inline void scanMarkGlobal(ObjectHead* oh) {
-	ScanContextPendingManager pendingManager;
-	ScanMarkGlobal scanner;
-	scanner.pendingManager = &pendingManager;
-	scanner.scan(oh);
-	scanner.processPendingScan();
-}
-
-inline void scanMarkGlobal0(::std::nullptr_t) {
+inline void LocalController::scanMarkGlobal(ObjectHead* oh) {
+	scanMarkGlobalScanner.scan(oh);
+	scanMarkGlobalScanner.processPendingScan();
 }
 
 template<typename T>
-inline void scanMarkGlobal0(T* obj) {
+inline void LocalController::scanMarkGlobal0(T* obj) {
 	if (obj != nullptr) {
 		Object0* obj0 = toObject0(obj);
 		ObjectHead* oh = toOh(obj0);
@@ -2869,11 +2885,10 @@ inline ObjectHead* LocalController::allocLocalObject0(int64_t size) {
 	ObjectHead* oh = nullptr;
 	StoredMemoryAllocater* oa = objectAllocaterLocalCurrent[slabIndex];
 	if (oa == nullptr) {
-		oa = memoryManager.createAllocater(slabIndex);
+		oa = createAllocater(slabIndex);
 		if (oa == nullptr) {
 			return nullptr;
 		}
-		statLocal.allocAllocater();
 		objectAllocaterLocalCurrent[slabIndex] = oa;
 	}
 	oh = oa->allocObject();
@@ -2881,10 +2896,11 @@ inline ObjectHead* LocalController::allocLocalObject0(int64_t size) {
 		return oh;
 	} else {
 		objectAllocaterLocalCurrent[slabIndex] = nullptr;
-		MemoryAllocaterList allocaterListTemp;
-		allocaterListTemp.prepend(oa);
+		//MemoryAllocaterList allocaterListTemp;
+		//allocaterListTemp.prepend(oa);
 		AtomicMemoryAllocaterList* allocaterList = &objectAllocaterLocal[slabIndex];
 		AtomicMemoryAllocaterList* allocaterListPending = &objectAllocaterLocalPending[slabIndex];
+		allocaterListPending->prepend(oa);
 		oa = allocaterList->removeFirst();
 		while (oa != nullptr) {
 			oh = oa->allocObject();
@@ -2892,32 +2908,38 @@ inline ObjectHead* LocalController::allocLocalObject0(int64_t size) {
 				objectAllocaterLocalCurrent[slabIndex] = oa;
 				break;
 			}
-			allocaterListTemp.prepend(oa);
+			allocaterListPending->prepend(oa);
 			oa = allocaterList->removeFirst();
 		}
+		//if (oh == nullptr) {
+		//	oa = allocaterListPending->removeFirst();
+		//	while (oa != nullptr) {
+		//		oh = oa->allocObject();
+		//		if (oh != nullptr) {
+		//			objectAllocaterLocalCurrent[slabIndex] = oa;
+		//			break;
+		//		}
+		//		allocaterListTemp.prepend(oa);
+		//		oa = allocaterListPending->removeFirst();
+		//	}
+		//}
 		if (oh == nullptr) {
-			oa = allocaterListPending->removeFirst();
-			while (oa != nullptr) {
-				oh = oa->allocObject();
-				if (oh != nullptr) {
-					objectAllocaterLocalCurrent[slabIndex] = oa;
-					break;
+			for (int i = 0; i < 5; i++) {
+				oa = createAllocater(slabIndex);
+				if (oa != nullptr) {
+					oh = oa->allocObject();
+					if (oh != nullptr) {
+						objectAllocaterLocalCurrent[slabIndex] = oa;
+						break;
+					} else {
+						freeAllocater(oa);
+					}
 				}
-				allocaterListTemp.prepend(oa);
-				oa = allocaterListPending->removeFirst();
 			}
 		}
-		if (oh == nullptr) {
-			oa = memoryManager.createAllocater(slabIndex);
-			if (oa != nullptr) {
-				statLocal.allocAllocater();
-				oh = oa->allocObject();
-				objectAllocaterLocalCurrent[slabIndex] = oa;
-			}
-		}
-		if (!allocaterListTemp.isEmpty()) {
-			allocaterListPending->prependAll(allocaterListTemp.first(), allocaterListTemp.last());
-		}
+		//if (!allocaterListTemp.isEmpty()) {
+		//	allocaterListPending->prependList(allocaterListTemp.first(), allocaterListTemp.last());
+		//}
 		/*
 		oa = allocaterListTemp.removeFirst();
 	//	int32_t freedCount = 0;
@@ -3529,7 +3551,7 @@ bool ObjectManager::compareAndSetReference(Object0* owner, Object** target, Obje
 	if (value != nullptr) {
 		Object0* value0 = toObject0(value);
 		if (ohOwer->isGlobal()) {
-			scanMarkGlobal0(value0);
+			lc->scanMarkGlobal0(value0);
 		}
 		if (lc->savePendingLocal) {
 			lc->savePending4Gc(value0);
@@ -3582,7 +3604,7 @@ bool ObjectManager::compareAndSetReference(Object** target, Object$* expected, O
 		LocalController::addRefCount(value);
 #endif
 		Object0* value0 = toObject0(value);
-		scanMarkGlobal0(value0);
+		lc->scanMarkGlobal0(value0);
 		if (lc->savePendingLocal) {
 			lc->savePending4Gc(value0);
 		}
@@ -3617,7 +3639,7 @@ Object* ObjectManager::compareAndExchangeReference(Object0* owner, Object** targ
 #endif
 		Object0* value0 = toObject0(value);
 		if (ohOwer->isGlobal()) {
-			scanMarkGlobal0(value0);
+			lc->scanMarkGlobal0(value0);
 		}
 		if (lc->savePendingLocal) {
 			lc->savePending4Gc(value0);
@@ -3667,7 +3689,7 @@ Object* ObjectManager::compareAndExchangeReference(Object** target, Object$* exp
 		LocalController::addRefCount(value);
 #endif
 		Object0* value0 = toObject0(value);
-		scanMarkGlobal0(value0);
+		lc->scanMarkGlobal0(value0);
 		if (lc->savePendingLocal) {
 			lc->savePending4Gc(value0);
 		}
@@ -3812,7 +3834,7 @@ inline void relist(ObjectHead* listHead, GcType gcType, GcResult* gcResult, Coun
 	}
 	if (list.head != nullptr) {
 		ObjectHead* oh = list.exchange(nullptr);
-		targetList.prependAll(oh, it.getPre());
+		targetList.prependList(oh, it.getPre());
 	}
 	//while (oh != nullptr) {
 	//	ObjectHead* next = oh->next;
@@ -3835,14 +3857,14 @@ inline void prependAll(ObjectHead* listHead, T& targetList) {
 		} else {
 			ListScaner<ObjectHead> scaner;
 			scaner.scan(listHead);
-			targetList.prependAll(scaner.head, scaner.tail);
+			targetList.prependList(scaner.head, scaner.tail);
 		}
 	}
 }
 
 void LocalController::relist4New(GcType gcType, GcResult* gcResult) {
 	CountSize moveSize;
-	for (int i = 0; i < 2; i++) {
+	for (int i = 0; i < 1; i++) {
 		{
 			ObjectHead* listHead = newNormalListLocal1.exchange(nullptr);
 			if (gcType != GC_TYPE_FULL) {
@@ -4673,7 +4695,7 @@ void LocalController::processLocalObject(int8_t liveCode, GcType gcType, GcResul
 				if (i < normalListCount && tails[i - 1] != nullptr) {
 					ObjectHead* head = normalListLocal[i - 1].exchange(nullptr);
 					if (head != nullptr) {
-						normalListLocal[i].prependAll(head, tails[i - 1]);
+						normalListLocal[i].prependList(head, tails[i - 1]);
 					}
 				}
 			}
@@ -5946,7 +5968,7 @@ String* ObjectManager::plusAssignField(Object0* owner, int32_t fieldOffset, Stri
 	if (ohOwner->isGlobal()) {
 		ObjectHead* resOH = toOh((Object0*)res);
 		if (!resOH->isGlobal()) {
-			scanMarkGlobal(resOH);
+			lc->scanMarkGlobal(resOH);
 		}
 	}
 #ifdef ENABLE_OBJECT_REF_COUNT
@@ -5999,7 +6021,7 @@ inline Object* assignFieldRecord0(Object0* owner, int32_t fieldOffset, ValueType
 			Object0* value0 = toObject0(value);
 			ObjectHead* valueOH = toOh(value0);
 			if (!valueOH->isGlobal()) {
-				scanMarkGlobal(valueOH);
+				lc->scanMarkGlobal(valueOH);
 			}
 			if (lc->savePendingLocal) {
 				lc->savePending4Gc(value0);
@@ -6128,7 +6150,7 @@ inline Object0* assignArrayValue0(ObjectArray* owner, Object0*& field, Value val
 		}
 		if (dstGlobal) {
 			if (!valueOH->isGlobal()) {
-				scanMarkGlobal(valueOH);
+				lc->scanMarkGlobal(valueOH);
 			}
 		}
 #ifdef ENABLE_OBJECT_REF_COUNT
@@ -6207,7 +6229,7 @@ void fillArray0(ObjectArray* array, int32_t fromIndex, int32_t toIndex, Value va
 		}
 		if (dstGlobal) {
 			if (!valueOH->isGlobal()) {
-				scanMarkGlobal(valueOH);
+				lc->scanMarkGlobal(valueOH);
 			}
 		}
 #ifdef ENABLE_OBJECT_REF_COUNT
@@ -6276,7 +6298,7 @@ inline Object* assignStatic0(Var*& var, Value value) {
 	}
 #endif
 	LocalController* lc = localController;
-	scanMarkGlobal0(value);
+	lc->scanMarkGlobal0(value);
 	if (var == nullptr) {
 		globalController->recordStaticPointer((Object**)&var);
 	}
@@ -6425,7 +6447,7 @@ void ObjectManager::copyArray(ObjectArray* dstArray, int32_t dstPos, const Objec
 			}
 			if (needScanMarkGlobal) {
 				if (!ohS->isGlobal()) {
-					scanMarkGlobal(ohS);
+					lc->scanMarkGlobal(ohS);
 				}
 			}
 		}
@@ -6884,7 +6906,7 @@ Object* newGlobalRef0(T* obj, bool weak) {
 	if (!weak) {
 		oh->setRefType(OBJECT_REF_TYPE_GLOBAL);
 	}
-	scanMarkGlobal(oh);
+	localController->scanMarkGlobal(oh);
 #ifdef ENABLE_OBJECT_REF_COUNT
 	localController->addRefCount(obj0);
 #endif

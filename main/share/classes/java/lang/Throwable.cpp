@@ -13,8 +13,6 @@
 #include <java/lang/Throwable$SentinelHolder.h>
 #include <java/lang/Throwable$WrappedPrintStream.h>
 #include <java/lang/Throwable$WrappedPrintWriter.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/IdentityHashMap.h>
@@ -59,8 +57,6 @@ using $Throwable$PrintStreamOrWriter = ::java::lang::Throwable$PrintStreamOrWrit
 using $Throwable$SentinelHolder = ::java::lang::Throwable$SentinelHolder;
 using $Throwable$WrappedPrintStream = ::java::lang::Throwable$WrappedPrintStream;
 using $Throwable$WrappedPrintWriter = ::java::lang::Throwable$WrappedPrintWriter;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $IdentityHashMap = ::java::util::IdentityHashMap;

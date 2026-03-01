@@ -2,7 +2,6 @@
 
 #include <java/net/URI.h>
 #include <java/security/KeyStore$ProtectionParameter.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -15,7 +14,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $URI = ::java::net::URI;
 using $KeyStore$ProtectionParameter = ::java::security::KeyStore$ProtectionParameter;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;

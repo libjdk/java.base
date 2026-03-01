@@ -13,7 +13,6 @@
 #include <java/nio/channels/spi/SelectorProvider.h>
 #include <java/util/Objects.h>
 #include <java/util/concurrent/locks/ReentrantLock.h>
-#include <sun/nio/ch/FileDispatcher.h>
 #include <sun/nio/ch/FileDispatcherImpl.h>
 #include <sun/nio/ch/IOStatus.h>
 #include <sun/nio/ch/IOUtil.h>
@@ -48,7 +47,6 @@ using $SelectionKey = ::java::nio::channels::SelectionKey;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
 using $Objects = ::java::util::Objects;
 using $ReentrantLock = ::java::util::concurrent::locks::ReentrantLock;
-using $FileDispatcher = ::sun::nio::ch::FileDispatcher;
 using $FileDispatcherImpl = ::sun::nio::ch::FileDispatcherImpl;
 using $IOStatus = ::sun::nio::ch::IOStatus;
 using $IOUtil = ::sun::nio::ch::IOUtil;

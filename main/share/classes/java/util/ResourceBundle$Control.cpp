@@ -12,7 +12,6 @@
 #include <java/lang/InstantiationException.h>
 #include <java/lang/Module.h>
 #include <java/lang/NoSuchMethodException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/invoke/CallSite.h>
 #include <java/lang/invoke/LambdaMetafactory.h>
 #include <java/lang/invoke/MethodHandle.h>
@@ -28,7 +27,6 @@
 #include <java/security/PrivilegedAction.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/List.h>
@@ -78,7 +76,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Module = ::java::lang::Module;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Void = ::java::lang::Void;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Constructor = ::java::lang::reflect::Constructor;
@@ -91,7 +88,6 @@ using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $List = ::java::util::List;

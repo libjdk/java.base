@@ -3,8 +3,6 @@
 #include <SampleNest$1.h>
 #include <SampleNest$1LocalClass.h>
 #include <java/lang/Runnable.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/LinkedList.h>
 #include <java/util/List.h>
 #include <jcpp.h>
@@ -16,8 +14,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $LinkedList = ::java::util::LinkedList;
 using $List = ::java::util::List;
 

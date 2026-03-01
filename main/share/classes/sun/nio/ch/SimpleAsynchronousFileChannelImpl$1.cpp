@@ -3,7 +3,6 @@
 #include <java/io/FileDescriptor.h>
 #include <java/io/IOException.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
-#include <java/nio/channels/ClosedChannelException.h>
 #include <java/nio/channels/CompletionHandler.h>
 #include <sun/nio/ch/FileDispatcher.h>
 #include <sun/nio/ch/FileLockImpl.h>
@@ -19,12 +18,10 @@
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
-using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
 using $FileDispatcher = ::sun::nio::ch::FileDispatcher;
 using $FileLockImpl = ::sun::nio::ch::FileLockImpl;

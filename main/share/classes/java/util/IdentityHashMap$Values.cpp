@@ -3,7 +3,6 @@
 #include <java/lang/reflect/Array.h>
 #include <java/util/AbstractCollection.h>
 #include <java/util/ConcurrentModificationException.h>
-#include <java/util/IdentityHashMap$IdentityHashMapIterator.h>
 #include <java/util/IdentityHashMap$ValueIterator.h>
 #include <java/util/IdentityHashMap$ValueSpliterator.h>
 #include <java/util/IdentityHashMap.h>
@@ -19,7 +18,6 @@ using $1Array = ::java::lang::reflect::Array;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;
 using $IdentityHashMap = ::java::util::IdentityHashMap;
-using $IdentityHashMap$IdentityHashMapIterator = ::java::util::IdentityHashMap$IdentityHashMapIterator;
 using $IdentityHashMap$ValueIterator = ::java::util::IdentityHashMap$ValueIterator;
 using $IdentityHashMap$ValueSpliterator = ::java::util::IdentityHashMap$ValueSpliterator;
 using $Iterator = ::java::util::Iterator;

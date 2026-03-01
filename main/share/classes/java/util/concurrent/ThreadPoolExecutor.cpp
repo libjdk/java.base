@@ -8,7 +8,6 @@
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/lang/Thread$State.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/AbstractCollection.h>
 #include <java/util/AbstractList.h>
@@ -60,7 +59,6 @@ using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $Thread$State = ::java::lang::Thread$State;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractList = ::java::util::AbstractList;

@@ -4,7 +4,6 @@
 #include <java/io/ObjectOutputStream.h>
 #include <java/lang/Error.h>
 #include <java/lang/ExceptionInInitializerError.h>
-#include <java/lang/IllegalStateException.h>
 #include <java/lang/InterruptedException.h>
 #include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/Runnable.h>
@@ -52,7 +51,6 @@ using $Error = ::java::lang::Error;
 using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $InterruptedException = ::java::lang::InterruptedException;

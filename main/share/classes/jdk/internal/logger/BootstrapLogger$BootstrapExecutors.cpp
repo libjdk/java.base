@@ -12,10 +12,8 @@
 #include <java/lang/ref/WeakReference.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/concurrent/AbstractExecutorService.h>
 #include <java/util/concurrent/BlockingQueue.h>
 #include <java/util/concurrent/ExecutionException.h>
 #include <java/util/concurrent/ExecutorService.h>
@@ -47,10 +45,8 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $WeakReference = ::java::lang::ref::WeakReference;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractExecutorService = ::java::util::concurrent::AbstractExecutorService;
 using $BlockingQueue = ::java::util::concurrent::BlockingQueue;
 using $ExecutionException = ::java::util::concurrent::ExecutionException;
 using $ExecutorService = ::java::util::concurrent::ExecutorService;

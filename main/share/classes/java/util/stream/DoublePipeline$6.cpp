@@ -5,8 +5,6 @@
 #include <java/util/stream/DoublePipeline$StatelessOp.h>
 #include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/DoubleStream$DoubleMapMultiConsumer.h>
-#include <java/util/stream/Sink$ChainedDouble.h>
-#include <java/util/stream/Sink$OfDouble.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <jcpp.h>
@@ -22,8 +20,6 @@ using $DoublePipeline$6$1 = ::java::util::stream::DoublePipeline$6$1;
 using $DoublePipeline$StatelessOp = ::java::util::stream::DoublePipeline$StatelessOp;
 using $DoubleStream$DoubleMapMultiConsumer = ::java::util::stream::DoubleStream$DoubleMapMultiConsumer;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedDouble = ::java::util::stream::Sink$ChainedDouble;
-using $Sink$OfDouble = ::java::util::stream::Sink$OfDouble;
 using $StreamShape = ::java::util::stream::StreamShape;
 
 namespace java {

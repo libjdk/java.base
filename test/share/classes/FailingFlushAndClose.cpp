@@ -10,8 +10,6 @@
 #include <java/io/BufferedOutputStream.h>
 #include <java/io/BufferedReader.h>
 #include <java/io/BufferedWriter.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -29,8 +27,6 @@ using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $BufferedReader = ::java::io::BufferedReader;
 using $BufferedWriter = ::java::io::BufferedWriter;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;

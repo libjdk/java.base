@@ -8,7 +8,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/time/DayOfWeek.h>
 #include <java/time/LocalDate.h>
-#include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/temporal/ChronoField.h>
 #include <java/time/temporal/ChronoUnit.h>
 #include <java/time/temporal/Temporal.h>
@@ -35,7 +34,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $DayOfWeek = ::java::time::DayOfWeek;
 using $LocalDate = ::java::time::LocalDate;
-using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoField = ::java::time::temporal::ChronoField;
 using $ChronoUnit = ::java::time::temporal::ChronoUnit;
 using $Temporal = ::java::time::temporal::Temporal;

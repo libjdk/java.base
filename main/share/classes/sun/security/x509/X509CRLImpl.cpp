@@ -1,11 +1,9 @@
 #include <sun/security/x509/X509CRLImpl.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/math/BigInteger.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/Key.h>
 #include <java/security/Principal.h>
@@ -21,9 +19,7 @@
 #include <java/security/cert/X509CRLEntry.h>
 #include <java/security/cert/X509Certificate.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Date.h>
@@ -70,7 +66,6 @@
 
 using $X509CRLEntryArray = $Array<::java::security::cert::X509CRLEntry>;
 using $DerValueArray = $Array<::sun::security::util::DerValue>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -81,7 +76,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $BigInteger = ::java::math::BigInteger;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $Key = ::java::security::Key;
 using $Principal = ::java::security::Principal;
@@ -96,9 +90,7 @@ using $Certificate = ::java::security::cert::Certificate;
 using $X509CRL = ::java::security::cert::X509CRL;
 using $X509CRLEntry = ::java::security::cert::X509CRLEntry;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Date = ::java::util::Date;

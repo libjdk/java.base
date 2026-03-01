@@ -4,10 +4,8 @@
 #include <java/io/InputStreamReader.h>
 #include <java/io/Reader.h>
 #include <java/nio/charset/CharsetDecoder.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashMap.h>
-#include <java/util/Hashtable.h>
 #include <java/util/Locale.h>
 #include <java/util/Map.h>
 #include <java/util/Properties.h>
@@ -29,10 +27,8 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Enumeration = ::java::util::Enumeration;
 using $HashMap = ::java::util::HashMap;
-using $Hashtable = ::java::util::Hashtable;
 using $Locale = ::java::util::Locale;
 using $Map = ::java::util::Map;
 using $Properties = ::java::util::Properties;

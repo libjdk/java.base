@@ -27,7 +27,6 @@
 #include <java/nio/file/Path.h>
 #include <java/security/AccessController.h>
 #include <java/security/AllPermission.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/CodeSource.h>
 #include <java/security/KeyStore.h>
 #include <java/security/KeyStoreException.h>
@@ -42,10 +41,8 @@
 #include <java/security/UnresolvedPermission.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap.h>
 #include <java/util/AbstractSequentialList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -138,7 +135,6 @@ using $Files = ::java::nio::file::Files;
 using $Path = ::java::nio::file::Path;
 using $AccessController = ::java::security::AccessController;
 using $AllPermission = ::java::security::AllPermission;
-using $BasicPermission = ::java::security::BasicPermission;
 using $CodeSource = ::java::security::CodeSource;
 using $KeyStore = ::java::security::KeyStore;
 using $KeyStoreException = ::java::security::KeyStoreException;
@@ -153,10 +149,7 @@ using $SecurityPermission = ::java::security::SecurityPermission;
 using $UnresolvedPermission = ::java::security::UnresolvedPermission;
 using $Certificate = ::java::security::cert::Certificate;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

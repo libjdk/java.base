@@ -10,9 +10,7 @@
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/ReferencePipeline$StatefulOp.h>
-#include <java/util/stream/Sink$ChainedReference.h>
 #include <java/util/stream/Sink.h>
-#include <java/util/stream/SortedOps$AbstractRefSortingSink.h>
 #include <java/util/stream/SortedOps$RefSortingSink.h>
 #include <java/util/stream/SortedOps$SizedRefSortingSink.h>
 #include <java/util/stream/SortedOps.h>
@@ -42,8 +40,6 @@ using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $ReferencePipeline$StatefulOp = ::java::util::stream::ReferencePipeline$StatefulOp;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedReference = ::java::util::stream::Sink$ChainedReference;
-using $SortedOps$AbstractRefSortingSink = ::java::util::stream::SortedOps$AbstractRefSortingSink;
 using $SortedOps$RefSortingSink = ::java::util::stream::SortedOps$RefSortingSink;
 using $SortedOps$SizedRefSortingSink = ::java::util::stream::SortedOps$SizedRefSortingSink;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;

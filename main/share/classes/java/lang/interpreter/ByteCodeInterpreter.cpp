@@ -205,13 +205,19 @@ void ByteCodeInterpreter::initStackTraceElements(Frame* frame, $Array<StackTrace
 	}
 }
 
-int iii = 0;
+//int iii = 0;
 $Value ByteCodeInterpreter::interpret(ByteCodeMethod* byteCodeMethod, Object$* instance, Class* returnType,
 		$ClassArray* parameterTypes, $Value* argv) {
 	$set(this, frame, $new(Frame, this, byteCodeMethod, byteCodeMethod->stackSlotsForParameters));
 	this->prepareArgs(instance, parameterTypes, argv);
-	//if (method->clazz->name->equals("com.mysql.cj.conf.AbstractPropertyDefinition") && method->name->equals("<init>"_s)) {
+	//iii++;
+	//if (byteCodeMethod->clazz->name->equals("java.lang.invoke.LambdaForm$MH") && byteCodeMethod->name->equals("collector"_s)) {
 	//	iii++;
+	//}
+	//int ii = iii;
+	//if (ii == 78) {
+	//	int i = 0;
+	//	i++;
 	//}
 	ByteCodeInterpreter* last = (ByteCodeInterpreter*)currentInterpreters->get();
 	if (last != nullptr) {
@@ -1512,6 +1518,8 @@ void Frame::setLocal(int32_t index, Class* type, Object* value) {
 			setLocalDouble(index, $cast<Double>(value)->doubleValue());
 		} else if (valueClazz == Character::class$) {
 			setLocalInt(index, $cast<Character>(value)->charValue());
+		} else {
+			$shouldNotReachHere();
 		}
 	} else {
 		setLocalPointer(index, value);
@@ -1544,8 +1552,7 @@ inline Object$* Frame::getLocal(int32_t index, Class* type) {
 		if (type == Character::TYPE) {
 			return Character::valueOf(getLocalInt(index));
 		}
-		// TODO
-		return nullptr;
+		$shouldNotReachHere();
 	} else {
 		return type->cast(getLocalPointer(index));
 	}
@@ -1655,6 +1662,7 @@ inline MemoryItem Frame::pop() {
 	MemoryItem mi = interpreter->getMemoryItem(index0);
 	MemoryItemType oldType = getMemoryItemType(mi);
 	if (oldType == MemoryItemType::OBJECT_TYPE) {
+		$var(Object, saved, getObjectFromMemoryItem(mi));
 		interpreter->clearMemoryObject(index0);
 	}
 	return mi;
@@ -2038,6 +2046,7 @@ Object$* getParameter(Class* type, Frame* frame, int32_t localIndex) {
 		if (type == Character::TYPE) {
 			return Character::valueOf(frame->getLocalInt(localIndex));
 		}
+		$shouldNotReachHere();
 	} else {
 		if (localType == OBJECT_TYPE) {
 			return frame->getLocalPointer(localIndex);
@@ -2266,10 +2275,11 @@ void ByteCodeInterpreter::invokeDynamic(uint16_t methodIndex) {
 		$var(Method, method, methodClazz->getMethodEx(cmref->name, cmref->descriptor));
 		$var(MethodHandles$Lookup, lookup, MethodHandles::lookup());
 		$var(MethodHandle, mh, nullptr);
+		$var(MethodType, mt1, MethodType::fromMethodDescriptorString(cmref->descriptor, clazz->classLoader));
 		if (method->isStatic()) {
-			$assign(mh, lookup->findStatic(methodClazz, cmref->name, MethodType::fromMethodDescriptorString(cmref->descriptor, clazz->classLoader)));
+			$assign(mh, lookup->findStatic(methodClazz, cmref->name, mt1));
 		} else {
-			$assign(mh, lookup->findVirtual(methodClazz, cmref->name, MethodType::fromMethodDescriptorString(cmref->descriptor, clazz->classLoader)));
+			$assign(mh, lookup->findVirtual(methodClazz, cmref->name, mt1));
 		}
 		ConstantMethodType* cmt2 = (ConstantMethodType*)bootstrapMethod->bootstrapArguments->get(2);
 		$var(MethodType, mt2, MethodType::fromMethodDescriptorString(cmt2->descriptor, clazz->classLoader));
@@ -2323,6 +2333,8 @@ void ByteCodeInterpreter::prepareArgs(Object$* instance, $ClassArray* parameterT
 				} else if (type == Double::TYPE) {
 					frame->setLocalDouble(argIndex, argv[i].doubleValue());
 					argIndex += 2;
+				} else {
+					$shouldNotReachHere();
 				}
 			} else {
 				frame->setLocalPointer(argIndex++, argv[i].is<$Object>());
@@ -2396,9 +2408,11 @@ void ByteCodeInterpreter::getStatic(Field* field) {
 			frame->pushDouble(field->getDouble(nullptr));
 		} else if (field->type == Character::TYPE) {
 			frame->pushChar16(field->getChar(nullptr));
+		} else {
+			$shouldNotReachHere();
 		}
 	} else {
-		frame->pushObject(field->get(nullptr));
+		frame->pushObject($(field->get(nullptr)));
 	}
 }
 
@@ -2423,6 +2437,8 @@ void ByteCodeInterpreter::putStatic(Field* field) {
 			field->setDouble(nullptr, frame->popDouble());
 		} else if (field->type == Character::TYPE) {
 			field->setChar(nullptr, frame->popChar16());
+		} else {
+			$shouldNotReachHere();
 		}
 	} else {
 		// TODO
@@ -2456,9 +2472,11 @@ void ByteCodeInterpreter::getField(Field* field) {
 			frame->pushDouble(field->getDouble(obj));
 		} else if (field->type == Character::TYPE) {
 			frame->pushChar16(field->getChar(obj));
+		} else {
+			$shouldNotReachHere();
 		}
 	} else {
-		frame->pushObject(field->get(obj));
+		frame->pushObject($(field->get(obj)));
 	}
 }
 
@@ -2504,6 +2522,8 @@ void ByteCodeInterpreter::putField(Field* field) {
 			char16_t value = frame->popChar16();
 			$var(Object, obj, frame->popObject());
 			field->setChar(obj, value);
+		} else {
+			$shouldNotReachHere();
 		}
 	} else {
 		$var(Object, value, frame->popObject());

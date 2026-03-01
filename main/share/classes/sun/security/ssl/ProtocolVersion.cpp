@@ -4,8 +4,6 @@
 #include <java/security/AlgorithmConstraints.h>
 #include <java/security/AlgorithmParameters.h>
 #include <java/security/CryptoPrimitive.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/EnumSet.h>
@@ -50,8 +48,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $AlgorithmConstraints = ::java::security::AlgorithmConstraints;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $CryptoPrimitive = ::java::security::CryptoPrimitive;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $EnumSet = ::java::util::EnumSet;

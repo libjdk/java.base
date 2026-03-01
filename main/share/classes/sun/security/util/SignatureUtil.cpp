@@ -5,7 +5,6 @@
 #include <java/lang/CharSequence.h>
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/Key.h>
 #include <java/security/NoSuchAlgorithmException.h>
@@ -53,7 +52,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $Key = ::java::security::Key;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;

@@ -2,7 +2,6 @@
 
 #include <com/sun/crypto/provider/CipherCore.h>
 #include <com/sun/crypto/provider/DESConstants.h>
-#include <com/sun/crypto/provider/DESCrypt.h>
 #include <com/sun/crypto/provider/DESedeCrypt.h>
 #include <com/sun/crypto/provider/SymmetricCipher.h>
 #include <java/security/AlgorithmParameters.h>
@@ -18,7 +17,6 @@
 
 using $CipherCore = ::com::sun::crypto::provider::CipherCore;
 using $DESConstants = ::com::sun::crypto::provider::DESConstants;
-using $DESCrypt = ::com::sun::crypto::provider::DESCrypt;
 using $DESedeCrypt = ::com::sun::crypto::provider::DESedeCrypt;
 using $SymmetricCipher = ::com::sun::crypto::provider::SymmetricCipher;
 using $ClassInfo = ::java::lang::ClassInfo;

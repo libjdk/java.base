@@ -5,7 +5,6 @@
 #include <java/lang/ref/Reference.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController$AccHolder.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/DomainCombiner.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
@@ -35,7 +34,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $Reference = ::java::lang::ref::Reference;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController$AccHolder = ::java::security::AccessController$AccHolder;
-using $BasicPermission = ::java::security::BasicPermission;
 using $DomainCombiner = ::java::security::DomainCombiner;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;

@@ -16,7 +16,6 @@
 #include <java/security/cert/CertStoreSpi.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -29,8 +28,6 @@
 #include <javax/net/ssl/SSLContext.h>
 #include <javax/net/ssl/SSLSocketFactory.h>
 #include <javax/net/ssl/TrustManager.h>
-#include <javax/net/ssl/X509ExtendedTrustManager.h>
-#include <javax/net/ssl/X509TrustManager.h>
 #include <sun/security/provider/certpath/ssl/SSLServerCertStore$1.h>
 #include <sun/security/provider/certpath/ssl/SSLServerCertStore$CS.h>
 #include <sun/security/provider/certpath/ssl/SSLServerCertStore$GetChainTrustManager.h>
@@ -40,7 +37,6 @@ using $KeyManagerArray = $Array<::javax::net::ssl::KeyManager>;
 using $TrustManagerArray = $Array<::javax::net::ssl::TrustManager>;
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -59,7 +55,6 @@ using $CertStoreParameters = ::java::security::cert::CertStoreParameters;
 using $CertStoreSpi = ::java::security::cert::CertStoreSpi;
 using $Certificate = ::java::security::cert::Certificate;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
@@ -70,8 +65,6 @@ using $HttpsURLConnection = ::javax::net::ssl::HttpsURLConnection;
 using $SSLContext = ::javax::net::ssl::SSLContext;
 using $SSLSocketFactory = ::javax::net::ssl::SSLSocketFactory;
 using $TrustManager = ::javax::net::ssl::TrustManager;
-using $X509ExtendedTrustManager = ::javax::net::ssl::X509ExtendedTrustManager;
-using $X509TrustManager = ::javax::net::ssl::X509TrustManager;
 using $SSLServerCertStore$1 = ::sun::security::provider::certpath::ssl::SSLServerCertStore$1;
 using $SSLServerCertStore$CS = ::sun::security::provider::certpath::ssl::SSLServerCertStore$CS;
 using $SSLServerCertStore$GetChainTrustManager = ::sun::security::provider::certpath::ssl::SSLServerCertStore$GetChainTrustManager;

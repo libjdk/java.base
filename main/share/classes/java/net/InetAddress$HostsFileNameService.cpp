@@ -8,7 +8,6 @@
 #include <java/net/InetAddress.h>
 #include <java/net/UnknownHostException.h>
 #include <java/nio/charset/Charset.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -16,7 +15,6 @@
 #include <java/util/Scanner.h>
 #include <sun/net/util/IPAddressUtil.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/security/action/GetPropertyAction.h>
 #include <jcpp.h>
 
@@ -37,7 +35,6 @@ using $Inet6Address = ::java::net::Inet6Address;
 using $InetAddress = ::java::net::InetAddress;
 using $UnknownHostException = ::java::net::UnknownHostException;
 using $Charset = ::java::nio::charset::Charset;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
@@ -45,7 +42,6 @@ using $List = ::java::util::List;
 using $Scanner = ::java::util::Scanner;
 using $IPAddressUtil = ::sun::net::util::IPAddressUtil;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $GetPropertyAction = ::sun::security::action::GetPropertyAction;
 
 namespace java {

@@ -3,7 +3,6 @@
 #include <java/lang/ProcessEnvironment$StringEnvironment.h>
 #include <java/lang/ProcessEnvironment$Value.h>
 #include <java/lang/ProcessEnvironment$Variable.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -20,7 +19,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $ProcessEnvironment$StringEnvironment = ::java::lang::ProcessEnvironment$StringEnvironment;
 using $ProcessEnvironment$Value = ::java::lang::ProcessEnvironment$Value;
 using $ProcessEnvironment$Variable = ::java::lang::ProcessEnvironment$Variable;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;

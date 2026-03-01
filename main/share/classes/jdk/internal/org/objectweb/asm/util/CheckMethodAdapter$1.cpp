@@ -8,7 +8,6 @@
 #include <jdk/internal/org/objectweb/asm/tree/MethodNode.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/AnalyzerException.h>
-#include <jdk/internal/org/objectweb/asm/tree/analysis/BasicInterpreter.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/BasicVerifier.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/Frame.h>
 #include <jdk/internal/org/objectweb/asm/tree/analysis/Interpreter.h>
@@ -27,12 +26,10 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodVisitor = ::jdk::internal::org::objectweb::asm$::MethodVisitor;
 using $MethodNode = ::jdk::internal::org::objectweb::asm$::tree::MethodNode;
 using $Analyzer = ::jdk::internal::org::objectweb::asm$::tree::analysis::Analyzer;
 using $AnalyzerException = ::jdk::internal::org::objectweb::asm$::tree::analysis::AnalyzerException;
-using $BasicInterpreter = ::jdk::internal::org::objectweb::asm$::tree::analysis::BasicInterpreter;
 using $BasicVerifier = ::jdk::internal::org::objectweb::asm$::tree::analysis::BasicVerifier;
 using $Interpreter = ::jdk::internal::org::objectweb::asm$::tree::analysis::Interpreter;
 using $CheckClassAdapter = ::jdk::internal::org::objectweb::asm$::util::CheckClassAdapter;

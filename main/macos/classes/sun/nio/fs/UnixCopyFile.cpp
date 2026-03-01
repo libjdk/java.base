@@ -17,7 +17,6 @@
 #include <java/nio/file/LinkPermission.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/attribute/FileTime.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Iterator.h>
 #include <java/util/concurrent/ExecutionException.h>
@@ -60,7 +59,6 @@ using $FileAlreadyExistsException = ::java::nio::file::FileAlreadyExistsExceptio
 using $LinkPermission = ::java::nio::file::LinkPermission;
 using $Path = ::java::nio::file::Path;
 using $FileTime = ::java::nio::file::attribute::FileTime;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Iterator = ::java::util::Iterator;
 using $ExecutionException = ::java::util::concurrent::ExecutionException;

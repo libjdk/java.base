@@ -8,13 +8,11 @@
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Set.h>
-#include <sun/nio/fs/AbstractWatchService.h>
 #include <sun/nio/fs/BsdFileStore.h>
 #include <sun/nio/fs/BsdFileSystem$SupportedFileFileAttributeViewsHolder.h>
 #include <sun/nio/fs/BsdNativeDispatcher.h>
 #include <sun/nio/fs/PollingWatchService.h>
 #include <sun/nio/fs/UnixException.h>
-#include <sun/nio/fs/UnixFileStore.h>
 #include <sun/nio/fs/UnixFileSystem.h>
 #include <sun/nio/fs/UnixFileSystemProvider.h>
 #include <sun/nio/fs/UnixMountEntry.h>
@@ -32,13 +30,11 @@ using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Set = ::java::util::Set;
-using $AbstractWatchService = ::sun::nio::fs::AbstractWatchService;
 using $BsdFileStore = ::sun::nio::fs::BsdFileStore;
 using $BsdFileSystem$SupportedFileFileAttributeViewsHolder = ::sun::nio::fs::BsdFileSystem$SupportedFileFileAttributeViewsHolder;
 using $BsdNativeDispatcher = ::sun::nio::fs::BsdNativeDispatcher;
 using $PollingWatchService = ::sun::nio::fs::PollingWatchService;
 using $UnixException = ::sun::nio::fs::UnixException;
-using $UnixFileStore = ::sun::nio::fs::UnixFileStore;
 using $UnixFileSystem = ::sun::nio::fs::UnixFileSystem;
 using $UnixFileSystemProvider = ::sun::nio::fs::UnixFileSystemProvider;
 using $UnixMountEntry = ::sun::nio::fs::UnixMountEntry;

@@ -10,7 +10,6 @@
 #include <java/nio/file/Files.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/Paths.h>
-#include <java/nio/file/SimpleFileVisitor.h>
 #include <java/util/Iterator.h>
 #include <jcpp.h>
 
@@ -28,7 +27,6 @@ using $FileVisitor = ::java::nio::file::FileVisitor;
 using $Files = ::java::nio::file::Files;
 using $Path = ::java::nio::file::Path;
 using $Paths = ::java::nio::file::Paths;
-using $SimpleFileVisitor = ::java::nio::file::SimpleFileVisitor;
 using $Iterator = ::java::util::Iterator;
 
 $MethodInfo _WalkWithSecurity_MethodInfo_[] = {

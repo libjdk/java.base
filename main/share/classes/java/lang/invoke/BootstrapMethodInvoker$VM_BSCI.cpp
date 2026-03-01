@@ -2,7 +2,6 @@
 
 #include <java/io/Serializable.h>
 #include <java/lang/AssertionError.h>
-#include <java/lang/Number.h>
 #include <java/lang/invoke/AbstractConstantGroup$BSCIWithCache.h>
 #include <java/lang/invoke/AbstractConstantGroup$WithCache.h>
 #include <java/lang/invoke/AbstractConstantGroup.h>
@@ -28,7 +27,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $Number = ::java::lang::Number;
 using $AbstractConstantGroup$BSCIWithCache = ::java::lang::invoke::AbstractConstantGroup$BSCIWithCache;
 using $AbstractConstantGroup$WithCache = ::java::lang::invoke::AbstractConstantGroup$WithCache;
 using $BootstrapMethodInvoker = ::java::lang::invoke::BootstrapMethodInvoker;

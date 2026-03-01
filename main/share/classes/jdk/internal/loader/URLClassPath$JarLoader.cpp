@@ -17,7 +17,6 @@
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashMap.h>
@@ -61,7 +60,6 @@ using $FileNotFoundException = ::java::io::FileNotFoundException;
 using $IOException = ::java::io::IOException;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -78,7 +76,6 @@ using $AccessControlException = ::java::security::AccessControlException;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Enumeration = ::java::util::Enumeration;
 using $HashMap = ::java::util::HashMap;

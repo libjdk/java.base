@@ -22,7 +22,6 @@
 #include <sun/reflect/generics/factory/CoreReflectionFactory.h>
 #include <sun/reflect/generics/factory/GenericsFactory.h>
 #include <sun/reflect/generics/repository/FieldRepository.h>
-#include <sun/reflect/generics/scope/AbstractScope.h>
 #include <sun/reflect/generics/scope/ClassScope.h>
 #include <sun/reflect/generics/scope/Scope.h>
 #include <jcpp.h>
@@ -58,7 +57,6 @@ using $TypeAnnotationParser = ::sun::reflect::annotation::TypeAnnotationParser;
 using $CoreReflectionFactory = ::sun::reflect::generics::factory::CoreReflectionFactory;
 using $GenericsFactory = ::sun::reflect::generics::factory::GenericsFactory;
 using $FieldRepository = ::sun::reflect::generics::repository::FieldRepository;
-using $AbstractScope = ::sun::reflect::generics::scope::AbstractScope;
 using $ClassScope = ::sun::reflect::generics::scope::ClassScope;
 using $Scope = ::sun::reflect::generics::scope::Scope;
 

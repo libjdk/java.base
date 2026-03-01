@@ -5,10 +5,7 @@
 #include <java/lang/ProcessEnvironment$CheckedValues.h>
 #include <java/lang/ProcessEnvironment$EntryComparator.h>
 #include <java/lang/ProcessEnvironment$NameComparator.h>
-#include <java/util/AbstractCollection.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -36,10 +33,7 @@ using $ProcessEnvironment$CheckedKeySet = ::java::lang::ProcessEnvironment$Check
 using $ProcessEnvironment$CheckedValues = ::java::lang::ProcessEnvironment$CheckedValues;
 using $ProcessEnvironment$EntryComparator = ::java::lang::ProcessEnvironment$EntryComparator;
 using $ProcessEnvironment$NameComparator = ::java::lang::ProcessEnvironment$NameComparator;
-using $AbstractCollection = ::java::util::AbstractCollection;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

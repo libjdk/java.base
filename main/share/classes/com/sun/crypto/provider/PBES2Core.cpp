@@ -13,7 +13,6 @@
 #include <com/sun/crypto/provider/SunJCE.h>
 #include <com/sun/crypto/provider/SymmetricCipher.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
@@ -55,13 +54,11 @@ using $PBKDF2KeyImpl = ::com::sun::crypto::provider::PBKDF2KeyImpl;
 using $SunJCE = ::com::sun::crypto::provider::SunJCE;
 using $SymmetricCipher = ::com::sun::crypto::provider::SymmetricCipher;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
@@ -76,7 +73,6 @@ using $Arrays = ::java::util::Arrays;
 using $Cipher = ::javax::crypto::Cipher;
 using $CipherSpi = ::javax::crypto::CipherSpi;
 using $NoSuchPaddingException = ::javax::crypto::NoSuchPaddingException;
-using $SecretKey = ::javax::crypto::SecretKey;
 using $PBEKey = ::javax::crypto::interfaces::PBEKey;
 using $IvParameterSpec = ::javax::crypto::spec::IvParameterSpec;
 using $PBEKeySpec = ::javax::crypto::spec::PBEKeySpec;

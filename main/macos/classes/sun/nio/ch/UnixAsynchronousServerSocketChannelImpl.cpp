@@ -10,7 +10,6 @@
 #include <java/nio/channels/AcceptPendingException.h>
 #include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
-#include <java/nio/channels/AsynchronousServerSocketChannel.h>
 #include <java/nio/channels/AsynchronousSocketChannel.h>
 #include <java/nio/channels/ClosedChannelException.h>
 #include <java/nio/channels/CompletionHandler.h>
@@ -22,7 +21,6 @@
 #include <java/util/concurrent/atomic/AtomicBoolean.h>
 #include <sun/nio/ch/AsynchronousChannelGroupImpl.h>
 #include <sun/nio/ch/AsynchronousServerSocketChannelImpl.h>
-#include <sun/nio/ch/AsynchronousSocketChannelImpl.h>
 #include <sun/nio/ch/CompletedFuture.h>
 #include <sun/nio/ch/IOStatus.h>
 #include <sun/nio/ch/IOUtil.h>
@@ -45,7 +43,6 @@ using $InetSocketAddressArray = $Array<::java::net::InetSocketAddress>;
 using $FileDescriptor = ::java::io::FileDescriptor;
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -57,7 +54,6 @@ using $InetSocketAddress = ::java::net::InetSocketAddress;
 using $AcceptPendingException = ::java::nio::channels::AcceptPendingException;
 using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
-using $AsynchronousServerSocketChannel = ::java::nio::channels::AsynchronousServerSocketChannel;
 using $AsynchronousSocketChannel = ::java::nio::channels::AsynchronousSocketChannel;
 using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
@@ -69,7 +65,6 @@ using $Future = ::java::util::concurrent::Future;
 using $AtomicBoolean = ::java::util::concurrent::atomic::AtomicBoolean;
 using $AsynchronousChannelGroupImpl = ::sun::nio::ch::AsynchronousChannelGroupImpl;
 using $AsynchronousServerSocketChannelImpl = ::sun::nio::ch::AsynchronousServerSocketChannelImpl;
-using $AsynchronousSocketChannelImpl = ::sun::nio::ch::AsynchronousSocketChannelImpl;
 using $CompletedFuture = ::sun::nio::ch::CompletedFuture;
 using $IOStatus = ::sun::nio::ch::IOStatus;
 using $IOUtil = ::sun::nio::ch::IOUtil;

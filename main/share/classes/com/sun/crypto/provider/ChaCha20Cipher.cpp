@@ -28,7 +28,6 @@
 #include <javax/crypto/Cipher.h>
 #include <javax/crypto/CipherSpi.h>
 #include <javax/crypto/NoSuchPaddingException.h>
-#include <javax/crypto/SecretKey.h>
 #include <javax/crypto/ShortBufferException.h>
 #include <javax/crypto/spec/ChaCha20ParameterSpec.h>
 #include <javax/crypto/spec/IvParameterSpec.h>
@@ -91,7 +90,6 @@ using $Objects = ::java::util::Objects;
 using $Cipher = ::javax::crypto::Cipher;
 using $CipherSpi = ::javax::crypto::CipherSpi;
 using $NoSuchPaddingException = ::javax::crypto::NoSuchPaddingException;
-using $SecretKey = ::javax::crypto::SecretKey;
 using $ShortBufferException = ::javax::crypto::ShortBufferException;
 using $ChaCha20ParameterSpec = ::javax::crypto::spec::ChaCha20ParameterSpec;
 using $IvParameterSpec = ::javax::crypto::spec::IvParameterSpec;

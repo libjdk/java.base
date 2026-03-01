@@ -8,7 +8,6 @@
 #include <java/util/stream/ReduceOps$ReduceOp.h>
 #include <java/util/stream/ReduceOps.h>
 #include <java/util/stream/Sink.h>
-#include <java/util/stream/TerminalSink.h>
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
@@ -22,7 +21,6 @@ using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $ReduceOps$AccumulatingSink = ::java::util::stream::ReduceOps$AccumulatingSink;
 using $ReduceOps$ReduceOp = ::java::util::stream::ReduceOps$ReduceOp;
 using $Sink = ::java::util::stream::Sink;
-using $TerminalSink = ::java::util::stream::TerminalSink;
 
 namespace java {
 	namespace util {

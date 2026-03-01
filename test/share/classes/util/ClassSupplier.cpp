@@ -4,7 +4,6 @@
 #include <java/lang/Enum.h>
 #include <java/lang/Error.h>
 #include <java/lang/NoClassDefFoundError.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <jcpp.h>
 
 #undef PACKAGE_CLASS_IN_PKG_A
@@ -17,11 +16,9 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
 using $Enum = ::java::lang::Enum;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoClassDefFoundError = ::java::lang::NoClassDefFoundError;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 
 namespace util {
 

@@ -1,7 +1,6 @@
 #include <jdk/internal/misc/TerminatingThreadLocal$1.h>
 
 #include <java/lang/ThreadLocal.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/IdentityHashMap.h>
 #include <java/util/Map.h>
@@ -13,7 +12,6 @@ using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ThreadLocal = ::java::lang::ThreadLocal;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $IdentityHashMap = ::java::util::IdentityHashMap;
 using $Map = ::java::util::Map;

@@ -1,7 +1,6 @@
 #include <sun/security/ssl/SSLCipher$T11BlockWriteCipherGenerator$BlockWriteCipher.h>
 
 #include <java/nio/ByteBuffer.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/security/Provider.h>
 #include <java/security/SecureRandom.h>
@@ -28,7 +27,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $Provider = ::java::security::Provider;
 using $SecureRandom = ::java::security::SecureRandom;

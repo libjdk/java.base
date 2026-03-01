@@ -1,9 +1,5 @@
 #include <sun/util/resources/TimeZoneNamesBundle.h>
 
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
-#include <java/util/HashMap.h>
-#include <java/util/HashSet.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/LinkedHashSet.h>
 #include <java/util/Map.h>
@@ -13,10 +9,6 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
-using $HashMap = ::java::util::HashMap;
-using $HashSet = ::java::util::HashSet;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $LinkedHashSet = ::java::util::LinkedHashSet;
 using $Map = ::java::util::Map;

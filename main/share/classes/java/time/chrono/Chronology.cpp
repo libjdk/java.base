@@ -44,11 +44,9 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Comparable = ::java::lang::Comparable;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Clock = ::java::time::Clock;
 using $DateTimeException = ::java::time::DateTimeException;
 using $Instant = ::java::time::Instant;

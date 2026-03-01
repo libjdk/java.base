@@ -1,13 +1,10 @@
 #include <java/util/concurrent/SubmissionPublisher.h>
 
 #include <java/lang/IllegalStateException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
-#include <java/util/concurrent/AbstractExecutorService.h>
 #include <java/util/concurrent/CompletableFuture.h>
 #include <java/util/concurrent/Executor.h>
-#include <java/util/concurrent/ExecutorService.h>
 #include <java/util/concurrent/Flow$Publisher.h>
 #include <java/util/concurrent/Flow$Subscriber.h>
 #include <java/util/concurrent/Flow.h>
@@ -28,7 +25,6 @@
 #undef MAX_VALUE
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
@@ -36,14 +32,10 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $RuntimeException = ::java::lang::RuntimeException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
-using $AbstractExecutorService = ::java::util::concurrent::AbstractExecutorService;
 using $CompletableFuture = ::java::util::concurrent::CompletableFuture;
 using $Executor = ::java::util::concurrent::Executor;
-using $ExecutorService = ::java::util::concurrent::ExecutorService;
 using $Flow = ::java::util::concurrent::Flow;
 using $Flow$Publisher = ::java::util::concurrent::Flow$Publisher;
 using $Flow$Subscriber = ::java::util::concurrent::Flow$Subscriber;

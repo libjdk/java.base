@@ -3,8 +3,6 @@
 #include <java/lang/CharSequence.h>
 #include <java/security/AlgorithmParameters.h>
 #include <java/security/Key.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
@@ -46,8 +44,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $Key = ::java::security::Key;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;

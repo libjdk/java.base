@@ -1,13 +1,11 @@
 #include <sun/security/x509/X509CertInfo.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/security/PublicKey.h>
 #include <java/security/cert/CertificateEncodingException.h>
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/CertificateParsingException.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/Date.h>
 #include <java/util/Enumeration.h>
@@ -65,7 +63,6 @@
 #undef VERSION
 
 using $ExtensionArray = $Array<::sun::security::x509::Extension>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
@@ -77,7 +74,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $CertificateEncodingException = ::java::security::cert::CertificateEncodingException;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateParsingException = ::java::security::cert::CertificateParsingException;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $Enumeration = ::java::util::Enumeration;
 using $HashMap = ::java::util::HashMap;

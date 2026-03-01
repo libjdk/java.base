@@ -2,9 +2,6 @@
 
 #include <java/lang/Enum.h>
 #include <java/time/DateTimeException.h>
-#include <java/time/chrono/AbstractChronology.h>
-#include <java/time/chrono/ChronoLocalDate.h>
-#include <java/time/chrono/ChronoLocalDateImpl.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/chrono/MinguoChronology.h>
 #include <java/time/chrono/MinguoDate.h>
@@ -12,7 +9,6 @@
 #include <java/time/format/DateTimeFormatterBuilder.h>
 #include <java/time/format/TextStyle.h>
 #include <java/time/temporal/ChronoField.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalField.h>
 #include <java/util/Locale.h>
@@ -29,9 +25,6 @@ using $Enum = ::java::lang::Enum;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $DateTimeException = ::java::time::DateTimeException;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
-using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
-using $ChronoLocalDateImpl = ::java::time::chrono::ChronoLocalDateImpl;
 using $Chronology = ::java::time::chrono::Chronology;
 using $MinguoChronology = ::java::time::chrono::MinguoChronology;
 using $MinguoDate = ::java::time::chrono::MinguoDate;
@@ -39,7 +32,6 @@ using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;
 using $DateTimeFormatterBuilder = ::java::time::format::DateTimeFormatterBuilder;
 using $TextStyle = ::java::time::format::TextStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $Locale = ::java::util::Locale;

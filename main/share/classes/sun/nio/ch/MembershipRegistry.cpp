@@ -10,9 +10,6 @@
 #include <java/net/InetAddress.h>
 #include <java/net/NetworkInterface.h>
 #include <java/nio/channels/MembershipKey.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -33,9 +30,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $InetAddress = ::java::net::InetAddress;
 using $NetworkInterface = ::java::net::NetworkInterface;
 using $MembershipKey = ::java::nio::channels::MembershipKey;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

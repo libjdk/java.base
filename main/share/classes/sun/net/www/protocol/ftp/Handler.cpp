@@ -5,7 +5,6 @@
 #include <java/net/URLConnection.h>
 #include <java/net/URLStreamHandler.h>
 #include <java/util/Objects.h>
-#include <sun/net/www/URLConnection.h>
 #include <sun/net/www/protocol/ftp/FtpURLConnection.h>
 #include <jcpp.h>
 
@@ -16,7 +15,6 @@ using $URL = ::java::net::URL;
 using $URLConnection = ::java::net::URLConnection;
 using $URLStreamHandler = ::java::net::URLStreamHandler;
 using $Objects = ::java::util::Objects;
-using $1URLConnection = ::sun::net::www::URLConnection;
 using $FtpURLConnection = ::sun::net::www::protocol::ftp::FtpURLConnection;
 
 namespace sun {

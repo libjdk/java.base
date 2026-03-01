@@ -35,7 +35,6 @@
 #include <java/security/cert/Extension.h>
 #include <java/security/cert/PKIXBuilderParameters.h>
 #include <java/security/cert/PKIXCertPathBuilderResult.h>
-#include <java/security/cert/PKIXParameters.h>
 #include <java/security/cert/PKIXRevocationChecker$Option.h>
 #include <java/security/cert/PKIXRevocationChecker.h>
 #include <java/security/cert/TrustAnchor.h>
@@ -44,9 +43,6 @@
 #include <java/security/cert/X509CRLSelector.h>
 #include <java/security/cert/X509CertSelector.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -88,7 +84,6 @@
 #include <sun/security/x509/AuthorityInfoAccessExtension.h>
 #include <sun/security/x509/CRLDistributionPointsExtension.h>
 #include <sun/security/x509/DistributionPoint.h>
-#include <sun/security/x509/Extension.h>
 #include <sun/security/x509/GeneralName.h>
 #include <sun/security/x509/GeneralNameInterface.h>
 #include <sun/security/x509/GeneralNames.h>
@@ -130,7 +125,6 @@ using $BigInteger = ::java::math::BigInteger;
 using $URI = ::java::net::URI;
 using $URISyntaxException = ::java::net::URISyntaxException;
 using $AccessController = ::java::security::AccessController;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
@@ -157,7 +151,6 @@ using $CollectionCertStoreParameters = ::java::security::cert::CollectionCertSto
 using $Extension = ::java::security::cert::Extension;
 using $PKIXBuilderParameters = ::java::security::cert::PKIXBuilderParameters;
 using $PKIXCertPathBuilderResult = ::java::security::cert::PKIXCertPathBuilderResult;
-using $PKIXParameters = ::java::security::cert::PKIXParameters;
 using $PKIXRevocationChecker = ::java::security::cert::PKIXRevocationChecker;
 using $PKIXRevocationChecker$Option = ::java::security::cert::PKIXRevocationChecker$Option;
 using $TrustAnchor = ::java::security::cert::TrustAnchor;
@@ -166,9 +159,6 @@ using $X509CRLEntry = ::java::security::cert::X509CRLEntry;
 using $X509CRLSelector = ::java::security::cert::X509CRLSelector;
 using $X509CertSelector = ::java::security::cert::X509CertSelector;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
@@ -209,7 +199,6 @@ using $AccessDescription = ::sun::security::x509::AccessDescription;
 using $AuthorityInfoAccessExtension = ::sun::security::x509::AuthorityInfoAccessExtension;
 using $CRLDistributionPointsExtension = ::sun::security::x509::CRLDistributionPointsExtension;
 using $DistributionPoint = ::sun::security::x509::DistributionPoint;
-using $1Extension = ::sun::security::x509::Extension;
 using $GeneralName = ::sun::security::x509::GeneralName;
 using $GeneralNameInterface = ::sun::security::x509::GeneralNameInterface;
 using $GeneralNames = ::sun::security::x509::GeneralNames;

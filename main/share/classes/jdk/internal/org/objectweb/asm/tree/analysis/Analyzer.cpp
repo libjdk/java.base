@@ -1,7 +1,5 @@
 #include <jdk/internal/org/objectweb/asm/tree/analysis/Analyzer.h>
 
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -54,13 +52,10 @@ using $TypeArray = $Array<::jdk::internal::org::objectweb::asm$::Type>;
 using $FrameArray = $Array<::jdk::internal::org::objectweb::asm$::tree::analysis::Frame>;
 using $SubroutineArray = $Array<::jdk::internal::org::objectweb::asm$::tree::analysis::Subroutine>;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

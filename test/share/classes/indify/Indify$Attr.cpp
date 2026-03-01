@@ -11,7 +11,6 @@
 #include <java/io/ByteArrayOutputStream.h>
 #include <java/io/DataInputStream.h>
 #include <java/io/DataOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/InternalError.h>
@@ -31,7 +30,6 @@ using $Indify$Pool = ::indify::Indify$Pool;
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $DataInputStream = ::java::io::DataInputStream;
 using $DataOutputStream = ::java::io::DataOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;

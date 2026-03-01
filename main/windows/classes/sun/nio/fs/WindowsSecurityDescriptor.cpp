@@ -11,8 +11,6 @@
 #include <java/nio/file/attribute/AclEntryType.h>
 #include <java/nio/file/attribute/FileAttribute.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/EnumSet.h>
@@ -76,8 +74,6 @@ using $AclEntryPermission = ::java::nio::file::attribute::AclEntryPermission;
 using $AclEntryType = ::java::nio::file::attribute::AclEntryType;
 using $FileAttribute = ::java::nio::file::attribute::FileAttribute;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $EnumSet = ::java::util::EnumSet;

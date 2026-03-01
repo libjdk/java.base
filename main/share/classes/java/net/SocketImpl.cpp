@@ -11,7 +11,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/net/AbstractPlainSocketImpl.h>
 #include <java/net/InetAddress.h>
 #include <java/net/PlainSocketImpl.h>
 #include <java/net/SocketAddress.h>
@@ -39,7 +38,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $AbstractPlainSocketImpl = ::java::net::AbstractPlainSocketImpl;
 using $InetAddress = ::java::net::InetAddress;
 using $PlainSocketImpl = ::java::net::PlainSocketImpl;
 using $SocketAddress = ::java::net::SocketAddress;

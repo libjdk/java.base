@@ -1,6 +1,5 @@
 #include <sun/net/smtp/SmtpClient.h>
 
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/io/UnsupportedEncodingException.h>
@@ -15,7 +14,6 @@
 
 #undef DEFAULT_SMTP_PORT
 
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
@@ -26,7 +24,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $InetAddress = ::java::net::InetAddress;
 using $NetworkClient = ::sun::net::NetworkClient;
 using $TransferProtocolClient = ::sun::net::TransferProtocolClient;

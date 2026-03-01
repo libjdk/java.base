@@ -1,7 +1,6 @@
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfDouble$Taking.h>
 
 #include <java/util/Spliterator$OfDouble.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/concurrent/atomic/AtomicBoolean.h>
 #include <java/util/function/DoubleConsumer.h>
@@ -15,7 +14,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $AtomicBoolean = ::java::util::concurrent::atomic::AtomicBoolean;
 using $DoubleConsumer = ::java::util::function::DoubleConsumer;
 using $DoublePredicate = ::java::util::function::DoublePredicate;

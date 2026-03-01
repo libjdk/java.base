@@ -14,7 +14,6 @@
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/CharsetDecoder.h>
 #include <java/nio/file/FileChannelLinesSpliterator$1.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
 #include <java/util/Spliterator.h>
@@ -49,7 +48,6 @@ using $FileChannel$MapMode = ::java::nio::channels::FileChannel$MapMode;
 using $ReadableByteChannel = ::java::nio::channels::ReadableByteChannel;
 using $Charset = ::java::nio::charset::Charset;
 using $FileChannelLinesSpliterator$1 = ::java::nio::file::FileChannelLinesSpliterator$1;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;
 using $Spliterator = ::java::util::Spliterator;

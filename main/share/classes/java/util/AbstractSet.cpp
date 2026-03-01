@@ -17,7 +17,6 @@ using $ClassCastException = ::java::lang::ClassCastException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $Collection = ::java::util::Collection;
 using $Iterator = ::java::util::Iterator;

@@ -4,7 +4,6 @@
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/ReduceOps$AccumulatingSink.h>
 #include <java/util/stream/ReduceOps$CountingSink$OfDouble.h>
-#include <java/util/stream/ReduceOps$CountingSink.h>
 #include <java/util/stream/ReduceOps$ReduceOp.h>
 #include <java/util/stream/ReduceOps.h>
 #include <java/util/stream/StreamOpFlag.h>
@@ -21,7 +20,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Spliterator = ::java::util::Spliterator;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $ReduceOps$AccumulatingSink = ::java::util::stream::ReduceOps$AccumulatingSink;
-using $ReduceOps$CountingSink = ::java::util::stream::ReduceOps$CountingSink;
 using $ReduceOps$CountingSink$OfDouble = ::java::util::stream::ReduceOps$CountingSink$OfDouble;
 using $ReduceOps$ReduceOp = ::java::util::stream::ReduceOps$ReduceOp;
 using $StreamOpFlag = ::java::util::stream::StreamOpFlag;

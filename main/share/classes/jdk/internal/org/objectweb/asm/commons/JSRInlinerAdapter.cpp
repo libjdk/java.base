@@ -3,9 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/IllegalStateException.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/BitSet.h>
 #include <java/util/HashMap.h>
@@ -57,9 +54,6 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $ArrayList = ::java::util::ArrayList;
 using $BitSet = ::java::util::BitSet;
 using $HashMap = ::java::util::HashMap;

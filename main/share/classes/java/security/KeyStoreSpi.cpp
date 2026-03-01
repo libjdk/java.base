@@ -31,7 +31,6 @@ using $CallbackArray = $Array<::javax::security::auth::callback::Callback>;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;

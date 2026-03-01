@@ -13,7 +13,6 @@
 #include <java/security/Key.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/ProviderException.h>
-#include <java/security/PublicKey.h>
 #include <java/security/SecureRandom.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <javax/crypto/KeyAgreementSpi.h>
@@ -49,7 +48,6 @@ using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $ProviderException = ::java::security::ProviderException;
-using $PublicKey = ::java::security::PublicKey;
 using $SecureRandom = ::java::security::SecureRandom;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $KeyAgreementSpi = ::javax::crypto::KeyAgreementSpi;

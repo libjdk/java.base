@@ -3,17 +3,14 @@
 #include <java/io/BufferedInputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/ClassNotFoundException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/net/URL.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/InvalidParameterException.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
@@ -22,7 +19,6 @@
 #include <java/security/Security$ProviderProperty.h>
 #include <java/security/SecurityPermission.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashSet.h>
@@ -54,7 +50,6 @@ using $ProviderArray = $Array<::java::security::Provider>;
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $AssertionError = ::java::lang::AssertionError;
@@ -66,13 +61,10 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $URL = ::java::net::URL;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $InvalidParameterException = ::java::security::InvalidParameterException;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
@@ -81,7 +73,6 @@ using $Security$1 = ::java::security::Security$1;
 using $Security$ProviderProperty = ::java::security::Security$ProviderProperty;
 using $SecurityPermission = ::java::security::SecurityPermission;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $Enumeration = ::java::util::Enumeration;
 using $HashSet = ::java::util::HashSet;

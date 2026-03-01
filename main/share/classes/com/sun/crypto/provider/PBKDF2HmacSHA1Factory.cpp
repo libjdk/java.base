@@ -1,7 +1,6 @@
 #include <com/sun/crypto/provider/PBKDF2HmacSHA1Factory.h>
 
 #include <com/sun/crypto/provider/PBKDF2KeyImpl.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/spec/InvalidKeySpecException.h>
 #include <java/security/spec/KeySpec.h>
@@ -14,9 +13,7 @@
 
 using $PBKDF2KeyImpl = ::com::sun::crypto::provider::PBKDF2KeyImpl;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $InvalidKeySpecException = ::java::security::spec::InvalidKeySpecException;
 using $KeySpec = ::java::security::spec::KeySpec;

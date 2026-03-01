@@ -1,6 +1,5 @@
 #include <java/util/Base64$Encoder.h>
 
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/Math.h>
 #include <java/lang/OutOfMemoryError.h>
@@ -14,7 +13,6 @@
 #undef CRLF
 #undef MIMELINEMAX
 
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ArithmeticException = ::java::lang::ArithmeticException;
 using $ClassInfo = ::java::lang::ClassInfo;

@@ -2,7 +2,6 @@
 
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/EOFException.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/SequenceInputStream.h>
@@ -24,7 +23,6 @@
 
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $EOFException = ::java::io::EOFException;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $SequenceInputStream = ::java::io::SequenceInputStream;

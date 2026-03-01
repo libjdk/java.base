@@ -14,7 +14,6 @@
 #include <sun/security/ssl/SSLEngineImpl.h>
 #include <sun/security/ssl/SSLSocketImpl.h>
 #include <sun/security/ssl/TransportContext.h>
-#include <sun/security/util/AbstractAlgorithmConstraints.h>
 #include <sun/security/util/AlgorithmDecomposer.h>
 #include <sun/security/util/DisabledAlgorithmConstraints.h>
 #include <jcpp.h>
@@ -38,7 +37,6 @@ using $SSLAlgorithmConstraints$SupportedSignatureAlgorithmConstraints = ::sun::s
 using $SSLAlgorithmDecomposer = ::sun::security::ssl::SSLAlgorithmDecomposer;
 using $SSLEngineImpl = ::sun::security::ssl::SSLEngineImpl;
 using $SSLSocketImpl = ::sun::security::ssl::SSLSocketImpl;
-using $AbstractAlgorithmConstraints = ::sun::security::util::AbstractAlgorithmConstraints;
 using $AlgorithmDecomposer = ::sun::security::util::AlgorithmDecomposer;
 using $DisabledAlgorithmConstraints = ::sun::security::util::DisabledAlgorithmConstraints;
 

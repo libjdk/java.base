@@ -12,7 +12,6 @@
 #include <java/util/Locale.h>
 #include <javax/crypto/Cipher.h>
 #include <javax/crypto/NoSuchPaddingException.h>
-#include <javax/crypto/SecretKey.h>
 #include <javax/crypto/spec/SecretKeySpec.h>
 #include <sun/security/provider/AbstractDrbg.h>
 #include <sun/security/util/Debug.h>
@@ -41,7 +40,6 @@ using $HexFormat = ::java::util::HexFormat;
 using $Locale = ::java::util::Locale;
 using $Cipher = ::javax::crypto::Cipher;
 using $NoSuchPaddingException = ::javax::crypto::NoSuchPaddingException;
-using $SecretKey = ::javax::crypto::SecretKey;
 using $SecretKeySpec = ::javax::crypto::spec::SecretKeySpec;
 using $AbstractDrbg = ::sun::security::provider::AbstractDrbg;
 using $Debug = ::sun::security::util::Debug;

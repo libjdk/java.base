@@ -9,8 +9,6 @@
 #include <java/lang/module/ModuleDescriptor.h>
 #include <java/lang/module/ModuleFinder.h>
 #include <java/lang/module/ModuleReference.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
@@ -34,8 +32,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $ModuleDescriptor = ::java::lang::module::ModuleDescriptor;
 using $ModuleFinder = ::java::lang::module::ModuleFinder;
 using $ModuleReference = ::java::lang::module::ModuleReference;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;

@@ -5,7 +5,6 @@
 #include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
-#include <java/security/KeyException.h>
 #include <java/security/KeyFactorySpi.h>
 #include <java/security/PrivateKey.h>
 #include <java/security/ProviderException.h>
@@ -45,18 +44,15 @@
 #undef X509_KEYSPEC_CLS
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $BigInteger = ::java::math::BigInteger;
 using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
-using $KeyException = ::java::security::KeyException;
 using $KeyFactorySpi = ::java::security::KeyFactorySpi;
 using $PrivateKey = ::java::security::PrivateKey;
 using $ProviderException = ::java::security::ProviderException;

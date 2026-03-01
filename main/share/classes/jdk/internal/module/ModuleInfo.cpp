@@ -16,9 +16,6 @@
 #include <java/lang/module/ModuleDescriptor$Requires$Modifier.h>
 #include <java/lang/module/ModuleDescriptor.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
@@ -69,9 +66,6 @@ using $ModuleDescriptor$Modifier = ::java::lang::module::ModuleDescriptor$Modifi
 using $ModuleDescriptor$Opens$Modifier = ::java::lang::module::ModuleDescriptor$Opens$Modifier;
 using $ModuleDescriptor$Requires$Modifier = ::java::lang::module::ModuleDescriptor$Requires$Modifier;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;

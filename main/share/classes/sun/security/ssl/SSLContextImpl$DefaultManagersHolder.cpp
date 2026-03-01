@@ -3,13 +3,10 @@
 #include <java/io/FileInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/security/AccessController.h>
-#include <java/security/GeneralSecurityException.h>
-#include <java/security/KeyException.h>
 #include <java/security/KeyManagementException.h>
 #include <java/security/KeyStore.h>
 #include <java/security/PrivilegedExceptionAction.h>
 #include <java/security/Provider.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <javax/net/ssl/KeyManager.h>
@@ -37,13 +34,10 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AccessController = ::java::security::AccessController;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
-using $KeyException = ::java::security::KeyException;
 using $KeyManagementException = ::java::security::KeyManagementException;
 using $KeyStore = ::java::security::KeyStore;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
 using $Provider = ::java::security::Provider;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $KeyManagerFactory = ::javax::net::ssl::KeyManagerFactory;

@@ -2,7 +2,6 @@
 
 #include <java/io/BufferedInputStream.h>
 #include <java/io/ByteArrayInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/lang/CharSequence.h>
@@ -54,7 +53,6 @@
 
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $CharSequence = ::java::lang::CharSequence;

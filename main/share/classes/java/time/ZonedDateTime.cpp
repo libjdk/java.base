@@ -29,7 +29,6 @@
 #include <java/time/ZonedDateTime$1.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
-#include <java/time/chrono/ChronoPeriod.h>
 #include <java/time/chrono/ChronoZonedDateTime.h>
 #include <java/time/format/DateTimeFormatter.h>
 #include <java/time/temporal/ChronoField.h>
@@ -67,14 +66,12 @@ using $Serializable = ::java::io::Serializable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Clock = ::java::time::Clock;
 using $DateTimeException = ::java::time::DateTimeException;
@@ -93,7 +90,6 @@ using $ZoneOffset = ::java::time::ZoneOffset;
 using $ZonedDateTime$1 = ::java::time::ZonedDateTime$1;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;
-using $ChronoPeriod = ::java::time::chrono::ChronoPeriod;
 using $ChronoZonedDateTime = ::java::time::chrono::ChronoZonedDateTime;
 using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;
 using $ChronoField = ::java::time::temporal::ChronoField;

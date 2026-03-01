@@ -1,14 +1,12 @@
 #include <CounterOverflow.h>
 
 #include <java/io/DataOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <jcpp.h>
 
 #undef MAX_VALUE
 
 using $DataOutputStream = ::java::io::DataOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Exception = ::java::lang::Exception;

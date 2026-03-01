@@ -47,7 +47,6 @@ using $PKCS5Padding = ::com::sun::crypto::provider::PKCS5Padding;
 using $Padding = ::com::sun::crypto::provider::Padding;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;

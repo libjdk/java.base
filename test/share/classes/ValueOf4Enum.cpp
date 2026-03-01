@@ -15,7 +15,6 @@
 #include <ValueOf4Enum$Specialized.h>
 #include <java/lang/Enum.h>
 #include <java/lang/reflect/Method.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/Random.h>
@@ -44,7 +43,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $Method = ::java::lang::reflect::Method;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Iterator = ::java::util::Iterator;
 using $Random = ::java::util::Random;

@@ -19,6 +19,13 @@ namespace java {
 		class Throwable;
 	}
 }
+namespace java {
+	namespace lang {
+		namespace invoke {
+			class MethodHandle;
+		}
+	}
+}
 
 #pragma push_macro("ANNOTATION")
 #undef ANNOTATION
@@ -424,6 +431,10 @@ public:
 	Class* arrayType(int32_t dim);
 	int32_t arrayDimension();
 
+	String* bootstrapToString(Object$* inst);
+	int32_t bootstrapHashCode(Object$* inst);
+	bool bootstrapEquals(Object$* inst, Object$* o);
+
 	Class* arrayType$ = nullptr;
 	String* simpleBinaryName = nullptr;
 	Class* declaringClass = nullptr;
@@ -436,6 +447,10 @@ public:
 	$InitInstanceFunction initInstanceFunction = nullptr;
 	$InvokeSpecialFunction invokeSpecialFunction = nullptr;
 	$InvokeFunction invokeFunction = nullptr;
+
+	::java::lang::invoke::MethodHandle* bootstrapToStringMethodHandle = nullptr;
+	::java::lang::invoke::MethodHandle* bootstrapHashCodeMethodHandle = nullptr;
+	::java::lang::invoke::MethodHandle* bootstrapEqualsMethodHandle = nullptr;
 
 	ClassState state = CLASS_STATE_NONE;
 	bool metaInited = false;

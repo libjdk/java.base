@@ -21,7 +21,6 @@
 #include <java/lang/reflect/ReflectAccess.h>
 #include <java/lang/reflect/ReflectPermission.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <jdk/internal/access/JavaLangReflectAccess.h>
@@ -65,7 +64,6 @@ using $Method = ::java::lang::reflect::Method;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $ReflectAccess = ::java::lang::reflect::ReflectAccess;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $JavaLangReflectAccess = ::jdk::internal::access::JavaLangReflectAccess;

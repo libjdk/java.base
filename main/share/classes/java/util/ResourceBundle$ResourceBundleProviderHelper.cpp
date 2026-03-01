@@ -24,7 +24,6 @@
 #include <java/net/URL.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/Locale.h>
@@ -65,7 +64,6 @@ using $Modifier = ::java::lang::reflect::Modifier;
 using $URL = ::java::net::URL;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $Locale = ::java::util::Locale;

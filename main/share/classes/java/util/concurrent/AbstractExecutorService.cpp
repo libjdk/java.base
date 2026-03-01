@@ -2,7 +2,6 @@
 
 #include <java/lang/AssertionError.h>
 #include <java/lang/Runnable.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Iterator.h>
@@ -12,7 +11,6 @@
 #include <java/util/concurrent/ExecutionException.h>
 #include <java/util/concurrent/Executor.h>
 #include <java/util/concurrent/ExecutorCompletionService.h>
-#include <java/util/concurrent/ExecutorService.h>
 #include <java/util/concurrent/Future.h>
 #include <java/util/concurrent/FutureTask.h>
 #include <java/util/concurrent/RunnableFuture.h>
@@ -24,14 +22,12 @@
 
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Runnable = ::java::lang::Runnable;
 using $RuntimeException = ::java::lang::RuntimeException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Iterator = ::java::util::Iterator;
@@ -41,7 +37,6 @@ using $CancellationException = ::java::util::concurrent::CancellationException;
 using $ExecutionException = ::java::util::concurrent::ExecutionException;
 using $Executor = ::java::util::concurrent::Executor;
 using $ExecutorCompletionService = ::java::util::concurrent::ExecutorCompletionService;
-using $ExecutorService = ::java::util::concurrent::ExecutorService;
 using $Future = ::java::util::concurrent::Future;
 using $FutureTask = ::java::util::concurrent::FutureTask;
 using $RunnableFuture = ::java::util::concurrent::RunnableFuture;

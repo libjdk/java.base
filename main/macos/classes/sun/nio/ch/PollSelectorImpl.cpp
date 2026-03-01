@@ -8,7 +8,6 @@
 #include <java/nio/channels/Selector.h>
 #include <java/nio/channels/spi/AbstractSelector.h>
 #include <java/nio/channels/spi/SelectorProvider.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Deque.h>
@@ -39,7 +38,6 @@
 using $IOException = ::java::io::IOException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $InternalError = ::java::lang::InternalError;
@@ -47,9 +45,7 @@ using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ClosedSelectorException = ::java::nio::channels::ClosedSelectorException;
 using $Selector = ::java::nio::channels::Selector;
-using $AbstractSelector = ::java::nio::channels::spi::AbstractSelector;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $ArrayList = ::java::util::ArrayList;
 using $Deque = ::java::util::Deque;

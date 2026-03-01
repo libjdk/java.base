@@ -3,7 +3,6 @@
 #include <Test7157574$1C.h>
 #include <Test7157574$Intf.h>
 #include <Test7157574$Sub.h>
-#include <Test7157574$Super.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
@@ -18,7 +17,6 @@
 using $Test7157574$1C = ::Test7157574$1C;
 using $Test7157574$Intf = ::Test7157574$Intf;
 using $Test7157574$Sub = ::Test7157574$Sub;
-using $Test7157574$Super = ::Test7157574$Super;
 using $PrintStream = ::java::io::PrintStream;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;

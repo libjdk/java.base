@@ -6,9 +6,7 @@
 #include <java/lang/Iterable.h>
 #include <java/net/URLPermission$Authority.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
-#include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/List.h>
 #include <jcpp.h>
@@ -24,9 +22,7 @@ using $Iterable = ::java::lang::Iterable;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $URLPermission$Authority = ::java::net::URLPermission$Authority;
 using $Permission = ::java::security::Permission;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
-using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $List = ::java::util::List;
 

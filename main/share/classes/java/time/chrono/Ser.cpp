@@ -8,7 +8,6 @@
 #include <java/io/Serializable.h>
 #include <java/io/StreamCorruptedException.h>
 #include <java/time/chrono/AbstractChronology.h>
-#include <java/time/chrono/ChronoLocalDateImpl.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
 #include <java/time/chrono/ChronoLocalDateTimeImpl.h>
 #include <java/time/chrono/ChronoPeriodImpl.h>
@@ -43,7 +42,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AbstractChronology = ::java::time::chrono::AbstractChronology;
-using $ChronoLocalDateImpl = ::java::time::chrono::ChronoLocalDateImpl;
 using $ChronoLocalDateTimeImpl = ::java::time::chrono::ChronoLocalDateTimeImpl;
 using $ChronoPeriodImpl = ::java::time::chrono::ChronoPeriodImpl;
 using $ChronoZonedDateTimeImpl = ::java::time::chrono::ChronoZonedDateTimeImpl;

@@ -42,7 +42,6 @@ using $RandomAccessFile$1 = ::java::io::RandomAccessFile$1;
 using $RandomAccessFile$2 = ::java::io::RandomAccessFile$2;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Double = ::java::lang::Double;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;

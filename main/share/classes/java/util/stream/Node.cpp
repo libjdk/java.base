@@ -12,7 +12,6 @@
 #include <java/util/function/IntFunction.h>
 #include <java/util/stream/Node$Builder.h>
 #include <java/util/stream/Nodes.h>
-#include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <jcpp.h>
 
@@ -29,7 +28,6 @@ using $Consumer = ::java::util::function::Consumer;
 using $IntFunction = ::java::util::function::IntFunction;
 using $Node$Builder = ::java::util::stream::Node$Builder;
 using $Nodes = ::java::util::stream::Nodes;
-using $Sink = ::java::util::stream::Sink;
 using $StreamShape = ::java::util::stream::StreamShape;
 
 namespace java {

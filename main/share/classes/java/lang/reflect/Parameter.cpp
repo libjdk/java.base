@@ -5,7 +5,6 @@
 #include <java/lang/reflect/Executable.h>
 #include <java/lang/reflect/Modifier.h>
 #include <java/lang/reflect/Type.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <java/util/Objects.h>
@@ -21,7 +20,6 @@ using $AnnotatedType = ::java::lang::reflect::AnnotatedType;
 using $Executable = ::java::lang::reflect::Executable;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $Type = ::java::lang::reflect::Type;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $Objects = ::java::util::Objects;

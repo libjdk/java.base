@@ -29,10 +29,8 @@
 #include <java/lang/reflect/Proxy$ProxyBuilder.h>
 #include <java/lang/reflect/ReflectPermission.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/Arrays.h>
 #include <java/util/Deque.h>
@@ -63,7 +61,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassValue = ::java::lang::ClassValue;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -91,10 +88,8 @@ using $Proxy$InvocationException = ::java::lang::reflect::Proxy$InvocationExcept
 using $Proxy$ProxyBuilder = ::java::lang::reflect::Proxy$ProxyBuilder;
 using $ReflectPermission = ::java::lang::reflect::ReflectPermission;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $Arrays = ::java::util::Arrays;
 using $Deque = ::java::util::Deque;

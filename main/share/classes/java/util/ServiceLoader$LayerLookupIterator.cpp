@@ -2,7 +2,6 @@
 
 #include <java/lang/AssertionError.h>
 #include <java/lang/ModuleLayer.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/Deque.h>
 #include <java/util/HashSet.h>
@@ -26,7 +25,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ModuleLayer = ::java::lang::ModuleLayer;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $Deque = ::java::util::Deque;
 using $HashSet = ::java::util::HashSet;

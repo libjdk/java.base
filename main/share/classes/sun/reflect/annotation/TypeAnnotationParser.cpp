@@ -15,11 +15,8 @@
 #include <java/lang/reflect/Type.h>
 #include <java/nio/BufferUnderflowException.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/List.h>
@@ -74,7 +71,6 @@ using $ArrayListArray = $Array<::java::util::ArrayList>;
 using $TypeAnnotationArray = $Array<::sun::reflect::annotation::TypeAnnotation>;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -94,11 +90,8 @@ using $ParameterizedType = ::java::lang::reflect::ParameterizedType;
 using $Type = ::java::lang::reflect::Type;
 using $BufferUnderflowException = ::java::nio::BufferUnderflowException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $List = ::java::util::List;

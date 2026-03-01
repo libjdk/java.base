@@ -3,7 +3,6 @@
 #include <java/lang/Runnable.h>
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/util/concurrent/CompletableFuture$Completion.h>
-#include <java/util/concurrent/CompletableFuture$UniCompletion.h>
 #include <java/util/concurrent/CompletableFuture$UniRelay.h>
 #include <java/util/concurrent/CompletableFuture.h>
 #include <java/util/concurrent/CompletionStage.h>
@@ -23,7 +22,6 @@ using $Runnable = ::java::lang::Runnable;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $CompletableFuture = ::java::util::concurrent::CompletableFuture;
 using $CompletableFuture$Completion = ::java::util::concurrent::CompletableFuture$Completion;
-using $CompletableFuture$UniCompletion = ::java::util::concurrent::CompletableFuture$UniCompletion;
 using $CompletableFuture$UniRelay = ::java::util::concurrent::CompletableFuture$UniRelay;
 using $CompletionStage = ::java::util::concurrent::CompletionStage;
 using $Executor = ::java::util::concurrent::Executor;

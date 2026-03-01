@@ -6,7 +6,6 @@
 #include <java/nio/file/attribute/GroupPrincipal.h>
 #include <java/nio/file/attribute/PosixFilePermission.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
 #include <java/util/concurrent/TimeUnit.h>
@@ -62,7 +61,6 @@ using $FileTime = ::java::nio::file::attribute::FileTime;
 using $GroupPrincipal = ::java::nio::file::attribute::GroupPrincipal;
 using $PosixFilePermission = ::java::nio::file::attribute::PosixFilePermission;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;
 using $TimeUnit = ::java::util::concurrent::TimeUnit;

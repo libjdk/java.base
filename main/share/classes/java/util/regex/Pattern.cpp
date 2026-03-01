@@ -15,13 +15,9 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/text/Normalizer$Form.h>
 #include <java/text/Normalizer.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/HashMap.h>
-#include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashSet.h>
 #include <java/util/List.h>
@@ -80,7 +76,6 @@
 #include <java/util/regex/Pattern$Slice.h>
 #include <java/util/regex/Pattern$SliceI.h>
 #include <java/util/regex/Pattern$SliceIS.h>
-#include <java/util/regex/Pattern$SliceNode.h>
 #include <java/util/regex/Pattern$SliceS.h>
 #include <java/util/regex/Pattern$SliceU.h>
 #include <java/util/regex/Pattern$SliceUS.h>
@@ -150,13 +145,9 @@ using $StackOverflowError = ::java::lang::StackOverflowError;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Normalizer = ::java::text::Normalizer;
 using $Normalizer$Form = ::java::text::Normalizer$Form;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $HashMap = ::java::util::HashMap;
-using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashSet = ::java::util::LinkedHashSet;
 using $List = ::java::util::List;
@@ -215,7 +206,6 @@ using $Pattern$Ques = ::java::util::regex::Pattern$Ques;
 using $Pattern$Slice = ::java::util::regex::Pattern$Slice;
 using $Pattern$SliceI = ::java::util::regex::Pattern$SliceI;
 using $Pattern$SliceIS = ::java::util::regex::Pattern$SliceIS;
-using $Pattern$SliceNode = ::java::util::regex::Pattern$SliceNode;
 using $Pattern$SliceS = ::java::util::regex::Pattern$SliceS;
 using $Pattern$SliceU = ::java::util::regex::Pattern$SliceU;
 using $Pattern$SliceUS = ::java::util::regex::Pattern$SliceUS;

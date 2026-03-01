@@ -6,7 +6,6 @@
 #include <java/lang/ref/ReferenceQueue.h>
 #include <java/lang/ref/SoftReference.h>
 #include <java/lang/ref/WeakReference.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -22,7 +21,6 @@ using $Reference = ::java::lang::ref::Reference;
 using $ReferenceQueue = ::java::lang::ref::ReferenceQueue;
 using $SoftReference = ::java::lang::ref::SoftReference;
 using $WeakReference = ::java::lang::ref::WeakReference;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

@@ -9,7 +9,6 @@
 #include <java/util/GregorianCalendar.h>
 #include <java/util/Locale.h>
 #include <java/util/TimeZone.h>
-#include <sun/util/calendar/AbstractCalendar.h>
 #include <sun/util/calendar/BaseCalendar$Date.h>
 #include <sun/util/calendar/BaseCalendar.h>
 #include <sun/util/calendar/CalendarDate.h>
@@ -36,18 +35,15 @@ using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $DateFormat = ::java::text::DateFormat;
 using $Instant = ::java::time::Instant;
 using $GregorianCalendar = ::java::util::GregorianCalendar;
 using $Locale = ::java::util::Locale;
 using $TimeZone = ::java::util::TimeZone;
-using $AbstractCalendar = ::sun::util::calendar::AbstractCalendar;
 using $BaseCalendar = ::sun::util::calendar::BaseCalendar;
 using $BaseCalendar$Date = ::sun::util::calendar::BaseCalendar$Date;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;

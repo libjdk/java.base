@@ -40,7 +40,6 @@ using $MethodHandleArray = $Array<::java::lang::invoke::MethodHandle>;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassValue = ::java::lang::ClassValue;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;

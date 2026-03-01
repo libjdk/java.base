@@ -1,9 +1,7 @@
 #include <sun/util/locale/provider/TimeZoneNameUtility.h>
 
 #include <java/lang/ref/SoftReference.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedList.h>
 #include <java/util/List.h>
@@ -36,9 +34,7 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $SoftReference = ::java::lang::ref::SoftReference;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Iterator = ::java::util::Iterator;
 using $LinkedList = ::java::util::LinkedList;
 using $List = ::java::util::List;

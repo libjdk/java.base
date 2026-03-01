@@ -8,7 +8,6 @@
 #include <java/io/FileInputStream.h>
 #include <java/io/FileNotFoundException.h>
 #include <java/io/FileOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -18,7 +17,6 @@
 #include <java/lang/ClassCastException.h>
 #include <java/lang/ClassLoader.h>
 #include <java/lang/Enum.h>
-#include <java/lang/Number.h>
 #include <java/lang/NumberFormatException.h>
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/lang/invoke/CallSite.h>
@@ -36,7 +34,6 @@
 #include <java/security/AlgorithmParameters.h>
 #include <java/security/CodeSigner.h>
 #include <java/security/CryptoPrimitive.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/security/KeyStore$Entry.h>
 #include <java/security/KeyStore$PasswordProtection.h>
@@ -51,7 +48,6 @@
 #include <java/security/PrivateKey.h>
 #include <java/security/Provider.h>
 #include <java/security/PublicKey.h>
-#include <java/security/SecureClassLoader.h>
 #include <java/security/SecureRandom.h>
 #include <java/security/Security.h>
 #include <java/security/Timestamp.h>
@@ -80,8 +76,6 @@
 #include <java/security/spec/NamedParameterSpec.h>
 #include <java/text/Collator.h>
 #include <java/text/MessageFormat.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Base64$Encoder.h>
@@ -265,7 +259,6 @@ using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
 using $FileNotFoundException = ::java::io::FileNotFoundException;
 using $FileOutputStream = ::java::io::FileOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
@@ -285,7 +278,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $Number = ::java::lang::Number;
 using $NumberFormatException = ::java::lang::NumberFormatException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
@@ -299,7 +291,6 @@ using $Path = ::java::nio::file::Path;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
 using $CodeSigner = ::java::security::CodeSigner;
 using $CryptoPrimitive = ::java::security::CryptoPrimitive;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $KeyStore = ::java::security::KeyStore;
 using $KeyStore$Entry = ::java::security::KeyStore$Entry;
@@ -314,7 +305,6 @@ using $Principal = ::java::security::Principal;
 using $PrivateKey = ::java::security::PrivateKey;
 using $Provider = ::java::security::Provider;
 using $PublicKey = ::java::security::PublicKey;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
 using $SecureRandom = ::java::security::SecureRandom;
 using $Security = ::java::security::Security;
 using $Timestamp = ::java::security::Timestamp;
@@ -343,8 +333,6 @@ using $KeySpec = ::java::security::spec::KeySpec;
 using $NamedParameterSpec = ::java::security::spec::NamedParameterSpec;
 using $Collator = ::java::text::Collator;
 using $MessageFormat = ::java::text::MessageFormat;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Base64 = ::java::util::Base64;

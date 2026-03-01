@@ -9,7 +9,6 @@
 #include <sun/security/ssl/HandshakeContext.h>
 #include <sun/security/ssl/NamedGroup$ExceptionSupplier.h>
 #include <sun/security/ssl/NamedGroup.h>
-#include <sun/security/ssl/NamedGroupCredentials.h>
 #include <sun/security/ssl/NamedGroupPossession.h>
 #include <sun/security/ssl/SSLCredentials.h>
 #include <sun/security/ssl/SSLKeyAgreementGenerator.h>
@@ -29,7 +28,6 @@ using $DHKeyExchange$DHEPossession = ::sun::security::ssl::DHKeyExchange$DHEPoss
 using $HandshakeContext = ::sun::security::ssl::HandshakeContext;
 using $NamedGroup = ::sun::security::ssl::NamedGroup;
 using $NamedGroup$ExceptionSupplier = ::sun::security::ssl::NamedGroup$ExceptionSupplier;
-using $NamedGroupCredentials = ::sun::security::ssl::NamedGroupCredentials;
 using $NamedGroupPossession = ::sun::security::ssl::NamedGroupPossession;
 using $SSLCredentials = ::sun::security::ssl::SSLCredentials;
 using $SSLKeyAgreementGenerator = ::sun::security::ssl::SSLKeyAgreementGenerator;

@@ -3,7 +3,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/net/NetPermission.h>
 #include <java/net/URI.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Map.h>
 #include <sun/security/util/SecurityConstants.h>
@@ -17,7 +16,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $URI = ::java::net::URI;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Map = ::java::util::Map;
 using $SecurityConstants = ::sun::security::util::SecurityConstants;

@@ -1,7 +1,6 @@
 #include <jdk/internal/reflect/BootstrapConstructorAccessorImpl.h>
 
 #include <java/lang/InstantiationException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/reflect/Constructor.h>
 #include <java/lang/reflect/InvocationTargetException.h>
 #include <jdk/internal/misc/Unsafe.h>
@@ -10,11 +9,9 @@
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InstantiationException = ::java::lang::InstantiationException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $Constructor = ::java::lang::reflect::Constructor;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
 using $Unsafe = ::jdk::internal::misc::Unsafe;

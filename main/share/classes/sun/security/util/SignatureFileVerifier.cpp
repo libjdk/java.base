@@ -12,8 +12,6 @@
 #include <java/security/Timestamp.h>
 #include <java/security/cert/CertPath.h>
 #include <java/security/cert/CertificateFactory.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Base64$Decoder.h>
 #include <java/util/Base64.h>
@@ -66,8 +64,6 @@ using $PrivateKey = ::java::security::PrivateKey;
 using $SignatureException = ::java::security::SignatureException;
 using $CertPath = ::java::security::cert::CertPath;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Base64 = ::java::util::Base64;
 using $Base64$Decoder = ::java::util::Base64$Decoder;

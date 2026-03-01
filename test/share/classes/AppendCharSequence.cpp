@@ -1,7 +1,6 @@
 #include <AppendCharSequence.h>
 
 #include <AppendCharSequence$MyNegativeLenCharSeq.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/IndexOutOfBoundsException.h>
 #include <java/lang/NegativeArraySizeException.h>
@@ -12,7 +11,6 @@
 #undef MIN_VALUE
 
 using $AppendCharSequence$MyNegativeLenCharSeq = ::AppendCharSequence$MyNegativeLenCharSeq;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;

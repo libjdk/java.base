@@ -4,7 +4,6 @@
 #include <java/time/DateTimeException.h>
 #include <java/time/LocalDate.h>
 #include <java/time/Month$1.h>
-#include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/chrono/IsoChronology.h>
 #include <java/time/format/DateTimeFormatter.h>
@@ -42,15 +41,12 @@
 using $MonthArray = $Array<::java::time::Month>;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $DateTimeException = ::java::time::DateTimeException;
 using $LocalDate = ::java::time::LocalDate;
 using $Month$1 = ::java::time::Month$1;
-using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $Chronology = ::java::time::chrono::Chronology;
 using $IsoChronology = ::java::time::chrono::IsoChronology;
 using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;

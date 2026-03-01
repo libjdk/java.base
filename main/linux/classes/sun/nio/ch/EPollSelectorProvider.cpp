@@ -5,7 +5,6 @@
 #include <java/nio/channels/spi/SelectorProvider.h>
 #include <sun/nio/ch/EPollSelectorImpl.h>
 #include <sun/nio/ch/InheritedChannel.h>
-#include <sun/nio/ch/SelectorImpl.h>
 #include <sun/nio/ch/SelectorProviderImpl.h>
 #include <jcpp.h>
 
@@ -16,7 +15,6 @@ using $AbstractSelector = ::java::nio::channels::spi::AbstractSelector;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
 using $EPollSelectorImpl = ::sun::nio::ch::EPollSelectorImpl;
 using $InheritedChannel = ::sun::nio::ch::InheritedChannel;
-using $SelectorImpl = ::sun::nio::ch::SelectorImpl;
 using $SelectorProviderImpl = ::sun::nio::ch::SelectorProviderImpl;
 
 namespace sun {

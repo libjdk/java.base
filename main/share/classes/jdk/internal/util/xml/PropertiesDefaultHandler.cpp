@@ -43,7 +43,6 @@ using $UnsupportedEncodingException = ::java::io::UnsupportedEncodingException;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassCastException = ::java::lang::ClassCastException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Charset = ::java::nio::charset::Charset;

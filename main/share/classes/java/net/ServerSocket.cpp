@@ -17,7 +17,6 @@
 #include <java/net/SocketOption.h>
 #include <java/net/SocketOptions.h>
 #include <java/nio/channels/ServerSocketChannel.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Collections.h>
 #include <java/util/Objects.h>
@@ -57,7 +56,6 @@ using $SocketImplFactory = ::java::net::SocketImplFactory;
 using $SocketOption = ::java::net::SocketOption;
 using $SocketOptions = ::java::net::SocketOptions;
 using $ServerSocketChannel = ::java::nio::channels::ServerSocketChannel;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Collections = ::java::util::Collections;
 using $Objects = ::java::util::Objects;

@@ -4,7 +4,6 @@
 #include <java/lang/Enum.h>
 #include <java/lang/StackWalker$Option.h>
 #include <java/lang/StackWalker.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Set.h>
 #include <jcpp.h>
@@ -19,7 +18,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $StackWalker = ::java::lang::StackWalker;
 using $StackWalker$Option = ::java::lang::StackWalker$Option;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Set = ::java::util::Set;
 

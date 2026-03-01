@@ -12,7 +12,6 @@
 #include <java/util/NavigableSet.h>
 #include <java/util/Set.h>
 #include <java/util/SortedMap.h>
-#include <java/util/SortedSet.h>
 #include <java/util/function/BiConsumer.h>
 #include <java/util/function/BiFunction.h>
 #include <java/util/function/Function.h>
@@ -33,7 +32,6 @@ using $NavigableMap = ::java::util::NavigableMap;
 using $NavigableSet = ::java::util::NavigableSet;
 using $Set = ::java::util::Set;
 using $SortedMap = ::java::util::SortedMap;
-using $SortedSet = ::java::util::SortedSet;
 using $BiConsumer = ::java::util::function::BiConsumer;
 using $BiFunction = ::java::util::function::BiFunction;
 using $Function = ::java::util::function::Function;

@@ -1,6 +1,5 @@
 #include <java/lang/String.h>
 
-#include <java/io/IOException.h>
 #include <java/io/ObjectStreamField.h>
 #include <java/io/Serializable.h>
 #include <java/io/UnsupportedEncodingException.h>
@@ -85,7 +84,6 @@
 
 using $ObjectStreamFieldArray = $Array<::java::io::ObjectStreamField>;
 using $CharSequenceArray = $Array<::java::lang::CharSequence>;
-using $IOException = ::java::io::IOException;
 using $Serializable = ::java::io::Serializable;
 using $UnsupportedEncodingException = ::java::io::UnsupportedEncodingException;
 using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
@@ -96,7 +94,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
 using $Double = ::java::lang::Double;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;

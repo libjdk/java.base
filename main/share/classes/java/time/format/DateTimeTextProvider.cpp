@@ -10,9 +10,7 @@
 #include <java/time/temporal/ChronoField.h>
 #include <java/time/temporal/IsoFields.h>
 #include <java/time/temporal/TemporalField.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap$SimpleImmutableEntry.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Calendar.h>
 #include <java/util/Comparator.h>
@@ -67,8 +65,6 @@ using $TextStyle = ::java::time::format::TextStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
 using $IsoFields = ::java::time::temporal::IsoFields;
 using $TemporalField = ::java::time::temporal::TemporalField;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractMap$SimpleImmutableEntry = ::java::util::AbstractMap$SimpleImmutableEntry;
 using $ArrayList = ::java::util::ArrayList;
 using $Calendar = ::java::util::Calendar;

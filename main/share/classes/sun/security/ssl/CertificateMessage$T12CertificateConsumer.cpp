@@ -4,7 +4,6 @@
 #include <java/io/InputStream.h>
 #include <java/net/Socket.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/PublicKey.h>
 #include <java/security/cert/CertPathValidatorException$BasicReason.h>
 #include <java/security/cert/CertPathValidatorException$Reason.h>
@@ -72,13 +71,11 @@ using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $InputStream = ::java::io::InputStream;
 using $Byte = ::java::lang::Byte;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Socket = ::java::net::Socket;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $PublicKey = ::java::security::PublicKey;
 using $CertPathValidatorException = ::java::security::cert::CertPathValidatorException;
 using $CertPathValidatorException$BasicReason = ::java::security::cert::CertPathValidatorException$BasicReason;

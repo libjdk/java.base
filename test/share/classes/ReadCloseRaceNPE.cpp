@@ -1,7 +1,6 @@
 #include <ReadCloseRaceNPE.h>
 
 #include <java/io/CharArrayReader.h>
-#include <java/io/FilterReader.h>
 #include <java/io/IOException.h>
 #include <java/io/PushbackReader.h>
 #include <java/io/Reader.h>
@@ -13,7 +12,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/concurrent/atomic/AtomicBoolean.h>
@@ -27,7 +25,6 @@
 #undef TIMEOUT_MS
 
 using $CharArrayReader = ::java::io::CharArrayReader;
-using $FilterReader = ::java::io::FilterReader;
 using $IOException = ::java::io::IOException;
 using $PushbackReader = ::java::io::PushbackReader;
 using $Reader = ::java::io::Reader;
@@ -40,7 +37,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $AtomicBoolean = ::java::util::concurrent::atomic::AtomicBoolean;

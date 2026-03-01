@@ -3,7 +3,6 @@
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/NoSuchMethodException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/reflect/InvocationTargetException.h>
 #include <java/lang/reflect/Method.h>
 #include <java/text/DecimalFormat.h>
@@ -17,12 +16,10 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
 using $Method = ::java::lang::reflect::Method;
 using $DecimalFormat = ::java::text::DecimalFormat;

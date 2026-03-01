@@ -9,8 +9,6 @@
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/ReferencePipeline$StatefulOp.h>
-#include <java/util/stream/ReferencePipeline.h>
-#include <java/util/stream/Sink$ChainedReference.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/SliceOps$1$1.h>
 #include <java/util/stream/SliceOps$SliceTask.h>
@@ -36,10 +34,8 @@ using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
 using $Node = ::java::util::stream::Node;
 using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
-using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
 using $ReferencePipeline$StatefulOp = ::java::util::stream::ReferencePipeline$StatefulOp;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedReference = ::java::util::stream::Sink$ChainedReference;
 using $SliceOps = ::java::util::stream::SliceOps;
 using $SliceOps$1$1 = ::java::util::stream::SliceOps$1$1;
 using $SliceOps$SliceTask = ::java::util::stream::SliceOps$SliceTask;

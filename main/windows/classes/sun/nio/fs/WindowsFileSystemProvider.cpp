@@ -35,7 +35,6 @@
 #include <java/nio/file/attribute/FileAttributeView.h>
 #include <java/nio/file/attribute/FileOwnerAttributeView.h>
 #include <java/nio/file/attribute/UserDefinedFileAttributeView.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Collections.h>
 #include <java/util/Map.h>
@@ -43,10 +42,8 @@
 #include <java/util/concurrent/ExecutorService.h>
 #include <jdk/internal/util/StaticProperty.h>
 #include <sun/nio/ch/ThreadPool.h>
-#include <sun/nio/fs/AbstractAclFileAttributeView.h>
 #include <sun/nio/fs/AbstractBasicFileAttributeView.h>
 #include <sun/nio/fs/AbstractFileSystemProvider.h>
-#include <sun/nio/fs/AbstractUserDefinedFileAttributeView.h>
 #include <sun/nio/fs/DynamicFileAttributeView.h>
 #include <sun/nio/fs/FileOwnerAttributeViewImpl.h>
 #include <sun/nio/fs/NativeBuffer.h>
@@ -121,7 +118,6 @@ using $DosFileAttributes = ::java::nio::file::attribute::DosFileAttributes;
 using $FileAttributeView = ::java::nio::file::attribute::FileAttributeView;
 using $FileOwnerAttributeView = ::java::nio::file::attribute::FileOwnerAttributeView;
 using $UserDefinedFileAttributeView = ::java::nio::file::attribute::UserDefinedFileAttributeView;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Collections = ::java::util::Collections;
 using $Map = ::java::util::Map;
@@ -129,10 +125,8 @@ using $Set = ::java::util::Set;
 using $ExecutorService = ::java::util::concurrent::ExecutorService;
 using $StaticProperty = ::jdk::internal::util::StaticProperty;
 using $ThreadPool = ::sun::nio::ch::ThreadPool;
-using $AbstractAclFileAttributeView = ::sun::nio::fs::AbstractAclFileAttributeView;
 using $AbstractBasicFileAttributeView = ::sun::nio::fs::AbstractBasicFileAttributeView;
 using $AbstractFileSystemProvider = ::sun::nio::fs::AbstractFileSystemProvider;
-using $AbstractUserDefinedFileAttributeView = ::sun::nio::fs::AbstractUserDefinedFileAttributeView;
 using $DynamicFileAttributeView = ::sun::nio::fs::DynamicFileAttributeView;
 using $FileOwnerAttributeViewImpl = ::sun::nio::fs::FileOwnerAttributeViewImpl;
 using $NativeBuffer = ::sun::nio::fs::NativeBuffer;

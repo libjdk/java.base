@@ -6,7 +6,6 @@
 #include <java/lang/ClassCastException.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/reflect/Field.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
@@ -27,7 +26,6 @@ using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Field = ::java::lang::reflect::Field;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;

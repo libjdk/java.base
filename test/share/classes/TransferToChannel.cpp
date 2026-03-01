@@ -5,7 +5,6 @@
 #include <java/io/File.h>
 #include <java/io/FileInputStream.h>
 #include <java/io/FileOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/Math.h>
 #include <java/nio/channels/ByteChannel.h>
@@ -22,7 +21,6 @@ using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
 using $FileOutputStream = ::java::io::FileOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;

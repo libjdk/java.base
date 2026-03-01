@@ -1,6 +1,5 @@
 #include <java/net/HostPortrange.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/util/Formatter.h>
@@ -16,7 +15,6 @@
 #undef PORT_MIN
 #undef US
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $Byte = ::java::lang::Byte;
 using $CharSequence = ::java::lang::CharSequence;

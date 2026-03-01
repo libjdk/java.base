@@ -11,7 +11,6 @@
 #include <java/lang/reflect/Field.h>
 #include <java/nio/file/DirectoryIteratorException.h>
 #include <java/nio/file/FileSystemException.h>
-#include <java/util/ConcurrentModificationException.h>
 #include <java/util/Objects.h>
 #include <jcpp.h>
 
@@ -24,14 +23,12 @@ using $ObjectInputStream = ::java::io::ObjectInputStream;
 using $ObjectOutputStream = ::java::io::ObjectOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $Field = ::java::lang::reflect::Field;
 using $DirectoryIteratorException = ::java::nio::file::DirectoryIteratorException;
 using $FileSystemException = ::java::nio::file::FileSystemException;
-using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;
 using $Objects = ::java::util::Objects;
 
 $MethodInfo _Exceptions_MethodInfo_[] = {

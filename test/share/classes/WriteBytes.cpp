@@ -2,14 +2,12 @@
 
 #include <java/io/BufferedOutputStream.h>
 #include <java/io/ByteArrayOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/util/Arrays.h>
 #include <jcpp.h>
 
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;

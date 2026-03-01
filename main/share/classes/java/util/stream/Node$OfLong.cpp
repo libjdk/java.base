@@ -15,7 +15,6 @@
 #include <java/util/stream/Node$Builder$OfLong.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
-#include <java/util/stream/Sink$OfLong.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <java/util/stream/Tripwire.h>
@@ -38,7 +37,6 @@ using $IntFunction = ::java::util::function::IntFunction;
 using $LongConsumer = ::java::util::function::LongConsumer;
 using $Node$Builder$OfLong = ::java::util::stream::Node$Builder$OfLong;
 using $Nodes = ::java::util::stream::Nodes;
-using $Sink$OfLong = ::java::util::stream::Sink$OfLong;
 using $StreamShape = ::java::util::stream::StreamShape;
 using $Tripwire = ::java::util::stream::Tripwire;
 

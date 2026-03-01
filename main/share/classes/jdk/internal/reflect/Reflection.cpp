@@ -11,7 +11,6 @@
 #include <java/lang/reflect/Member.h>
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Modifier.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -49,7 +48,6 @@ using $Field = ::java::lang::reflect::Field;
 using $Member = ::java::lang::reflect::Member;
 using $Method = ::java::lang::reflect::Method;
 using $Modifier = ::java::lang::reflect::Modifier;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;

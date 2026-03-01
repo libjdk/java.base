@@ -5,8 +5,6 @@
 #include <java/util/stream/IntPipeline$1$1.h>
 #include <java/util/stream/IntPipeline.h>
 #include <java/util/stream/ReferencePipeline$StatelessOp.h>
-#include <java/util/stream/Sink$ChainedInt.h>
-#include <java/util/stream/Sink$OfInt.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <jcpp.h>
@@ -22,8 +20,6 @@ using $IntPipeline = ::java::util::stream::IntPipeline;
 using $IntPipeline$1$1 = ::java::util::stream::IntPipeline$1$1;
 using $ReferencePipeline$StatelessOp = ::java::util::stream::ReferencePipeline$StatelessOp;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedInt = ::java::util::stream::Sink$ChainedInt;
-using $Sink$OfInt = ::java::util::stream::Sink$OfInt;
 using $StreamShape = ::java::util::stream::StreamShape;
 
 namespace java {

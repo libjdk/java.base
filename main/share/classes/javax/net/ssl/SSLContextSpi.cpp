@@ -18,7 +18,6 @@ using $KeyManagerArray = $Array<::javax::net::ssl::KeyManager>;
 using $TrustManagerArray = $Array<::javax::net::ssl::TrustManager>;
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $SecureRandom = ::java::security::SecureRandom;

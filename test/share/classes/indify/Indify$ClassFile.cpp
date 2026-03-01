@@ -14,7 +14,6 @@
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/InternalError.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/List.h>
@@ -40,7 +39,6 @@ using $Integer = ::java::lang::Integer;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Short = ::java::lang::Short;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $List = ::java::util::List;

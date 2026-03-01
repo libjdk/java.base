@@ -7,7 +7,6 @@
 #include <java/net/ProxySelector$StaticProxySelector.h>
 #include <java/net/SocketAddress.h>
 #include <java/net/URI.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/List.h>
 #include <sun/security/util/SecurityConstants.h>
@@ -27,7 +26,6 @@ using $InetSocketAddress = ::java::net::InetSocketAddress;
 using $ProxySelector$StaticProxySelector = ::java::net::ProxySelector$StaticProxySelector;
 using $SocketAddress = ::java::net::SocketAddress;
 using $URI = ::java::net::URI;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $List = ::java::util::List;
 using $SecurityConstants = ::sun::security::util::SecurityConstants;

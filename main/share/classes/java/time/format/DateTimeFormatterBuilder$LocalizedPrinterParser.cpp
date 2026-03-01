@@ -2,7 +2,6 @@
 
 #include <java/io/Serializable.h>
 #include <java/lang/CharSequence.h>
-#include <java/lang/Enum.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/format/DateTimeFormatter.h>
 #include <java/time/format/DateTimeFormatterBuilder$CompositePrinterParser.h>
@@ -21,7 +20,6 @@
 using $Serializable = ::java::io::Serializable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Enum = ::java::lang::Enum;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;

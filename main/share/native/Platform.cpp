@@ -732,7 +732,7 @@ ffi_type prepareReturnType(Class* type) {
 
 void prepareArgs($ClassArray* parameterTypes, void** ffiArgs, $Value* argv) {
 	for (int32_t i = 0; i < parameterTypes->length; i++) {
-		$Class* type = ($Class*)parameterTypes->get(i);
+		$Class* type = parameterTypes->get(i);
 		if (type->isPrimitive()) {
 			if (type == Byte::TYPE) {
 				ffiArgs[i] = &(argv[i].byteValue());
@@ -759,7 +759,7 @@ void prepareArgs($ClassArray* parameterTypes, void** ffiArgs, $Value* argv) {
 
 void prepareArgsJni($ClassArray* parameterTypes, void** ffiArgs, $Value* argv, va_list args, ObjectArray* globalRefed) {
 	for (int32_t i = 0; i < parameterTypes->length; i++) {
-		$Class* type = ($Class*)parameterTypes->get(i);
+		$Class* type = parameterTypes->get(i);
 		if (type->isPrimitive()) {
 			if (type == Byte::TYPE) {
 				argv[i].byteValue() = (int8_t)va_arg(args, int32_t);
@@ -801,7 +801,7 @@ void prepareArgsJni($ClassArray* parameterTypes, void** ffiArgs, $Value* argv, v
 
 void prepareArgsJni($ClassArray* parameterTypes, void** ffiArgs, $Value* argv, const jvalue* args, ObjectArray* globalRefed) {
 	for (int32_t i = 0; i < parameterTypes->length; i++) {
-		$Class* type = ($Class*)parameterTypes->get(i);
+		$Class* type = parameterTypes->get(i);
 		if (type->isPrimitive()) {
 			if (type == Byte::TYPE) {
 				argv[i].byteValue() = (int8_t)args[i].b;
@@ -1146,7 +1146,7 @@ $bytes* Platform::prepareParameterTypes(bool isStatic, $ClassArray* parameterTyp
 		index++;
 	}
 	for (int32_t i = 0; i < parameterTypes->length; index++, i++) {
-		$Class* type = ($Class*)parameterTypes->get(i);
+		$Class* type = parameterTypes->get(i);
 		if (type->isPrimitive()) {
 			if (type == Byte::TYPE) {
 				types[index] = &ffi_type_sint8;

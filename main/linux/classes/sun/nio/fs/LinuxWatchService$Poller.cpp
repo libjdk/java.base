@@ -8,7 +8,6 @@
 #include <java/nio/file/WatchEvent$Kind.h>
 #include <java/nio/file/WatchEvent$Modifier.h>
 #include <java/nio/file/WatchKey.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -72,7 +71,6 @@ using $StandardWatchEventKinds = ::java::nio::file::StandardWatchEventKinds;
 using $WatchEvent$Kind = ::java::nio::file::WatchEvent$Kind;
 using $WatchEvent$Modifier = ::java::nio::file::WatchEvent$Modifier;
 using $WatchKey = ::java::nio::file::WatchKey;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

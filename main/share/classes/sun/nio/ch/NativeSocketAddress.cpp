@@ -1,6 +1,5 @@
 #include <sun/nio/ch/NativeSocketAddress.h>
 
-#include <java/io/IOException.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/Math.h>
 #include <java/lang/OutOfMemoryError.h>
@@ -42,10 +41,8 @@
 #undef UNSAFE
 
 using $NativeSocketAddressArray = $Array<::sun::nio::ch::NativeSocketAddress>;
-using $IOException = ::java::io::IOException;
 using $Byte = ::java::lang::Byte;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InternalError = ::java::lang::InternalError;
 using $Math = ::java::lang::Math;

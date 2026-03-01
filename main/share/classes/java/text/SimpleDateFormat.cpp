@@ -2,7 +2,6 @@
 
 #include <java/io/InvalidObjectException.h>
 #include <java/io/ObjectInputStream.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/IndexOutOfBoundsException.h>
@@ -107,7 +106,6 @@ using $DateFormat$FieldArray = $Array<::java::text::DateFormat$Field>;
 using $StringArray2 = $Array<::java::lang::String, 2>;
 using $InvalidObjectException = ::java::io::InvalidObjectException;
 using $ObjectInputStream = ::java::io::ObjectInputStream;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $AssertionError = ::java::lang::AssertionError;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;

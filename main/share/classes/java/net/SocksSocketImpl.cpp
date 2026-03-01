@@ -1,7 +1,6 @@
 #include <java/net/SocksSocketImpl.h>
 
 #include <java/io/BufferedOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -68,13 +67,11 @@
 #undef USER_PASSW
 
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -82,7 +79,6 @@ using $Integer = ::java::lang::Integer;
 using $InternalError = ::java::lang::InternalError;
 using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $DelegatingSocketImpl = ::java::net::DelegatingSocketImpl;
 using $Inet4Address = ::java::net::Inet4Address;

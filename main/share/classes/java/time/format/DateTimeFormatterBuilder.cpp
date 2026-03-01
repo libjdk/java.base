@@ -50,8 +50,6 @@
 #include <java/time/temporal/TemporalField.h>
 #include <java/time/temporal/TemporalQueries.h>
 #include <java/time/temporal/TemporalQuery.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
@@ -160,8 +158,6 @@ using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $TemporalQueries = ::java::time::temporal::TemporalQueries;
 using $TemporalQuery = ::java::time::temporal::TemporalQuery;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;

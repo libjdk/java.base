@@ -12,7 +12,6 @@
 #include <java/security/spec/ECParameterSpec.h>
 #include <java/security/spec/InvalidParameterSpecException.h>
 #include <java/security/spec/NamedParameterSpec.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collections.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Iterator.h>
@@ -68,7 +67,6 @@ using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $ECParameterSpec = ::java::security::spec::ECParameterSpec;
 using $InvalidParameterSpecException = ::java::security::spec::InvalidParameterSpecException;
 using $NamedParameterSpec = ::java::security::spec::NamedParameterSpec;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collections = ::java::util::Collections;
 using $EnumSet = ::java::util::EnumSet;
 using $Iterator = ::java::util::Iterator;

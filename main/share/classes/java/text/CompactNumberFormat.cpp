@@ -28,7 +28,6 @@
 #include <java/text/NumberFormat$Field.h>
 #include <java/text/NumberFormat.h>
 #include <java/text/ParsePosition.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Iterator.h>
@@ -106,7 +105,6 @@ using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Double = ::java::lang::Double;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -118,7 +116,6 @@ using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Number = ::java::lang::Number;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Short = ::java::lang::Short;
 using $StringBuffer = ::java::lang::StringBuffer;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
@@ -137,7 +134,6 @@ using $Format$FieldDelegate = ::java::text::Format$FieldDelegate;
 using $NumberFormat = ::java::text::NumberFormat;
 using $NumberFormat$Field = ::java::text::NumberFormat$Field;
 using $ParsePosition = ::java::text::ParsePosition;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Iterator = ::java::util::Iterator;

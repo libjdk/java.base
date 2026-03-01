@@ -2,7 +2,6 @@
 
 #include <java/lang/ClassLoader.h>
 #include <java/lang/ClassNotFoundException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/TypeNotPresentException.h>
 #include <jdk/internal/org/objectweb/asm/AnnotationVisitor.h>
 #include <jdk/internal/org/objectweb/asm/AnnotationWriter.h>
@@ -64,11 +63,9 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $TypeNotPresentException = ::java::lang::TypeNotPresentException;
 using $AnnotationVisitor = ::jdk::internal::org::objectweb::asm$::AnnotationVisitor;
 using $AnnotationWriter = ::jdk::internal::org::objectweb::asm$::AnnotationWriter;

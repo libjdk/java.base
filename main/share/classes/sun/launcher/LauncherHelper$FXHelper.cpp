@@ -4,7 +4,6 @@
 #include <java/lang/Module.h>
 #include <java/lang/ModuleLayer.h>
 #include <java/lang/NoSuchMethodException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/reflect/Method.h>
 #include <java/lang/reflect/Modifier.h>
 #include <java/util/Optional.h>
@@ -19,7 +18,6 @@
 #undef TYPE
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
@@ -27,7 +25,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Module = ::java::lang::Module;
 using $ModuleLayer = ::java::lang::ModuleLayer;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $Void = ::java::lang::Void;
 using $Method = ::java::lang::reflect::Method;

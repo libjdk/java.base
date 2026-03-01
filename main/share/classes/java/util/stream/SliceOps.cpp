@@ -8,17 +8,9 @@
 #include <java/util/Spliterator$OfLong.h>
 #include <java/util/Spliterator.h>
 #include <java/util/stream/AbstractPipeline.h>
-#include <java/util/stream/DoublePipeline$StatefulOp.h>
-#include <java/util/stream/DoublePipeline.h>
 #include <java/util/stream/DoubleStream.h>
-#include <java/util/stream/IntPipeline$StatefulOp.h>
-#include <java/util/stream/IntPipeline.h>
 #include <java/util/stream/IntStream.h>
-#include <java/util/stream/LongPipeline$StatefulOp.h>
-#include <java/util/stream/LongPipeline.h>
 #include <java/util/stream/LongStream.h>
-#include <java/util/stream/ReferencePipeline$StatefulOp.h>
-#include <java/util/stream/ReferencePipeline.h>
 #include <java/util/stream/SliceOps$1.h>
 #include <java/util/stream/SliceOps$2.h>
 #include <java/util/stream/SliceOps$3.h>
@@ -30,7 +22,6 @@
 #include <java/util/stream/StreamSpliterators$SliceSpliterator$OfDouble.h>
 #include <java/util/stream/StreamSpliterators$SliceSpliterator$OfInt.h>
 #include <java/util/stream/StreamSpliterators$SliceSpliterator$OfLong.h>
-#include <java/util/stream/StreamSpliterators$SliceSpliterator$OfPrimitive.h>
 #include <java/util/stream/StreamSpliterators$SliceSpliterator$OfRef.h>
 #include <java/util/stream/StreamSpliterators$SliceSpliterator.h>
 #include <jcpp.h>
@@ -58,17 +49,9 @@ using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $Spliterator$OfInt = ::java::util::Spliterator$OfInt;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
-using $DoublePipeline = ::java::util::stream::DoublePipeline;
-using $DoublePipeline$StatefulOp = ::java::util::stream::DoublePipeline$StatefulOp;
 using $DoubleStream = ::java::util::stream::DoubleStream;
-using $IntPipeline = ::java::util::stream::IntPipeline;
-using $IntPipeline$StatefulOp = ::java::util::stream::IntPipeline$StatefulOp;
 using $IntStream = ::java::util::stream::IntStream;
-using $LongPipeline = ::java::util::stream::LongPipeline;
-using $LongPipeline$StatefulOp = ::java::util::stream::LongPipeline$StatefulOp;
 using $LongStream = ::java::util::stream::LongStream;
-using $ReferencePipeline = ::java::util::stream::ReferencePipeline;
-using $ReferencePipeline$StatefulOp = ::java::util::stream::ReferencePipeline$StatefulOp;
 using $SliceOps$1 = ::java::util::stream::SliceOps$1;
 using $SliceOps$2 = ::java::util::stream::SliceOps$2;
 using $SliceOps$3 = ::java::util::stream::SliceOps$3;
@@ -81,7 +64,6 @@ using $StreamSpliterators$SliceSpliterator = ::java::util::stream::StreamSpliter
 using $StreamSpliterators$SliceSpliterator$OfDouble = ::java::util::stream::StreamSpliterators$SliceSpliterator$OfDouble;
 using $StreamSpliterators$SliceSpliterator$OfInt = ::java::util::stream::StreamSpliterators$SliceSpliterator$OfInt;
 using $StreamSpliterators$SliceSpliterator$OfLong = ::java::util::stream::StreamSpliterators$SliceSpliterator$OfLong;
-using $StreamSpliterators$SliceSpliterator$OfPrimitive = ::java::util::stream::StreamSpliterators$SliceSpliterator$OfPrimitive;
 using $StreamSpliterators$SliceSpliterator$OfRef = ::java::util::stream::StreamSpliterators$SliceSpliterator$OfRef;
 
 namespace java {

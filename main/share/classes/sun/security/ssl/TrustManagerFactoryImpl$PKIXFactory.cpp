@@ -6,7 +6,6 @@
 #include <java/util/Collection.h>
 #include <javax/net/ssl/CertPathTrustManagerParameters.h>
 #include <javax/net/ssl/ManagerFactoryParameters.h>
-#include <javax/net/ssl/X509ExtendedTrustManager.h>
 #include <javax/net/ssl/X509TrustManager.h>
 #include <sun/security/ssl/TrustManagerFactoryImpl.h>
 #include <sun/security/ssl/X509TrustManagerImpl.h>
@@ -24,7 +23,6 @@ using $PKIXBuilderParameters = ::java::security::cert::PKIXBuilderParameters;
 using $Collection = ::java::util::Collection;
 using $CertPathTrustManagerParameters = ::javax::net::ssl::CertPathTrustManagerParameters;
 using $ManagerFactoryParameters = ::javax::net::ssl::ManagerFactoryParameters;
-using $X509ExtendedTrustManager = ::javax::net::ssl::X509ExtendedTrustManager;
 using $X509TrustManager = ::javax::net::ssl::X509TrustManager;
 using $TrustManagerFactoryImpl = ::sun::security::ssl::TrustManagerFactoryImpl;
 using $X509TrustManagerImpl = ::sun::security::ssl::X509TrustManagerImpl;

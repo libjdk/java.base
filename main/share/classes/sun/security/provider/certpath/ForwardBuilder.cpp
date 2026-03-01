@@ -17,7 +17,6 @@
 #include <java/security/cert/TrustAnchor.h>
 #include <java/security/cert/X509CertSelector.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -73,7 +72,6 @@ using $PKIXReason = ::java::security::cert::PKIXReason;
 using $TrustAnchor = ::java::security::cert::TrustAnchor;
 using $X509CertSelector = ::java::security::cert::X509CertSelector;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

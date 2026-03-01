@@ -7,7 +7,6 @@
 #include <jdk/internal/icu/util/CodePointTrie$Data.h>
 #include <jdk/internal/icu/util/CodePointTrie$Small.h>
 #include <jdk/internal/icu/util/CodePointTrie$Type.h>
-#include <jdk/internal/icu/util/CodePointTrie.h>
 #include <jcpp.h>
 
 #undef SMALL
@@ -21,7 +20,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NormalizerImpl$UTF16Plus = ::jdk::internal::icu::impl::NormalizerImpl$UTF16Plus;
 using $CodePointMap = ::jdk::internal::icu::util::CodePointMap;
 using $CodePointMap$StringIterator = ::jdk::internal::icu::util::CodePointMap$StringIterator;
-using $CodePointTrie = ::jdk::internal::icu::util::CodePointTrie;
 using $CodePointTrie$Data = ::jdk::internal::icu::util::CodePointTrie$Data;
 using $CodePointTrie$Small = ::jdk::internal::icu::util::CodePointTrie$Small;
 using $CodePointTrie$Type = ::jdk::internal::icu::util::CodePointTrie$Type;

@@ -4,7 +4,6 @@
 #include <java/lang/ClassLoader.h>
 #include <java/lang/ClassNotFoundException.h>
 #include <java/lang/IllegalStateException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/TypeNotPresentException.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -35,11 +34,9 @@ using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $TypeNotPresentException = ::java::lang::TypeNotPresentException;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

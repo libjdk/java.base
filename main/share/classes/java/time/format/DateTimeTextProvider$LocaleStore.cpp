@@ -2,8 +2,6 @@
 
 #include <java/time/format/DateTimeTextProvider.h>
 #include <java/time/format/TextStyle.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -25,8 +23,6 @@ using $Long = ::java::lang::Long;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $DateTimeTextProvider = ::java::time::format::DateTimeTextProvider;
 using $TextStyle = ::java::time::format::TextStyle;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

@@ -28,7 +28,6 @@
 #include <java/time/ZoneId.h>
 #include <java/time/ZoneOffset.h>
 #include <java/time/ZonedDateTime.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
 #include <java/time/chrono/ChronoPeriod.h>
@@ -113,7 +112,6 @@ using $Year = ::java::time::Year;
 using $ZoneId = ::java::time::ZoneId;
 using $ZoneOffset = ::java::time::ZoneOffset;
 using $ZonedDateTime = ::java::time::ZonedDateTime;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;
 using $ChronoPeriod = ::java::time::chrono::ChronoPeriod;

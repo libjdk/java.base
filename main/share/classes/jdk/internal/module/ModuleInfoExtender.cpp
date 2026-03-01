@@ -3,7 +3,6 @@
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/module/ModuleDescriptor$Version.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Iterator.h>
@@ -34,7 +33,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ModuleDescriptor$Version = ::java::lang::module::ModuleDescriptor$Version;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;

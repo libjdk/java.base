@@ -9,10 +9,8 @@
 
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
 using $Base64 = ::java::util::Base64;
 using $Base64$Decoder = ::java::util::Base64$Decoder;

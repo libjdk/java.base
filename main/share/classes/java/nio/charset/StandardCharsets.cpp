@@ -8,7 +8,6 @@
 #include <sun/nio/cs/UTF_16BE.h>
 #include <sun/nio/cs/UTF_16LE.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef INSTANCE
@@ -29,7 +28,6 @@ using $UTF_16 = ::sun::nio::cs::UTF_16;
 using $UTF_16BE = ::sun::nio::cs::UTF_16BE;
 using $UTF_16LE = ::sun::nio::cs::UTF_16LE;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace java {
 	namespace nio {

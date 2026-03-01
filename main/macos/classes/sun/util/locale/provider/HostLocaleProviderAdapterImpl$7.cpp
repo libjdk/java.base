@@ -1,7 +1,6 @@
 #include <sun/util/locale/provider/HostLocaleProviderAdapterImpl$7.h>
 
 #include <java/lang/Math.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Locale.h>
 #include <java/util/Map.h>
@@ -17,7 +16,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Locale = ::java::util::Locale;
 using $Map = ::java::util::Map;

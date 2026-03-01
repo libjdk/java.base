@@ -13,7 +13,6 @@
 #include <java/util/function/LongPredicate.h>
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/LongPipeline$StatefulOp.h>
-#include <java/util/stream/LongPipeline.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/PipelineHelper.h>
 #include <java/util/stream/Sink.h>
@@ -43,7 +42,6 @@ using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
 using $IntFunction = ::java::util::function::IntFunction;
 using $LongPredicate = ::java::util::function::LongPredicate;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
-using $LongPipeline = ::java::util::stream::LongPipeline;
 using $LongPipeline$StatefulOp = ::java::util::stream::LongPipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;

@@ -29,7 +29,6 @@
 #include <java/util/Spliterator.h>
 #include <java/util/concurrent/ConcurrentNavigableMap.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$KeySpliterator.h>
-#include <java/util/concurrent/ConcurrentSkipListMap$SubMap$SubMapIter.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap$SubMapKeyIterator.h>
 #include <java/util/concurrent/ConcurrentSkipListMap$SubMap.h>
 #include <java/util/concurrent/ConcurrentSkipListMap.h>
@@ -47,14 +46,12 @@ using $ClassCastException = ::java::lang::ClassCastException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
 using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Field = ::java::lang::reflect::Field;
 using $AccessController = ::java::security::AccessController;
@@ -65,7 +62,6 @@ using $Collection = ::java::util::Collection;
 using $Comparator = ::java::util::Comparator;
 using $Iterator = ::java::util::Iterator;
 using $Map$Entry = ::java::util::Map$Entry;
-using $NavigableMap = ::java::util::NavigableMap;
 using $NavigableSet = ::java::util::NavigableSet;
 using $Set = ::java::util::Set;
 using $SortedMap = ::java::util::SortedMap;
@@ -74,7 +70,6 @@ using $Spliterator = ::java::util::Spliterator;
 using $ConcurrentNavigableMap = ::java::util::concurrent::ConcurrentNavigableMap;
 using $ConcurrentSkipListMap = ::java::util::concurrent::ConcurrentSkipListMap;
 using $ConcurrentSkipListMap$SubMap = ::java::util::concurrent::ConcurrentSkipListMap$SubMap;
-using $ConcurrentSkipListMap$SubMap$SubMapIter = ::java::util::concurrent::ConcurrentSkipListMap$SubMap$SubMapIter;
 using $ConcurrentSkipListMap$SubMap$SubMapKeyIterator = ::java::util::concurrent::ConcurrentSkipListMap$SubMap$SubMapKeyIterator;
 using $Consumer = ::java::util::function::Consumer;
 using $IntFunction = ::java::util::function::IntFunction;

@@ -7,8 +7,6 @@
 #include <java/text/AttributedString$AttributeMap.h>
 #include <java/text/AttributedString.h>
 #include <java/text/CharacterIterator.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Hashtable.h>
 #include <java/util/Map.h>
@@ -21,7 +19,6 @@
 using $AttributedCharacterIterator$AttributeArray = $Array<::java::text::AttributedCharacterIterator$Attribute>;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -32,8 +29,6 @@ using $AttributedCharacterIterator$Attribute = ::java::text::AttributedCharacter
 using $AttributedString = ::java::text::AttributedString;
 using $AttributedString$AttributeMap = ::java::text::AttributedString$AttributeMap;
 using $CharacterIterator = ::java::text::CharacterIterator;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Hashtable = ::java::util::Hashtable;
 using $Map = ::java::util::Map;

@@ -20,7 +20,6 @@
 #include <jdk/internal/module/ModuleReferences$ExplodedModuleReader.h>
 #include <jdk/internal/module/ModuleReferences$JModModuleReader.h>
 #include <jdk/internal/module/ModuleReferences$JarModuleReader.h>
-#include <jdk/internal/module/ModuleReferences$SafeCloseModuleReader.h>
 #include <jdk/internal/module/ModuleResolution.h>
 #include <jdk/internal/module/ModuleTarget.h>
 #include <jcpp.h>
@@ -45,7 +44,6 @@ using $ModuleReferenceImpl = ::jdk::internal::module::ModuleReferenceImpl;
 using $ModuleReferences$ExplodedModuleReader = ::jdk::internal::module::ModuleReferences$ExplodedModuleReader;
 using $ModuleReferences$JModModuleReader = ::jdk::internal::module::ModuleReferences$JModModuleReader;
 using $ModuleReferences$JarModuleReader = ::jdk::internal::module::ModuleReferences$JarModuleReader;
-using $ModuleReferences$SafeCloseModuleReader = ::jdk::internal::module::ModuleReferences$SafeCloseModuleReader;
 using $ModuleTarget = ::jdk::internal::module::ModuleTarget;
 
 namespace jdk {

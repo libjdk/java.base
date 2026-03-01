@@ -1,7 +1,6 @@
 #include <java/util/stream/StreamOpFlag.h>
 
 #include <java/lang/Enum.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Comparator.h>
 #include <java/util/EnumMap.h>
 #include <java/util/Map.h>
@@ -51,7 +50,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $EnumMap = ::java::util::EnumMap;
 using $Map = ::java::util::Map;
 using $Spliterator = ::java::util::Spliterator;

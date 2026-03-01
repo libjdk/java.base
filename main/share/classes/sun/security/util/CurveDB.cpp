@@ -7,7 +7,6 @@
 #include <java/security/spec/ECParameterSpec.h>
 #include <java/security/spec/ECPoint.h>
 #include <java/security/spec/EllipticCurve.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashMap.h>
@@ -38,7 +37,6 @@ using $ECFieldFp = ::java::security::spec::ECFieldFp;
 using $ECParameterSpec = ::java::security::spec::ECParameterSpec;
 using $ECPoint = ::java::security::spec::ECPoint;
 using $EllipticCurve = ::java::security::spec::EllipticCurve;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashMap = ::java::util::HashMap;

@@ -16,7 +16,6 @@
 #include <java/lang/reflect/AnnotatedTypeVariable.h>
 #include <java/lang/reflect/AnnotatedWildcardType.h>
 #include <java/lang/reflect/Type.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -57,7 +56,6 @@ using $AnnotatedType = ::java::lang::reflect::AnnotatedType;
 using $AnnotatedTypeVariable = ::java::lang::reflect::AnnotatedTypeVariable;
 using $AnnotatedWildcardType = ::java::lang::reflect::AnnotatedWildcardType;
 using $Type = ::java::lang::reflect::Type;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

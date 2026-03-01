@@ -7,8 +7,6 @@
 #include <java/lang/CloneNotSupportedException.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/Math.h>
-#include <java/util/AbstractCollection.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/ConcurrentModificationException.h>
@@ -44,7 +42,6 @@ using $StreamCorruptedException = ::java::io::StreamCorruptedException;
 using $ClassCastException = ::java::lang::ClassCastException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CloneNotSupportedException = ::java::lang::CloneNotSupportedException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -54,8 +51,6 @@ using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $Void = ::java::lang::Void;
-using $AbstractCollection = ::java::util::AbstractCollection;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $ConcurrentModificationException = ::java::util::ConcurrentModificationException;

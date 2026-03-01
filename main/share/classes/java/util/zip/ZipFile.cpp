@@ -1,7 +1,6 @@
 #include <java/util/zip/ZipFile.h>
 
 #include <java/io/File.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/Serializable.h>
@@ -15,7 +14,6 @@
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
 #include <java/nio/charset/Charset.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Enumeration.h>
@@ -23,13 +21,11 @@
 #include <java/util/Objects.h>
 #include <java/util/Set.h>
 #include <java/util/Spliterator.h>
-#include <java/util/Spliterators$AbstractSpliterator.h>
 #include <java/util/function/IntFunction.h>
 #include <java/util/jar/JarEntry.h>
 #include <java/util/jar/JarFile.h>
 #include <java/util/stream/Stream.h>
 #include <java/util/stream/StreamSupport.h>
-#include <java/util/zip/InflaterInputStream.h>
 #include <java/util/zip/ZipCoder.h>
 #include <java/util/zip/ZipConstants.h>
 #include <java/util/zip/ZipEntry.h>
@@ -48,7 +44,6 @@
 #include <jdk/internal/misc/VM.h>
 #include <jdk/internal/perf/PerfCounter.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef CENHDR
@@ -60,7 +55,6 @@
 #undef STORED
 
 using $File = ::java::io::File;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $Serializable = ::java::io::Serializable;
@@ -77,7 +71,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Charset = ::java::nio::charset::Charset;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Enumeration = ::java::util::Enumeration;
@@ -85,13 +78,11 @@ using $List = ::java::util::List;
 using $Objects = ::java::util::Objects;
 using $Set = ::java::util::Set;
 using $Spliterator = ::java::util::Spliterator;
-using $Spliterators$AbstractSpliterator = ::java::util::Spliterators$AbstractSpliterator;
 using $IntFunction = ::java::util::function::IntFunction;
 using $JarEntry = ::java::util::jar::JarEntry;
 using $JarFile = ::java::util::jar::JarFile;
 using $Stream = ::java::util::stream::Stream;
 using $StreamSupport = ::java::util::stream::StreamSupport;
-using $InflaterInputStream = ::java::util::zip::InflaterInputStream;
 using $ZipCoder = ::java::util::zip::ZipCoder;
 using $ZipConstants = ::java::util::zip::ZipConstants;
 using $ZipEntry = ::java::util::zip::ZipEntry;
@@ -110,7 +101,6 @@ using $SharedSecrets = ::jdk::internal::access::SharedSecrets;
 using $VM = ::jdk::internal::misc::VM;
 using $PerfCounter = ::jdk::internal::perf::PerfCounter;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace java {
 	namespace util {

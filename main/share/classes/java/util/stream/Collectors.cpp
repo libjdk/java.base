@@ -1,7 +1,6 @@
 #include <java/util/stream/Collectors.h>
 
 #include <java/io/Serializable.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/Enum.h>
 #include <java/lang/IllegalStateException.h>
@@ -12,7 +11,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/util/AbstractCollection.h>
 #include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -68,7 +66,6 @@
 
 using $Map$EntryArray = $Array<::java::util::Map$Entry>;
 using $Serializable = ::java::io::Serializable;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Double = ::java::lang::Double;
@@ -83,7 +80,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

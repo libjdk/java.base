@@ -10,7 +10,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/lang/module/Configuration.h>
 #include <java/lang/module/ResolvedModule.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -31,7 +30,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Configuration = ::java::lang::module::Configuration;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

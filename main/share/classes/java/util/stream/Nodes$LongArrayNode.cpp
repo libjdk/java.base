@@ -2,7 +2,6 @@
 
 #include <java/util/Arrays.h>
 #include <java/util/Spliterator$OfLong.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/function/LongConsumer.h>
 #include <java/util/stream/Nodes.h>
@@ -16,7 +15,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Arrays = ::java::util::Arrays;
 using $Spliterator = ::java::util::Spliterator;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $LongConsumer = ::java::util::function::LongConsumer;
 
 namespace java {

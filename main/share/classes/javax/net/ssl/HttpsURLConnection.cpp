@@ -3,7 +3,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/net/HttpURLConnection.h>
 #include <java/net/URL.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/Principal.h>
 #include <java/security/cert/Certificate.h>
@@ -26,7 +25,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $HttpURLConnection = ::java::net::HttpURLConnection;
 using $URL = ::java::net::URL;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Principal = ::java::security::Principal;
 using $X509Certificate = ::java::security::cert::X509Certificate;

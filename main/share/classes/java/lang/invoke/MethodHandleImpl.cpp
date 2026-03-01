@@ -13,7 +13,6 @@
 #include <java/lang/invoke/BoundMethodHandle$SpeciesData.h>
 #include <java/lang/invoke/BoundMethodHandle.h>
 #include <java/lang/invoke/CallSite.h>
-#include <java/lang/invoke/DelegatingMethodHandle.h>
 #include <java/lang/invoke/LambdaForm$BasicType.h>
 #include <java/lang/invoke/LambdaForm$Kind.h>
 #include <java/lang/invoke/LambdaForm$Name.h>
@@ -166,7 +165,6 @@ using $Void = ::java::lang::Void;
 using $Constable = ::java::lang::constant::Constable;
 using $BoundMethodHandle = ::java::lang::invoke::BoundMethodHandle;
 using $BoundMethodHandle$SpeciesData = ::java::lang::invoke::BoundMethodHandle$SpeciesData;
-using $DelegatingMethodHandle = ::java::lang::invoke::DelegatingMethodHandle;
 using $LambdaForm = ::java::lang::invoke::LambdaForm;
 using $LambdaForm$BasicType = ::java::lang::invoke::LambdaForm$BasicType;
 using $LambdaForm$Kind = ::java::lang::invoke::LambdaForm$Kind;

@@ -1,6 +1,5 @@
 #include <sun/security/ssl/CertStatusExtension$CertStatusResponseSpec.h>
 
-#include <java/io/IOException.h>
 #include <java/nio/ByteBuffer.h>
 #include <javax/net/ssl/SSLException.h>
 #include <javax/net/ssl/SSLProtocolException.h>
@@ -18,14 +17,11 @@
 #undef DECODE_ERROR
 #undef OCSP
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $SSLException = ::javax::net::ssl::SSLException;
 using $SSLProtocolException = ::javax::net::ssl::SSLProtocolException;
 using $Alert = ::sun::security::ssl::Alert;
 using $CertStatusExtension$CertStatusRequestType = ::sun::security::ssl::CertStatusExtension$CertStatusRequestType;

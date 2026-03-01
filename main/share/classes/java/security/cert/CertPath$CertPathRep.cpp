@@ -3,7 +3,6 @@
 #include <java/io/ByteArrayInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/NotSerializableException.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/cert/CertPath.h>
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/CertificateFactory.h>
@@ -13,11 +12,9 @@ using $ByteArrayInputStream = ::java::io::ByteArrayInputStream;
 using $InputStream = ::java::io::InputStream;
 using $NotSerializableException = ::java::io::NotSerializableException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
 

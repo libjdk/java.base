@@ -9,7 +9,6 @@
 #include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/reflect/AccessibleObject.h>
 #include <java/lang/reflect/Constructor.h>
-#include <java/lang/reflect/Executable.h>
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/InvocationTargetException.h>
 #include <java/lang/reflect/Method.h>
@@ -22,17 +21,14 @@
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InstantiationException = ::java::lang::InstantiationException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchFieldException = ::java::lang::NoSuchFieldException;
 using $NoSuchMethodException = ::java::lang::NoSuchMethodException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $AccessibleObject = ::java::lang::reflect::AccessibleObject;
 using $Constructor = ::java::lang::reflect::Constructor;
-using $Executable = ::java::lang::reflect::Executable;
 using $Field = ::java::lang::reflect::Field;
 using $InvocationTargetException = ::java::lang::reflect::InvocationTargetException;
 using $Method = ::java::lang::reflect::Method;

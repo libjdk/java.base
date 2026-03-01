@@ -5,9 +5,7 @@
 #include <java/lang/StackWalker$ExtendedOption.h>
 #include <java/lang/StackWalker$Option.h>
 #include <java/lang/StackWalker.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/Set.h>
 #include <jcpp.h>
@@ -22,9 +20,7 @@ using $SecurityManager = ::java::lang::SecurityManager;
 using $StackWalker = ::java::lang::StackWalker;
 using $StackWalker$ExtendedOption = ::java::lang::StackWalker$ExtendedOption;
 using $StackWalker$Option = ::java::lang::StackWalker$Option;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $Set = ::java::util::Set;
 

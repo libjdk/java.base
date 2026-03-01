@@ -1,9 +1,6 @@
 #include <sun/net/www/protocol/http/HttpURLConnection.h>
 
-#include <java/io/ByteArrayOutputStream.h>
 #include <java/io/FileNotFoundException.h>
-#include <java/io/FilterInputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -14,7 +11,6 @@
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/NoSuchFieldException.h>
 #include <java/lang/NumberFormatException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/lang/invoke/CallSite.h>
@@ -56,9 +52,6 @@
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
 #include <java/text/SimpleDateFormat.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collections.h>
@@ -169,10 +162,7 @@
 #undef WARNING
 
 using $PermissionArray = $Array<::java::security::Permission>;
-using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $FileNotFoundException = ::java::io::FileNotFoundException;
-using $FilterInputStream = ::java::io::FilterInputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -195,7 +185,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NoSuchFieldException = ::java::lang::NoSuchFieldException;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $NumberFormatException = ::java::lang::NumberFormatException;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
@@ -234,9 +223,6 @@ using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
 using $SimpleDateFormat = ::java::text::SimpleDateFormat;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collections = ::java::util::Collections;

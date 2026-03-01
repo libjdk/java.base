@@ -15,7 +15,6 @@
 #include <java/net/StandardSocketOptions.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/channels/AlreadyBoundException.h>
-#include <java/nio/channels/AsynchronousByteChannel.h>
 #include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/AsynchronousSocketChannel.h>
 #include <java/nio/channels/ClosedChannelException.h>
@@ -56,7 +55,6 @@ using $FileDescriptor = ::java::io::FileDescriptor;
 using $IOException = ::java::io::IOException;
 using $Boolean = ::java::lang::Boolean;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
@@ -76,7 +74,6 @@ using $SocketOption = ::java::net::SocketOption;
 using $StandardSocketOptions = ::java::net::StandardSocketOptions;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AlreadyBoundException = ::java::nio::channels::AlreadyBoundException;
-using $AsynchronousByteChannel = ::java::nio::channels::AsynchronousByteChannel;
 using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $AsynchronousSocketChannel = ::java::nio::channels::AsynchronousSocketChannel;
 using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;

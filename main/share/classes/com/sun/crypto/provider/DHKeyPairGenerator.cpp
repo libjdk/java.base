@@ -15,8 +15,6 @@
 #include <java/security/SecureRandom.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
 #include <java/util/Random.h>
-#include <javax/crypto/interfaces/DHPrivateKey.h>
-#include <javax/crypto/interfaces/DHPublicKey.h>
 #include <javax/crypto/spec/DHParameterSpec.h>
 #include <sun/security/provider/ParameterCache.h>
 #include <sun/security/util/SecurityProviderConstants.h>
@@ -30,7 +28,6 @@ using $DHPrivateKey = ::com::sun::crypto::provider::DHPrivateKey;
 using $DHPublicKey = ::com::sun::crypto::provider::DHPublicKey;
 using $SunJCE = ::com::sun::crypto::provider::SunJCE;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BigInteger = ::java::math::BigInteger;
@@ -45,8 +42,6 @@ using $PublicKey = ::java::security::PublicKey;
 using $SecureRandom = ::java::security::SecureRandom;
 using $AlgorithmParameterSpec = ::java::security::spec::AlgorithmParameterSpec;
 using $Random = ::java::util::Random;
-using $1DHPrivateKey = ::javax::crypto::interfaces::DHPrivateKey;
-using $1DHPublicKey = ::javax::crypto::interfaces::DHPublicKey;
 using $DHParameterSpec = ::javax::crypto::spec::DHParameterSpec;
 using $ParameterCache = ::sun::security::provider::ParameterCache;
 using $SecurityProviderConstants = ::sun::security::util::SecurityProviderConstants;

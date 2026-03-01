@@ -12,7 +12,6 @@
 #include <java/security/interfaces/RSAPublicKey.h>
 #include <java/security/spec/KeySpec.h>
 #include <java/security/spec/RSAPublicKeySpec.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/EnumSet.h>
 #include <java/util/List.h>
 #include <java/util/Set.h>
@@ -33,7 +32,6 @@
 
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Enum = ::java::lang::Enum;
-using $Exception = ::java::lang::Exception;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BigInteger = ::java::math::BigInteger;
@@ -43,11 +41,9 @@ using $CryptoPrimitive = ::java::security::CryptoPrimitive;
 using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $KeyFactory = ::java::security::KeyFactory;
-using $PublicKey = ::java::security::PublicKey;
 using $RSAPublicKey = ::java::security::interfaces::RSAPublicKey;
 using $KeySpec = ::java::security::spec::KeySpec;
 using $RSAPublicKeySpec = ::java::security::spec::RSAPublicKeySpec;
-using $AbstractSet = ::java::util::AbstractSet;
 using $EnumSet = ::java::util::EnumSet;
 using $List = ::java::util::List;
 using $Set = ::java::util::Set;

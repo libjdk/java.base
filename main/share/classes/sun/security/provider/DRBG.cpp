@@ -18,7 +18,6 @@
 #include <java/security/Security.h>
 #include <java/util/Locale.h>
 #include <sun/security/provider/AbstractDrbg.h>
-#include <sun/security/provider/AbstractHashDrbg.h>
 #include <sun/security/provider/CtrDrbg.h>
 #include <sun/security/provider/EntropySource.h>
 #include <sun/security/provider/HashDrbg.h>
@@ -53,7 +52,6 @@ using $SecureRandomSpi = ::java::security::SecureRandomSpi;
 using $Security = ::java::security::Security;
 using $Locale = ::java::util::Locale;
 using $AbstractDrbg = ::sun::security::provider::AbstractDrbg;
-using $AbstractHashDrbg = ::sun::security::provider::AbstractHashDrbg;
 using $CtrDrbg = ::sun::security::provider::CtrDrbg;
 using $EntropySource = ::sun::security::provider::EntropySource;
 using $HashDrbg = ::sun::security::provider::HashDrbg;

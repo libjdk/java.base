@@ -2,13 +2,11 @@
 
 #include <Basic4Appendable.h>
 #include <java/io/StringWriter.h>
-#include <java/io/Writer.h>
 #include <java/lang/Appendable.h>
 #include <jcpp.h>
 
 using $Basic4Appendable = ::Basic4Appendable;
 using $StringWriter = ::java::io::StringWriter;
-using $Writer = ::java::io::Writer;
 using $Appendable = ::java::lang::Appendable;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;

@@ -6,7 +6,6 @@
 #include <java/io/DataInputStream.h>
 #include <java/io/File.h>
 #include <java/io/FileInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/Serializable.h>
 #include <java/io/StreamCorruptedException.h>
@@ -16,7 +15,6 @@
 #include <java/time/zone/ZoneRulesException.h>
 #include <java/time/zone/ZoneRulesProvider.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
@@ -35,7 +33,6 @@ using $DataInput = ::java::io::DataInput;
 using $DataInputStream = ::java::io::DataInputStream;
 using $File = ::java::io::File;
 using $FileInputStream = ::java::io::FileInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $StreamCorruptedException = ::java::io::StreamCorruptedException;
 using $ClassInfo = ::java::lang::ClassInfo;
@@ -48,7 +45,6 @@ using $ZoneRules = ::java::time::zone::ZoneRules;
 using $ZoneRulesException = ::java::time::zone::ZoneRulesException;
 using $ZoneRulesProvider = ::java::time::zone::ZoneRulesProvider;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;

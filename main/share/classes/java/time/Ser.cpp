@@ -60,7 +60,6 @@ using $OffsetTime = ::java::time::OffsetTime;
 using $Period = ::java::time::Period;
 using $Year = ::java::time::Year;
 using $YearMonth = ::java::time::YearMonth;
-using $ZoneId = ::java::time::ZoneId;
 using $ZoneOffset = ::java::time::ZoneOffset;
 using $ZoneRegion = ::java::time::ZoneRegion;
 using $ZonedDateTime = ::java::time::ZonedDateTime;

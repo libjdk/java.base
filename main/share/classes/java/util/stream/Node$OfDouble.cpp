@@ -15,7 +15,6 @@
 #include <java/util/stream/Node$Builder$OfDouble.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
-#include <java/util/stream/Sink$OfDouble.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <java/util/stream/Tripwire.h>
@@ -38,7 +37,6 @@ using $DoubleConsumer = ::java::util::function::DoubleConsumer;
 using $IntFunction = ::java::util::function::IntFunction;
 using $Node$Builder$OfDouble = ::java::util::stream::Node$Builder$OfDouble;
 using $Nodes = ::java::util::stream::Nodes;
-using $Sink$OfDouble = ::java::util::stream::Sink$OfDouble;
 using $StreamShape = ::java::util::stream::StreamShape;
 using $Tripwire = ::java::util::stream::Tripwire;
 

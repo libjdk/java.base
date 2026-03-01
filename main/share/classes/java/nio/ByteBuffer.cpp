@@ -19,7 +19,6 @@
 #include <java/nio/HeapByteBuffer.h>
 #include <java/nio/IntBuffer.h>
 #include <java/nio/LongBuffer.h>
-#include <java/nio/MappedByteBuffer.h>
 #include <java/nio/ReadOnlyBufferException.h>
 #include <java/nio/ShortBuffer.h>
 #include <java/util/Objects.h>
@@ -61,7 +60,6 @@ using $FloatBuffer = ::java::nio::FloatBuffer;
 using $HeapByteBuffer = ::java::nio::HeapByteBuffer;
 using $IntBuffer = ::java::nio::IntBuffer;
 using $LongBuffer = ::java::nio::LongBuffer;
-using $MappedByteBuffer = ::java::nio::MappedByteBuffer;
 using $ReadOnlyBufferException = ::java::nio::ReadOnlyBufferException;
 using $ShortBuffer = ::java::nio::ShortBuffer;
 using $Objects = ::java::util::Objects;

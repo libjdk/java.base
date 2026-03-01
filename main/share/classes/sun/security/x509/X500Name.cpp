@@ -8,7 +8,6 @@
 #include <java/lang/reflect/Field.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedExceptionAction.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -60,7 +59,6 @@ using $Constructor = ::java::lang::reflect::Constructor;
 using $Field = ::java::lang::reflect::Field;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

@@ -4,7 +4,6 @@
 #include <java/lang/reflect/Modifier.h>
 #include <jdk/internal/misc/Unsafe.h>
 #include <jdk/internal/reflect/FieldAccessor.h>
-#include <jdk/internal/reflect/FieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeBooleanFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeByteFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeCharacterFieldAccessorImpl.h>
@@ -18,7 +17,6 @@
 #include <jdk/internal/reflect/UnsafeQualifiedByteFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedCharacterFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedDoubleFieldAccessorImpl.h>
-#include <jdk/internal/reflect/UnsafeQualifiedFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedFloatFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedIntegerFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedLongFieldAccessorImpl.h>
@@ -28,7 +26,6 @@
 #include <jdk/internal/reflect/UnsafeQualifiedStaticByteFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedStaticCharacterFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedStaticDoubleFieldAccessorImpl.h>
-#include <jdk/internal/reflect/UnsafeQualifiedStaticFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedStaticFloatFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedStaticIntegerFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeQualifiedStaticLongFieldAccessorImpl.h>
@@ -39,7 +36,6 @@
 #include <jdk/internal/reflect/UnsafeStaticByteFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeStaticCharacterFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeStaticDoubleFieldAccessorImpl.h>
-#include <jdk/internal/reflect/UnsafeStaticFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeStaticFloatFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeStaticIntegerFieldAccessorImpl.h>
 #include <jdk/internal/reflect/UnsafeStaticLongFieldAccessorImpl.h>
@@ -63,7 +59,6 @@ using $Field = ::java::lang::reflect::Field;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $Unsafe = ::jdk::internal::misc::Unsafe;
 using $FieldAccessor = ::jdk::internal::reflect::FieldAccessor;
-using $FieldAccessorImpl = ::jdk::internal::reflect::FieldAccessorImpl;
 using $UnsafeBooleanFieldAccessorImpl = ::jdk::internal::reflect::UnsafeBooleanFieldAccessorImpl;
 using $UnsafeByteFieldAccessorImpl = ::jdk::internal::reflect::UnsafeByteFieldAccessorImpl;
 using $UnsafeCharacterFieldAccessorImpl = ::jdk::internal::reflect::UnsafeCharacterFieldAccessorImpl;
@@ -77,7 +72,6 @@ using $UnsafeQualifiedBooleanFieldAccessorImpl = ::jdk::internal::reflect::Unsaf
 using $UnsafeQualifiedByteFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedByteFieldAccessorImpl;
 using $UnsafeQualifiedCharacterFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedCharacterFieldAccessorImpl;
 using $UnsafeQualifiedDoubleFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedDoubleFieldAccessorImpl;
-using $UnsafeQualifiedFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedFieldAccessorImpl;
 using $UnsafeQualifiedFloatFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedFloatFieldAccessorImpl;
 using $UnsafeQualifiedIntegerFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedIntegerFieldAccessorImpl;
 using $UnsafeQualifiedLongFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedLongFieldAccessorImpl;
@@ -87,7 +81,6 @@ using $UnsafeQualifiedStaticBooleanFieldAccessorImpl = ::jdk::internal::reflect:
 using $UnsafeQualifiedStaticByteFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedStaticByteFieldAccessorImpl;
 using $UnsafeQualifiedStaticCharacterFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedStaticCharacterFieldAccessorImpl;
 using $UnsafeQualifiedStaticDoubleFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedStaticDoubleFieldAccessorImpl;
-using $UnsafeQualifiedStaticFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedStaticFieldAccessorImpl;
 using $UnsafeQualifiedStaticFloatFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedStaticFloatFieldAccessorImpl;
 using $UnsafeQualifiedStaticIntegerFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedStaticIntegerFieldAccessorImpl;
 using $UnsafeQualifiedStaticLongFieldAccessorImpl = ::jdk::internal::reflect::UnsafeQualifiedStaticLongFieldAccessorImpl;
@@ -98,7 +91,6 @@ using $UnsafeStaticBooleanFieldAccessorImpl = ::jdk::internal::reflect::UnsafeSt
 using $UnsafeStaticByteFieldAccessorImpl = ::jdk::internal::reflect::UnsafeStaticByteFieldAccessorImpl;
 using $UnsafeStaticCharacterFieldAccessorImpl = ::jdk::internal::reflect::UnsafeStaticCharacterFieldAccessorImpl;
 using $UnsafeStaticDoubleFieldAccessorImpl = ::jdk::internal::reflect::UnsafeStaticDoubleFieldAccessorImpl;
-using $UnsafeStaticFieldAccessorImpl = ::jdk::internal::reflect::UnsafeStaticFieldAccessorImpl;
 using $UnsafeStaticFloatFieldAccessorImpl = ::jdk::internal::reflect::UnsafeStaticFloatFieldAccessorImpl;
 using $UnsafeStaticIntegerFieldAccessorImpl = ::jdk::internal::reflect::UnsafeStaticIntegerFieldAccessorImpl;
 using $UnsafeStaticLongFieldAccessorImpl = ::jdk::internal::reflect::UnsafeStaticLongFieldAccessorImpl;

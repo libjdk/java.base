@@ -6,7 +6,6 @@
 #include <java/io/Reader.h>
 #include <java/io/UnsupportedEncodingException.h>
 #include <java/lang/NumberFormatException.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <jdk/internal/org/xml/sax/InputSource.h>
@@ -55,7 +54,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NumberFormatException = ::java::lang::NumberFormatException;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $InputSource = ::jdk::internal::org::xml::sax::InputSource;

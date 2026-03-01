@@ -46,12 +46,10 @@
 #undef SERVER_KEY_EXCHANGE
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $PublicKey = ::java::security::PublicKey;

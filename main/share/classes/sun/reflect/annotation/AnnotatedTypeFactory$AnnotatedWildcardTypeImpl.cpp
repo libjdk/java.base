@@ -13,7 +13,6 @@
 #include <java/lang/reflect/AnnotatedWildcardType.h>
 #include <java/lang/reflect/Type.h>
 #include <java/lang/reflect/WildcardType.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/List.h>
@@ -49,7 +48,6 @@ using $AnnotatedType = ::java::lang::reflect::AnnotatedType;
 using $AnnotatedWildcardType = ::java::lang::reflect::AnnotatedWildcardType;
 using $Type = ::java::lang::reflect::Type;
 using $WildcardType = ::java::lang::reflect::WildcardType;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $List = ::java::util::List;

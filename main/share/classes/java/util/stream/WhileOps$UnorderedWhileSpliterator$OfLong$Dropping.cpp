@@ -1,7 +1,6 @@
 #include <java/util/stream/WhileOps$UnorderedWhileSpliterator$OfLong$Dropping.h>
 
 #include <java/util/Spliterator$OfLong.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/concurrent/atomic/AtomicBoolean.h>
 #include <java/util/function/LongConsumer.h>
@@ -15,7 +14,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfLong = ::java::util::Spliterator$OfLong;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $AtomicBoolean = ::java::util::concurrent::atomic::AtomicBoolean;
 using $LongConsumer = ::java::util::function::LongConsumer;
 using $LongPredicate = ::java::util::function::LongPredicate;

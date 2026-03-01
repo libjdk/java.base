@@ -6,9 +6,7 @@
 #include <java/lang/ProcessEnvironment$Value.h>
 #include <java/lang/ProcessEnvironment$Variable.h>
 #include <java/lang/ProcessEnvironment.h>
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -25,9 +23,7 @@ using $ProcessEnvironment$StringKeySet = ::java::lang::ProcessEnvironment$String
 using $ProcessEnvironment$StringValues = ::java::lang::ProcessEnvironment$StringValues;
 using $ProcessEnvironment$Value = ::java::lang::ProcessEnvironment$Value;
 using $ProcessEnvironment$Variable = ::java::lang::ProcessEnvironment$Variable;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

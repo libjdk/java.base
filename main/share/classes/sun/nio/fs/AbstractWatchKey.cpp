@@ -7,8 +7,6 @@
 #include <java/nio/file/WatchEvent.h>
 #include <java/nio/file/WatchKey.h>
 #include <java/nio/file/Watchable.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashMap.h>
 #include <java/util/List.h>
@@ -37,8 +35,6 @@ using $WatchEvent = ::java::nio::file::WatchEvent;
 using $WatchEvent$Kind = ::java::nio::file::WatchEvent$Kind;
 using $WatchKey = ::java::nio::file::WatchKey;
 using $Watchable = ::java::nio::file::Watchable;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $HashMap = ::java::util::HashMap;
 using $List = ::java::util::List;

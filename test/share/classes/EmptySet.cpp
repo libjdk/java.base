@@ -2,7 +2,6 @@
 
 #include <java/nio/file/attribute/AclEntry$Builder.h>
 #include <java/nio/file/attribute/AclEntry.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
 #include <jcpp.h>
@@ -11,7 +10,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AclEntry = ::java::nio::file::attribute::AclEntry;
 using $AclEntry$Builder = ::java::nio::file::attribute::AclEntry$Builder;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;
 

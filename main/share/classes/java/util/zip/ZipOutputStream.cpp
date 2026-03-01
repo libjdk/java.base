@@ -20,7 +20,6 @@
 #include <java/util/zip/ZipOutputStream$XEntry.h>
 #include <java/util/zip/ZipUtils.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/security/action/GetPropertyAction.h>
 #include <jcpp.h>
 
@@ -59,7 +58,6 @@ using $ZipException = ::java::util::zip::ZipException;
 using $ZipOutputStream$XEntry = ::java::util::zip::ZipOutputStream$XEntry;
 using $ZipUtils = ::java::util::zip::ZipUtils;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $GetPropertyAction = ::sun::security::action::GetPropertyAction;
 
 namespace java {

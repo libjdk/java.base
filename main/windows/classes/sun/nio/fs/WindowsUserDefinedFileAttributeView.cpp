@@ -6,8 +6,6 @@
 #include <java/nio/channels/FileChannel.h>
 #include <java/nio/file/OpenOption.h>
 #include <java/nio/file/StandardOpenOption.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -40,8 +38,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $FileChannel = ::java::nio::channels::FileChannel;
 using $StandardOpenOption = ::java::nio::file::StandardOpenOption;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

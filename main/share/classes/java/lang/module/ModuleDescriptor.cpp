@@ -17,7 +17,6 @@
 #include <java/lang/module/ModuleDescriptor$Requires.h>
 #include <java/lang/module/ModuleDescriptor$Version.h>
 #include <java/nio/ByteBuffer.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/HashSet.h>
@@ -61,7 +60,6 @@ using $ModuleDescriptor$Modifier = ::java::lang::module::ModuleDescriptor$Modifi
 using $ModuleDescriptor$Requires = ::java::lang::module::ModuleDescriptor$Requires;
 using $ModuleDescriptor$Version = ::java::lang::module::ModuleDescriptor$Version;
 using $ByteBuffer = ::java::nio::ByteBuffer;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $HashSet = ::java::util::HashSet;

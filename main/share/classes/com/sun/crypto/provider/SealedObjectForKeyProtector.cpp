@@ -6,7 +6,6 @@
 #include <java/io/InvalidClassException.h>
 #include <java/io/ObjectInputFilter.h>
 #include <java/io/ObjectInputStream.h>
-#include <java/io/ObjectStreamException.h>
 #include <java/io/Serializable.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/invoke/CallSite.h>
@@ -34,11 +33,9 @@ using $IOException = ::java::io::IOException;
 using $InvalidClassException = ::java::io::InvalidClassException;
 using $ObjectInputFilter = ::java::io::ObjectInputFilter;
 using $ObjectInputStream = ::java::io::ObjectInputStream;
-using $ObjectStreamException = ::java::io::ObjectStreamException;
 using $Serializable = ::java::io::Serializable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;

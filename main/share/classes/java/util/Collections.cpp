@@ -3,10 +3,6 @@
 #include <java/lang/Comparable.h>
 #include <java/lang/IndexOutOfBoundsException.h>
 #include <java/lang/reflect/Array.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractQueue.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections$1.h>
@@ -102,10 +98,6 @@ using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $1Array = ::java::lang::reflect::Array;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractQueue = ::java::util::AbstractQueue;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections$1 = ::java::util::Collections$1;

@@ -7,7 +7,6 @@
 #include <java/security/cert/CRLReason.h>
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/Extension.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/Date.h>
 #include <java/util/HashMap.h>
@@ -34,7 +33,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $CRLReason = ::java::security::cert::CRLReason;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $Extension = ::java::security::cert::Extension;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $Date = ::java::util::Date;
 using $HashMap = ::java::util::HashMap;

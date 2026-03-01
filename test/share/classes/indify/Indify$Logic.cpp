@@ -21,8 +21,6 @@
 #include <java/lang/Number.h>
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/Modifier.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -73,8 +71,6 @@ using $Number = ::java::lang::Number;
 using $Short = ::java::lang::Short;
 using $Field = ::java::lang::reflect::Field;
 using $Modifier = ::java::lang::reflect::Modifier;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

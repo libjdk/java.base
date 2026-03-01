@@ -8,7 +8,6 @@
 #include <java/util/function/Function.h>
 #include <jdk/internal/ref/CleanerImpl$PhantomCleanableRef.h>
 #include <jdk/internal/ref/CleanerImpl.h>
-#include <jdk/internal/ref/PhantomCleanable.h>
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
@@ -23,7 +22,6 @@ using $ThreadFactory = ::java::util::concurrent::ThreadFactory;
 using $Function = ::java::util::function::Function;
 using $CleanerImpl = ::jdk::internal::ref::CleanerImpl;
 using $CleanerImpl$PhantomCleanableRef = ::jdk::internal::ref::CleanerImpl$PhantomCleanableRef;
-using $PhantomCleanable = ::jdk::internal::ref::PhantomCleanable;
 
 namespace java {
 	namespace lang {

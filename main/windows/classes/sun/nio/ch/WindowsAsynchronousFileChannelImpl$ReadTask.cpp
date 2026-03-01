@@ -6,7 +6,6 @@
 #include <java/nio/BufferOverflowException.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/channels/AsynchronousCloseException.h>
-#include <java/nio/channels/ClosedChannelException.h>
 #include <sun/nio/ch/DirectBuffer.h>
 #include <sun/nio/ch/IOStatus.h>
 #include <sun/nio/ch/Invoker.h>
@@ -21,7 +20,6 @@
 
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -32,7 +30,6 @@ using $Runnable = ::java::lang::Runnable;
 using $BufferOverflowException = ::java::nio::BufferOverflowException;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AsynchronousCloseException = ::java::nio::channels::AsynchronousCloseException;
-using $ClosedChannelException = ::java::nio::channels::ClosedChannelException;
 using $DirectBuffer = ::sun::nio::ch::DirectBuffer;
 using $IOStatus = ::sun::nio::ch::IOStatus;
 using $Invoker = ::sun::nio::ch::Invoker;

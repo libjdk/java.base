@@ -1,6 +1,5 @@
 #include <ImplicitStringConcatShapesTestGen.h>
 
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/PrintWriter.h>
 #include <java/lang/CharSequence.h>
@@ -9,8 +8,6 @@
 #include <java/nio/file/Files.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/Paths.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
@@ -23,7 +20,6 @@
 
 #undef STRIDE
 
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintWriter = ::java::io::PrintWriter;
 using $CharSequence = ::java::lang::CharSequence;
@@ -34,8 +30,6 @@ using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Files = ::java::nio::file::Files;
 using $Paths = ::java::nio::file::Paths;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;

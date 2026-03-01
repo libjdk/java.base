@@ -2,7 +2,6 @@
 
 #include <java/io/File.h>
 #include <java/io/FileReader.h>
-#include <java/io/InputStreamReader.h>
 #include <java/io/Reader.h>
 #include <java/io/StreamTokenizer.h>
 #include <jcpp.h>
@@ -11,7 +10,6 @@
 
 using $File = ::java::io::File;
 using $FileReader = ::java::io::FileReader;
-using $InputStreamReader = ::java::io::InputStreamReader;
 using $Reader = ::java::io::Reader;
 using $StreamTokenizer = ::java::io::StreamTokenizer;
 using $ClassInfo = ::java::lang::ClassInfo;

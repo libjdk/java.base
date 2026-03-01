@@ -4,7 +4,6 @@
 #include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/io/Reader.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/NumberFormatException.h>
@@ -12,7 +11,6 @@
 #include <java/nio/charset/StandardCharsets.h>
 #include <java/text/Normalizer$Form.h>
 #include <java/text/Normalizer.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/HexFormat.h>
@@ -43,13 +41,11 @@ using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $Reader = ::java::io::Reader;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $Byte = ::java::lang::Byte;
 using $CharSequence = ::java::lang::CharSequence;
 using $Character = ::java::lang::Character;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -59,7 +55,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
 using $Normalizer = ::java::text::Normalizer;
 using $Normalizer$Form = ::java::text::Normalizer$Form;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $HexFormat = ::java::util::HexFormat;

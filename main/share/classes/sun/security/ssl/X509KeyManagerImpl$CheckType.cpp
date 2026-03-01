@@ -4,7 +4,6 @@
 #include <java/security/PublicKey.h>
 #include <java/security/cert/CertificateException.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/Date.h>
@@ -45,7 +44,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $PublicKey = ::java::security::PublicKey;
 using $CertificateException = ::java::security::cert::CertificateException;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $Date = ::java::util::Date;

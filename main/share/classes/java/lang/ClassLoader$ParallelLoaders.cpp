@@ -1,7 +1,6 @@
 #include <java/lang/ClassLoader$ParallelLoaders.h>
 
 #include <java/lang/ClassLoader.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collections.h>
 #include <java/util/Map.h>
 #include <java/util/Set.h>
@@ -13,7 +12,6 @@ using $ClassLoader = ::java::lang::ClassLoader;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collections = ::java::util::Collections;
 using $Map = ::java::util::Map;
 using $Set = ::java::util::Set;

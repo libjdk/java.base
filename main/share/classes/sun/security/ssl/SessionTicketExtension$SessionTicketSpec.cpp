@@ -1,6 +1,5 @@
 #include <sun/security/ssl/SessionTicketExtension$SessionTicketSpec.h>
 
-#include <java/io/IOException.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/security/Key.h>
 #include <java/security/SecureRandom.h>
@@ -32,7 +31,6 @@
 #undef ENGLISH
 #undef GCM_TAG_LEN
 
-using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
@@ -47,7 +45,6 @@ using $MessageFormat = ::java::text::MessageFormat;
 using $Locale = ::java::util::Locale;
 using $Cipher = ::javax::crypto::Cipher;
 using $GCMParameterSpec = ::javax::crypto::spec::GCMParameterSpec;
-using $SSLException = ::javax::net::ssl::SSLException;
 using $SSLProtocolException = ::javax::net::ssl::SSLProtocolException;
 using $Alert = ::sun::security::ssl::Alert;
 using $HandshakeContext = ::sun::security::ssl::HandshakeContext;

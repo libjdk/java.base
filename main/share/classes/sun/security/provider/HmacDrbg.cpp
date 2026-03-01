@@ -1,10 +1,8 @@
 #include <sun/security/provider/HmacDrbg.h>
 
 #include <java/lang/InternalError.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
-#include <java/security/KeyException.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/NoSuchProviderException.h>
 #include <java/security/SecureRandomParameters.h>
@@ -14,7 +12,6 @@
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
 #include <javax/crypto/Mac.h>
-#include <javax/crypto/SecretKey.h>
 #include <javax/crypto/spec/SecretKeySpec.h>
 #include <sun/security/provider/AbstractDrbg.h>
 #include <sun/security/provider/AbstractHashDrbg.h>
@@ -22,14 +19,11 @@
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;
-using $KeyException = ::java::security::KeyException;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $NoSuchProviderException = ::java::security::NoSuchProviderException;
 using $SecureRandomParameters = ::java::security::SecureRandomParameters;
@@ -39,7 +33,6 @@ using $HexFormat = ::java::util::HexFormat;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;
 using $Mac = ::javax::crypto::Mac;
-using $SecretKey = ::javax::crypto::SecretKey;
 using $SecretKeySpec = ::javax::crypto::spec::SecretKeySpec;
 using $AbstractDrbg = ::sun::security::provider::AbstractDrbg;
 using $AbstractHashDrbg = ::sun::security::provider::AbstractHashDrbg;

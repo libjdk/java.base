@@ -6,10 +6,8 @@
 #include <java/nio/file/Files.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/attribute/FileAttribute.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayDeque.h>
 #include <java/util/ArrayList.h>
-#include <java/util/Deque.h>
 #include <java/util/List.h>
 #include <java/util/Queue.h>
 #include <java/util/Random.h>
@@ -25,10 +23,8 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $Files = ::java::nio::file::Files;
 using $Path = ::java::nio::file::Path;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayDeque = ::java::util::ArrayDeque;
 using $ArrayList = ::java::util::ArrayList;
-using $Deque = ::java::util::Deque;
 using $List = ::java::util::List;
 using $Queue = ::java::util::Queue;
 using $Random = ::java::util::Random;

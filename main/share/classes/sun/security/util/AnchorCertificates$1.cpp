@@ -7,7 +7,6 @@
 #include <java/security/KeyStore.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Enumeration.h>
 #include <java/util/HashSet.h>
 #include <java/util/Set.h>
@@ -29,7 +28,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $KeyStore = ::java::security::KeyStore;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Enumeration = ::java::util::Enumeration;
 using $HashSet = ::java::util::HashSet;
 using $Set = ::java::util::Set;

@@ -1,6 +1,5 @@
 #include <jdk/internal/util/xml/impl/XMLStreamWriterImpl.h>
 
-#include <java/io/IOException.h>
 #include <java/io/OutputStream.h>
 #include <java/io/UnsupportedEncodingException.h>
 #include <java/nio/charset/Charset.h>
@@ -35,13 +34,10 @@
 #undef STATE_PROLOG
 #undef STATE_XML_DECL
 
-using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $UnsupportedEncodingException = ::java::io::UnsupportedEncodingException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
-using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;

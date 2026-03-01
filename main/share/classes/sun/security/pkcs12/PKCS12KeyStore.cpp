@@ -20,7 +20,6 @@
 #include <java/nio/charset/StandardCharsets.h>
 #include <java/security/AccessController.h>
 #include <java/security/AlgorithmParameters.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/Key.h>
 #include <java/security/KeyFactory.h>
@@ -39,7 +38,6 @@
 #include <java/security/PrivateKey.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/security/SecureRandom.h>
-#include <java/security/UnrecoverableEntryException.h>
 #include <java/security/UnrecoverableKeyException.h>
 #include <java/security/cert/Certificate.h>
 #include <java/security/cert/CertificateFactory.h>
@@ -49,16 +47,12 @@
 #include <java/security/spec/InvalidParameterSpecException.h>
 #include <java/security/spec/KeySpec.h>
 #include <java/security/spec/PKCS8EncodedKeySpec.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/Date.h>
 #include <java/util/Enumeration.h>
-#include <java/util/HashMap.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
@@ -159,7 +153,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
 using $AccessController = ::java::security::AccessController;
 using $AlgorithmParameters = ::java::security::AlgorithmParameters;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $Key = ::java::security::Key;
 using $KeyFactory = ::java::security::KeyFactory;
@@ -177,7 +170,6 @@ using $PKCS12Attribute = ::java::security::PKCS12Attribute;
 using $PrivateKey = ::java::security::PrivateKey;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $SecureRandom = ::java::security::SecureRandom;
-using $UnrecoverableEntryException = ::java::security::UnrecoverableEntryException;
 using $UnrecoverableKeyException = ::java::security::UnrecoverableKeyException;
 using $Certificate = ::java::security::cert::Certificate;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
@@ -187,16 +179,12 @@ using $EncodedKeySpec = ::java::security::spec::EncodedKeySpec;
 using $InvalidParameterSpecException = ::java::security::spec::InvalidParameterSpecException;
 using $KeySpec = ::java::security::spec::KeySpec;
 using $PKCS8EncodedKeySpec = ::java::security::spec::PKCS8EncodedKeySpec;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $Date = ::java::util::Date;
 using $Enumeration = ::java::util::Enumeration;
-using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;

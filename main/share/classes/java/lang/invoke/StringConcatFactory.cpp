@@ -18,7 +18,6 @@
 #include <java/lang/invoke/StringConcatFactory$2.h>
 #include <java/lang/invoke/StringConcatFactory$3.h>
 #include <java/lang/invoke/TypeDescriptor$OfField.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -86,7 +85,6 @@ using $StringConcatException = ::java::lang::invoke::StringConcatException;
 using $StringConcatFactory$1 = ::java::lang::invoke::StringConcatFactory$1;
 using $StringConcatFactory$2 = ::java::lang::invoke::StringConcatFactory$2;
 using $StringConcatFactory$3 = ::java::lang::invoke::StringConcatFactory$3;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

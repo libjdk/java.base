@@ -7,7 +7,6 @@
 #include <java/util/TreeMap$Entry.h>
 #include <java/util/TreeMap$EntryIterator.h>
 #include <java/util/TreeMap$EntrySpliterator.h>
-#include <java/util/TreeMap$PrivateEntryIterator.h>
 #include <java/util/TreeMap.h>
 #include <jcpp.h>
 
@@ -23,7 +22,6 @@ using $TreeMap = ::java::util::TreeMap;
 using $TreeMap$Entry = ::java::util::TreeMap$Entry;
 using $TreeMap$EntryIterator = ::java::util::TreeMap$EntryIterator;
 using $TreeMap$EntrySpliterator = ::java::util::TreeMap$EntrySpliterator;
-using $TreeMap$PrivateEntryIterator = ::java::util::TreeMap$PrivateEntryIterator;
 
 namespace java {
 	namespace util {

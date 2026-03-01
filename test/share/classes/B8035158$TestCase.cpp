@@ -13,8 +13,6 @@
 #include <java/net/Proxy.h>
 #include <java/net/ProxySelector.h>
 #include <java/net/URI.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/HashMap.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
 #include <java/util/concurrent/Callable.h>
@@ -37,8 +35,6 @@ using $Proxy = ::java::net::Proxy;
 using $Proxy$Type = ::java::net::Proxy$Type;
 using $ProxySelector = ::java::net::ProxySelector;
 using $URI = ::java::net::URI;
-using $AbstractMap = ::java::util::AbstractMap;
-using $HashMap = ::java::util::HashMap;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;
 using $Callable = ::java::util::concurrent::Callable;

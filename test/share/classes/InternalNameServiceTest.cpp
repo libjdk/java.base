@@ -2,7 +2,6 @@
 
 #include <java/io/BufferedWriter.h>
 #include <java/io/FileWriter.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/PrintWriter.h>
 #include <java/io/Writer.h>
 #include <java/net/InetAddress.h>
@@ -14,7 +13,6 @@
 
 using $BufferedWriter = ::java::io::BufferedWriter;
 using $FileWriter = ::java::io::FileWriter;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $PrintWriter = ::java::io::PrintWriter;
 using $Writer = ::java::io::Writer;

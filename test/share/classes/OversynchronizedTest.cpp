@@ -1,14 +1,12 @@
 #include <OversynchronizedTest.h>
 
 #include <TestObj.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/io/PrintWriter.h>
 #include <jcpp.h>
 
 using $TestObj = ::TestObj;
 using $OversynchronizedTestArray = $Array<OversynchronizedTest>;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $PrintStream = ::java::io::PrintStream;
 using $PrintWriter = ::java::io::PrintWriter;

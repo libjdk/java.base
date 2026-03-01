@@ -1,6 +1,5 @@
 #include <ContentEquals.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/StringBuffer.h>
 #include <java/nio/CharBuffer.h>
@@ -10,7 +9,6 @@
 #undef ITERATIONS
 #undef STR_LEN
 
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;

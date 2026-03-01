@@ -6,7 +6,6 @@
 #include <java/io/FileNotFoundException.h>
 #include <java/io/FileWriter.h>
 #include <java/io/IOException.h>
-#include <java/io/OutputStreamWriter.h>
 #include <java/io/Writer.h>
 #include <java/lang/Error.h>
 #include <java/lang/Process.h>
@@ -31,7 +30,6 @@ using $File = ::java::io::File;
 using $FileNotFoundException = ::java::io::FileNotFoundException;
 using $FileWriter = ::java::io::FileWriter;
 using $IOException = ::java::io::IOException;
-using $OutputStreamWriter = ::java::io::OutputStreamWriter;
 using $PrintStream = ::java::io::PrintStream;
 using $Writer = ::java::io::Writer;
 using $ClassInfo = ::java::lang::ClassInfo;

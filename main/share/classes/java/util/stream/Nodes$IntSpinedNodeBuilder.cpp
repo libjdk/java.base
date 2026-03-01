@@ -5,8 +5,6 @@
 #include <java/util/Spliterator.h>
 #include <java/util/function/Consumer.h>
 #include <java/util/function/IntConsumer.h>
-#include <java/util/stream/Node$OfInt.h>
-#include <java/util/stream/Node$OfPrimitive.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/SpinedBuffer$OfInt.h>
@@ -22,8 +20,6 @@ using $Spliterator = ::java::util::Spliterator;
 using $Consumer = ::java::util::function::Consumer;
 using $IntConsumer = ::java::util::function::IntConsumer;
 using $Node = ::java::util::stream::Node;
-using $Node$OfInt = ::java::util::stream::Node$OfInt;
-using $Node$OfPrimitive = ::java::util::stream::Node$OfPrimitive;
 using $Nodes = ::java::util::stream::Nodes;
 using $SpinedBuffer$OfInt = ::java::util::stream::SpinedBuffer$OfInt;
 

@@ -20,8 +20,6 @@
 #include <java/security/cert/CertificateParsingException.h>
 #include <java/security/cert/TrustAnchor.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -74,7 +72,6 @@ using $OCSPResponse$ResponseStatusArray = $Array<::sun::security::provider::cert
 using $DerValueArray = $Array<::sun::security::util::DerValue>;
 using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
@@ -97,8 +94,6 @@ using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateParsingException = ::java::security::cert::CertificateParsingException;
 using $TrustAnchor = ::java::security::cert::TrustAnchor;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

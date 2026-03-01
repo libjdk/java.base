@@ -3,7 +3,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/IllegalAccessException.h>
 #include <java/lang/InternalError.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/invoke/InfoFromMemberName$1.h>
 #include <java/lang/invoke/MemberName.h>
 #include <java/lang/invoke/MethodHandleInfo.h>
@@ -12,7 +11,6 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/lang/invoke/TypeDescriptor$OfField.h>
 #include <java/lang/reflect/Constructor.h>
-#include <java/lang/reflect/Executable.h>
 #include <java/lang/reflect/Field.h>
 #include <java/lang/reflect/Member.h>
 #include <java/lang/reflect/Method.h>
@@ -23,14 +21,12 @@
 
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $InternalError = ::java::lang::InternalError;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $InfoFromMemberName$1 = ::java::lang::invoke::InfoFromMemberName$1;
 using $MemberName = ::java::lang::invoke::MemberName;
 using $MethodHandleInfo = ::java::lang::invoke::MethodHandleInfo;
@@ -38,7 +34,6 @@ using $MethodHandleNatives = ::java::lang::invoke::MethodHandleNatives;
 using $MethodHandles$Lookup = ::java::lang::invoke::MethodHandles$Lookup;
 using $MethodType = ::java::lang::invoke::MethodType;
 using $Constructor = ::java::lang::reflect::Constructor;
-using $Executable = ::java::lang::reflect::Executable;
 using $Field = ::java::lang::reflect::Field;
 using $Member = ::java::lang::reflect::Member;
 using $Method = ::java::lang::reflect::Method;

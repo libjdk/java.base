@@ -1,7 +1,6 @@
 #include <java/util/jar/Manifest.h>
 
 #include <java/io/DataOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -9,7 +8,6 @@
 #include <java/lang/SecurityException.h>
 #include <java/lang/StringBuffer.h>
 #include <java/nio/charset/Charset.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -19,7 +17,6 @@
 #include <java/util/jar/JarVerifier.h>
 #include <java/util/jar/Manifest$FastInputStream.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/security/util/SecurityProperties.h>
 #include <jcpp.h>
 
@@ -27,7 +24,6 @@
 #undef INSTANCE
 
 using $DataOutputStream = ::java::io::DataOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -41,7 +37,6 @@ using $NamedAttribute = ::java::lang::NamedAttribute;
 using $SecurityException = ::java::lang::SecurityException;
 using $StringBuffer = ::java::lang::StringBuffer;
 using $Charset = ::java::nio::charset::Charset;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;
@@ -51,7 +46,6 @@ using $Attributes = ::java::util::jar::Attributes;
 using $JarVerifier = ::java::util::jar::JarVerifier;
 using $Manifest$FastInputStream = ::java::util::jar::Manifest$FastInputStream;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $SecurityProperties = ::sun::security::util::SecurityProperties;
 
 namespace java {

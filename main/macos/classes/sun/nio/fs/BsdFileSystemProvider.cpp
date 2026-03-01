@@ -5,16 +5,13 @@
 #include <java/nio/file/Path.h>
 #include <java/nio/file/attribute/FileAttributeView.h>
 #include <java/nio/file/attribute/UserDefinedFileAttributeView.h>
-#include <sun/nio/fs/AbstractUserDefinedFileAttributeView.h>
 #include <sun/nio/fs/BsdFileStore.h>
 #include <sun/nio/fs/BsdFileSystem.h>
 #include <sun/nio/fs/BsdUserDefinedFileAttributeView.h>
 #include <sun/nio/fs/DynamicFileAttributeView.h>
-#include <sun/nio/fs/UnixFileStore.h>
 #include <sun/nio/fs/UnixFileSystem.h>
 #include <sun/nio/fs/UnixFileSystemProvider.h>
 #include <sun/nio/fs/UnixPath.h>
-#include <sun/nio/fs/UnixUserDefinedFileAttributeView.h>
 #include <sun/nio/fs/Util.h>
 #include <jcpp.h>
 
@@ -25,16 +22,13 @@ using $FileStore = ::java::nio::file::FileStore;
 using $Path = ::java::nio::file::Path;
 using $FileAttributeView = ::java::nio::file::attribute::FileAttributeView;
 using $UserDefinedFileAttributeView = ::java::nio::file::attribute::UserDefinedFileAttributeView;
-using $AbstractUserDefinedFileAttributeView = ::sun::nio::fs::AbstractUserDefinedFileAttributeView;
 using $BsdFileStore = ::sun::nio::fs::BsdFileStore;
 using $BsdFileSystem = ::sun::nio::fs::BsdFileSystem;
 using $BsdUserDefinedFileAttributeView = ::sun::nio::fs::BsdUserDefinedFileAttributeView;
 using $DynamicFileAttributeView = ::sun::nio::fs::DynamicFileAttributeView;
-using $UnixFileStore = ::sun::nio::fs::UnixFileStore;
 using $UnixFileSystem = ::sun::nio::fs::UnixFileSystem;
 using $UnixFileSystemProvider = ::sun::nio::fs::UnixFileSystemProvider;
 using $UnixPath = ::sun::nio::fs::UnixPath;
-using $UnixUserDefinedFileAttributeView = ::sun::nio::fs::UnixUserDefinedFileAttributeView;
 using $Util = ::sun::nio::fs::Util;
 
 namespace sun {

@@ -20,7 +20,6 @@
 #include <java/time/Ser.h>
 #include <java/time/Year.h>
 #include <java/time/ZoneId.h>
-#include <java/time/chrono/ChronoLocalDate.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/chrono/IsoChronology.h>
 #include <java/time/format/DateTimeFormatter.h>
@@ -50,12 +49,10 @@ using $Serializable = ::java::io::Serializable;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Clock = ::java::time::Clock;
 using $DateTimeException = ::java::time::DateTimeException;
@@ -65,7 +62,6 @@ using $MonthDay$1 = ::java::time::MonthDay$1;
 using $Ser = ::java::time::Ser;
 using $Year = ::java::time::Year;
 using $ZoneId = ::java::time::ZoneId;
-using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
 using $Chronology = ::java::time::chrono::Chronology;
 using $IsoChronology = ::java::time::chrono::IsoChronology;
 using $DateTimeFormatter = ::java::time::format::DateTimeFormatter;

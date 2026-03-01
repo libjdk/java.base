@@ -1,6 +1,5 @@
 #include <sun/net/www/protocol/jar/Handler.h>
 
-#include <java/net/JarURLConnection.h>
 #include <java/net/MalformedURLException.h>
 #include <java/net/URL.h>
 #include <java/net/URLConnection.h>
@@ -12,12 +11,11 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
-using $JarURLConnection = ::java::net::JarURLConnection;
 using $MalformedURLException = ::java::net::MalformedURLException;
 using $URL = ::java::net::URL;
 using $URLConnection = ::java::net::URLConnection;
 using $URLStreamHandler = ::java::net::URLStreamHandler;
-using $1JarURLConnection = ::sun::net::www::protocol::jar::JarURLConnection;
+using $JarURLConnection = ::sun::net::www::protocol::jar::JarURLConnection;
 
 namespace sun {
 	namespace net {
@@ -65,7 +63,7 @@ void Handler::init$() {
 }
 
 $URLConnection* Handler::openConnection($URL* u) {
-	return $new($1JarURLConnection, u, this);
+	return $new($JarURLConnection, u, this);
 }
 
 int32_t Handler::indexOfBangSlash($String* spec) {

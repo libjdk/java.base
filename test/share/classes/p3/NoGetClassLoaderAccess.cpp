@@ -5,7 +5,6 @@
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessControlException.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Optional.h>
 #include <jcpp.h>
@@ -21,7 +20,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $RuntimePermission = ::java::lang::RuntimePermission;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessControlException = ::java::security::AccessControlException;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Optional = ::java::util::Optional;
 

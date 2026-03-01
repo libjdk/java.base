@@ -11,7 +11,6 @@
 #include <java/lang/ref/Reference.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/file/FileSystemException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Iterator.h>
 #include <java/util/List.h>
@@ -47,7 +46,6 @@ using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $Reference = ::java::lang::ref::Reference;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $FileSystemException = ::java::nio::file::FileSystemException;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Iterator = ::java::util::Iterator;
 using $List = ::java::util::List;

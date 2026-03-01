@@ -8,7 +8,6 @@
 #include <java/io/OutputStream.h>
 #include <java/math/BigInteger.h>
 #include <java/net/URI.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
@@ -24,7 +23,6 @@
 #include <java/security/cert/CertificateFactory.h>
 #include <java/security/cert/X509CRL.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Date.h>
 #include <java/util/HashSet.h>
@@ -107,7 +105,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NamedAttribute = ::java::lang::NamedAttribute;
 using $BigInteger = ::java::math::BigInteger;
 using $URI = ::java::net::URI;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
@@ -120,7 +117,6 @@ using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateFactory = ::java::security::cert::CertificateFactory;
 using $X509CRL = ::java::security::cert::X509CRL;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Date = ::java::util::Date;
 using $HashSet = ::java::util::HashSet;

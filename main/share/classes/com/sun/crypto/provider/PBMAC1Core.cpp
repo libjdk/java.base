@@ -8,7 +8,6 @@
 #include <com/sun/crypto/provider/PBKDF2Core$HmacSHA512.h>
 #include <com/sun/crypto/provider/PBKDF2Core.h>
 #include <com/sun/crypto/provider/PBKDF2KeyImpl.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/Key.h>
@@ -33,11 +32,9 @@ using $PBKDF2Core$HmacSHA384 = ::com::sun::crypto::provider::PBKDF2Core$HmacSHA3
 using $PBKDF2Core$HmacSHA512 = ::com::sun::crypto::provider::PBKDF2Core$HmacSHA512;
 using $PBKDF2KeyImpl = ::com::sun::crypto::provider::PBKDF2KeyImpl;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $Key = ::java::security::Key;

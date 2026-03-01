@@ -1,7 +1,6 @@
 #include <java/util/regex/PrintPattern.h>
 
 #include <java/io/Serializable.h>
-#include <java/lang/Number.h>
 #include <java/util/HashMap.h>
 #include <java/util/regex/ASCII.h>
 #include <java/util/regex/CharPredicates.h>
@@ -34,7 +33,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $Number = ::java::lang::Number;
 using $HashMap = ::java::util::HashMap;
 using $ASCII = ::java::util::regex::ASCII;
 using $CharPredicates = ::java::util::regex::CharPredicates;

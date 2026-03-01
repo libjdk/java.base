@@ -14,14 +14,10 @@
 #include <java/util/function/IntFunction.h>
 #include <java/util/stream/AbstractPipeline.h>
 #include <java/util/stream/IntPipeline$StatefulOp.h>
-#include <java/util/stream/IntPipeline.h>
 #include <java/util/stream/Node$OfInt.h>
-#include <java/util/stream/Node$OfPrimitive.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
 #include <java/util/stream/PipelineHelper.h>
-#include <java/util/stream/Sink$ChainedInt.h>
-#include <java/util/stream/Sink$OfInt.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/SliceOps$2$1.h>
 #include <java/util/stream/SliceOps$SliceTask.h>
@@ -50,15 +46,11 @@ using $Spliterator$OfInt = ::java::util::Spliterator$OfInt;
 using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $IntFunction = ::java::util::function::IntFunction;
 using $AbstractPipeline = ::java::util::stream::AbstractPipeline;
-using $IntPipeline = ::java::util::stream::IntPipeline;
 using $IntPipeline$StatefulOp = ::java::util::stream::IntPipeline$StatefulOp;
 using $Node = ::java::util::stream::Node;
-using $Node$OfPrimitive = ::java::util::stream::Node$OfPrimitive;
 using $Nodes = ::java::util::stream::Nodes;
 using $PipelineHelper = ::java::util::stream::PipelineHelper;
 using $Sink = ::java::util::stream::Sink;
-using $Sink$ChainedInt = ::java::util::stream::Sink$ChainedInt;
-using $Sink$OfInt = ::java::util::stream::Sink$OfInt;
 using $SliceOps = ::java::util::stream::SliceOps;
 using $SliceOps$2$1 = ::java::util::stream::SliceOps$2$1;
 using $SliceOps$SliceTask = ::java::util::stream::SliceOps$SliceTask;

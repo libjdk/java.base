@@ -6,7 +6,6 @@
 #include <java/io/File.h>
 #include <java/io/FileReader.h>
 #include <java/io/FileWriter.h>
-#include <java/io/FilterReader.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -25,8 +24,6 @@
 #include <java/lang/invoke/MethodHandle.h>
 #include <java/lang/invoke/MethodHandles$Lookup.h>
 #include <java/lang/invoke/MethodType.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSequentialList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collections.h>
 #include <java/util/Iterator.h>
@@ -47,7 +44,6 @@ using $CharArrayReader = ::java::io::CharArrayReader;
 using $File = ::java::io::File;
 using $FileReader = ::java::io::FileReader;
 using $FileWriter = ::java::io::FileWriter;
-using $FilterReader = ::java::io::FilterReader;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
@@ -67,8 +63,6 @@ using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
 using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSequentialList = ::java::util::AbstractSequentialList;
 using $Arrays = ::java::util::Arrays;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;

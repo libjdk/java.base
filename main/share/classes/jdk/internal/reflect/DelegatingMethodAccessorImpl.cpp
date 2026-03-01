@@ -55,12 +55,12 @@ void DelegatingMethodAccessorImpl::setDelegate($MethodAccessorImpl* delegate) {
 DelegatingMethodAccessorImpl::DelegatingMethodAccessorImpl() {
 }
 
-Object$* DelegatingMethodAccessorImpl::invokeSpecial(Object$* obj, $ObjectArray* args) {
-	return $nullcheck(this->delegate)->invokeSpecial(obj, args);
+$Object* DelegatingMethodAccessorImpl::invokeSpecial(Object$* obj, $ObjectArray* args) {
+	return $nc(this->delegate)->invokeSpecial(obj, args);
 }
 
 $Value DelegatingMethodAccessorImpl::invokev(Object$* obj, $Value* argv) {
-	return $nullcheck(this->delegate)->invokev(obj, argv);
+	return $nc(this->delegate)->invokev(obj, argv);
 }
 
 $Class* DelegatingMethodAccessorImpl::load$($String* name, bool initialize) {

@@ -2,7 +2,6 @@
 
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Set.h>
 #include <sun/util/PreHashedMap$1.h>
 #include <sun/util/PreHashedMap$2.h>
@@ -14,7 +13,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Set = ::java::util::Set;
 using $PreHashedMap$1 = ::sun::util::PreHashedMap$1;
 using $PreHashedMap$2 = ::sun::util::PreHashedMap$2;

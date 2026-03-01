@@ -5,7 +5,6 @@
 #include <java/io/InputStream.h>
 #include <java/io/ObjectInputStream.h>
 #include <java/lang/AssertionError.h>
-#include <java/lang/Error.h>
 #include <java/lang/IllegalStateException.h>
 #include <jcpp.h>
 
@@ -18,8 +17,6 @@ using $PrintStream = ::java::io::PrintStream;
 using $ArithmeticException = ::java::lang::ArithmeticException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Error = ::java::lang::Error;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;

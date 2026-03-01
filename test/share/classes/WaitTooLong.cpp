@@ -7,7 +7,6 @@
 #undef MAX_VALUE
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalMonitorStateException = ::java::lang::IllegalMonitorStateException;
 using $InterruptedException = ::java::lang::InterruptedException;

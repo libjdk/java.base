@@ -30,7 +30,6 @@
 #include <jdk/internal/access/JavaUtilJarAccess.h>
 #include <jdk/internal/access/SharedSecrets.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <sun/security/util/SignatureFileVerifier.h>
 #include <jcpp.h>
 
@@ -58,7 +57,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $Integer = ::java::lang::Integer;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Charset = ::java::nio::charset::Charset;
 using $Files = ::java::nio::file::Files;
 using $InvalidPathException = ::java::nio::file::InvalidPathException;
@@ -81,7 +79,6 @@ using $JavaIORandomAccessFileAccess = ::jdk::internal::access::JavaIORandomAcces
 using $JavaUtilJarAccess = ::jdk::internal::access::JavaUtilJarAccess;
 using $SharedSecrets = ::jdk::internal::access::SharedSecrets;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 using $SignatureFileVerifier = ::sun::security::util::SignatureFileVerifier;
 
 namespace java {

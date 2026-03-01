@@ -13,7 +13,6 @@
 #include <jdk/internal/util/StaticProperty.h>
 #include <sun/nio/fs/AbstractBasicFileAttributeView.h>
 #include <sun/nio/fs/AbstractFileTypeDetector.h>
-#include <sun/nio/fs/AbstractUserDefinedFileAttributeView.h>
 #include <sun/nio/fs/DynamicFileAttributeView.h>
 #include <sun/nio/fs/LinuxDosFileAttributeView.h>
 #include <sun/nio/fs/LinuxFileStore.h>
@@ -21,11 +20,9 @@
 #include <sun/nio/fs/LinuxUserDefinedFileAttributeView.h>
 #include <sun/nio/fs/MimeTypesFileTypeDetector.h>
 #include <sun/nio/fs/UnixFileAttributeViews$Basic.h>
-#include <sun/nio/fs/UnixFileStore.h>
 #include <sun/nio/fs/UnixFileSystem.h>
 #include <sun/nio/fs/UnixFileSystemProvider.h>
 #include <sun/nio/fs/UnixPath.h>
-#include <sun/nio/fs/UnixUserDefinedFileAttributeView.h>
 #include <sun/nio/fs/Util.h>
 #include <jcpp.h>
 
@@ -45,7 +42,6 @@ using $FileTypeDetector = ::java::nio::file::spi::FileTypeDetector;
 using $StaticProperty = ::jdk::internal::util::StaticProperty;
 using $AbstractBasicFileAttributeView = ::sun::nio::fs::AbstractBasicFileAttributeView;
 using $AbstractFileTypeDetector = ::sun::nio::fs::AbstractFileTypeDetector;
-using $AbstractUserDefinedFileAttributeView = ::sun::nio::fs::AbstractUserDefinedFileAttributeView;
 using $DynamicFileAttributeView = ::sun::nio::fs::DynamicFileAttributeView;
 using $LinuxDosFileAttributeView = ::sun::nio::fs::LinuxDosFileAttributeView;
 using $LinuxFileStore = ::sun::nio::fs::LinuxFileStore;
@@ -53,11 +49,9 @@ using $LinuxFileSystem = ::sun::nio::fs::LinuxFileSystem;
 using $LinuxUserDefinedFileAttributeView = ::sun::nio::fs::LinuxUserDefinedFileAttributeView;
 using $MimeTypesFileTypeDetector = ::sun::nio::fs::MimeTypesFileTypeDetector;
 using $UnixFileAttributeViews$Basic = ::sun::nio::fs::UnixFileAttributeViews$Basic;
-using $UnixFileStore = ::sun::nio::fs::UnixFileStore;
 using $UnixFileSystem = ::sun::nio::fs::UnixFileSystem;
 using $UnixFileSystemProvider = ::sun::nio::fs::UnixFileSystemProvider;
 using $UnixPath = ::sun::nio::fs::UnixPath;
-using $UnixUserDefinedFileAttributeView = ::sun::nio::fs::UnixUserDefinedFileAttributeView;
 using $Util = ::sun::nio::fs::Util;
 
 namespace sun {

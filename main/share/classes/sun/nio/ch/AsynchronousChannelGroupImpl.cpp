@@ -10,10 +10,8 @@
 #include <java/nio/channels/spi/AsynchronousChannelProvider.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractQueue.h>
 #include <java/util/Queue.h>
 #include <java/util/concurrent/ConcurrentLinkedQueue.h>
 #include <java/util/concurrent/ExecutorService.h>
@@ -52,10 +50,8 @@ using $Channel = ::java::nio::channels::Channel;
 using $AsynchronousChannelProvider = ::java::nio::channels::spi::AsynchronousChannelProvider;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractQueue = ::java::util::AbstractQueue;
 using $Queue = ::java::util::Queue;
 using $ConcurrentLinkedQueue = ::java::util::concurrent::ConcurrentLinkedQueue;
 using $ExecutorService = ::java::util::concurrent::ExecutorService;

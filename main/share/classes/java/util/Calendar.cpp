@@ -23,7 +23,6 @@
 #include <java/text/DateFormat.h>
 #include <java/text/DateFormatSymbols.h>
 #include <java/time/Instant.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Calendar$1.h>
 #include <java/util/Calendar$AvailableCalendarTypes.h>
 #include <java/util/Calendar$CalendarAccessControlContext.h>
@@ -158,7 +157,6 @@ using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
 using $DateFormat = ::java::text::DateFormat;
 using $DateFormatSymbols = ::java::text::DateFormatSymbols;
 using $Instant = ::java::time::Instant;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Calendar$1 = ::java::util::Calendar$1;
 using $Calendar$AvailableCalendarTypes = ::java::util::Calendar$AvailableCalendarTypes;
 using $Calendar$CalendarAccessControlContext = ::java::util::Calendar$CalendarAccessControlContext;

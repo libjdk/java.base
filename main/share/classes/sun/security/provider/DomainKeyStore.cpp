@@ -16,7 +16,6 @@
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
 #include <java/security/DomainLoadStoreParameter.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/Key.h>
 #include <java/security/KeyStore$Builder.h>
 #include <java/security/KeyStore$LoadStoreParameter.h>
@@ -28,9 +27,7 @@
 #include <java/security/Provider.h>
 #include <java/security/Security.h>
 #include <java/security/cert/Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap$SimpleEntry.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -76,14 +73,12 @@ using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
 using $MalformedURLException = ::java::net::MalformedURLException;
 using $URI = ::java::net::URI;
 using $URISyntaxException = ::java::net::URISyntaxException;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
 using $DomainLoadStoreParameter = ::java::security::DomainLoadStoreParameter;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $Key = ::java::security::Key;
 using $KeyStore = ::java::security::KeyStore;
 using $KeyStore$Builder = ::java::security::KeyStore$Builder;
@@ -95,8 +90,6 @@ using $KeyStoreSpi = ::java::security::KeyStoreSpi;
 using $Provider = ::java::security::Provider;
 using $Security = ::java::security::Security;
 using $Certificate = ::java::security::cert::Certificate;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $AbstractMap$SimpleEntry = ::java::util::AbstractMap$SimpleEntry;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

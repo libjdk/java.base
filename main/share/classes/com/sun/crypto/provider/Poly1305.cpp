@@ -11,7 +11,6 @@
 #include <sun/security/util/math/IntegerFieldModuloP.h>
 #include <sun/security/util/math/IntegerModuloP.h>
 #include <sun/security/util/math/MutableIntegerModuloP.h>
-#include <sun/security/util/math/intpoly/IntegerPolynomial.h>
 #include <sun/security/util/math/intpoly/IntegerPolynomial1305.h>
 #include <jcpp.h>
 
@@ -35,7 +34,6 @@ using $ImmutableIntegerModuloP = ::sun::security::util::math::ImmutableIntegerMo
 using $IntegerFieldModuloP = ::sun::security::util::math::IntegerFieldModuloP;
 using $IntegerModuloP = ::sun::security::util::math::IntegerModuloP;
 using $MutableIntegerModuloP = ::sun::security::util::math::MutableIntegerModuloP;
-using $IntegerPolynomial = ::sun::security::util::math::intpoly::IntegerPolynomial;
 using $IntegerPolynomial1305 = ::sun::security::util::math::intpoly::IntegerPolynomial1305;
 
 namespace com {

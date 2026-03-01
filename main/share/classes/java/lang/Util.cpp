@@ -312,117 +312,6 @@ Object0* Util::convert(Class* type, Object0* arg) {
 	}
 }
 
-$ObjectArray* Util::prepareArgs(bool isVarArgs, $Array<Class>* types, $ObjectArray* args) {
-	if (isVarArgs) {
-		Class* varArgClazz = $fcast<Class>(types->get(types->length - 1));
-		Class* componentType = varArgClazz->getComponentType();
-		if (args == nullptr) {
-			if (types->length == 1) {
-				$var($ObjectArray, args0, $new<$ObjectArray>(1));
-				int32_t fixArgCount = types->length - 1;
-				args0->set(fixArgCount, ::java::lang::reflect::Array::newArray(componentType, 0));
-				return args0;
-			}
-			$throwNew(IllegalArgumentException);
-		}
-		if (args->length < types->length - 1) {
-			$throwNew(IllegalArgumentException);
-		} else if (args->length == types->length - 1) {
-			$var($ObjectArray, args0, $new<$ObjectArray>(types->length));
-			int32_t fixArgCount = types->length - 1;
-			for (int32_t i = 0; i < fixArgCount; i++) {
-				Class* type = $fcast<Class>(types->get(i));
-				Object0* arg = args->get(i);
-				if (needConvert(type, arg)) {
-					args0->set(i, convert(type, arg));
-				} else {
-					args0->set(i, arg);
-				}
-			}
-			args0->set(fixArgCount, ::java::lang::reflect::Array::newArray(componentType, 0));
-			return args0;
-		} else if (args->length == types->length) {
-			Object* arg = args->get(args->length - 1);
-			if (arg == nullptr) {
-				return args;
-			}
-			if (varArgClazz->isInstance(arg)) {
-				return args;
-			}
-		/*	if (componentType->isInstance(arg)) {
-				$var(ObjectArray, args0, $new<ObjectArray>(types->length));
-				int32_t fixArgCount = types->length - 1;
-				args0->setArray(0, fixArgCount, args, 0);
-				$var(ObjectArray, varArgs, Array::newArray(componentType, 1));
-				varArgs->set(0, arg);
-				args0->set(fixArgCount, varArgs);
-				$return (args0);
-			}
-			$throwNew(IllegalArgumentException);
-			*/
-		}
-		$var($ObjectArray, args0, $new<$ObjectArray>(types->length));
-		int32_t fixArgCount = types->length - 1;
-		for (int32_t i = 0; i < fixArgCount; i++) {
-			Class* type = $fcast<Class>(types->get(i));
-			Object0* arg = args->get(i);
-			if (needConvert(type, arg)) {
-				args0->set(i, convert(type, arg));
-			} else {
-				args0->set(i, arg);
-			}
-		}
-		$var($ObjectArray, varArgs, $ObjectArray::create(componentType, args->length - fixArgCount));
-		for (int32_t i = 0; i < varArgs->length; i++) {
-			Object0* arg = args->get(i + fixArgCount);
-			if (arg != nullptr && !componentType->isInstance(arg)) {
-				$throwNew(IllegalArgumentException);
-			}
-			if (needConvert(componentType, arg)) {
-				varArgs->set(i, convert(componentType, arg));
-			} else {
-				varArgs->set(i, arg);
-			}
-		//	varArgs->set(i, arg);
-		}
-		args0->set(fixArgCount, varArgs);
-		return args0;
-	} else {
-		if (args == nullptr) {
-			if (types->length == 0) {
-				return ($ObjectArray*)$ObjectArray::EMPTY;
-			}
-			$throwNew(IllegalArgumentException);
-		} else if (types->length > args->length) {
-			$throwNew(IllegalArgumentException);
-		}
-		int32_t fixArgCount = types->length;
-		bool needNewArgs = false;
-		for (int32_t i = 0; i < fixArgCount; i++) {
-			Class* type = $fcast<Class>(types->get(i));
-			Object0* arg = args->get(i);
-			if (needConvert(type, arg)) {
-				needNewArgs = true;
-				break;
-			}
-		}
-		if (!needNewArgs) {
-			return args;
-		}
-		$var($ObjectArray, args0, $new<$ObjectArray>(fixArgCount));
-		for (int32_t i = 0; i < fixArgCount; i++) {
-			Class* type = $fcast<Class>(types->get(i));
-			Object0* arg = args->get(i);
-			if (needConvert(type, arg)) {
-				args0->set(i, convert(type, arg));
-			} else {
-				args0->set(i, arg);
-			}
-		}
-		return args0;
-	}
-}
-
 $Value Util::prepareArg(Class* type, Object0* arg) {
 	if (arg == nullptr) {
 		return nullptr;
@@ -665,92 +554,64 @@ void Util::prepareArgs($Array<Class>* types, $ObjectArray* args, $Value* output)
 	}
 	int32_t fixArgCount = types->length;
 	for (int32_t i = 0; i < fixArgCount; i++) {
-		Class* type = $fcast<Class>(types->get(i));
+		Class* type = types->get(i);
 		Object0* arg = args->get(i);
 		output[i] = prepareArg(type, arg);
 	}
 }
 
 Object* Util::prepareArgsWithVarArgs($Array<Class>* types, $ObjectArray* args, $Value* output) {
-	Class* varArgClazz = $fcast<Class>(types->get(types->length - 1));
+	int32_t fixArgCount = types->length - 1;
+	Class* varArgClazz = types->get(fixArgCount);
 	Class* componentType = varArgClazz->getComponentType();
 	if (args == nullptr) {
 		if (types->length == 1) {
 			$var($ObjectArray, args0, $new<$ObjectArray>(1));
-			int32_t fixArgCount = types->length - 1;
-			args0->set(fixArgCount, ::java::lang::reflect::Array::newArray(componentType, 0));
+			args0->set(0, ::java::lang::reflect::Array::newArray(componentType, 0));
 			output[0] = args0;
 			return args0;
 		}
 		$throwNew(IllegalArgumentException);
 	}
-	if (args->length < types->length - 1) {
+	if (args->length < fixArgCount) {
 		$throwNew(IllegalArgumentException);
-	} else if (args->length == types->length - 1) {
-	//	$var($ObjectArray, args0, $new<$ObjectArray>(types->length));
-		int32_t fixArgCount = types->length - 1;
-		for (int32_t i = 0; i < fixArgCount; i++) {
-			Class* type = $fcast<Class>(types->get(i));
-			Object0* arg = args->get(i);
-		//	if (needConvert(type, arg)) {
-		//		args0->set(i, convert(type, arg));
-		//	} else {
-		//		args0->set(i, arg);
-		//	}
-			output[i] = prepareArg(type, arg);
-		}
-		$var($Object, varArg, ::java::lang::reflect::Array::newArray(componentType, 0));
-	//	args0->set(fixArgCount, ::java::lang::reflect::Array::newArray(componentType, 0));
-		output[fixArgCount] = varArg;
-		return varArg;
-	} else if (args->length == types->length) {
-		Object* arg = args->get(args->length - 1);
-		if (arg == nullptr) {
-	//		return args;
-			for (int32_t i = 0; i < types->length; i++) {
-				Class* type = $fcast<Class>(types->get(i));
-				Object0* arg = args->get(i);
-				output[i] = prepareArg(type, arg);
-			}
-			return nullptr;
-		}
-		if (varArgClazz->isInstance(arg)) {
-	//		return args;
-			for (int32_t i = 0; i < types->length; i++) {
-				Class* type = $fcast<Class>(types->get(i));
-				Object0* arg = args->get(i);
-				output[i] = prepareArg(type, arg);
-			}
-			return nullptr;
-		}
 	}
-//	$var($ObjectArray, args0, $new<$ObjectArray>(types->length));
-	int32_t fixArgCount = types->length - 1;
 	for (int32_t i = 0; i < fixArgCount; i++) {
-		Class* type = $fcast<Class>(types->get(i));
+		Class* type = types->get(i);
 		Object0* arg = args->get(i);
-	//	if (needConvert(type, arg)) {
-	//		args0->set(i, convert(type, arg));
-	//	} else {
-	//		args0->set(i, arg);
-	//	}
 		output[i] = prepareArg(type, arg);
 	}
-	$var($ObjectArray, varArgs, $ObjectArray::create(componentType, args->length - fixArgCount));
+	int32_t varArgsCount = args->length - fixArgCount;
+	if (varArgsCount == 0) {
+		if (fixArgCount == 0) {
+			if (varArgClazz->isInstance(args)) {
+				output[0] = args;
+				return nullptr;
+			}
+		}
+	} else if (varArgsCount == 1) {
+		if (fixArgCount == 0) {
+			if (varArgClazz->isInstance(args)) {
+				output[0] = args;
+				return nullptr;
+			}
+		}
+		Object0* arg = args->get(fixArgCount);
+		if (varArgClazz->isInstance(arg)) {
+			output[fixArgCount] = arg;
+			return nullptr;
+		}
+	}
+	$var($ObjectArray, varArgs, $ObjectArray::create(componentType, varArgsCount));
 	for (int32_t i = 0; i < varArgs->length; i++) {
 		Object0* arg = args->get(i + fixArgCount);
-		if (arg != nullptr && !componentType->isInstance(arg)) {
-	//		$throwNew(IllegalArgumentException);
-		}
 		if (needConvert(componentType, arg)) {
 			varArgs->set(i, convert(componentType, arg));
 		} else {
 			varArgs->set(i, arg);
 		}
-	//	varArgs->set(i, arg);
 	}
 	output[fixArgCount] = varArgs;
-//	args0->set(fixArgCount, varArgs);
 	return varArgs;
 }
 

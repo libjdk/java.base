@@ -7,7 +7,6 @@
 #include <java/net/URLConnection.h>
 #include <java/net/URLStreamHandler.h>
 #include <sun/net/www/ParseUtil.h>
-#include <sun/net/www/URLConnection.h>
 #include <sun/net/www/protocol/file/FileURLConnection.h>
 #include <sun/net/www/protocol/file/UNCFileURLConnection.h>
 #include <jcpp.h>
@@ -21,7 +20,6 @@ using $URL = ::java::net::URL;
 using $URLConnection = ::java::net::URLConnection;
 using $URLStreamHandler = ::java::net::URLStreamHandler;
 using $ParseUtil = ::sun::net::www::ParseUtil;
-using $1URLConnection = ::sun::net::www::URLConnection;
 using $FileURLConnection = ::sun::net::www::protocol::file::FileURLConnection;
 using $UNCFileURLConnection = ::sun::net::www::protocol::file::UNCFileURLConnection;
 

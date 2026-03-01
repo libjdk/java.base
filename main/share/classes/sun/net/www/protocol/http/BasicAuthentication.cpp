@@ -18,7 +18,6 @@
 #include <sun/net/www/protocol/http/HttpURLConnection.h>
 #include <sun/nio/cs/ISO_8859_1.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef BASIC
@@ -47,7 +46,6 @@ using $AuthenticationInfo = ::sun::net::www::protocol::http::AuthenticationInfo;
 using $HttpURLConnection = ::sun::net::www::protocol::http::HttpURLConnection;
 using $ISO_8859_1 = ::sun::nio::cs::ISO_8859_1;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace sun {
 	namespace net {

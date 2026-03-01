@@ -7,7 +7,6 @@
 #include <java/util/ConcurrentModificationException.h>
 #include <java/util/IdentityHashMap$EntryIterator.h>
 #include <java/util/IdentityHashMap$EntrySpliterator.h>
-#include <java/util/IdentityHashMap$IdentityHashMapIterator.h>
 #include <java/util/IdentityHashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -27,7 +26,6 @@ using $ConcurrentModificationException = ::java::util::ConcurrentModificationExc
 using $IdentityHashMap = ::java::util::IdentityHashMap;
 using $IdentityHashMap$EntryIterator = ::java::util::IdentityHashMap$EntryIterator;
 using $IdentityHashMap$EntrySpliterator = ::java::util::IdentityHashMap$EntrySpliterator;
-using $IdentityHashMap$IdentityHashMapIterator = ::java::util::IdentityHashMap$IdentityHashMapIterator;
 using $Iterator = ::java::util::Iterator;
 using $Map$Entry = ::java::util::Map$Entry;
 using $Objects = ::java::util::Objects;

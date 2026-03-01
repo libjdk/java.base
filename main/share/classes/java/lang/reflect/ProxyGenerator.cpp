@@ -18,11 +18,8 @@
 #include <java/lang/reflect/ProxyGenerator$ProxyMethod.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
-#include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/LinkedHashMap.h>
 #include <java/util/LinkedList.h>
@@ -90,11 +87,8 @@ using $ProxyGenerator$1 = ::java::lang::reflect::ProxyGenerator$1;
 using $ProxyGenerator$ProxyMethod = ::java::lang::reflect::ProxyGenerator$ProxyMethod;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
-using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $LinkedHashMap = ::java::util::LinkedHashMap;
 using $LinkedList = ::java::util::LinkedList;

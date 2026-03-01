@@ -1,12 +1,10 @@
 #include <java/util/jar/JarOutputStream.h>
 
 #include <java/io/BufferedOutputStream.h>
-#include <java/io/FilterOutputStream.h>
 #include <java/io/OutputStream.h>
 #include <java/lang/ArrayIndexOutOfBoundsException.h>
 #include <java/util/jar/JarFile.h>
 #include <java/util/jar/Manifest.h>
-#include <java/util/zip/DeflaterOutputStream.h>
 #include <java/util/zip/ZipEntry.h>
 #include <java/util/zip/ZipOutputStream.h>
 #include <jcpp.h>
@@ -15,7 +13,6 @@
 #undef MANIFEST_NAME
 
 using $BufferedOutputStream = ::java::io::BufferedOutputStream;
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $OutputStream = ::java::io::OutputStream;
 using $ArrayIndexOutOfBoundsException = ::java::lang::ArrayIndexOutOfBoundsException;
 using $Byte = ::java::lang::Byte;
@@ -25,7 +22,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $JarFile = ::java::util::jar::JarFile;
 using $Manifest = ::java::util::jar::Manifest;
-using $DeflaterOutputStream = ::java::util::zip::DeflaterOutputStream;
 using $ZipEntry = ::java::util::zip::ZipEntry;
 using $ZipOutputStream = ::java::util::zip::ZipOutputStream;
 

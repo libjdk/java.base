@@ -29,7 +29,6 @@
 #include <java/util/stream/ReduceOps$7.h>
 #include <java/util/stream/ReduceOps$8.h>
 #include <java/util/stream/ReduceOps$9.h>
-#include <java/util/stream/ReduceOps$ReduceOp.h>
 #include <java/util/stream/StreamShape.h>
 #include <java/util/stream/TerminalOp.h>
 #include <jcpp.h>
@@ -71,7 +70,6 @@ using $ReduceOps$6 = ::java::util::stream::ReduceOps$6;
 using $ReduceOps$7 = ::java::util::stream::ReduceOps$7;
 using $ReduceOps$8 = ::java::util::stream::ReduceOps$8;
 using $ReduceOps$9 = ::java::util::stream::ReduceOps$9;
-using $ReduceOps$ReduceOp = ::java::util::stream::ReduceOps$ReduceOp;
 using $StreamShape = ::java::util::stream::StreamShape;
 using $TerminalOp = ::java::util::stream::TerminalOp;
 

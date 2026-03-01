@@ -28,11 +28,8 @@
 #include <java/lang/reflect/Modifier.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractSet.h>
-#include <java/util/HashSet.h>
 #include <java/util/LinkedHashSet.h>
 #include <java/util/PropertyPermission.h>
 #include <java/util/Set.h>
@@ -89,7 +86,6 @@ using $Serializable = ::java::io::Serializable;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $Double = ::java::lang::Double;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $Float = ::java::lang::Float;
 using $IllegalAccessException = ::java::lang::IllegalAccessException;
@@ -121,11 +117,8 @@ using $Constructor = ::java::lang::reflect::Constructor;
 using $Modifier = ::java::lang::reflect::Modifier;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractSet = ::java::util::AbstractSet;
-using $HashSet = ::java::util::HashSet;
 using $LinkedHashSet = ::java::util::LinkedHashSet;
 using $PropertyPermission = ::java::util::PropertyPermission;
 using $Set = ::java::util::Set;

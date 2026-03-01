@@ -9,7 +9,6 @@
 #include <java/time/ZoneId.h>
 #include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/ChronoLocalDate.h>
-#include <java/time/chrono/ChronoLocalDateImpl.h>
 #include <java/time/chrono/ChronoLocalDateTime.h>
 #include <java/time/chrono/ChronoZonedDateTime.h>
 #include <java/time/chrono/Chronology.h>
@@ -20,7 +19,6 @@
 #include <java/time/chrono/ThaiBuddhistEra.h>
 #include <java/time/format/ResolverStyle.h>
 #include <java/time/temporal/ChronoField.h>
-#include <java/time/temporal/Temporal.h>
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/ValueRange.h>
 #include <java/util/HashMap.h>
@@ -52,7 +50,6 @@ using $LocalDate = ::java::time::LocalDate;
 using $ZoneId = ::java::time::ZoneId;
 using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $ChronoLocalDate = ::java::time::chrono::ChronoLocalDate;
-using $ChronoLocalDateImpl = ::java::time::chrono::ChronoLocalDateImpl;
 using $ChronoLocalDateTime = ::java::time::chrono::ChronoLocalDateTime;
 using $ChronoZonedDateTime = ::java::time::chrono::ChronoZonedDateTime;
 using $Era = ::java::time::chrono::Era;
@@ -62,7 +59,6 @@ using $ThaiBuddhistDate = ::java::time::chrono::ThaiBuddhistDate;
 using $ThaiBuddhistEra = ::java::time::chrono::ThaiBuddhistEra;
 using $ResolverStyle = ::java::time::format::ResolverStyle;
 using $ChronoField = ::java::time::temporal::ChronoField;
-using $Temporal = ::java::time::temporal::Temporal;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $ValueRange = ::java::time::temporal::ValueRange;
 using $HashMap = ::java::util::HashMap;

@@ -15,7 +15,6 @@
 #include <java/nio/file/WatchEvent$Kind.h>
 #include <java/nio/file/WatchEvent$Modifier.h>
 #include <java/nio/file/WatchKey.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
@@ -23,7 +22,6 @@
 #include <java/util/function/Consumer.h>
 #include <jdk/internal/misc/Unsafe.h>
 #include <sun/nio/fs/AbstractPoller.h>
-#include <sun/nio/fs/AbstractWatchKey.h>
 #include <sun/nio/fs/AbstractWatchService.h>
 #include <sun/nio/fs/ExtendedOptions$InternalOption.h>
 #include <sun/nio/fs/ExtendedOptions.h>
@@ -77,7 +75,6 @@ using $StandardWatchEventKinds = ::java::nio::file::StandardWatchEventKinds;
 using $WatchEvent$Kind = ::java::nio::file::WatchEvent$Kind;
 using $WatchEvent$Modifier = ::java::nio::file::WatchEvent$Modifier;
 using $WatchKey = ::java::nio::file::WatchKey;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
@@ -85,7 +82,6 @@ using $Set = ::java::util::Set;
 using $Consumer = ::java::util::function::Consumer;
 using $Unsafe = ::jdk::internal::misc::Unsafe;
 using $AbstractPoller = ::sun::nio::fs::AbstractPoller;
-using $AbstractWatchKey = ::sun::nio::fs::AbstractWatchKey;
 using $AbstractWatchService = ::sun::nio::fs::AbstractWatchService;
 using $ExtendedOptions = ::sun::nio::fs::ExtendedOptions;
 using $ExtendedOptions$InternalOption = ::sun::nio::fs::ExtendedOptions$InternalOption;

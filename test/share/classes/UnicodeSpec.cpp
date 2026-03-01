@@ -4,7 +4,6 @@
 #include <java/io/File.h>
 #include <java/io/FileReader.h>
 #include <java/io/IOException.h>
-#include <java/io/InputStreamReader.h>
 #include <java/io/Reader.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/Math.h>
@@ -95,7 +94,6 @@ using $BufferedReader = ::java::io::BufferedReader;
 using $File = ::java::io::File;
 using $FileReader = ::java::io::FileReader;
 using $IOException = ::java::io::IOException;
-using $InputStreamReader = ::java::io::InputStreamReader;
 using $PrintStream = ::java::io::PrintStream;
 using $Reader = ::java::io::Reader;
 using $CharSequence = ::java::lang::CharSequence;

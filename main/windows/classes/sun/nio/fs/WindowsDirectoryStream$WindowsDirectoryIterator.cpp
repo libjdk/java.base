@@ -7,7 +7,6 @@
 #include <java/nio/file/FileSystem.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/nio/file/attribute/DosFileAttributes.h>
 #include <java/util/NoSuchElementException.h>
 #include <sun/nio/fs/NativeBuffer.h>
 #include <sun/nio/fs/WindowsDirectoryStream.h>
@@ -28,7 +27,6 @@ using $DirectoryIteratorException = ::java::nio::file::DirectoryIteratorExceptio
 using $DirectoryStream$Filter = ::java::nio::file::DirectoryStream$Filter;
 using $Path = ::java::nio::file::Path;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $DosFileAttributes = ::java::nio::file::attribute::DosFileAttributes;
 using $NoSuchElementException = ::java::util::NoSuchElementException;
 using $NativeBuffer = ::sun::nio::fs::NativeBuffer;
 using $WindowsDirectoryStream = ::sun::nio::fs::WindowsDirectoryStream;

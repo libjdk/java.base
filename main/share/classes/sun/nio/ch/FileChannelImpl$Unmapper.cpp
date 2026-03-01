@@ -5,7 +5,6 @@
 #include <java/lang/AssertionError.h>
 #include <java/lang/Runnable.h>
 #include <sun/nio/ch/FileChannelImpl.h>
-#include <sun/nio/ch/FileDispatcher.h>
 #include <sun/nio/ch/FileDispatcherImpl.h>
 #include <sun/nio/ch/NativeDispatcher.h>
 #include <jcpp.h>
@@ -19,7 +18,6 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Runnable = ::java::lang::Runnable;
 using $FileChannelImpl = ::sun::nio::ch::FileChannelImpl;
-using $FileDispatcher = ::sun::nio::ch::FileDispatcher;
 using $FileDispatcherImpl = ::sun::nio::ch::FileDispatcherImpl;
 using $NativeDispatcher = ::sun::nio::ch::NativeDispatcher;
 

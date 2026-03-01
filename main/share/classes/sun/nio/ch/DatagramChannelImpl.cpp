@@ -51,7 +51,6 @@
 #include <java/nio/channels/spi/AbstractInterruptibleChannel.h>
 #include <java/nio/channels/spi/AbstractSelectableChannel.h>
 #include <java/nio/channels/spi/SelectorProvider.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -161,7 +160,6 @@ using $NotYetConnectedException = ::java::nio::channels::NotYetConnectedExceptio
 using $SelectionKey = ::java::nio::channels::SelectionKey;
 using $AbstractSelectableChannel = ::java::nio::channels::spi::AbstractSelectableChannel;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

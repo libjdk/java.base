@@ -5,7 +5,6 @@
 #include <java/lang/System$Logger$Level.h>
 #include <java/lang/System$Logger.h>
 #include <java/lang/ref/WeakReference.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/HashMap.h>
 #include <java/util/Map.h>
 #include <jdk/internal/logger/LazyLoggers.h>
@@ -35,7 +34,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $System$Logger$Level = ::java::lang::System$Logger$Level;
 using $WeakReference = ::java::lang::ref::WeakReference;
-using $AbstractMap = ::java::util::AbstractMap;
 using $HashMap = ::java::util::HashMap;
 using $Map = ::java::util::Map;
 using $LazyLoggers = ::jdk::internal::logger::LazyLoggers;

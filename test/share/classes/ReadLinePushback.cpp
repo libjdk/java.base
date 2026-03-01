@@ -1,14 +1,12 @@
 #include <ReadLinePushback.h>
 
 #include <java/io/DataInputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/InputStream.h>
 #include <java/io/PushbackInputStream.h>
 #include <java/io/StringBufferInputStream.h>
 #include <jcpp.h>
 
 using $DataInputStream = ::java::io::DataInputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $InputStream = ::java::io::InputStream;
 using $PushbackInputStream = ::java::io::PushbackInputStream;
 using $StringBufferInputStream = ::java::io::StringBufferInputStream;

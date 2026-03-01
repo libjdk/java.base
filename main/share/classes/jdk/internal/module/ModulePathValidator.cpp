@@ -19,7 +19,6 @@
 #include <java/nio/file/NoSuchFileException.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/util/AbstractMap.h>
 #include <java/util/Comparator.h>
 #include <java/util/HashMap.h>
 #include <java/util/Iterator.h>
@@ -55,7 +54,6 @@ using $Files = ::java::nio::file::Files;
 using $NoSuchFileException = ::java::nio::file::NoSuchFileException;
 using $Path = ::java::nio::file::Path;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $AbstractMap = ::java::util::AbstractMap;
 using $Comparator = ::java::util::Comparator;
 using $HashMap = ::java::util::HashMap;
 using $Iterator = ::java::util::Iterator;

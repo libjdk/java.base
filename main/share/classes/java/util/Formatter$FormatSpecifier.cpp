@@ -1,6 +1,5 @@
 #include <java/util/Formatter$FormatSpecifier.h>
 
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/AssertionError.h>
 #include <java/lang/CharSequence.h>
@@ -140,7 +139,6 @@
 #undef ZONE_OFFSET
 
 using $Formatter$FlagsArray = $Array<::java::util::Formatter$Flags>;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $AssertionError = ::java::lang::AssertionError;
 using $Boolean = ::java::lang::Boolean;

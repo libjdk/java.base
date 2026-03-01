@@ -7,8 +7,6 @@
 #include <java/nio/channels/Channel.h>
 #include <java/nio/channels/FileLock.h>
 #include <java/nio/channels/OverlappingFileLockException.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -29,8 +27,6 @@ using $ReferenceQueue = ::java::lang::ref::ReferenceQueue;
 using $Channel = ::java::nio::channels::Channel;
 using $FileLock = ::java::nio::channels::FileLock;
 using $OverlappingFileLockException = ::java::nio::channels::OverlappingFileLockException;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

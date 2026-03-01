@@ -33,7 +33,6 @@ public:
 
 	static bool needConvert(Class* type, Object0* arg);
 	static Object0* convert(Class* type, Object0* arg);
-	static $ObjectArray* prepareArgs(bool isVarArgs, $ClassArray* types, $ObjectArray* args);
 
 	static $Value prepareArg(Class* type, Object0* arg);
 	static Object* toObject(Class* type, $Value var);

@@ -7,7 +7,6 @@
 #include <jdk/internal/org/objectweb/asm/ModuleVisitor.h>
 #include <jdk/internal/org/objectweb/asm/Opcodes.h>
 #include <jdk/internal/org/objectweb/asm/TypePath.h>
-#include <jdk/internal/org/objectweb/asm/commons/LocalVariablesSorter.h>
 #include <jdk/internal/org/objectweb/asm/commons/Remapper.h>
 #include <jdk/internal/org/objectweb/asm/commons/RemappingAnnotationAdapter.h>
 #include <jdk/internal/org/objectweb/asm/commons/RemappingFieldAdapter.h>
@@ -28,7 +27,6 @@ using $MethodVisitor = ::jdk::internal::org::objectweb::asm$::MethodVisitor;
 using $ModuleVisitor = ::jdk::internal::org::objectweb::asm$::ModuleVisitor;
 using $Opcodes = ::jdk::internal::org::objectweb::asm$::Opcodes;
 using $TypePath = ::jdk::internal::org::objectweb::asm$::TypePath;
-using $LocalVariablesSorter = ::jdk::internal::org::objectweb::asm$::commons::LocalVariablesSorter;
 using $Remapper = ::jdk::internal::org::objectweb::asm$::commons::Remapper;
 using $RemappingAnnotationAdapter = ::jdk::internal::org::objectweb::asm$::commons::RemappingAnnotationAdapter;
 using $RemappingFieldAdapter = ::jdk::internal::org::objectweb::asm$::commons::RemappingFieldAdapter;

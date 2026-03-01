@@ -14,7 +14,6 @@
 #include <java/lang/module/ModuleReference.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/MessageDigest.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/util/AbstractMap.h>
@@ -40,7 +39,6 @@ using $InputStream = ::java::io::InputStream;
 using $Serializable = ::java::io::Serializable;
 using $UncheckedIOException = ::java::io::UncheckedIOException;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
@@ -51,7 +49,6 @@ using $ModuleDescriptor = ::java::lang::module::ModuleDescriptor;
 using $ModuleReader = ::java::lang::module::ModuleReader;
 using $ModuleReference = ::java::lang::module::ModuleReference;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $MessageDigest = ::java::security::MessageDigest;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $AbstractMap = ::java::util::AbstractMap;

@@ -15,7 +15,6 @@
 #include <java/net/URL.h>
 #include <java/security/AccessController.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/security/SecureClassLoader.h>
 #include <java/util/Arrays.h>
 #include <java/util/Enumeration.h>
 #include <java/util/concurrent/ConcurrentHashMap.h>
@@ -53,7 +52,6 @@ using $ModuleReference = ::java::lang::module::ModuleReference;
 using $URL = ::java::net::URL;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
 using $Arrays = ::java::util::Arrays;
 using $Enumeration = ::java::util::Enumeration;
 using $ConcurrentHashMap = ::java::util::concurrent::ConcurrentHashMap;

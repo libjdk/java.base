@@ -1,7 +1,6 @@
 #include <jdk/internal/jimage/ImageReader$Directory.h>
 
 #include <java/nio/file/attribute/BasicFileAttributes.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/Iterator.h>
@@ -16,7 +15,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $Iterator = ::java::util::Iterator;

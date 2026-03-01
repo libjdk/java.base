@@ -5,7 +5,6 @@
 #include <java/text/AttributedCharacterIterator$Attribute.h>
 #include <java/text/AttributedString.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashSet.h>
 #include <java/util/Map$Entry.h>
 #include <java/util/Set.h>
@@ -21,7 +20,6 @@ using $AttributeEntry = ::java::text::AttributeEntry;
 using $AttributedCharacterIterator$Attribute = ::java::text::AttributedCharacterIterator$Attribute;
 using $AttributedString = ::java::text::AttributedString;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashSet = ::java::util::HashSet;
 using $Map$Entry = ::java::util::Map$Entry;
 using $Set = ::java::util::Set;

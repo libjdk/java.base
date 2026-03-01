@@ -2,7 +2,6 @@
 
 #include <NetworkChannelTests.h>
 #include <java/nio/channels/DatagramChannel.h>
-#include <java/nio/channels/MulticastChannel.h>
 #include <java/nio/channels/NetworkChannel.h>
 #include <jcpp.h>
 
@@ -11,7 +10,6 @@ using $EnclosingMethodInfo = ::java::lang::EnclosingMethodInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $DatagramChannel = ::java::nio::channels::DatagramChannel;
-using $MulticastChannel = ::java::nio::channels::MulticastChannel;
 using $NetworkChannel = ::java::nio::channels::NetworkChannel;
 
 $MethodInfo _NetworkChannelTests$3_MethodInfo_[] = {

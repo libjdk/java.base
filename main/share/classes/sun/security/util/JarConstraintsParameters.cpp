@@ -6,7 +6,6 @@
 #include <java/security/Timestamp.h>
 #include <java/security/cert/CertPath.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Date.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -28,7 +27,6 @@ using $Key = ::java::security::Key;
 using $Timestamp = ::java::security::Timestamp;
 using $CertPath = ::java::security::cert::CertPath;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Date = ::java::util::Date;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

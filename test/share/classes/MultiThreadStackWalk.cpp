@@ -6,7 +6,6 @@
 #include <MultiThreadStackWalk$Test.h>
 #include <MultiThreadStackWalk$WalkThread.h>
 #include <java/lang/ClassNotFoundException.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -27,11 +26,9 @@ using $MultiThreadStackWalk$WalkThreadArray = $Array<MultiThreadStackWalk$WalkTh
 using $PrintStream = ::java::io::PrintStream;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassNotFoundException = ::java::lang::ClassNotFoundException;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;

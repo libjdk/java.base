@@ -15,7 +15,6 @@
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/IllegalCharsetNameException.h>
 #include <java/nio/charset/UnsupportedCharsetException.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractMap.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -44,7 +43,6 @@
 #include <jdk/internal/util/xml/PropertiesDefaultHandler.h>
 #include <sun/nio/cs/ISO_8859_1.h>
 #include <sun/nio/cs/UTF_8.h>
-#include <sun/nio/cs/Unicode.h>
 #include <jcpp.h>
 
 #undef INSTANCE
@@ -78,7 +76,6 @@ using $Void = ::java::lang::Void;
 using $Charset = ::java::nio::charset::Charset;
 using $IllegalCharsetNameException = ::java::nio::charset::IllegalCharsetNameException;
 using $UnsupportedCharsetException = ::java::nio::charset::UnsupportedCharsetException;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractMap = ::java::util::AbstractMap;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
@@ -106,7 +103,6 @@ using $Unsafe = ::jdk::internal::misc::Unsafe;
 using $PropertiesDefaultHandler = ::jdk::internal::util::xml::PropertiesDefaultHandler;
 using $ISO_8859_1 = ::sun::nio::cs::ISO_8859_1;
 using $UTF_8 = ::sun::nio::cs::UTF_8;
-using $Unicode = ::sun::nio::cs::Unicode;
 
 namespace java {
 	namespace util {

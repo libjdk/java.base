@@ -315,7 +315,7 @@ bool MemoryManager::attachStore(int32_t slabIndex, StoredMemoryAllocater* alloca
 						allocater->init(store);
 						storeList.prepend(store);
 						if (listHead != nullptr) {
-							pendingStoreList.prependAll(listHead);
+							pendingStoreList.prependList(listHead);
 						}
 						return true;
 					}

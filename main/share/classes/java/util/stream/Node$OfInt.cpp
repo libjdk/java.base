@@ -15,7 +15,6 @@
 #include <java/util/stream/Node$Builder$OfInt.h>
 #include <java/util/stream/Node.h>
 #include <java/util/stream/Nodes.h>
-#include <java/util/stream/Sink$OfInt.h>
 #include <java/util/stream/Sink.h>
 #include <java/util/stream/StreamShape.h>
 #include <java/util/stream/Tripwire.h>
@@ -38,7 +37,6 @@ using $IntConsumer = ::java::util::function::IntConsumer;
 using $IntFunction = ::java::util::function::IntFunction;
 using $Node$Builder$OfInt = ::java::util::stream::Node$Builder$OfInt;
 using $Nodes = ::java::util::stream::Nodes;
-using $Sink$OfInt = ::java::util::stream::Sink$OfInt;
 using $StreamShape = ::java::util::stream::StreamShape;
 using $Tripwire = ::java::util::stream::Tripwire;
 

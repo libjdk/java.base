@@ -1,7 +1,6 @@
 #include <test/java/lang/invoke/CallStaticInitOrder.h>
 
 #include <java/lang/AssertionError.h>
-#include <java/lang/Error.h>
 #include <java/lang/IllegalStateException.h>
 #include <java/lang/InternalError.h>
 #include <java/lang/invoke/CallSite.h>
@@ -27,7 +26,6 @@
 using $PrintStream = ::java::io::PrintStream;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Error = ::java::lang::Error;
 using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalStateException = ::java::lang::IllegalStateException;

@@ -8,7 +8,6 @@
 #include <java/security/cert/PKIXParameters.h>
 #include <java/security/cert/X509CertSelector.h>
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -34,7 +33,6 @@ using $PKIXBuilderParameters = ::java::security::cert::PKIXBuilderParameters;
 using $PKIXParameters = ::java::security::cert::PKIXParameters;
 using $X509CertSelector = ::java::security::cert::X509CertSelector;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

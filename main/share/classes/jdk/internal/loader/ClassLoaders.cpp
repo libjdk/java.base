@@ -8,7 +8,6 @@
 #include <java/nio/file/InvalidPathException.h>
 #include <java/nio/file/LinkOption.h>
 #include <java/nio/file/Path.h>
-#include <java/security/SecureClassLoader.h>
 #include <jdk/internal/access/JavaLangAccess.h>
 #include <jdk/internal/access/SharedSecrets.h>
 #include <jdk/internal/loader/ArchivedClassLoaders.h>
@@ -32,7 +31,6 @@ using $IOException = ::java::io::IOException;
 using $ClassInfo = ::java::lang::ClassInfo;
 using $ClassLoader = ::java::lang::ClassLoader;
 using $CompoundAttribute = ::java::lang::CompoundAttribute;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -40,7 +38,6 @@ using $URI = ::java::net::URI;
 using $URL = ::java::net::URL;
 using $InvalidPathException = ::java::nio::file::InvalidPathException;
 using $Path = ::java::nio::file::Path;
-using $SecureClassLoader = ::java::security::SecureClassLoader;
 using $JavaLangAccess = ::jdk::internal::access::JavaLangAccess;
 using $SharedSecrets = ::jdk::internal::access::SharedSecrets;
 using $ArchivedClassLoaders = ::jdk::internal::loader::ArchivedClassLoaders;

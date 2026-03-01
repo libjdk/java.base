@@ -5,7 +5,6 @@
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/InvalidKeyException.h>
 #include <java/security/InvalidParameterException.h>
-#include <java/security/KeyException.h>
 #include <java/security/KeyPair.h>
 #include <java/security/KeyPairGenerator.h>
 #include <java/security/PrivateKey.h>
@@ -25,7 +24,6 @@
 #include <jcpp.h>
 
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
@@ -34,7 +32,6 @@ using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $InvalidKeyException = ::java::security::InvalidKeyException;
 using $InvalidParameterException = ::java::security::InvalidParameterException;
-using $KeyException = ::java::security::KeyException;
 using $KeyPair = ::java::security::KeyPair;
 using $KeyPairGenerator = ::java::security::KeyPairGenerator;
 using $PrivateKey = ::java::security::PrivateKey;

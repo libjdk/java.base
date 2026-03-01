@@ -1,13 +1,11 @@
 #include <jdk/internal/org/objectweb/asm/tree/AbstractInsnNode.h>
 
-#include <java/util/AbstractList.h>
 #include <java/util/ArrayList.h>
 #include <java/util/List.h>
 #include <java/util/Map.h>
 #include <jdk/internal/org/objectweb/asm/AnnotationVisitor.h>
 #include <jdk/internal/org/objectweb/asm/MethodVisitor.h>
 #include <jdk/internal/org/objectweb/asm/TypePath.h>
-#include <jdk/internal/org/objectweb/asm/tree/AnnotationNode.h>
 #include <jdk/internal/org/objectweb/asm/tree/LabelNode.h>
 #include <jdk/internal/org/objectweb/asm/tree/TypeAnnotationNode.h>
 #include <jcpp.h>
@@ -33,13 +31,11 @@ using $LabelNodeArray = $Array<::jdk::internal::org::objectweb::asm$::tree::Labe
 using $ClassInfo = ::java::lang::ClassInfo;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $AbstractList = ::java::util::AbstractList;
 using $ArrayList = ::java::util::ArrayList;
 using $List = ::java::util::List;
 using $Map = ::java::util::Map;
 using $AnnotationVisitor = ::jdk::internal::org::objectweb::asm$::AnnotationVisitor;
 using $MethodVisitor = ::jdk::internal::org::objectweb::asm$::MethodVisitor;
-using $AnnotationNode = ::jdk::internal::org::objectweb::asm$::tree::AnnotationNode;
 using $LabelNode = ::jdk::internal::org::objectweb::asm$::tree::LabelNode;
 using $TypeAnnotationNode = ::jdk::internal::org::objectweb::asm$::tree::TypeAnnotationNode;
 

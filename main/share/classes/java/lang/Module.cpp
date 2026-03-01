@@ -15,7 +15,6 @@
 #include <java/lang/Module$ReflectionData.h>
 #include <java/lang/ModuleLayer.h>
 #include <java/lang/Package.h>
-#include <java/lang/ReflectiveOperationException.h>
 #include <java/lang/RuntimePermission.h>
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
@@ -36,11 +35,9 @@
 #include <java/net/URI.h>
 #include <java/net/URL.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/HashMap.h>
 #include <java/util/HashSet.h>
 #include <java/util/Iterator.h>
@@ -112,7 +109,6 @@ using $Module$ArchivedData = ::java::lang::Module$ArchivedData;
 using $Module$ReflectionData = ::java::lang::Module$ReflectionData;
 using $ModuleLayer = ::java::lang::ModuleLayer;
 using $Package = ::java::lang::Package;
-using $ReflectiveOperationException = ::java::lang::ReflectiveOperationException;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $WeakPairMap = ::java::lang::WeakPairMap;
@@ -128,11 +124,9 @@ using $ResolvedModule = ::java::lang::module::ResolvedModule;
 using $URI = ::java::net::URI;
 using $URL = ::java::net::URL;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $HashMap = ::java::util::HashMap;
 using $HashSet = ::java::util::HashSet;
 using $Iterator = ::java::util::Iterator;

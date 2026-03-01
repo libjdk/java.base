@@ -21,7 +21,6 @@
 #include <java/util/Objects.h>
 #include <java/util/PriorityQueue$Itr.h>
 #include <java/util/PriorityQueue$PriorityQueueSpliterator.h>
-#include <java/util/Set.h>
 #include <java/util/SortedSet.h>
 #include <java/util/Spliterator.h>
 #include <java/util/function/Consumer.h>
@@ -56,7 +55,6 @@ using $Iterator = ::java::util::Iterator;
 using $Objects = ::java::util::Objects;
 using $PriorityQueue$Itr = ::java::util::PriorityQueue$Itr;
 using $PriorityQueue$PriorityQueueSpliterator = ::java::util::PriorityQueue$PriorityQueueSpliterator;
-using $Set = ::java::util::Set;
 using $SortedSet = ::java::util::SortedSet;
 using $Spliterator = ::java::util::Spliterator;
 using $Consumer = ::java::util::function::Consumer;

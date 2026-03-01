@@ -1,8 +1,6 @@
 #include <java/net/AbstractPlainSocketImpl.h>
 
 #include <java/io/FileDescriptor.h>
-#include <java/io/FileInputStream.h>
-#include <java/io/FileOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -32,7 +30,6 @@
 #include <java/security/PrivilegedActionException.h>
 #include <java/security/PrivilegedExceptionAction.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -63,8 +60,6 @@
 #undef TCP_NODELAY
 
 using $FileDescriptor = ::java::io::FileDescriptor;
-using $FileInputStream = ::java::io::FileInputStream;
-using $FileOutputStream = ::java::io::FileOutputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $OutputStream = ::java::io::OutputStream;
@@ -95,7 +90,6 @@ using $UnknownHostException = ::java::net::UnknownHostException;
 using $AccessController = ::java::security::AccessController;
 using $PrivilegedActionException = ::java::security::PrivilegedActionException;
 using $PrivilegedExceptionAction = ::java::security::PrivilegedExceptionAction;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

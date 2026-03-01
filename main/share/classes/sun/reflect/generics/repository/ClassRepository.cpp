@@ -7,7 +7,6 @@
 #include <sun/reflect/generics/repository/GenericDeclRepository.h>
 #include <sun/reflect/generics/tree/ClassSignature.h>
 #include <sun/reflect/generics/tree/ClassTypeSignature.h>
-#include <sun/reflect/generics/tree/Signature.h>
 #include <sun/reflect/generics/tree/Tree.h>
 #include <sun/reflect/generics/tree/TypeTree.h>
 #include <sun/reflect/generics/visitor/Reifier.h>
@@ -27,7 +26,6 @@ using $SignatureParser = ::sun::reflect::generics::parser::SignatureParser;
 using $GenericDeclRepository = ::sun::reflect::generics::repository::GenericDeclRepository;
 using $ClassSignature = ::sun::reflect::generics::tree::ClassSignature;
 using $ClassTypeSignature = ::sun::reflect::generics::tree::ClassTypeSignature;
-using $Signature = ::sun::reflect::generics::tree::Signature;
 using $Tree = ::sun::reflect::generics::tree::Tree;
 using $TypeTree = ::sun::reflect::generics::tree::TypeTree;
 using $Reifier = ::sun::reflect::generics::visitor::Reifier;

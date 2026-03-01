@@ -3,7 +3,6 @@
 #include <java/util/Arrays.h>
 #include <java/util/Iterator.h>
 #include <java/util/PrimitiveIterator$OfDouble.h>
-#include <java/util/PrimitiveIterator.h>
 #include <java/util/Spliterator$OfDouble.h>
 #include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
@@ -26,7 +25,6 @@ using $Integer = ::java::lang::Integer;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Arrays = ::java::util::Arrays;
 using $Iterator = ::java::util::Iterator;
-using $PrimitiveIterator = ::java::util::PrimitiveIterator;
 using $Spliterator = ::java::util::Spliterator;
 using $Spliterator$OfDouble = ::java::util::Spliterator$OfDouble;
 using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;

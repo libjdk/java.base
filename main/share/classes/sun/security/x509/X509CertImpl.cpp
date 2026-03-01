@@ -3,7 +3,6 @@
 #include <java/io/BufferedInputStream.h>
 #include <java/io/BufferedReader.h>
 #include <java/io/ByteArrayOutputStream.h>
-#include <java/io/FilterInputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/InputStreamReader.h>
@@ -18,7 +17,6 @@
 #include <java/math/BigInteger.h>
 #include <java/nio/charset/Charset.h>
 #include <java/nio/charset/StandardCharsets.h>
-#include <java/security/GeneralSecurityException.h>
 #include <java/security/InvalidAlgorithmParameterException.h>
 #include <java/security/Key.h>
 #include <java/security/MessageDigest.h>
@@ -38,7 +36,6 @@
 #include <java/security/cert/X509Certificate.h>
 #include <java/security/cert/X509Extension.h>
 #include <java/security/spec/AlgorithmParameterSpec.h>
-#include <java/util/AbstractList.h>
 #include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
@@ -151,7 +148,6 @@ using $DerValueArray = $Array<::sun::security::util::DerValue>;
 using $BufferedInputStream = ::java::io::BufferedInputStream;
 using $BufferedReader = ::java::io::BufferedReader;
 using $ByteArrayOutputStream = ::java::io::ByteArrayOutputStream;
-using $FilterInputStream = ::java::io::FilterInputStream;
 using $IOException = ::java::io::IOException;
 using $InputStream = ::java::io::InputStream;
 using $InputStreamReader = ::java::io::InputStreamReader;
@@ -168,7 +164,6 @@ using $RuntimeException = ::java::lang::RuntimeException;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $BigInteger = ::java::math::BigInteger;
 using $StandardCharsets = ::java::nio::charset::StandardCharsets;
-using $GeneralSecurityException = ::java::security::GeneralSecurityException;
 using $InvalidAlgorithmParameterException = ::java::security::InvalidAlgorithmParameterException;
 using $Key = ::java::security::Key;
 using $MessageDigest = ::java::security::MessageDigest;
@@ -186,7 +181,6 @@ using $CertificateException = ::java::security::cert::CertificateException;
 using $CertificateNotYetValidException = ::java::security::cert::CertificateNotYetValidException;
 using $CertificateParsingException = ::java::security::cert::CertificateParsingException;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractList = ::java::util::AbstractList;
 using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;

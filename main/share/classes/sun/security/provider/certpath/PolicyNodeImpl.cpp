@@ -3,7 +3,6 @@
 #include <java/lang/IllegalStateException.h>
 #include <java/security/cert/PolicyNode.h>
 #include <java/util/AbstractCollection.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -20,7 +19,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalStateException = ::java::lang::IllegalStateException;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $PolicyNode = ::java::security::cert::PolicyNode;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

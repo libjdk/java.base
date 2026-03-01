@@ -7,7 +7,6 @@
 #include <java/nio/file/attribute/AclEntryPermission.h>
 #include <java/nio/file/attribute/AclEntryType.h>
 #include <java/nio/file/attribute/UserPrincipal.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/EnumSet.h>
@@ -29,7 +28,6 @@ using $AclEntryFlag = ::java::nio::file::attribute::AclEntryFlag;
 using $AclEntryPermission = ::java::nio::file::attribute::AclEntryPermission;
 using $AclEntryType = ::java::nio::file::attribute::AclEntryType;
 using $UserPrincipal = ::java::nio::file::attribute::UserPrincipal;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $EnumSet = ::java::util::EnumSet;

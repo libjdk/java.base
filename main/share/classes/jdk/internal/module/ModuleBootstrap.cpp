@@ -20,9 +20,6 @@
 #include <java/lang/module/ResolvedModule.h>
 #include <java/net/URI.h>
 #include <java/nio/file/Path.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collection.h>
 #include <java/util/HashMap.h>
@@ -102,9 +99,6 @@ using $ModuleReference = ::java::lang::module::ModuleReference;
 using $ResolvedModule = ::java::lang::module::ResolvedModule;
 using $URI = ::java::net::URI;
 using $Path = ::java::nio::file::Path;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collection = ::java::util::Collection;
 using $HashMap = ::java::util::HashMap;

@@ -14,7 +14,6 @@
 #include <java/nio/file/InvalidPathException.h>
 #include <java/nio/file/Path.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/NoSuchAlgorithmException.h>
 #include <java/security/Permission.h>
 #include <java/security/SecureRandom.h>
@@ -45,7 +44,6 @@ using $FileSystems = ::java::nio::file::FileSystems;
 using $InvalidPathException = ::java::nio::file::InvalidPathException;
 using $Path = ::java::nio::file::Path;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
-using $BasicPermission = ::java::security::BasicPermission;
 using $NoSuchAlgorithmException = ::java::security::NoSuchAlgorithmException;
 using $Permission = ::java::security::Permission;
 using $SecureRandom = ::java::security::SecureRandom;

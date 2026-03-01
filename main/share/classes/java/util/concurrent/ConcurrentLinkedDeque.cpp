@@ -19,7 +19,6 @@
 #include <java/util/NoSuchElementException.h>
 #include <java/util/Objects.h>
 #include <java/util/Spliterator.h>
-#include <java/util/concurrent/ConcurrentLinkedDeque$AbstractItr.h>
 #include <java/util/concurrent/ConcurrentLinkedDeque$CLDSpliterator.h>
 #include <java/util/concurrent/ConcurrentLinkedDeque$DescendingItr.h>
 #include <java/util/concurrent/ConcurrentLinkedDeque$Itr.h>
@@ -45,7 +44,6 @@ using $ObjectInputStream = ::java::io::ObjectInputStream;
 using $ObjectOutputStream = ::java::io::ObjectOutputStream;
 using $Serializable = ::java::io::Serializable;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $ExceptionInInitializerError = ::java::lang::ExceptionInInitializerError;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
@@ -65,7 +63,6 @@ using $Iterator = ::java::util::Iterator;
 using $NoSuchElementException = ::java::util::NoSuchElementException;
 using $Objects = ::java::util::Objects;
 using $Spliterator = ::java::util::Spliterator;
-using $ConcurrentLinkedDeque$AbstractItr = ::java::util::concurrent::ConcurrentLinkedDeque$AbstractItr;
 using $ConcurrentLinkedDeque$CLDSpliterator = ::java::util::concurrent::ConcurrentLinkedDeque$CLDSpliterator;
 using $ConcurrentLinkedDeque$DescendingItr = ::java::util::concurrent::ConcurrentLinkedDeque$DescendingItr;
 using $ConcurrentLinkedDeque$Itr = ::java::util::concurrent::ConcurrentLinkedDeque$Itr;

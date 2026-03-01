@@ -27,7 +27,6 @@
 using $ByteBufferArray = $Array<::java::nio::ByteBuffer>;
 using $PlaintextArray = $Array<::sun::security::ssl::Plaintext>;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;

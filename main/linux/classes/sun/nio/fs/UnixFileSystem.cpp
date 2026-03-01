@@ -11,15 +11,12 @@
 #include <java/nio/file/PathMatcher.h>
 #include <java/nio/file/attribute/UserPrincipalLookupService.h>
 #include <java/nio/file/spi/FileSystemProvider.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/util/Arrays.h>
-#include <java/util/Collection.h>
 #include <java/util/Collections.h>
 #include <java/util/List.h>
 #include <java/util/Objects.h>
 #include <java/util/regex/Pattern.h>
-#include <sun/nio/fs/AbstractFileSystemProvider.h>
 #include <sun/nio/fs/Globs.h>
 #include <sun/nio/fs/UnixFileSystem$1.h>
 #include <sun/nio/fs/UnixFileSystem$2.h>
@@ -55,15 +52,12 @@ using $Path = ::java::nio::file::Path;
 using $PathMatcher = ::java::nio::file::PathMatcher;
 using $UserPrincipalLookupService = ::java::nio::file::attribute::UserPrincipalLookupService;
 using $FileSystemProvider = ::java::nio::file::spi::FileSystemProvider;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Arrays = ::java::util::Arrays;
-using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;
 using $List = ::java::util::List;
 using $Objects = ::java::util::Objects;
 using $Pattern = ::java::util::regex::Pattern;
-using $AbstractFileSystemProvider = ::sun::nio::fs::AbstractFileSystemProvider;
 using $Globs = ::sun::nio::fs::Globs;
 using $UnixFileSystem$1 = ::sun::nio::fs::UnixFileSystem$1;
 using $UnixFileSystem$2 = ::sun::nio::fs::UnixFileSystem$2;

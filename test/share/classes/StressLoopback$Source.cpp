@@ -4,7 +4,6 @@
 #include <StressLoopback.h>
 #include <java/nio/ByteBuffer.h>
 #include <java/nio/channels/AsynchronousByteChannel.h>
-#include <java/nio/channels/AsynchronousChannel.h>
 #include <java/nio/channels/Channel.h>
 #include <java/nio/channels/CompletionHandler.h>
 #include <java/util/Random.h>
@@ -19,7 +18,6 @@ using $MethodInfo = ::java::lang::MethodInfo;
 using $Void = ::java::lang::Void;
 using $ByteBuffer = ::java::nio::ByteBuffer;
 using $AsynchronousByteChannel = ::java::nio::channels::AsynchronousByteChannel;
-using $AsynchronousChannel = ::java::nio::channels::AsynchronousChannel;
 using $Channel = ::java::nio::channels::Channel;
 using $CompletionHandler = ::java::nio::channels::CompletionHandler;
 using $Random = ::java::util::Random;

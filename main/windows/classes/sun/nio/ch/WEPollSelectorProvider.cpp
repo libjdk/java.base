@@ -2,7 +2,6 @@
 
 #include <java/nio/channels/spi/AbstractSelector.h>
 #include <java/nio/channels/spi/SelectorProvider.h>
-#include <sun/nio/ch/SelectorImpl.h>
 #include <sun/nio/ch/SelectorProviderImpl.h>
 #include <sun/nio/ch/WEPollSelectorImpl.h>
 #include <jcpp.h>
@@ -11,7 +10,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $AbstractSelector = ::java::nio::channels::spi::AbstractSelector;
 using $SelectorProvider = ::java::nio::channels::spi::SelectorProvider;
-using $SelectorImpl = ::sun::nio::ch::SelectorImpl;
 using $SelectorProviderImpl = ::sun::nio::ch::SelectorProviderImpl;
 using $WEPollSelectorImpl = ::sun::nio::ch::WEPollSelectorImpl;
 

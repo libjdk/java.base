@@ -1,7 +1,6 @@
 #include <java/util/stream/Nodes$EmptyNode$OfLong.h>
 
 #include <java/util/Spliterator$OfLong.h>
-#include <java/util/Spliterator$OfPrimitive.h>
 #include <java/util/Spliterator.h>
 #include <java/util/Spliterators.h>
 #include <java/util/function/Consumer.h>
@@ -20,7 +19,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $Spliterator = ::java::util::Spliterator;
-using $Spliterator$OfPrimitive = ::java::util::Spliterator$OfPrimitive;
 using $Spliterators = ::java::util::Spliterators;
 using $Consumer = ::java::util::function::Consumer;
 using $IntFunction = ::java::util::function::IntFunction;

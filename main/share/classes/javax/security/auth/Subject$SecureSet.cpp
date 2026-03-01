@@ -10,7 +10,6 @@
 #include <java/lang/SecurityException.h>
 #include <java/lang/SecurityManager.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/Principal.h>
 #include <java/security/PrivilegedAction.h>
@@ -60,7 +59,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $SecurityException = ::java::lang::SecurityException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $Principal = ::java::security::Principal;
 using $PrivilegedAction = ::java::security::PrivilegedAction;

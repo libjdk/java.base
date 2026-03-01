@@ -23,15 +23,12 @@
 #include <java/security/cert/PKIXCertPathBuilderResult.h>
 #include <java/security/cert/PKIXCertPathChecker.h>
 #include <java/security/cert/PKIXCertPathValidatorResult.h>
-#include <java/security/cert/PKIXParameters.h>
 #include <java/security/cert/PKIXRevocationChecker.h>
 #include <java/security/cert/TrustAnchor.h>
 #include <java/security/cert/X509CertSelector.h>
 #include <java/security/cert/X509Certificate.h>
 #include <java/util/AbstractCollection.h>
 #include <java/util/AbstractList.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
@@ -86,15 +83,12 @@ using $PKIXBuilderParameters = ::java::security::cert::PKIXBuilderParameters;
 using $PKIXCertPathBuilderResult = ::java::security::cert::PKIXCertPathBuilderResult;
 using $PKIXCertPathChecker = ::java::security::cert::PKIXCertPathChecker;
 using $PKIXCertPathValidatorResult = ::java::security::cert::PKIXCertPathValidatorResult;
-using $PKIXParameters = ::java::security::cert::PKIXParameters;
 using $PKIXRevocationChecker = ::java::security::cert::PKIXRevocationChecker;
 using $TrustAnchor = ::java::security::cert::TrustAnchor;
 using $X509CertSelector = ::java::security::cert::X509CertSelector;
 using $X509Certificate = ::java::security::cert::X509Certificate;
 using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractList = ::java::util::AbstractList;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;

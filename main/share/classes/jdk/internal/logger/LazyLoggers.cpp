@@ -14,17 +14,14 @@
 #include <java/lang/invoke/MethodType.h>
 #include <java/security/AccessControlContext.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/function/BiFunction.h>
-#include <jdk/internal/logger/AbstractLoggerWrapper.h>
 #include <jdk/internal/logger/BootstrapLogger.h>
 #include <jdk/internal/logger/DefaultLoggerFinder.h>
 #include <jdk/internal/logger/LazyLoggers$1.h>
 #include <jdk/internal/logger/LazyLoggers$JdkLazyLogger.h>
 #include <jdk/internal/logger/LazyLoggers$LazyLoggerFactories.h>
-#include <jdk/internal/logger/LazyLoggers$LazyLoggerWrapper.h>
 #include <jcpp.h>
 
 #undef LOGGERFINDER_PERMISSION
@@ -44,17 +41,14 @@ using $System$LoggerFinder = ::java::lang::System$LoggerFinder;
 using $MethodHandle = ::java::lang::invoke::MethodHandle;
 using $AccessControlContext = ::java::security::AccessControlContext;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $BiFunction = ::java::util::function::BiFunction;
-using $AbstractLoggerWrapper = ::jdk::internal::logger::AbstractLoggerWrapper;
 using $BootstrapLogger = ::jdk::internal::logger::BootstrapLogger;
 using $DefaultLoggerFinder = ::jdk::internal::logger::DefaultLoggerFinder;
 using $LazyLoggers$1 = ::jdk::internal::logger::LazyLoggers$1;
 using $LazyLoggers$JdkLazyLogger = ::jdk::internal::logger::LazyLoggers$JdkLazyLogger;
 using $LazyLoggers$LazyLoggerFactories = ::jdk::internal::logger::LazyLoggers$LazyLoggerFactories;
-using $LazyLoggers$LazyLoggerWrapper = ::jdk::internal::logger::LazyLoggers$LazyLoggerWrapper;
 
 namespace jdk {
 	namespace internal {

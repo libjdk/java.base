@@ -14,7 +14,6 @@
 #include <java/util/Locale$Category.h>
 #include <java/util/Locale.h>
 #include <java/util/TimeZone.h>
-#include <sun/util/calendar/AbstractCalendar.h>
 #include <sun/util/calendar/BaseCalendar$Date.h>
 #include <sun/util/calendar/BaseCalendar.h>
 #include <sun/util/calendar/CalendarDate.h>
@@ -101,13 +100,11 @@ using $ArithmeticException = ::java::lang::ArithmeticException;
 using $ArrayIndexOutOfBoundsException = ::java::lang::ArrayIndexOutOfBoundsException;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $Long = ::java::lang::Long;
 using $Math = ::java::lang::Math;
 using $MethodInfo = ::java::lang::MethodInfo;
-using $RuntimeException = ::java::lang::RuntimeException;
 using $Instant = ::java::time::Instant;
 using $ZonedDateTime = ::java::time::ZonedDateTime;
 using $ChronoField = ::java::time::temporal::ChronoField;
@@ -117,7 +114,6 @@ using $Date = ::java::util::Date;
 using $Locale = ::java::util::Locale;
 using $Locale$Category = ::java::util::Locale$Category;
 using $TimeZone = ::java::util::TimeZone;
-using $AbstractCalendar = ::sun::util::calendar::AbstractCalendar;
 using $BaseCalendar = ::sun::util::calendar::BaseCalendar;
 using $BaseCalendar$Date = ::sun::util::calendar::BaseCalendar$Date;
 using $CalendarDate = ::sun::util::calendar::CalendarDate;

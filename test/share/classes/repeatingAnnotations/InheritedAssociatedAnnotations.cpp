@@ -2,7 +2,6 @@
 
 #include <java/lang/annotation/Annotation.h>
 #include <java/lang/reflect/AnnotatedElement.h>
-#include <java/lang/reflect/GenericDeclaration.h>
 #include <java/util/Arrays.h>
 #include <repeatingAnnotations/A3.h>
 #include <repeatingAnnotations/Ann.h>
@@ -17,7 +16,6 @@ using $ClassInfo = ::java::lang::ClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $RuntimeException = ::java::lang::RuntimeException;
 using $AnnotatedElement = ::java::lang::reflect::AnnotatedElement;
-using $GenericDeclaration = ::java::lang::reflect::GenericDeclaration;
 using $Arrays = ::java::util::Arrays;
 using $A3 = ::repeatingAnnotations::A3;
 using $Ann = ::repeatingAnnotations::Ann;

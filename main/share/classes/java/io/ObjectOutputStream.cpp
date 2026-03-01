@@ -33,7 +33,6 @@
 #include <java/lang/SecurityManager.h>
 #include <java/lang/ref/ReferenceQueue.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
 #include <java/util/concurrent/ConcurrentMap.h>
@@ -107,7 +106,6 @@ using $NullPointerException = ::java::lang::NullPointerException;
 using $SecurityManager = ::java::lang::SecurityManager;
 using $Short = ::java::lang::Short;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
 using $ConcurrentMap = ::java::util::concurrent::ConcurrentMap;

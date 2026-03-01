@@ -9,7 +9,6 @@
 #include <java/lang/UnsupportedOperationException.h>
 #include <java/net/URI.h>
 #include <java/nio/channels/AsynchronousFileChannel.h>
-#include <java/nio/channels/ByteChannel.h>
 #include <java/nio/channels/Channels.h>
 #include <java/nio/channels/FileChannel.h>
 #include <java/nio/channels/ReadableByteChannel.h>
@@ -33,11 +32,8 @@
 #include <java/nio/file/attribute/FileAttributeView.h>
 #include <java/nio/file/spi/FileSystemProvider$1.h>
 #include <java/security/AccessController.h>
-#include <java/security/BasicPermission.h>
 #include <java/security/Permission.h>
 #include <java/security/PrivilegedAction.h>
-#include <java/util/AbstractList.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/ArrayList.h>
 #include <java/util/Collections.h>
 #include <java/util/HashSet.h>
@@ -77,7 +73,6 @@ using $UnsupportedOperationException = ::java::lang::UnsupportedOperationExcepti
 using $Void = ::java::lang::Void;
 using $URI = ::java::net::URI;
 using $AsynchronousFileChannel = ::java::nio::channels::AsynchronousFileChannel;
-using $ByteChannel = ::java::nio::channels::ByteChannel;
 using $Channels = ::java::nio::channels::Channels;
 using $FileChannel = ::java::nio::channels::FileChannel;
 using $ReadableByteChannel = ::java::nio::channels::ReadableByteChannel;
@@ -97,11 +92,8 @@ using $BasicFileAttributes = ::java::nio::file::attribute::BasicFileAttributes;
 using $FileAttributeView = ::java::nio::file::attribute::FileAttributeView;
 using $FileSystemProvider$1 = ::java::nio::file::spi::FileSystemProvider$1;
 using $AccessController = ::java::security::AccessController;
-using $BasicPermission = ::java::security::BasicPermission;
 using $Permission = ::java::security::Permission;
 using $PrivilegedAction = ::java::security::PrivilegedAction;
-using $AbstractList = ::java::util::AbstractList;
-using $AbstractSet = ::java::util::AbstractSet;
 using $ArrayList = ::java::util::ArrayList;
 using $Collections = ::java::util::Collections;
 using $HashSet = ::java::util::HashSet;

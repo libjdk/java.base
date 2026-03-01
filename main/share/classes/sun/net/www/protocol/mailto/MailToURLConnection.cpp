@@ -1,6 +1,5 @@
 #include <sun/net/www/protocol/mailto/MailToURLConnection.h>
 
-#include <java/io/FilterOutputStream.h>
 #include <java/io/IOException.h>
 #include <java/io/InputStream.h>
 #include <java/io/OutputStream.h>
@@ -19,7 +18,6 @@
 #include <sun/net/www/URLConnection.h>
 #include <jcpp.h>
 
-using $FilterOutputStream = ::java::io::FilterOutputStream;
 using $IOException = ::java::io::IOException;
 using $OutputStream = ::java::io::OutputStream;
 using $ClassInfo = ::java::lang::ClassInfo;

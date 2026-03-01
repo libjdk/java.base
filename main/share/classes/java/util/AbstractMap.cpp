@@ -2,10 +2,8 @@
 
 #include <java/lang/ClassCastException.h>
 #include <java/lang/UnsupportedOperationException.h>
-#include <java/util/AbstractCollection.h>
 #include <java/util/AbstractMap$1.h>
 #include <java/util/AbstractMap$2.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Iterator.h>
 #include <java/util/Map$Entry.h>
@@ -20,10 +18,8 @@ using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $NullPointerException = ::java::lang::NullPointerException;
 using $UnsupportedOperationException = ::java::lang::UnsupportedOperationException;
-using $AbstractCollection = ::java::util::AbstractCollection;
 using $AbstractMap$1 = ::java::util::AbstractMap$1;
 using $AbstractMap$2 = ::java::util::AbstractMap$2;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Iterator = ::java::util::Iterator;
 using $Map = ::java::util::Map;

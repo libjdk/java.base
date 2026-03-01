@@ -3,7 +3,6 @@
 #include <java/io/BufferedReader.h>
 #include <java/io/FileReader.h>
 #include <java/io/IOException.h>
-#include <java/io/InputStreamReader.h>
 #include <java/io/Reader.h>
 #include <java/lang/AssertionError.h>
 #include <java/security/AccessController.h>
@@ -25,7 +24,6 @@
 using $BufferedReader = ::java::io::BufferedReader;
 using $FileReader = ::java::io::FileReader;
 using $IOException = ::java::io::IOException;
-using $InputStreamReader = ::java::io::InputStreamReader;
 using $Reader = ::java::io::Reader;
 using $AssertionError = ::java::lang::AssertionError;
 using $ClassInfo = ::java::lang::ClassInfo;

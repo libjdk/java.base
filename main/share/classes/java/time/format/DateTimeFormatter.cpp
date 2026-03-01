@@ -2,7 +2,6 @@
 
 #include <java/io/IOException.h>
 #include <java/io/Serializable.h>
-#include <java/lang/AbstractStringBuilder.h>
 #include <java/lang/Appendable.h>
 #include <java/lang/CharSequence.h>
 #include <java/lang/IndexOutOfBoundsException.h>
@@ -16,7 +15,6 @@
 #include <java/time/DateTimeException.h>
 #include <java/time/Period.h>
 #include <java/time/ZoneId.h>
-#include <java/time/chrono/AbstractChronology.h>
 #include <java/time/chrono/Chronology.h>
 #include <java/time/chrono/IsoChronology.h>
 #include <java/time/format/DateTimeFormatter$ClassicFormat.h>
@@ -35,8 +33,6 @@
 #include <java/time/temporal/TemporalAccessor.h>
 #include <java/time/temporal/TemporalField.h>
 #include <java/time/temporal/TemporalQuery.h>
-#include <java/util/AbstractMap.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Arrays.h>
 #include <java/util/Collection.h>
 #include <java/util/Collections.h>
@@ -91,12 +87,10 @@ using $TemporalFieldArray = $Array<::java::time::temporal::TemporalField>;
 using $TemporalQueryArray = $Array<::java::time::temporal::TemporalQuery>;
 using $IOException = ::java::io::IOException;
 using $Serializable = ::java::io::Serializable;
-using $AbstractStringBuilder = ::java::lang::AbstractStringBuilder;
 using $Appendable = ::java::lang::Appendable;
 using $Boolean = ::java::lang::Boolean;
 using $CharSequence = ::java::lang::CharSequence;
 using $ClassInfo = ::java::lang::ClassInfo;
-using $Exception = ::java::lang::Exception;
 using $FieldInfo = ::java::lang::FieldInfo;
 using $IllegalArgumentException = ::java::lang::IllegalArgumentException;
 using $IndexOutOfBoundsException = ::java::lang::IndexOutOfBoundsException;
@@ -110,7 +104,6 @@ using $ParsePosition = ::java::text::ParsePosition;
 using $DateTimeException = ::java::time::DateTimeException;
 using $Period = ::java::time::Period;
 using $ZoneId = ::java::time::ZoneId;
-using $AbstractChronology = ::java::time::chrono::AbstractChronology;
 using $Chronology = ::java::time::chrono::Chronology;
 using $IsoChronology = ::java::time::chrono::IsoChronology;
 using $DateTimeFormatter$ClassicFormat = ::java::time::format::DateTimeFormatter$ClassicFormat;
@@ -129,8 +122,6 @@ using $IsoFields = ::java::time::temporal::IsoFields;
 using $TemporalAccessor = ::java::time::temporal::TemporalAccessor;
 using $TemporalField = ::java::time::temporal::TemporalField;
 using $TemporalQuery = ::java::time::temporal::TemporalQuery;
-using $AbstractMap = ::java::util::AbstractMap;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Arrays = ::java::util::Arrays;
 using $Collection = ::java::util::Collection;
 using $Collections = ::java::util::Collections;

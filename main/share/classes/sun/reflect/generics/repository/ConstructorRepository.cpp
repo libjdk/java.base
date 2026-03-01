@@ -7,7 +7,6 @@
 #include <sun/reflect/generics/repository/GenericDeclRepository.h>
 #include <sun/reflect/generics/tree/FieldTypeSignature.h>
 #include <sun/reflect/generics/tree/MethodTypeSignature.h>
-#include <sun/reflect/generics/tree/Signature.h>
 #include <sun/reflect/generics/tree/Tree.h>
 #include <sun/reflect/generics/tree/TypeSignature.h>
 #include <sun/reflect/generics/tree/TypeTree.h>
@@ -27,7 +26,6 @@ using $SignatureParser = ::sun::reflect::generics::parser::SignatureParser;
 using $GenericDeclRepository = ::sun::reflect::generics::repository::GenericDeclRepository;
 using $FieldTypeSignature = ::sun::reflect::generics::tree::FieldTypeSignature;
 using $MethodTypeSignature = ::sun::reflect::generics::tree::MethodTypeSignature;
-using $Signature = ::sun::reflect::generics::tree::Signature;
 using $Tree = ::sun::reflect::generics::tree::Tree;
 using $TypeSignature = ::sun::reflect::generics::tree::TypeSignature;
 using $Reifier = ::sun::reflect::generics::visitor::Reifier;

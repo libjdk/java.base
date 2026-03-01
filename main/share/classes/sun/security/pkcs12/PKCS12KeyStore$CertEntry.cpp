@@ -1,7 +1,6 @@
 #include <sun/security/pkcs12/PKCS12KeyStore$CertEntry.h>
 
 #include <java/security/cert/X509Certificate.h>
-#include <java/util/AbstractSet.h>
 #include <java/util/Collection.h>
 #include <java/util/Date.h>
 #include <java/util/HashSet.h>
@@ -17,7 +16,6 @@ using $FieldInfo = ::java::lang::FieldInfo;
 using $InnerClassInfo = ::java::lang::InnerClassInfo;
 using $MethodInfo = ::java::lang::MethodInfo;
 using $X509Certificate = ::java::security::cert::X509Certificate;
-using $AbstractSet = ::java::util::AbstractSet;
 using $Collection = ::java::util::Collection;
 using $Date = ::java::util::Date;
 using $HashSet = ::java::util::HashSet;
