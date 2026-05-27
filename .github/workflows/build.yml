@@ -299,7 +299,7 @@ jobs:
       run: ctest -C ${{env.BUILD_TYPE}} --test-dir ${{github.workspace}}/build --exclude-from-file ${{github.workspace}}/src/.github/workflows/ctestexclude-macos.txt -VV
 
   build-windows-x86_64:
-    runs-on: windows-2025
+    runs-on: windows-2022
 
     steps:
     - name: Get tag or commit id
@@ -316,7 +316,7 @@ jobs:
       uses: ilammy/msvc-dev-cmd@v1
 
     - name: Configure CMake
-      run: cmake -G "Visual Studio 17 2022" -S ${{github.workspace}}/src -B ${{github.workspace}}/build -DPACKAGE_VERSION:STRING=${{steps.get-version-id.outputs.id}} -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
+      run: cmake -G "${{env.GENERATOR}}" -S ${{github.workspace}}/src -B ${{github.workspace}}/build -DPACKAGE_VERSION:STRING=${{steps.get-version-id.outputs.id}} -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
 
     - name: Build
       run: cmake --build ${{github.workspace}}/build ${{env.BUILD_ARGS}}
@@ -353,7 +353,7 @@ jobs:
         arch: arm64
 
     - name: Configure CMake
-      run: cmake -G "Visual Studio 17 2022" -S ${{github.workspace}}/src -B ${{github.workspace}}/build -DPACKAGE_VERSION:STRING=${{steps.get-version-id.outputs.id}} -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DCMAKE_WINDOWS_KITS_10_DIR="C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0"
+      run: cmake -G "${{env.GENERATOR}}" -S ${{github.workspace}}/src -B ${{github.workspace}}/build -DPACKAGE_VERSION:STRING=${{steps.get-version-id.outputs.id}} -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DCMAKE_WINDOWS_KITS_10_DIR="C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0"
 
     - name: Build
       run: cmake --build ${{github.workspace}}/build ${{env.BUILD_ARGS}}
